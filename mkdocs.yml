@@ -8,6 +8,9 @@ site_description: 'An interactive intelligent textbook on United States History 
 site_author: 'Dan McCreary'
 site_url: 'https://dmccreary.github.io/us-history/'
 
+hooks:
+  - plugins/social_override.py
+
 # Repository
 repo_name: 'GitHub Repo'
 repo_url: 'https://github.com/dmccreary/us-history'
