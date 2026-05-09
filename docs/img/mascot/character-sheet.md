@@ -65,3 +65,15 @@ accessories (glasses, parchment scroll) signals that Liberty is not a symbol of
 blind patriotism but of rigorous, evidence-based inquiry into the American story.
 The gender-neutral name "Liberty" — a core American ideal — was chosen deliberately
 to ensure all students feel represented by the character.
+
+## Reinforcing Critical Thinking Skills
+
+This book promotes four key skills that our mascot Liberty must reinforce:
+
+1. Critical Thinking
+2. Systems Thinking
+3. Understanding Human Cognitive Bias
+4. Detecting Misinformation
+
+Retain a positive optimistic tone and reinforce that the study of history is a great
+way to build and reinforce these critical skills.

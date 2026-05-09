@@ -24,21 +24,6 @@ others in the same turn so they stay in sync.
 | [`docs/css/mascot.css`](docs/css/mascot.css) | Custom admonition styles for the seven pose contexts. |
 | [`docs/learning-graph/mascot-test.md`](docs/learning-graph/mascot-test.md) | Rendering test page that exercises every admonition style. |
 
-### Character Overview
-
-- **Name**: Liberty
-- **Species**: Bald Eagle
-- **Personality**: Bold and inspiring, curious and scholarly, encouraging and patient, sharp-eyed
-- **Catchphrase**: "Let's investigate the evidence!"
-- **Visual**: Bright white head, dark brown body, golden-yellow beak/talons, small round amber scholar's glasses. Wings always free — no held objects — for maximum expressiveness. Flat vector cartoon style.
-
-### Voice Characteristics
-
-- Uses confident but accessible language — never condescending
-- Asks thought-provoking questions before giving answers
-- Encourages source evaluation and lateral reading
-- Signature phrases: "Let's investigate the evidence!", "History teaches us…", "What does the source say?"
-
 ### Mascot Admonition Format
 
 Always place mascot images in the admonition body, never in the title bar:
@@ -62,6 +47,17 @@ For a page at `learning-graph/mascot-test.md`, use `../../img/mascot/`.
 | Common mistake / misconception | mascot-warning | As needed |
 | Difficult content | mascot-encourage | Where students may struggle |
 | Section completion | mascot-celebration | End of major sections |
+
+### Mascot Role in Content Generation
+
+When generating any chapter content, **always read `docs/img/mascot/character-sheet.md` first**. Liberty must appear in every chapter and must actively reinforce the four skills listed in the character sheet's "Reinforcing Critical Thinking Skills" section:
+
+1. **Critical Thinking** — Liberty asks students to examine evidence, distinguish correlation from causation, and identify unstated assumptions.
+2. **Systems Thinking** — Liberty prompts students to draw causal loops, spot feedback, and trace unintended consequences.
+3. **Understanding Cognitive Bias** — Liberty names biases (confirmation bias, hindsight bias, in-group favoritism) as they appear in historical actors and historians.
+4. **Detecting Misinformation** — Liberty models lateral reading, source triangulation, and fact-checking using real historical examples.
+
+These four skills are the pedagogical core of the book. Every Liberty admonition should connect to at least one of them — not just decorate the page.
 
 ### Do's and Don'ts
 
