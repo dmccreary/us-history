@@ -1,0 +1,10 @@
+{
+  "title": "U.S. History",
+  "description": "A comprehensive learning graph for a rigorous U.S. History course covering pre-Columbian civilizations through the modern era, including the Age of AI. Designed for high school students in standard, honors, or AP-track courses.",
+  "creator": "Dan McCreary",
+  "date": "2026-05-09",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

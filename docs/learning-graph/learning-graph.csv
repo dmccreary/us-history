@@ -1,0 +1,451 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Pre-Columbian Civilizations,,FOUND
+2,Indigenous North American Cultures,1,FOUND
+3,Aztec Empire,1,NEWWLD
+4,Inca Empire,1,NEWWLD
+5,Mississippian Culture,2,NEWWLD
+6,Iroquois Confederacy,2,NEWWLD
+7,European Exploration Motives,1,NEWWLD
+8,Christopher Columbus,7,NEWWLD
+9,Spanish Conquistadors,8|3|4,NEWWLD
+10,Columbian Exchange,8|1|2,NEWWLD
+11,Disease and Indigenous Depopulation,10|2,NEWWLD
+12,French Exploration,7,NEWWLD
+13,Dutch Exploration,7,NEWWLD
+14,English Exploration,7,NEWWLD
+15,Treaty of Tordesillas,8|7,NEWWLD
+16,Encomienda System,9|11,NEWWLD
+17,Atlantic Slave Trade Origins,16|7,FOUND
+18,Jamestown Settlement,14,NEWWLD
+19,John Smith,18,NEWWLD
+20,Powhatan Confederacy,2|18,NEWWLD
+21,New England Colonies,14|18,COLAM
+22,Middle Colonies,14,COLAM
+23,Southern Colonies,18,COLAM
+24,Puritan Migration,21,COLAM
+25,Massachusetts Bay Colony,24,COLAM
+26,Roger Williams and Rhode Island,25,COLAM
+27,Anne Hutchinson,25,COLAM
+28,Headright System,23,COLAM
+29,Indentured Servitude,28,COLAM
+30,Slavery in the Colonies,17|29|23,COLAM
+31,Triangular Trade,30|17,COLAM
+32,Mercantilism,31,COLAM
+33,Navigation Acts,32,COLAM
+34,Bacon's Rebellion,29|23,COLAM
+35,Salem Witch Trials,25|24,COLAM
+36,Colonial Governance,21|22|23,FOUND
+37,Town Meetings,21|36,COLAM
+38,House of Burgesses,23|36,COLAM
+39,Great Awakening,25|22,COLAM
+40,Jonathan Edwards,39,COLAM
+41,Colonial Social Structure,30|29|36,COLAM
+42,Plantation Economy,30|23,COLAM
+43,Middle Passage,17|30,COLAM
+44,Colonial Education,25|36,COLAM
+45,Albany Plan of Union,36|22|21,COLAM
+46,French and Indian War,12|21|45,REVOL
+47,Proclamation of 1763,46|2,REVOL
+48,Stamp Act,47|33,REVOL
+49,Townshend Acts,48,REVOL
+50,Boston Massacre,49,REVOL
+51,Boston Tea Party,49|33,REVOL
+52,Intolerable Acts,51,REVOL
+53,First Continental Congress,52,REVOL
+54,Lexington and Concord,53,REVOL
+55,Second Continental Congress,54,REVOL
+56,Common Sense (Paine),55,REVOL
+57,Declaration of Independence,55|56,REVOL
+58,Thomas Jefferson,57,REVOL
+59,Revolutionary War Major Battles,54|55,REVOL
+60,Valley Forge,59,REVOL
+61,Marquis de Lafayette,59|60,REVOL
+62,Treaty of Paris 1783,59|57,REVOL
+63,Articles of Confederation,55|62,REVOL
+64,Shays' Rebellion,63,REVOL
+65,Constitutional Convention,64|63,REVOL
+66,Great Compromise,65,REVOL
+67,Three-Fifths Compromise,65|30,REVOL
+68,Federalism,65|66,FOUND
+69,Anti-Federalism,65,REVOL
+70,Federalist Papers,65|68,REVOL
+71,Bill of Rights,70|69,FOUND
+72,George Washington as President,65|62,REVOL
+73,Alexander Hamilton,72|70,REVOL
+74,Thomas Jefferson as Secretary of State,72|58,REVOL
+75,National Bank Debate,73|74,REVOL
+76,Washington's Farewell Address,72,REVOL
+77,John Adams Presidency,76|72,REVOL
+78,XYZ Affair,77,REVOL
+79,Alien and Sedition Acts,78|71,REVOL
+80,Virginia and Kentucky Resolutions,79|68,REVOL
+81,Election of 1800,79|77,EXPAN
+82,Jeffersonian Democracy,81|58,EXPAN
+83,Louisiana Purchase,82|74,EXPAN
+84,Lewis and Clark Expedition,83,EXPAN
+85,Marbury v. Madison,81,EXPAN
+86,Judicial Review,85,FOUND
+87,War of 1812,82,EXPAN
+88,Era of Good Feelings,87,EXPAN
+89,Monroe Doctrine,88,EXPAN
+90,Missouri Compromise,88|30,EXPAN
+91,Jacksonian Democracy,88,EXPAN
+92,Andrew Jackson,91,EXPAN
+93,Spoils System,92|91,EXPAN
+94,Nullification Crisis,92|80|68,EXPAN
+95,Indian Removal Act,92|2,EXPAN
+96,Trail of Tears,95|2,EXPAN
+97,Second Bank of the United States,92|75,EXPAN
+98,Manifest Destiny,88|84,EXPAN
+99,Texas Revolution,98,EXPAN
+100,Mexican-American War,99|98,EXPAN
+101,Seneca Falls Convention,102,EXPAN
+102,Abolitionism,30,EXPAN
+103,Frederick Douglass,30|102,EXPAN
+104,William Lloyd Garrison,102,EXPAN
+105,Underground Railroad,102|30,EXPAN
+106,Temperance Movement,39,EXPAN
+107,Women's Rights Movement,101|102,EXPAN
+108,Transcendentalism,39|44,EXPAN
+109,Industrial Revolution in America,32|44,EXPAN
+110,Market Revolution,109,EXPAN
+111,Transportation Revolution,110,EXPAN
+112,Erie Canal,111,EXPAN
+113,Sectionalism,90|30|109,CIVWR
+114,Compromise of 1850,113|100,CIVWR
+115,Fugitive Slave Act,114|30,CIVWR
+116,Uncle Tom's Cabin,115|102,CIVWR
+117,Kansas-Nebraska Act,114|113,CIVWR
+118,Bleeding Kansas,117,CIVWR
+119,Republican Party Formation,118|102,CIVWR
+120,Dred Scott Decision,117|86,CIVWR
+121,Lincoln-Douglas Debates,120|119,CIVWR
+122,John Brown's Raid,102|118,CIVWR
+123,Election of 1860,121|119,CIVWR
+124,Southern Secession,123|113,CIVWR
+125,Confederate States of America,124,CIVWR
+126,Abraham Lincoln,123,CIVWR
+127,Civil War Causes,113|120|123,CIVWR
+128,Fort Sumter,125|124,CIVWR
+129,Anaconda Plan,128,CIVWR
+130,Battle of Antietam,129,CIVWR
+131,Emancipation Proclamation,130|126,CIVWR
+132,Battle of Gettysburg,130,CIVWR
+133,Total War Strategy,132,CIVWR
+134,Thirteenth Amendment,131|132,FOUND
+135,Fourteenth Amendment,134,FOUND
+136,Fifteenth Amendment,135,FOUND
+137,Reconstruction Plans,126|131,CIVWR
+138,Radical Reconstruction,137,CIVWR
+139,Freedmen's Bureau,138,CIVWR
+140,Carpetbaggers and Scalawags,138,CIVWR
+141,Black Codes,138|30,CIVWR
+142,Ku Klux Klan Origins,141|138,CIVWR
+143,Compromise of 1877,138|141,CIVWR
+144,Redeemer South,143|142,CIVWR
+145,Sharecropping System,143|141,CIVWR
+146,Transcontinental Railroad,111|98,GILDD
+147,Railroad Expansion,146,GILDD
+148,Rise of Big Business,147|109,GILDD
+149,Robber Barons,148,GILDD
+150,Andrew Carnegie,148|149,GILDD
+151,John D. Rockefeller,148|149,GILDD
+152,J.P. Morgan,148|149,GILDD
+153,Social Darwinism,148|149,GILDD
+154,Horizontal Integration,148,GILDD
+155,Vertical Integration,148,GILDD
+156,Trusts and Monopolies,154|155,GILDD
+157,Sherman Antitrust Act,156|86,GILDD
+158,Labor Movement Origins,109|29,GILDD
+159,Knights of Labor,158,GILDD
+160,American Federation of Labor,159,GILDD
+161,Samuel Gompers,160,GILDD
+162,Homestead Strike,150|159,GILDD
+163,Pullman Strike,147|160,GILDD
+164,New Immigration Wave,109|146,GILDD
+165,Ellis Island,164,GILDD
+166,Urbanization,164|146,GILDD
+167,Tenement Housing,166,GILDD
+168,Political Machines,166|93,GILDD
+169,Tammany Hall,168,GILDD
+170,Populist Movement,147|158,GILDD
+171,William Jennings Bryan,170,GILDD
+172,Farmers' Alliance,170,GILDD
+173,Gold Standard Debate,171|97,GILDD
+174,Gilded Age Politics,149|168,GILDD
+175,Civil Service Reform,174|93,GILDD
+176,Pendleton Act,175,GILDD
+177,Native American Wars,2|98|147,GILDD
+178,Battle of Little Bighorn,177,GILDD
+179,Dawes Act,177|2,GILDD
+180,Ghost Dance Movement,179|2,GILDD
+181,Closing of the Frontier,98|179,GILDD
+182,Progressive Era,174|170|153,PROGR
+183,Muckrakers,182|174,PROGR
+184,Upton Sinclair and The Jungle,183,PROGR
+185,Ida Tarbell,183|151,PROGR
+186,Jacob Riis,183|167,PROGR
+187,Theodore Roosevelt,182|188,PROGR
+188,Square Deal,182|158,PROGR
+189,Trust-Busting,188|157|187,PROGR
+190,Pure Food and Drug Act,184|187,PROGR
+191,Sixteenth Amendment (Income Tax),182|68,FOUND
+192,Seventeenth Amendment (Direct Election),182|68,FOUND
+193,Eighteenth Amendment (Prohibition),182|106,FOUND
+194,Nineteenth Amendment (Women's Suffrage),107|182,FOUND
+195,Susan B. Anthony,107,PROGR
+196,Women's Suffrage Movement,107|195,PROGR
+197,NAACP Formation,142|182,PROGR
+198,Booker T. Washington,139|182,PROGR
+199,W.E.B. Du Bois,197|198,PROGR
+200,Spanish-American War,181|174,PROGR
+201,USS Maine Incident,200,PROGR
+202,Treaty of Paris 1898,200,PROGR
+203,Philippines Acquisition,202,PROGR
+204,Anti-Imperialist League,203,PROGR
+205,Panama Canal,200|187,PROGR
+206,Roosevelt Corollary,89|187,PROGR
+207,Dollar Diplomacy,206,PROGR
+208,Woodrow Wilson,182|187,PROGR
+209,World War I Causes,208|206,PROGR
+210,Zimmermann Telegram,209,PROGR
+211,U.S. Entry into WWI,210|209,PROGR
+212,Selective Service Act,211,PROGR
+213,Home Front Mobilization (WWI),211|212,PROGR
+214,Committee on Public Information,213,PROGR
+215,Espionage and Sedition Acts,214|71,PROGR
+216,Fourteen Points,208|211,PROGR
+217,Treaty of Versailles,216|211,PROGR
+218,Senate Rejection of League of Nations,217|68,PROGR
+219,Red Scare (First),215|211,PROGR
+220,Palmer Raids,219,PROGR
+221,Consumer Culture of 1920s,217|109,DEPRS
+222,Automobile Culture,221|111,DEPRS
+223,Mass Media and Radio,221,DEPRS
+224,Harlem Renaissance,199|166,DEPRS
+225,Langston Hughes,224,DEPRS
+226,Jazz Age,224|221,DEPRS
+227,Prohibition Era,193|221,DEPRS
+228,Bootlegging and Organized Crime,227,DEPRS
+229,Scopes Trial,182|39,DEPRS
+230,Nativism and Anti-Immigration,219|164,DEPRS
+231,Emergency Quota Act,230|164,DEPRS
+232,National Origins Act,231,DEPRS
+233,Ku Klux Klan 1920s Revival,142|230,DEPRS
+234,1929 Stock Market Crash,221|173,DEPRS
+235,Causes of the Great Depression,234|221,DEPRS
+236,Bank Failures,234|235,DEPRS
+237,Herbert Hoover's Response,235|236,DEPRS
+238,Hoovervilles,237,DEPRS
+239,Bonus Army,237|212,DEPRS
+240,Franklin D. Roosevelt,237|239,DEPRS
+241,New Deal Programs,240|235,DEPRS
+242,Civilian Conservation Corps,241,DEPRS
+243,Social Security Act,241,DEPRS
+244,Tennessee Valley Authority,241,DEPRS
+245,Wagner Act,241|160,DEPRS
+246,Court-Packing Plan,241|86,DEPRS
+247,Dust Bowl,235|441,DEPRS
+248,Okies Migration,247,DEPRS
+249,Rise of Fascism in Europe,235|217,DEPRS
+250,Hitler and Nazi Germany,249,DEPRS
+251,U.S. Isolationism Pre-WWII,218|249,DEPRS
+252,Neutrality Acts,251,DEPRS
+253,German Blitzkrieg,250,WWII
+254,Lend-Lease Act,252|240,WWII
+255,Attack on Pearl Harbor,252|203,WWII
+256,U.S. Entry into WWII,255|254,WWII
+257,Home Front War Production,256|241,WWII
+258,Women in the Workforce (WWII),257|196,WWII
+259,Rosie the Riveter,258,WWII
+260,Japanese American Internment,256|255,WWII
+261,Korematsu v. United States,260|86,WWII
+262,D-Day (Normandy Invasion),256|253,WWII
+263,Island Hopping Strategy,256,WWII
+264,Manhattan Project,256,WWII
+265,Atomic Bombs on Japan,264|263,WWII
+266,Holocaust and U.S. Response,250|256,WWII
+267,Yalta Conference,262|265,WWII
+268,United Nations Formation,267|216,WWII
+269,Origins of the Cold War,267|265|268,WWII
+270,Containment Policy,269,WWII
+271,Truman Doctrine,270,WWII
+272,Marshall Plan,271,WWII
+273,Berlin Blockade,271|272,WWII
+274,NATO Formation,273|268,WWII
+275,Korean War,271|270,WWII
+276,McCarthyism,219|275|269,WWII
+277,House Un-American Activities Committee,276,WWII
+278,Arms Race,265|269,WWII
+279,Space Race,278|269,WWII
+280,Eisenhower and Military-Industrial Complex,275|279,WWII
+281,Interstate Highway System,280|222,WWII
+282,Baby Boom,256|257,WWII
+283,Brown v. Board of Education,135|197|276,CIVRT
+284,Montgomery Bus Boycott,283,CIVRT
+285,Rosa Parks,284,CIVRT
+286,Martin Luther King Jr.,284|287,CIVRT
+287,Southern Christian Leadership Conference,284,CIVRT
+288,Student Nonviolent Coordinating Committee,284,CIVRT
+289,Sit-In Movement,288,CIVRT
+290,Freedom Riders,289|283,CIVRT
+291,Birmingham Campaign,286|290,CIVRT
+292,March on Washington,291|286,CIVRT
+293,Civil Rights Act of 1964,292,CIVRT
+294,Voting Rights Act of 1965,293|136,CIVRT
+295,Malcolm X,224|283,CIVRT
+296,Black Power Movement,295|293,CIVRT
+297,Fair Housing Act of 1968,293|296,CIVRT
+298,Great Society Programs,300|293,CIVRT
+299,Medicare and Medicaid,298|243,CIVRT
+300,Lyndon B. Johnson,293,CIVRT
+301,Gulf of Tonkin Resolution,300|425,CIVRT
+302,Vietnam War Escalation,301|271,CIVRT
+303,Tet Offensive,302,CIVRT
+304,Anti-War Movement,303,CIVRT
+305,Kent State Shooting,304,CIVRT
+306,Pentagon Papers,302|304,CIVRT
+307,Nixon and Détente,278|302|305,CIVRT
+308,Watergate Scandal,307,CIVRT
+309,Twenty-Fourth Amendment,136|293,FOUND
+310,Immigration and Nationality Act 1965,293,CIVRT
+311,Counterculture Movement,282|304,CIVRT
+312,Second-Wave Feminism,196|293,CIVRT
+313,Roe v. Wade,312|86,CIVRT
+314,American Indian Movement,96|293,CIVRT
+315,César Chávez and Farmworkers,293|160,CIVRT
+316,Ford and Carter Administrations,308,MODRA
+317,Oil Crisis and Stagflation,316|173,MODRA
+318,Iranian Hostage Crisis,316,MODRA
+319,Reagan Revolution,318|317,MODRA
+320,Supply-Side Economics (Reaganomics),319,MODRA
+321,Tax Reform Act 1986,320,MODRA
+322,Cold War End,319|278,MODRA
+323,Gorbachev and Glasnost,322|269,MODRA
+324,Fall of Berlin Wall,323,MODRA
+325,Dissolution of Soviet Union,324,MODRA
+326,Gulf War 1991,325|280,MODRA
+327,Clinton Era and Globalization,325,MODRA
+328,NAFTA,327,MODRA
+329,Welfare Reform Act 1996,327|243,MODRA
+330,9/11 Attacks,326|361,MODRA
+331,War on Terror,330,MODRA
+332,USA PATRIOT Act,331|418,MODRA
+333,Iraq War 2003,331|326,MODRA
+334,Hurricane Katrina Response,333|68,MODRA
+335,2008 Financial Crisis,327|148,MODRA
+336,Obama Presidency,335,MODRA
+337,Affordable Care Act,336|299,MODRA
+338,Digital Revolution,279|221,AIERA
+339,Social Media and Political Polarization,338,MODRA
+340,Tea Party Movement,336|319,MODRA
+341,Black Lives Matter,340|296,MODRA
+342,Trump Presidency,339|344,MODRA
+343,COVID-19 Pandemic Response,342,MODRA
+344,Political Polarization,339|308,MODRA
+345,Immigration Debates,310|446|344,MODRA
+346,History of Artificial Intelligence,338,AIERA
+347,Machine Learning Fundamentals,346,AIERA
+348,Deep Learning Revolution,347,AIERA
+349,Semiconductor Industry,109|338,AIERA
+350,Geopolitics of Semiconductors,349|412,AIERA
+351,TSMC and Taiwan,350|349,AIERA
+352,NVIDIA and GPU Computing,348|349,AIERA
+353,ASML and EUV Lithography,349|351,AIERA
+354,U.S.-China Chip Wars,351|352|353,AIERA
+355,U.S. Export Controls on AI Chips,354|357,AIERA
+356,China Domestic Chip Development,355|354,AIERA
+357,AI and National Security,346|280,AIERA
+358,Large Language Models,348|347,AIERA
+359,Disinformation and AI,358|401,AIERA
+360,Election Interference and AI,359|339,AIERA
+361,State-Sponsored Cyber Warfare,357|338,AIERA
+362,Stuxnet Cyberattack,361,AIERA
+363,SolarWinds Attack,361,AIERA
+364,Volt Typhoon Operation,361|354,AIERA
+365,Military-Industrial Complex Transformation,280|357|346,AIERA
+366,Drone Warfare,365,AIERA
+367,Russia-Ukraine War as AI Laboratory,366|361|368,AIERA
+368,FPV Drone Swarms,366,AIERA
+369,Electronic Warfare,361|368,AIERA
+370,Starlink as Military Utility,279|367,AIERA
+371,Autonomous Weapons Systems,366|346,AIERA
+372,Human-in-the-Loop Requirements,371|373,AIERA
+373,AI Safety Definitions,346|357,AIERA
+374,Historical Technology Power Shifts,278|349|346,AIERA
+375,Historical Causation,,SKILLS
+376,Continuity and Change Over Time,375,SKILLS
+377,Historical Comparison,375,SKILLS
+378,Historical Contextualization,375|377,SKILLS
+379,Sourcing Primary Documents,375,SKILLS
+380,Corroboration of Evidence,379|377,SKILLS
+381,Close Reading Skills,379,SKILLS
+382,Argumentation in History,380|381,SKILLS
+383,Revisionist vs. Traditional History,377|382,SKILLS
+384,Systems Thinking Fundamentals,375,SKILLS
+385,Causal Loop Diagrams,384,SKILLS
+386,Feedback Loops in History,385,SKILLS
+387,Reinforcing Feedback Loops,386,SKILLS
+388,Balancing Feedback Loops,386,SKILLS
+389,Unintended Consequences,384|386,SKILLS
+390,Supply Chain Fragility,389|350,SKILLS
+391,Arms Race Dynamics,387|278,SKILLS
+392,Second-Order Effects,389,SKILLS
+393,Cognitive Bias Overview,375,SKILLS
+394,Confirmation Bias,393,SKILLS
+395,Hindsight Bias,393,SKILLS
+396,Availability Heuristic,393,SKILLS
+397,In-Group Favoritism,393,SKILLS
+398,Presentism in History,395|375,SKILLS
+399,Bias in Historical Sources,393|379,SKILLS
+400,Misinformation Detection,393|401,SKILLS
+401,Lost Cause Narrative,144|399,SKILLS
+402,Propaganda Analysis,214|399,SKILLS
+403,Lateral Reading,400,SKILLS
+404,Source Triangulation,403|380,SKILLS
+405,Fact-Checking Strategies,403|404,SKILLS
+406,Historical Myths,401|402,SKILLS
+407,American and National Identity,57|68,APTHEME
+408,Work Exchange and Technology,109|338,APTHEME
+409,Geography and the Environment,83|98,APTHEME
+410,Migration and Settlement,10|164,APTHEME
+411,Politics and Power,68|71|36,APTHEME
+412,America in the World,200|217|269,APTHEME
+413,America and Culture,39|224|311,APTHEME
+414,Federalism vs States Rights,68|80|94,FOUND
+415,Separation of Powers,65|416,FOUND
+416,Checks and Balances,65,FOUND
+417,First Amendment Freedoms,71|415,FOUND
+418,Fourth Amendment Rights,71|415,FOUND
+419,Due Process,71|135,FOUND
+420,Equal Protection Clause,135,FOUND
+421,Constitutional Amendments Overview,71,FOUND
+422,Supreme Court Role,65|86,FOUND
+423,Judicial Precedent,422|86,FOUND
+424,Habeas Corpus,71|419,FOUND
+425,Executive Power Expansion,72|415,FOUND
+426,Congressional War Powers,415|68,FOUND
+427,Filibuster and Senate Rules,65|68,FOUND
+428,Electoral College,65|68,FOUND
+429,Political Party Evolution,75|119|319,FOUND
+430,Third Party Movements,170|429,FOUND
+431,Lobbying and Interest Groups,156|182|429,FOUND
+432,Media and Public Opinion,223|339,FOUND
+433,Muckraking Journalism Legacy,183|432,FOUND
+434,Investigative Journalism,433,FOUND
+435,Freedom of the Press,417|434,FOUND
+436,Propaganda Techniques,214|402,SKILLS
+437,Public Lands Policy,84|98|182,FOUND
+438,Environmental Conservation History,437|182,FOUND
+439,National Parks System,438|187,FOUND
+440,Climate Change Policy History,438|335,FOUND
+441,Labor Rights Evolution,158|245,FOUND
+442,Minimum Wage History,441|243,FOUND
+443,Social Safety Net Development,243|299|298,FOUND
+444,Income Inequality History,149|335,FOUND
+445,Wealth and Power Concentration,156|444,FOUND
+446,Immigration Policy History,164|231|310,FOUND
+447,Nativism and Xenophobia,230|397,FOUND
+448,Racial Categories in Law,30|135|420,FOUND
+449,Jim Crow Laws,141|144|448,FOUND
+450,Desegregation History,283|293|449,FOUND

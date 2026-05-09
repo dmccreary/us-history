@@ -32,9 +32,15 @@ nav:
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
+      - Course Description Assessment: learning-graph/course-description-assessment.md
+      - Concept Enumeration: learning-graph/concept-list.md
+      - Graph Quality Analysis: learning-graph/quality-metrics.md
+      - Concept Taxonomy: learning-graph/concept-taxonomy.md
+      - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
+      - Learning Graph Viewer: sims/graph-viewer/index.md
 
   - License: license.md
   - Contact: contact.md
@@ -103,6 +109,7 @@ exclude_docs: |
 watch:
   - docs
   - mkdocs.yml
+  - plugins
 
 extra:
   generator: false
