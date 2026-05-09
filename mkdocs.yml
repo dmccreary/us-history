@@ -65,6 +65,11 @@ theme:
 # Plugins
 plugins:
   - search
+  - social
+
+# Social media overrides so that a local image is used instead of the default Material one.
+hooks:
+  - plugins/social_override.py
 
 # Markdown extensions
 markdown_extensions:
