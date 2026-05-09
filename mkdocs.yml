@@ -37,6 +37,7 @@ nav:
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+      - Mascot Style Guide: learning-graph/mascot-test.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
@@ -99,6 +100,7 @@ markdown_extensions:
 
 extra_css:
   - css/extra.css
+  - css/mascot.css
 
 exclude_docs: |
   **/image-prompt*.md
