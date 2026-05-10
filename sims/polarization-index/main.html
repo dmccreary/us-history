@@ -3,119 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Political Polarization — A Historical and Contemporary Index</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="polarization-index.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Political Polarization — A Historical and Contemporary Index</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> polarization-index</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students interpret data on American political polarization over time, identify the periods of greatest change, and evaluate competing explanations for increasing polarization (geographic sorting, media fragmentation, partisan gerrymandering, ideological shift).</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: data-visualization
-    **sim-id:** polarization-index<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to visualize the historical trajectory of American political polarization from 1945 to the present, using Congressional voting data and public opinion surveys, and to identify the periods and causes of increasing polarization.
-    
+    sim-id: polarization-index
+    Library: p5.js
+    Status: Built
+
+    Purpose: Visualize the long-run trajectory of U.S. political polarization
+    using a DW-NOMINATE-style party-median distance series for the House and
+    Senate from 1879 to 2024. Students identify periods of greatest change
+    (post-Reconstruction high, mid-century low, post-1980s rise, 2000s
+    acceleration) and evaluate competing explanations for the modern rise.
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Interpret
-    
-    Learning Objective: Students interpret data on American political polarization over time, identify the periods of greatest change, and evaluate competing explanations for increasing polarization (geographic sorting, media fragmentation, partisan gerrymandering, ideological shift).
-    
-    Canvas layout:
-    - Responsive width; height approximately 480px
-    - Main chart: line graph of party polarization index (DW-NOMINATE score distance between median Democrat and Republican in Congress), 1945–present
-    - Y-axis: polarization index (0 = no difference; 1 = maximum difference)
-    - X-axis: year
-    - Key events annotated: Civil Rights Act (1964), Reagan election (1980), Gingrich revolution (1994), Tea Party (2010), Trump election (2016)
-    
-    Secondary panels (appear when chart section is clicked):
-    - Geographic sorting: maps showing partisan geographic concentration at selected years
-    - Media landscape: chart of news source diversity, 1970–present
-    - Public opinion: survey data on cross-party hostility (affective polarization)
-    
+
+    Learning Objective: Students interpret data on American political
+    polarization over time, identify the periods of greatest change, and
+    evaluate competing explanations for increasing polarization
+    (gerrymandering, primary system, social media, residential sorting,
+    partisan media).
+
     Interactivity:
-    - Click any year on the chart to see: which party moved more, key legislation (or lack thereof), and events that may explain the change
-    - "Senate vs. House" toggle to compare polarization in both chambers
-    - "Causes panel": shows competing explanations and the evidence for each
-    
-    Color scheme: Blue for Democrats, red for Republicans; purple for shared ground (declining over time).
+    - "Chamber" dropdown toggles House, Senate, or both.
+    - "Overlay" dropdown highlights the period each competing explanation
+      claims to drive, with a note describing the strongest evidence for
+      and against it.
+    - "Inflection points" checkbox annotates the four key turning points.
+    - Click any period band (Post-Reconstruction, Gilded → Progressive,
+      New Deal Era, Mid-Century Low, Post-1980s Rise, 2000s Acceleration)
+      for a context paragraph.
+
+    Color scheme: Blue for House, red for Senate; gold for the active
+    explanation overlay band; muted alternating bands for the six periods.
     -->
 </body>
 </html>
