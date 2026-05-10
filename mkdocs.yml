@@ -61,10 +61,14 @@ nav:
       - Mascot Style Guide: learning-graph/mascot-test.md
       - FAQ Quality Report: learning-graph/faq-quality-report.md
 
+  - Image Gallery:
+      - Chapter Images: img/chapter-images/index.md
+
   - MicroSims:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
 
+  - Glossary: glossary.md
   - FAQ: faq.md
   - License: license.md
   - Contact: contact.md
@@ -96,6 +100,17 @@ theme:
 plugins:
   - search
   - social
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
 
 # Social media overrides so that a local image is used instead of the default Material one.
 hooks:
