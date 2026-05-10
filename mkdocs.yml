@@ -29,27 +29,69 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      - 1. Historical Methods: chapters/01-historical-methods/index.md
-      - 2. Pre-Columbian Contact: chapters/02-pre-columbian-contact/index.md
-      - 3. Colonial America: chapters/03-colonial-america/index.md
-      - 4. American Revolution: chapters/04-american-revolution/index.md
-      - 5. Founding the Republic: chapters/05-founding-the-republic/index.md
-      - 6. Jeffersonian Era: chapters/06-jeffersonian-era/index.md
-      - 7. Manifest Destiny: chapters/07-manifest-destiny-reform/index.md
-      - 8. Civil War: chapters/08-civil-war/index.md
-      - 9. Reconstruction: chapters/09-reconstruction/index.md
-      - 10. Gilded Age: chapters/10-gilded-age-industry/index.md
-      - 11. Populism: chapters/11-populism-frontier/index.md
-      - 12. Progressive Era: chapters/12-progressive-era/index.md
-      - 13. Imperialism and WWI: chapters/13-imperialism-world-war-i/index.md
-      - 14. Twenties and Depression: chapters/14-twenties-depression-new-deal/index.md
-      - 15. World War II: chapters/15-world-war-ii/index.md
-      - 16. Early Cold War: chapters/16-early-cold-war/index.md
-      - 17. Civil Rights: chapters/17-civil-rights-great-society/index.md
-      - 18. Vietnam and Nixon: chapters/18-vietnam-nixon/index.md
-      - 19. Reagan to 9/11: chapters/19-reagan-to-9-11/index.md
-      - 20. Digital Age: chapters/20-contemporary-america/index.md
-      - 21. Age of AI: chapters/21-age-of-ai/index.md
+      - 1. Historical Methods:
+          - Content: chapters/01-historical-methods/index.md
+          - Quiz: chapters/01-historical-methods/quiz.md
+      - 2. Pre-Columbian Contact:
+          - Content: chapters/02-pre-columbian-contact/index.md
+          - Quiz: chapters/02-pre-columbian-contact/quiz.md
+      - 3. Colonial America:
+          - Content: chapters/03-colonial-america/index.md
+          - Quiz: chapters/03-colonial-america/quiz.md
+      - 4. American Revolution:
+          - Content: chapters/04-american-revolution/index.md
+          - Quiz: chapters/04-american-revolution/quiz.md
+      - 5. Founding the Republic:
+          - Content: chapters/05-founding-the-republic/index.md
+          - Quiz: chapters/05-founding-the-republic/quiz.md
+      - 6. Jeffersonian Era:
+          - Content: chapters/06-jeffersonian-era/index.md
+          - Quiz: chapters/06-jeffersonian-era/quiz.md
+      - 7. Manifest Destiny:
+          - Content: chapters/07-manifest-destiny-reform/index.md
+          - Quiz: chapters/07-manifest-destiny-reform/quiz.md
+      - 8. Civil War:
+          - Content: chapters/08-civil-war/index.md
+          - Quiz: chapters/08-civil-war/quiz.md
+      - 9. Reconstruction:
+          - Content: chapters/09-reconstruction/index.md
+          - Quiz: chapters/09-reconstruction/quiz.md
+      - 10. Gilded Age:
+          - Content: chapters/10-gilded-age-industry/index.md
+          - Quiz: chapters/10-gilded-age-industry/quiz.md
+      - 11. Populism:
+          - Content: chapters/11-populism-frontier/index.md
+          - Quiz: chapters/11-populism-frontier/quiz.md
+      - 12. Progressive Era:
+          - Content: chapters/12-progressive-era/index.md
+          - Quiz: chapters/12-progressive-era/quiz.md
+      - 13. Imperialism and WWI:
+          - Content: chapters/13-imperialism-world-war-i/index.md
+          - Quiz: chapters/13-imperialism-world-war-i/quiz.md
+      - 14. Twenties and Depression:
+          - Content: chapters/14-twenties-depression-new-deal/index.md
+          - Quiz: chapters/14-twenties-depression-new-deal/quiz.md
+      - 15. World War II:
+          - Content: chapters/15-world-war-ii/index.md
+          - Quiz: chapters/15-world-war-ii/quiz.md
+      - 16. Early Cold War:
+          - Content: chapters/16-early-cold-war/index.md
+          - Quiz: chapters/16-early-cold-war/quiz.md
+      - 17. Civil Rights:
+          - Content: chapters/17-civil-rights-great-society/index.md
+          - Quiz: chapters/17-civil-rights-great-society/quiz.md
+      - 18. Vietnam and Nixon:
+          - Content: chapters/18-vietnam-nixon/index.md
+          - Quiz: chapters/18-vietnam-nixon/quiz.md
+      - 19. Reagan to 9/11:
+          - Content: chapters/19-reagan-to-9-11/index.md
+          - Quiz: chapters/19-reagan-to-9-11/quiz.md
+      - 20. Digital Age:
+          - Content: chapters/20-contemporary-america/index.md
+          - Quiz: chapters/20-contemporary-america/quiz.md
+      - 21. Age of AI:
+          - Content: chapters/21-age-of-ai/index.md
+          - Quiz: chapters/21-age-of-ai/quiz.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -60,6 +102,7 @@ nav:
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
       - Mascot Style Guide: learning-graph/mascot-test.md
       - FAQ Quality Report: learning-graph/faq-quality-report.md
+      - Quiz Generation Report: learning-graph/quiz-generation-report.md
 
   - Image Gallery:
       - Chapter Images: img/chapter-images/index.md
