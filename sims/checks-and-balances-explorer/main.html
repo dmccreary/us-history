@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Constitutional Structure — Checks and Balances Explorer</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="checks-and-balances-explorer.js"></script>
+</head>
+<body>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: infographic
+    sim-id: checks-and-balances-explorer
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to explore the web of checks and balances connecting the three branches of government by clicking on any power to see which branch exercises it, which branch can check it, and a historical example of that check being used.
+
+    Bloom Level: Understand (L2)
+    Bloom Verb: Explain
+
+    Learning Objective: Students explain how checks and balances distribute power among the three branches and give at least two examples of checks being exercised in American history.
+
+    Canvas layout:
+    - Responsive width; height approximately 720px
+    - Triangle arrangement with three branch nodes: Legislative (Congress) at top-left, Executive (President) at top-right, Judicial (Supreme Court) at bottom-center
+    - Each branch node is a rounded rectangle with its name and key powers listed inside
+    - Between each pair of branches, curved arrows (one per direction) represent the mutual checks
+    - Right-side panel shows detail for the selected check or current historical moment
+
+    Branch contents:
+    - Legislative: Make laws, override vetoes, control budget, declare war, confirm appointments, impeach
+    - Executive: Sign or veto laws, command military, nominate judges, executive orders, pardon power
+    - Judicial: Declare laws unconstitutional, interpret laws, rule on executive action
+
+    Interactivity:
+    - Clicking any arrow opens a detail panel with name, source/target branch, and a historical example
+    - Clicking a branch node highlights every check it exercises and every check it faces
+    - Historical Moments buttons cycle through famous confrontations (Marbury, Jackson's bank veto, Andrew Johnson, court-packing, Youngstown, Watergate, Clinton, Garland)
+
+    Color scheme:
+    - Legislative: indigo (#3949ab)
+    - Executive: red (#c62828)
+    - Judicial: gold (#f9a825)
+    - Arrows: color of the branch exercising the check
+    -->
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "title": "Civil Rights Movement Timeline — Strategies and Legislative Outcomes",
+  "description": "Students trace the relationship between civil rights movement strategies (legal challenges, boycotts, sit-ins, direct action) and legislative outcomes, identifying which strategies proved most effective at each stage and why.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "civil-rights-timeline",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Trace",
+  "completion_status": "built",
+  "chapter_number": 17,
+  "chapter_title": "Civil Rights and the Great Society (1954–1968)",
+  "chapter_dir": "17-civil-rights-great-society"
+}

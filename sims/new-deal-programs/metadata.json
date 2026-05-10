@@ -1,0 +1,21 @@
+{
+  "title": "New Deal Programs — What They Did and What Survived",
+  "description": "Students categorize New Deal programs by their purpose (relief, recovery, reform), identify the specific problem each addressed, and determine which programs still exist today.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "new-deal-programs",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Categorize",
+  "completion_status": "scaffold",
+  "chapter_number": 14,
+  "chapter_title": "The Roaring Twenties, Depression, and New Deal (1920–1941)",
+  "chapter_dir": "14-twenties-depression-new-deal"
+}

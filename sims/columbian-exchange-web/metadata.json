@@ -1,0 +1,21 @@
+{
+  "title": "The Columbian Exchange Interactive Web",
+  "description": "Students explain the bidirectional nature of the Columbian Exchange and identify at least two transfers from each direction that had significant historical consequences.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "columbian-exchange-web",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Explain",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "Pre-Columbian Americas and European Contact",
+  "chapter_dir": "02-pre-columbian-contact"
+}

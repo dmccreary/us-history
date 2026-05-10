@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Causal Loop Diagram — Gilded Age Industrial Economy (vis-network)</title>
+    <link rel="stylesheet" href="https://unpkg.com/vis-network@10.0.1/dist/vis-network.min.css">
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+        #cld-title {
+            background: #1a237e; color: white; text-align: center;
+            padding: 8px 12px; font-size: 15px; font-weight: bold;
+        }
+        #cld-layout { display: flex; }
+        #network-container {
+            flex: 1; height: 420px; background: aliceblue;
+            border: 1px solid silver;
+        }
+        #info-panel {
+            width: 260px; min-height: 420px; background: #f9f9f9;
+            border: 1px solid #ddd; border-left: none; padding: 10px;
+            box-sizing: border-box; overflow-y: auto; font-size: 13px;
+        }
+        #controls {
+            display: flex; align-items: center; gap: 8px;
+            padding: 8px 10px; background: #fff;
+            border: 1px solid silver; border-top: none; flex-wrap: wrap;
+        }
+        #controls button {
+            padding: 5px 12px; cursor: pointer;
+            border: 1px solid #999; border-radius: 3px;
+            background: #f0f0f0; font-size: 13px;
+        }
+        #controls button:hover { background: #e0e0e0; }
+        #controls button.active { background: #1a237e; color: white; border-color: #1a237e; }
+        #controls button:disabled { opacity: 0.4; cursor: default; }
+        #hint-text {
+            flex: 1; color: #777; font-size: 12px;
+            text-align: right; min-width: 120px;
+        }
+    </style>
+    <script src="causal-loop-diagram-builder-vis.js"></script>
+</head>
+<body>
+    <main>
+        <div id="cld-title">Causal Loop Diagram — Gilded Age Industrial Economy</div>
+        <div id="cld-layout">
+            <div id="network-container"></div>
+            <div id="info-panel">
+                <p style="color:#999;font-style:italic;font-size:13px">
+                    Click a node or edge to see historical context.
+                    <br><br>Drag nodes to rearrange the diagram.
+                </p>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="btn-loops">Find Loops</button>
+            <button id="btn-trace">Trace a Loop</button>
+            <button id="btn-next" disabled>Next Step &#9654;</button>
+            <button id="btn-reset">Reset</button>
+            <span id="hint-text">Click nodes/edges for historical context</span>
+        </div>
+    </main>
+    <br/><a href=".">Back to Documentation</a>
+</body>
+</html>

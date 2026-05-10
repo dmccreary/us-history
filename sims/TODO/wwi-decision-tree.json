@@ -1,0 +1,14 @@
+{
+  "sim_id": "wwi-decision-tree",
+  "diagram_name": "WWI Decision Tree — From Assassination to American Entry",
+  "chapter_number": 13,
+  "chapter_title": "U.S. Imperialism and World War I (1898–1920)",
+  "chapter_dir": "13-imperialism-world-war-i",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Trace",
+  "learning_objective": "Students trace the causal chain from the assassination of Archduke Franz Ferdinand to U.S. declaration of war, identifying which steps were contingent (could have gone otherwise) and which were highly determined by prior commitments.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: decision-tree\n**sim-id:** wwi-decision-tree<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to trace the causal chain from the Sarajevo assassination (June 1914) through American entry (April 1917), clicking through each major decision point to understand why each step led to the next.\n\nBloom Level: Analyze (L4)\nBloom Verb: Trace\n\nLearning Objective: Students trace the causal chain from the assassination of Archduke Franz Ferdinand to U.S. declaration of war, identifying which steps were contingent (could have gone otherwise) and which were highly determined by prior commitments.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Vertical timeline with branching decision nodes\n- Each node shows: event, date, key decision-maker, and the choice made\n- Color-coded by actor: Austria-Hungary (gold), Germany (gray), Russia (red), Britain (blue), France (teal), US (navy)\n\nNodes in sequence:\n1. Sarajevo Assassination (June 28, 1914) → Austria issues ultimatum to Serbia\n2. Serbia's partial acceptance → Austria declares war anyway (July 28)\n3. Russia mobilizes → Germany declares war on Russia (Aug 1)\n4. Germany declares war on France → invades Belgium (Aug 3–4)\n5. Britain declares war on Germany (Aug 4) — treaty obligation to Belgium\n6. US declares neutrality (Aug 4, 1914)\n7. Lusitania sinking (May 1915) → Wilson protests; Germany promises Sussex Pledge\n8. Germany resumes unrestricted submarine warfare (Feb 1, 1917)\n9. Zimmermann Telegram revealed (March 1, 1917)\n10. US declares war on Germany (April 6, 1917)\n\nInteractivity:\n- Clicking each node opens a detail panel: what happened, why, and what alternatives existed\n- \"Counterfactual\" button on each node asks: \"What if this had gone differently?\" and shows a 1-sentence alternative history\n- Zoom controls for the full timeline\n\nColor scheme: Actor colors above; contingent decisions highlighted in amber."
+}

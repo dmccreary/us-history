@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Colonial Resistance Timeline (1763–1775)</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="colonial-resistance-timeline.js"></script>
+</head>
+<body>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: timeline
+    sim-id: colonial-resistance-timeline
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to trace the escalating cycle of British taxation and colonial resistance between 1763 and 1775, identifying the reinforcing feedback loops that drove both sides toward open conflict.
+
+    Bloom Level: Analyze (L4)
+    Bloom Verb: Examine
+
+    Learning Objective: Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.
+
+    Canvas layout:
+    - Responsive width; height approximately 600px
+    - Two horizontal tracks: top = British actions (gold), bottom = Colonial responses (indigo)
+    - Year axis 1763–1775 between the tracks
+    - Curved gray arrows link each British action to the colonial response it provoked
+
+    Events:
+    British: Proclamation of 1763, Sugar Act 1764, Stamp Act 1765, Quartering Act 1765,
+             Townshend Acts 1767, Troops to Boston 1768, Tea Act 1773, Intolerable Acts 1774
+    Colonial: Westward defiance 1763, Stamp Act Congress 1765, Sons of Liberty 1765,
+              Non-importation 1768, Boston Massacre 1770, Boston Tea Party 1773,
+              First Continental Congress 1774, Lexington & Concord 1775
+
+    Each event clickable for: name, date, side (British / Colonial), what happened,
+    rationale, immediate consequence, and a Systems-thinking note (reinforcing vs balancing).
+
+    Interactivity:
+    - "View" filter: All events / British actions only / Colonial responses only
+    - "Show action -> response arrows" checkbox toggles the cause-effect arrows
+    - Click event for detail panel; click again or Reset to close
+
+    Color scheme: gold (#f9a825) British, indigo (#3949ab) colonial, gray arrows.
+    -->
+</body>
+</html>

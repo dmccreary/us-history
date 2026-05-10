@@ -1,0 +1,14 @@
+{
+  "sim_id": "integration-strategies",
+  "diagram_name": "Vertical vs. Horizontal Integration — Interactive Diagram",
+  "chapter_number": 10,
+  "chapter_title": "The Gilded Age: Industrialization and Labor (1865–1890)",
+  "chapter_dir": "10-gilded-age-industry",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Students explain the difference between vertical and horizontal integration and give a historical example of each strategy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: infographic\n**sim-id:** integration-strategies<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Help students understand and distinguish between vertical and horizontal integration through interactive diagrams that use Carnegie Steel and Standard Oil as concrete examples.\n\nBloom Level: Understand (L2)\nBloom Verb: Explain\n\nLearning Objective: Students explain the difference between vertical and horizontal integration and give a historical example of each strategy.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Two panels side by side: left = Vertical Integration (Carnegie Steel), right = Horizontal Integration (Standard Oil)\n- Each panel shows a diagram of the business structure with clickable stages/nodes\n\nLeft panel — Vertical Integration (Carnegie Steel):\n- Chain of nodes from top to bottom: Iron Ore Mines → Great Lakes Ships → Railroad Lines → Coal Fields → Steel Mills → Distribution Network\n- Arrows pointing downward showing the production flow\n- Each node labeled with the business unit and approximate percentage of total cost it represented\n\nRight panel — Horizontal Integration (Standard Oil):\n- Web of nodes: Standard Oil center → multiple refineries radiating outward, some shown in gold (acquired) and some in red (eliminated competitors)\n- Percentage of market share shown increasing as more nodes are acquired\n\nInteractivity:\n- Clicking any node in either panel shows: what this stage/unit does, why controlling it gave competitive advantage, and one historical detail from Carnegie or Rockefeller\n- A \"Compare\" button at bottom highlights the key difference: vertical controls the supply chain (independence from suppliers/distributors); horizontal controls market share (pricing power)\n- \"Advantages\" and \"Risks\" buttons toggle annotation text on each diagram\n\nColor scheme:\n- Vertical integration chain: shades of blue (deeper = closer to finished product)\n- Horizontal integration web: gold = Standard Oil controlled; gray = independent competitor; red = eliminated\n- Background: white\n\nResponsive behavior: Below 650px canvas width, panels stack vertically.\n\nImplementation: p5.js"
+}

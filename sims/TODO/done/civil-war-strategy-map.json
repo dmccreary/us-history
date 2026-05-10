@@ -1,0 +1,14 @@
+{
+  "sim_id": "civil-war-strategy-map",
+  "diagram_name": "Civil War Battles and Strategy Map",
+  "chapter_number": 8,
+  "chapter_title": "Sectionalism and the Civil War (1844–1865)",
+  "chapter_dir": "08-civil-war",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Examine",
+  "learning_objective": "Students examine how geography shaped Civil War military strategy, explaining the Anaconda Plan's logic and the significance of at least two major battles.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: map\n**sim-id:** civil-war-strategy-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the geographic logic of Civil War strategy, trace major campaigns and battles, and understand how geography shaped Union and Confederate military choices.\n\nBloom Level: Analyze (L4)\nBloom Verb: Examine\n\nLearning Objective: Students examine how geography shaped Civil War military strategy, explaining the Anaconda Plan's logic and the significance of at least two major battles.\n\nCanvas layout:\n- Responsive width; height approximately 520px\n- Simplified map of the eastern United States divided into Union (light blue) and Confederate (light red) regions at the war's start\n- Union naval blockade shown as a dotted blue line along the Confederate coast\n- Mississippi River control shown as a blue line\n- Battle sites marked as clickable stars\n\nKey battles/locations to mark:\n- Fort Sumter, SC (1861) — war begins\n- Bull Run, VA (1861 and 1862) — Confederate victories\n- Shiloh, TN (1862) — bloody Union victory in the West\n- Antietam, MD (1862) — bloodiest single day; Lincoln uses to announce Emancipation Proclamation\n- Vicksburg, MS (1863) — Union controls the Mississippi\n- Gettysburg, PA (1863) — turning point in the East\n- Atlanta, GA (1864) — Sherman's capture; opens March to the Sea\n- Appomattox, VA (1865) — Lee surrenders\n\nClicking a battle shows:\n- Date and outcome\n- Casualties (Union and Confederate)\n- Strategic significance\n- Connection to a key event (e.g., Antietam → Emancipation Proclamation timing)\n\nStrategy overlays (toggleable):\n- Anaconda Plan (naval blockade + Mississippi control)\n- Eastern Theater campaigns (arrows showing Lee's invasion attempts north)\n- Western Theater campaigns (Grant's campaign to control the Mississippi)\n- Sherman's March (1864 arrow through Georgia)\n\nColor scheme: Union blue / Confederate gray; battle stars colored by outcome (gold = Union win, red = Confederate win, white = draw).\n\nResponsive behavior: Map scales with canvas; clickable areas scale proportionally.\n\nImplementation: p5.js"
+}

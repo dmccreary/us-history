@@ -1,0 +1,21 @@
+{
+  "title": "Four Progressive Era Amendments — Timeline and Context",
+  "description": "Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "progressive-amendments-timeline",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Explain",
+  "completion_status": "scaffold",
+  "chapter_number": 12,
+  "chapter_title": "The Progressive Era (1890–1914)",
+  "chapter_dir": "12-progressive-era"
+}

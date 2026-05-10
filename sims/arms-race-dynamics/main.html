@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Arms Race Dynamics — The Security Dilemma Loop</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="arms-race-dynamics.js"></script>
+</head>
+<body>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: causal-loop
+    sim-id: arms-race-dynamics
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to visualize the security dilemma feedback loop that drives arms races, and to trace how the U.S.-Soviet nuclear arms race exemplified this dynamic from 1945 to 1991.
+
+    Bloom Level: Analyze (L4)
+    Bloom Verb: Model
+
+    Learning Objective: Students model the security dilemma feedback loop that drives arms races, identify the reinforcing loops at work, and evaluate what conditions could break the loop (arms control agreements, mutual vulnerability, transparency).
+
+    Canvas layout:
+    - Responsive width; height approximately 620px
+    - Compact two-nation causal loop diagram (U.S. left, USSR right) showing the R1 reinforcing loop
+    - Time-series plot of US and Soviet arsenals 1945-1991
+    - "Perceived threat" arrows in red between nations
+
+    Core loops:
+    - R1 (Security dilemma): US Arsenal up -> Soviet perceived threat up -> Soviet Arsenal up -> US perceived threat up -> US Arsenal up (reinforcing)
+    - B1 (MAD): When both arsenals exceed the destruction threshold, a MAD indicator appears
+    - B2 (Arms Control): "Sign Treaty" button injects a one-shot 25% cut to both arsenals
+
+    Modes:
+    - View: Simulated (run the model) or Historical (real warhead counts 1945-1991)
+    - Model: Security Dilemma (reinforcing loop) or Rational Actor (build only to MAD threshold)
+
+    Interactivity:
+    - Threat sensitivity slider (0-100%) controls security-dilemma gain
+    - Year slider (1945-1991) for historical mode scrubbing
+    - Run/Pause, Sign Treaty, Reset buttons
+
+    Color scheme: Blue for U.S., red for USSR; gold for MAD threshold band; green for arms control / treaty markers.
+    -->
+</body>
+</html>

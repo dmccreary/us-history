@@ -1,0 +1,21 @@
+{
+  "title": "WWII Timeline — From Blitzkrieg to Surrender",
+  "description": "Students sequence key World War II events in both theaters, identify the major turning points in each, and connect home front developments (internment, Rosie the Riveter, war production) to the military timeline.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "wwii-timeline",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Sequence",
+  "completion_status": "scaffold",
+  "chapter_number": 15,
+  "chapter_title": "World War II and the Home Front (1939–1945)",
+  "chapter_dir": "15-world-war-ii"
+}

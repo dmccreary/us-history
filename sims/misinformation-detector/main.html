@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misinformation Detection MicroSim — Lost Cause Claims</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Misinformation Detection MicroSim — Lost Cause Claims</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> misinformation-detector</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> Evaluate (L5)</p>
+            <p><strong>Learning Objective:</strong> Students assess historical claims using a structured misinformation detection framework, identifying which claims are supported by primary source evidence and which are contradicted by it.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** misinformation-detector<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Purpose: Give students structured practice applying the four-step misinformation detection process (source the claim, lateral reading, source triangulation, fact-checking) to historical claims drawn from the Lost Cause narrative and Reconstruction historiography.
+    
+    Bloom Level: Evaluate (L5)
+    Bloom Verb: Assess
+    
+    Learning Objective: Students assess historical claims using a structured misinformation detection framework, identifying which claims are supported by primary source evidence and which are contradicted by it.
+    
+    Canvas layout:
+    - Responsive width; height approximately 520px
+    - Top panel (30%): Displays a historical claim (text card)
+    - Middle panel (40%): Four-step investigation panel — one button per step; clicking each reveals the relevant information for that step
+    - Bottom panel (30%): Verdict area where student selects: "Supported by evidence," "Contradicted by evidence," or "Partially supported/context needed" — then submits and receives feedback
+    
+    Step buttons reveal:
+    1. "Source the Claim" → Who made this claim, when, and what was their stake in the outcome?
+    2. "Lateral Reading" → What do historians working from primary sources say about this claim?
+    3. "Source Triangulation" → What do three different types of evidence show?
+    4. "Check the Facts" → What specific primary source contradicts or confirms this claim?
+    
+    Sample claims (6 total, cycling):
+    1. "Southern states seceded over states' rights, not slavery" → Contradicted
+    2. "Reconstruction governments were uniquely corrupt and incompetent" → Contradicted
+    3. "The Freedmen's Bureau helped millions transition from slavery to freedom" → Supported
+    4. "Black voters were largely prevented from voting through violence and intimidation after 1877" → Supported
+    5. "Sharecropping gave freed people economic independence" → Contradicted
+    6. "The Ku Klux Klan was primarily a social fraternity that occasionally became violent" → Contradicted
+    
+    Verdict feedback:
+    - Correct: green border, brief explanation of why the evidence supports this verdict
+    - Incorrect: amber border, redirect to which evidence step the student should revisit
+    
+    Score tracker: "X / Y evaluated correctly"
+    
+    Responsive behavior: Steps stack vertically on narrow canvas.
+    
+    Instructional Rationale: Evaluate-level task requires students to assess quality of evidence — not just identify who made a claim. The structured four-step process prevents students from verdict-first reasoning (deciding the answer before checking evidence).
+    -->
+</body>
+</html>

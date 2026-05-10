@@ -1,0 +1,21 @@
+{
+  "title": "Political Polarization — A Historical and Contemporary Index",
+  "description": "Students interpret data on American political polarization over time, identify the periods of greatest change, and evaluate competing explanations for increasing polarization (geographic sorting, media fragmentation, partisan gerrymandering, ideological shift).",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "polarization-index",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Interpret",
+  "completion_status": "scaffold",
+  "chapter_number": 20,
+  "chapter_title": "Contemporary America and the Digital Age (2001–Present)",
+  "chapter_dir": "20-contemporary-america"
+}

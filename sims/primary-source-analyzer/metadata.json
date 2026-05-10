@@ -1,0 +1,21 @@
+{
+  "title": "Primary Source Analysis MicroSim",
+  "description": "Students use the HAPP framework to analyze a primary source excerpt by identifying historical situation, audience, purpose, and point of view, then construct a sourcing claim that synthesizes all four elements.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "primary-source-analyzer",
+  "library": "p5.js",
+  "bloomLevel": "Apply (L3)",
+  "bloomVerb": "Use",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Historical Methods and Analytical Frameworks",
+  "chapter_dir": "01-historical-methods"
+}

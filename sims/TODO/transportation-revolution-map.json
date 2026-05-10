@@ -1,0 +1,14 @@
+{
+  "sim_id": "transportation-revolution-map",
+  "diagram_name": "The Transportation Revolution — Connections Map",
+  "chapter_number": 7,
+  "chapter_title": "Manifest Destiny and Antebellum Reform (1828–1848)",
+  "chapter_dir": "07-manifest-destiny-reform",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Examine",
+  "learning_objective": "Students examine how transportation networks shaped economic geography, explaining how the Erie Canal and railroad expansion connected markets and accelerated the Market Revolution.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: map\n**sim-id:** transportation-revolution-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to visualize how canals, roads, and early railroads progressively connected the American economy between 1800 and 1860, and understand how transportation infrastructure shaped economic growth and regional integration.\n\nBloom Level: Analyze (L4)\nBloom Verb: Examine\n\nLearning Objective: Students examine how transportation networks shaped economic geography, explaining how the Erie Canal and railroad expansion connected markets and accelerated the Market Revolution.\n\nCanvas layout:\n- Responsive width; height approximately 500px\n- Simplified map of the eastern United States and Midwest showing major waterways\n- Time slider at the bottom: 1800 → 1820 → 1840 → 1860\n- As the slider advances, new transport routes appear on the map in different colors\n\nTransport layers:\n- 1800: Major navigable rivers only (blue lines) — Ohio, Mississippi, Hudson\n- 1820: National Road (tan line) and early turnpikes\n- 1825: Erie Canal added (distinct canal-blue dashed line) with tooltip showing cost/time reduction\n- 1840: Early railroad lines in the Northeast (red lines)\n- 1860: Full railroad network east of the Mississippi (extensive red network)\n\nClickable elements:\n- Each transport route, when clicked, shows: route name, completion date, what it connected, and estimated cost/time reduction for shipping goods\n\nKey annotation: Erie Canal connection from Buffalo to Albany to NYC — clicking it shows the cost calculation: shipping a ton of flour from Buffalo to NYC dropped from $100 (1817) to $10 (1830).\n\nColor scheme:\n- Rivers: dark blue\n- Canals: light blue dashed\n- Roads/turnpikes: tan\n- Railroads: red\n- Major cities: gold dots\n\nResponsive behavior: Map scales with canvas; slider remains functional on touch screens.\n\nImplementation: p5.js; map as simplified polygon shapes; time-slider controls layer visibility."
+}

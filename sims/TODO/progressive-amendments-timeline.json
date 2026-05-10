@@ -1,0 +1,14 @@
+{
+  "sim_id": "progressive-amendments-timeline",
+  "diagram_name": "Four Progressive Era Amendments — Timeline and Context",
+  "chapter_number": 12,
+  "chapter_title": "The Progressive Era (1890–1914)",
+  "chapter_dir": "12-progressive-era",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: timeline\n**sim-id:** progressive-amendments-timeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the four Progressive Era constitutional amendments (16th–19th), the social movements that produced them, and the political context in which each was ratified.\n\nBloom Level: Understand (L2)\nBloom Verb: Explain\n\nLearning Objective: Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Horizontal timeline from 1890 to 1925\n- Four clickable markers, one per amendment: 16th (1913), 17th (1913), 18th (1919), 19th (1920)\n- Background shows key political events: McKinley assassination (1901), TR presidency, WWI shading (1917–1918)\n\nEach marker, when clicked, opens a detail panel:\n- Amendment number and ratification year\n- What it changed (one sentence)\n- The movement that drove it (Populists, direct democracy reformers, temperance, women's suffrage)\n- One historical context note explaining the timing\n- A \"What happened next?\" line showing the amendment's legacy or unintended consequences\n\nAdditional clickable elements:\n- Hovering the WWI band shows: \"Wartime nationalism accelerated both Prohibition (grain conservation) and women's suffrage (women's war contributions)\"\n- A \"Populating over time\" mode shows state ratification maps for the 18th and 19th amendments\n\nColor scheme: Each amendment has a distinct color (gold = 16th, indigo = 17th, red = 18th, teal = 19th); WWI period shaded in gray.\n\nResponsive behavior: Timeline scrolls horizontally on narrow canvas.\n\nImplementation: p5.js"
+}

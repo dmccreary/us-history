@@ -1,0 +1,14 @@
+{
+  "sim_id": "tech-power-shifts",
+  "diagram_name": "Technology Power Shifts — Historical Comparison",
+  "chapter_number": 21,
+  "chapter_title": "The Age of AI and Technology Power (2010–Present)",
+  "chapter_dir": "21-age-of-ai",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Predict",
+  "learning_objective": "Students evaluate the historical pattern of technology-driven power shifts, identify the structural similarities between AI and previous technology transformations, and predict — based on historical evidence — what political and economic responses to AI are most likely to emerge.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: comparison-timeline\n**sim-id:** tech-power-shifts<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to compare the major technology power shifts across American history, identifying the consistent patterns (disruption → concentration → political response) and applying this framework to evaluate the AI era.\n\nBloom Level: Evaluate (L5)\nBloom Verb: Predict\n\nLearning Objective: Students evaluate the historical pattern of technology-driven power shifts, identify the structural similarities between AI and previous technology transformations, and predict — based on historical evidence — what political and economic responses to AI are most likely to emerge.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Horizontal timeline from 1800 to present with projected arrow to 2040\n- Five technology eras shown as colored bands: Steam/Industrial, Railroad, Electricity/Mass Production, Computing/Internet, AI\n- For each era, three layers shown: Technology Change, Power Shift, Political Response\n\nEach era clickable:\n- Technology: what changed and how fast\n- Power shift: which industries and actors gained power, which lost\n- Labor impact: which jobs were created and destroyed\n- Political response: how democracy responded, how long it took\n- Analogy to AI: how this era's dynamics map to AI era dynamics\n\n\"AI projection\" section:\n- Based on historical patterns, what political responses to AI are most likely?\n- What historical responses failed, and why?\n- What institutional designs have proven most durable?\n\nInteractivity:\n- \"Pattern match\" button: select an AI challenge (job displacement, power concentration, disinformation) and see which historical era offers the closest analogy\n- \"Timeline comparison\" shows how fast political responses developed in each era\n\nColor scheme: Each era has a distinct color; political response shown in green emerging from concentration (red)."
+}

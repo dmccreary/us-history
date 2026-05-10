@@ -1,0 +1,21 @@
+{
+  "title": "The Transportation Revolution — Connections Map",
+  "description": "Students examine how transportation networks shaped economic geography, explaining how the Erie Canal and railroad expansion connected markets and accelerated the Market Revolution.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "transportation-revolution-map",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Examine",
+  "completion_status": "scaffold",
+  "chapter_number": 7,
+  "chapter_title": "Manifest Destiny and Antebellum Reform (1828–1848)",
+  "chapter_dir": "07-manifest-destiny-reform"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "colonial-resistance-timeline",
+  "diagram_name": "Colonial Resistance Timeline (1763–1775)",
+  "chapter_number": 4,
+  "chapter_title": "The American Revolution (1754–1783)",
+  "chapter_dir": "04-american-revolution",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Examine",
+  "learning_objective": "Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: timeline\n**sim-id:** colonial-resistance-timeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to trace the escalating cycle of British taxation and colonial resistance between 1763 and 1775, identifying the reinforcing feedback loops that drove both sides toward open conflict.\n\nBloom Level: Analyze (L4)\nBloom Verb: Examine\n\nLearning Objective: Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Horizontal timeline with two tracks: top track = British actions (red/gold), bottom track = Colonial responses (blue)\n- Each event is a clickable circle; connected events (action → response) are linked by curved arrows\n\nEvents to include (paired action-response):\n1. Proclamation of 1763 → Colonial land speculation in violation of the law\n2. Stamp Act 1765 → Stamp Act Congress; Sons of Liberty formed; boycott\n3. Townshend Acts 1767 → Non-importation agreements; spinning bees\n4. British troops sent to Boston 1768 → Increased colonial anger\n5. Boston Massacre 1770 → Revere engraving; radicalization\n6. Tea Act 1773 → Boston Tea Party\n7. Intolerable Acts 1774 → First Continental Congress; intercolonial unity\n8. Lexington and Concord 1775 → Second Continental Congress; war begins\n\nClicking any event shows a panel with:\n- Event name and date\n- Who initiated it (British or colonial)\n- A 2-sentence description\n- A \"Systems thinking\" note identifying whether this was a reinforcing or balancing loop moment\n\nColor scheme:\n- British actions: gold (#f9a825) circles\n- Colonial responses: indigo (#3949ab) circles\n- Connecting arrows: gray with directional arrowheads\n- Selected event: highlighted in bright white border\n\nResponsive behavior: Timeline scrolls horizontally on narrow canvases; all events remain clickable.\n\nImplementation: p5.js"
+}

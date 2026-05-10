@@ -1,0 +1,14 @@
+{
+  "sim_id": "depression-feedback-loops",
+  "diagram_name": "Depression Causes — Interacting Feedback Loops",
+  "chapter_number": 14,
+  "chapter_title": "The Roaring Twenties, Depression, and New Deal (1920–1941)",
+  "chapter_dir": "14-twenties-depression-new-deal",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Diagram",
+  "learning_objective": "Students diagram the reinforcing feedback loops that amplified the 1929 crash into a decade-long depression, identifying which loops the New Deal attempted to break and how.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: causal-loop\n**sim-id:** depression-feedback-loops<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to visualize the interlocking feedback loops that turned a stock market crash into a decade-long depression, building systems thinking skills by tracing causal connections across economic sectors.\n\nBloom Level: Analyze (L4)\nBloom Verb: Diagram\n\nLearning Objective: Students diagram the reinforcing feedback loops that amplified the 1929 crash into a decade-long depression, identifying which loops the New Deal attempted to break and how.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Circular causal loop diagram with 8 nodes connected by labeled arrows\n- Color-coded: red arrows = reinforcing (R, makes things worse); blue arrows = balancing (B, correction)\n- Nodes: Stock Market, Consumer Spending, Business Production, Employment, Bank Deposits, Bank Loans, Agricultural Prices, International Trade\n\nKey loops to show:\n- R1 (Deflationary Spiral): Employment ↓ → Consumer Spending ↓ → Business Production ↓ → Employment ↓\n- R2 (Banking Panic): Bank Deposits ↓ → Bank Loans ↓ → Business Investment ↓ → Employment ↓ → Bank Deposits ↓\n- R3 (Trade Collapse): Tariffs ↑ → Imports ↓ → Foreign retaliation → U.S. Exports ↓ → Business ↓\n- B1 (New Deal Intervention): Federal Spending ↑ → Consumer Demand ↑ → Production ↑ (attempts to break R1)\n\nInteractivity:\n- Clicking a loop highlights all arrows in that loop and opens a panel explaining how the loop worked\n- \"New Deal Response\" button shows which loops each major program targeted\n- Slider: \"Shock Size\" (1929–1932) shows how feedback loops amplified a 40% market drop into 25% unemployment\n\nColor scheme: Red for reinforcing loops; blue for balancing; green for New Deal interventions."
+}

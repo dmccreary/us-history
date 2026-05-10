@@ -1,0 +1,14 @@
+{
+  "sim_id": "colonial-regions-comparison",
+  "diagram_name": "Three Colonial Regions Comparison",
+  "chapter_number": 3,
+  "chapter_title": "Colonial America (1607–1754)",
+  "chapter_dir": "03-colonial-america",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Students compare and contrast the three colonial regions across at least three dimensions, identifying similarities and differences that shaped their political cultures.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: infographic\n**sim-id:** colonial-regions-comparison<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to compare the three colonial regions across five dimensions — economy, religious character, labor system, governance, and relationship with Britain — by clicking each region to reveal its profile.\n\nBloom Level: Analyze (L4)\nBloom Verb: Compare\n\nLearning Objective: Students compare and contrast the three colonial regions across at least three dimensions, identifying similarities and differences that shaped their political cultures.\n\nCanvas layout:\n- Responsive width; height approximately 520px\n- Three large clickable panels side by side, labeled \"New England,\" \"Middle Colonies,\" and \"Southern Colonies\"\n- Each panel has a color-coded header and a region silhouette icon\n- Clicking a panel expands a detail card below showing five dimension rows\n\nDimensions displayed for each region:\n1. Primary economy (with icon)\n2. Religious character\n3. Primary labor system\n4. Form of self-governance\n5. Main tension with Britain\n\nWhen two panels are selected simultaneously, a \"Compare\" mode highlights differences in red and similarities in green across the five dimensions.\n\nColor scheme:\n- New England: cool blue (#1565c0 tint)\n- Middle Colonies: green (#2e7d32 tint)\n- Southern Colonies: warm amber (#e65100 tint)\n\nInteractivity:\n- Click one region: expands detail card for that region\n- Click a second region: activates Compare mode with color-coded differences/similarities\n- \"Reset\" button clears selections\n\nResponsive behavior: Below 650px canvas width, panels stack vertically; Compare mode still works.\n\nImplementation: p5.js"
+}

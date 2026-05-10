@@ -1,0 +1,14 @@
+{
+  "sim_id": "ai-warfare-spectrum",
+  "diagram_name": "AI in Warfare — From Semi-Autonomous to Fully Autonomous",
+  "chapter_number": 21,
+  "chapter_title": "The Age of AI and Technology Power (2010–Present)",
+  "chapter_dir": "21-age-of-ai",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess",
+  "learning_objective": "Students assess the ethical and strategic implications of different levels of weapons autonomy, identify the key decision points where human judgment matters, and evaluate the arguments for and against autonomous targeting authority.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: spectrum\n**sim-id:** ai-warfare-spectrum<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the spectrum of weapons autonomy from human-controlled to fully autonomous, examining what decision-making authority is retained by humans at each level and the ethical, legal, and strategic implications of increasing autonomy.\n\nBloom Level: Evaluate (L5)\nBloom Verb: Assess\n\nLearning Objective: Students assess the ethical and strategic implications of different levels of weapons autonomy, identify the key decision points where human judgment matters, and evaluate the arguments for and against autonomous targeting authority.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Horizontal spectrum from left (Human Control) to right (Full Autonomy)\n- Six labeled positions along the spectrum, from Level 1 to Level 6\n\nAutonomy levels:\n1. Human In the Loop: Human decides every targeting decision (traditional soldier/pilot)\n2. Human On the Loop: System selects targets; human can override within a time window (Patriot missile defense)\n3. Human Over the Loop: Human sets parameters; system operates autonomously within them (current FPV drone with limited AI)\n4. Supervised Autonomy: Human can intervene; system operates autonomously unless overridden (emerging AI wingman drones)\n5. Narrow Autonomy: System autonomously selects and engages specific target types (hypothetical: autonomous anti-drone system)\n6. Full Autonomy: System selects and engages any target without human approval (hypothetical/banned by some proposals)\n\nFor each level (click to open panel):\n- Example weapons systems (current or proposed)\n- What the human decides vs. what the AI decides\n- Key ethical questions this level raises\n- What international law says about this level\n- Strategic advantage and disadvantage\n\nInteractivity:\n- Slider to position a specific weapon system on the spectrum\n- \"Arguments for / against\" toggle at each level\n- \"Legal status\" overlay showing which international treaties apply\n\nColor scheme: Green (human control) → amber (mixed) → red (full autonomy)."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "columbian-exchange-web",
+  "diagram_name": "The Columbian Exchange Interactive Web",
+  "chapter_number": 2,
+  "chapter_title": "Pre-Columbian Americas and European Contact",
+  "chapter_dir": "02-pre-columbian-contact",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Students explain the bidirectional nature of the Columbian Exchange and identify at least two transfers from each direction that had significant historical consequences.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: infographic\n**sim-id:** columbian-exchange-web<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the bidirectional flow of plants, animals, and diseases between the Old and New Worlds, and understand which transfers had the most significant historical consequences.\n\nBloom Level: Understand (L2)\nBloom Verb: Explain\n\nLearning Objective: Students explain the bidirectional nature of the Columbian Exchange and identify at least two transfers from each direction that had significant historical consequences.\n\nCanvas layout:\n- Responsive width; height approximately 520px\n- Two large circle regions: left = \"Americas (New World),\" right = \"Europe/Africa (Old World)\"\n- Center = \"Atlantic Ocean\" with bidirectional arrows\n- Items are represented as labeled icons arranged in each circle\n\nItems in Americas circle (flowing East):\n- Maize (corn) icon\n- Potato icon\n- Tomato icon\n- Cacao/chocolate icon\n- Tobacco icon\n- Sweet potato icon\n\nItems in Old World circle (flowing West):\n- Smallpox virus icon (red, marked \"Deadly\")\n- Horse icon\n- Cattle icon\n- Wheat icon\n- Sugarcane icon\n- Measles icon (red, marked \"Deadly\")\n\nInteractivity:\n- Clicking any item icon opens a right-side panel with: item name, direction of transfer, a 2-sentence historical significance note, and a \"historical consequence\" rating (Low / Medium / High / Catastrophic)\n- Disease items pulse with a red animation to signal danger before they are clicked\n- A toggle button switches between \"Show all items\" and \"Show consequences only\" — the latter highlights only items rated High or Catastrophic\n- Arrows between the circles animate to show directionality when hovered\n\nColor scheme:\n- Americas circle: warm green (#2e7d32 tint)\n- Old World circle: indigo (#3949ab tint)\n- Arrows: gold for food/animals, red for disease\n\nResponsive behavior: Below 600px width, the two circles stack vertically with arrows pointing downward.\n\nImplementation: p5.js; icons are simple geometric shapes with text labels, no external image files needed."
+}

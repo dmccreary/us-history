@@ -1,0 +1,14 @@
+{
+  "sim_id": "european-exploration-timeline",
+  "diagram_name": "European Exploration Timeline",
+  "chapter_number": 2,
+  "chapter_title": "Pre-Columbian Americas and European Contact",
+  "chapter_dir": "02-pre-columbian-contact",
+  "library": "p5.js",
+  "bloom_level": "Remember (L1)",
+  "bloom_verb": "Recall",
+  "learning_objective": "Students recall the sequence of major European exploration events and the national powers behind them.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: timeline\n**sim-id:** european-exploration-timeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Give students an interactive overview of the sequence and nationality of major European exploration events between 1450 and 1620, with clickable events that reveal context and significance.\n\nBloom Level: Remember (L1)\nBloom Verb: Recall\n\nLearning Objective: Students recall the sequence of major European exploration events and the national powers behind them.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Horizontal timeline spanning 1450 to 1620\n- Events represented as labeled vertical markers (circles) above or below the timeline axis\n- Color-coded by nation: Portugal (dark green), Spain (red/gold), France (blue), England (dark red), Netherlands (orange)\n\nEvents to include:\n- 1488: Dias rounds the Cape of Good Hope (Portugal)\n- 1492: Columbus reaches the Caribbean (Spain)\n- 1494: Treaty of Tordesillas (Spain/Portugal)\n- 1497: Cabot explores North America (England)\n- 1498: Vasco da Gama reaches India (Portugal)\n- 1513: Balboa sees the Pacific (Spain)\n- 1519–1521: Cortés conquers the Aztec Empire (Spain)\n- 1524: Verrazzano explores North America (France)\n- 1532–1572: Pizarro conquers the Inca Empire (Spain)\n- 1534–1535: Cartier explores the St. Lawrence (France)\n- 1585: First Roanoke Colony (England)\n- 1607: Jamestown founded (England)\n- 1609: Hudson explores New Netherlands (Netherlands)\n\nInteractivity:\n- Clicking any event marker opens a detail panel below the timeline with: date, explorer/event name, nation, a 2-sentence significance note, and connection to later history\n- Nation filter buttons above the timeline allow students to show only one nation's events at a time\n- Hovering a marker shows the event name in a tooltip\n\nColor scheme matches nation flag colors (listed above). Timeline axis is dark gray on white background.\n\nResponsive behavior: On narrow canvas, timeline scrolls horizontally; all markers remain clickable.\n\nImplementation: p5.js; no external library needed"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "pre-columbian-americas-map",
+  "diagram_name": "Pre-Columbian Americas Interactive Map",
+  "chapter_number": 2,
+  "chapter_title": "Pre-Columbian Americas and European Contact",
+  "chapter_dir": "02-pre-columbian-contact",
+  "library": "p5.js",
+  "bloom_level": "Remember (L1)",
+  "bloom_verb": "Identify",
+  "learning_objective": "Students identify the geographic locations of the Aztec Empire, Inca Empire, Mississippian Culture, and Iroquois Confederacy and recall one defining characteristic of each.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: map\n**sim-id:** pre-columbian-americas-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the geographic locations, approximate extents, and key characteristics of major pre-Columbian civilizations by clicking labeled regions on a simplified map of the Americas.\n\nBloom Level: Remember (L1)\nBloom Verb: Identify\n\nLearning Objective: Students identify the geographic locations of the Aztec Empire, Inca Empire, Mississippian Culture, and Iroquois Confederacy and recall one defining characteristic of each.\n\nCanvas layout:\n- Responsive width; height approximately 520px\n- Simplified outline map of North and South America fills the left 70% of the canvas\n- Right panel (30%) is an infobox that updates when a region is clicked\n\nClickable regions (colored zones on the map):\n1. Central Mexico (gold) — Aztec Empire\n2. Andean South America (teal) — Inca Empire\n3. Mississippi River Valley (orange) — Mississippian Culture\n4. Great Lakes / northeastern woodlands (indigo) — Iroquois Confederacy\n5. Southwest desert (red-brown) — Pueblo cultures (bonus region)\n6. Pacific Northwest coast (green) — Pacific Northwest peoples (bonus region)\n\nEach region infobox contains:\n- Region name and civilization\n- Approximate dates of peak development\n- Estimated population at peak\n- One distinctive feature (e.g., \"Floating gardens — chinampas — fed a city of 200,000\")\n- One consequence of European contact\n\nColor scheme: muted earth tones for land; blue for water; each civilization in a distinct accent color. Unclicked regions appear at 60% opacity; clicked region brightens to full color.\n\nInteractivity:\n- Clicking a region fills the right panel with the infobox\n- Hovering a region shows a tooltip with the civilization name\n- A \"Reset\" button clears the infobox and dims all regions\n\nResponsive behavior: Below 650px canvas width, the infobox panel moves to below the map.\n\nImplementation: p5.js; map drawn as simplified polygon shapes, no external GIS library needed."
+}

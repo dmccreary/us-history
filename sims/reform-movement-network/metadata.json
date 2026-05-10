@@ -1,0 +1,21 @@
+{
+  "title": "Reform Movement Network — 1830–1860",
+  "description": "Students differentiate the goals and methods of antebellum reform movements and identify at least three ways they were interconnected through shared participants, ideas, or organizational networks.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "reform-movement-network",
+  "library": "vis-network",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Differentiate",
+  "completion_status": "scaffold",
+  "chapter_number": 7,
+  "chapter_title": "Manifest Destiny and Antebellum Reform (1828–1848)",
+  "chapter_dir": "07-manifest-destiny-reform"
+}

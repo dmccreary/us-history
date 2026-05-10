@@ -1,0 +1,14 @@
+{
+  "sim_id": "civil-rights-timeline",
+  "diagram_name": "Civil Rights Movement Timeline — Strategies and Legislative Outcomes",
+  "chapter_number": 17,
+  "chapter_title": "Civil Rights and the Great Society (1954–1968)",
+  "chapter_dir": "17-civil-rights-great-society",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Trace",
+  "learning_objective": "Students trace the relationship between civil rights movement strategies (legal challenges, boycotts, sit-ins, direct action) and legislative outcomes, identifying which strategies proved most effective at each stage and why.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: timeline\n**sim-id:** civil-rights-timeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to trace the Civil Rights Movement's key events, the strategic choices activists made at each stage, and the legislative outcomes those choices produced.\n\nBloom Level: Analyze (L4)\nBloom Verb: Trace\n\nLearning Objective: Students trace the relationship between civil rights movement strategies (legal challenges, boycotts, sit-ins, direct action) and legislative outcomes, identifying which strategies proved most effective at each stage and why.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Horizontal timeline from 1954 to 1968\n- Three tracks: Legal (top), Nonviolent Action (middle), Legislative (bottom)\n- Color-coded by strategy type: blue = legal, gold = economic/boycott, red = direct action, green = legislation\n\nKey events:\nLegal: Brown v. Board (1954), Brown II (1955), Boynton v. Virginia (1960)\nNonviolent Action: Montgomery Boycott (1955–56), Greensboro Sit-In (1960), Freedom Riders (1961), Birmingham Campaign (1963), March on Washington (1963), Selma (1965)\nLegislative: Civil Rights Act (1964), 24th Amendment (1964), Voting Rights Act (1965), Fair Housing Act (1968)\n\nEach event clickable:\n- What happened\n- Strategic rationale\n- Key figures involved\n- Immediate response (government, public, media)\n- Legislative outcome produced\n\nInteractivity:\n- \"Strategy filter\" buttons highlight only legal, economic, or direct action events\n- \"Cause-effect\" mode draws arrows from movement events to their legislative outcomes\n- Hovering shows year and 1-line description\n\nColor scheme: Blue/gold/teal for strategy types; green for legislation."
+}

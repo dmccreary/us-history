@@ -1,0 +1,21 @@
+{
+  "title": "Colonial Resistance Timeline (1763–1775)",
+  "description": "Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "colonial-resistance-timeline",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Examine",
+  "completion_status": "built",
+  "chapter_number": 4,
+  "chapter_title": "The American Revolution (1754–1783)",
+  "chapter_dir": "04-american-revolution"
+}

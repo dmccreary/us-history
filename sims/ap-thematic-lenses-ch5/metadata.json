@@ -1,0 +1,21 @@
+{
+  "title": "AP Thematic Lens — American Identity and Politics and Power",
+  "description": "Students classify events from the founding era under the appropriate AP thematic lens and explain why each event illustrates that theme.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "ap-thematic-lenses-ch5",
+  "library": "p5.js",
+  "bloomLevel": "Apply (L3)",
+  "bloomVerb": "Classify",
+  "completion_status": "built",
+  "chapter_number": 5,
+  "chapter_title": "Founding the Republic (1783–1800)",
+  "chapter_dir": "05-founding-the-republic"
+}

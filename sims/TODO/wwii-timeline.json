@@ -1,0 +1,14 @@
+{
+  "sim_id": "wwii-timeline",
+  "diagram_name": "WWII Timeline — From Blitzkrieg to Surrender",
+  "chapter_number": 15,
+  "chapter_title": "World War II and the Home Front (1939–1945)",
+  "chapter_dir": "15-world-war-ii",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Sequence",
+  "learning_objective": "Students sequence key World War II events in both theaters, identify the major turning points in each, and connect home front developments (internment, Rosie the Riveter, war production) to the military timeline.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: timeline\n**sim-id:** wwii-timeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to navigate the chronology of World War II, identifying key turning points in the European and Pacific theaters and connecting home front events to military developments.\n\nBloom Level: Understand (L2)\nBloom Verb: Sequence\n\nLearning Objective: Students sequence key World War II events in both theaters, identify the major turning points in each, and connect home front developments (internment, Rosie the Riveter, war production) to the military timeline.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Dual timeline: European Theater (top) and Pacific Theater (bottom)\n- Home front events shown on a center band\n- Color-coded: red = Axis advances, blue = Allied advances, gray = home front\n- Time axis: September 1939 to September 1945\n\nKey events included:\nEuropean: Poland invasion (1939), Fall of France (1940), Blitz (1940–41), Barbarossa (1941), D-Day (1944), Battle of the Bulge (1944–45), Germany surrenders (May 1945)\nPacific: Pearl Harbor (Dec 1941), Midway (June 1942), Guadalcanal (1942–43), D-Day analogues (island-hopping: Saipan, Iwo Jima, Okinawa), Hiroshima/Nagasaki (Aug 1945), Japan surrenders (Sep 1945)\nHome front: Executive Order 9066 (Feb 1942), War Production Board, \"We Can Do It\" poster (1943), War Refugee Board (Jan 1944)\n\nInteractivity:\n- Click any event to open a detail panel: what happened, why it mattered, connection to other events\n- \"Turning points\" filter highlights only the events that fundamentally changed the war's trajectory\n- Hovering shows year and brief event description\n\nColor scheme: Red/gold for Axis; blue/teal for Allied; amber for home front."
+}
