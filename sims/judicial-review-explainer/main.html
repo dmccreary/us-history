@@ -3,136 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Judicial Review — How It Works</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="judicial-review-explainer.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Judicial Review — How It Works</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> judicial-review-explainer</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Understand (L2)</p>
-            <p><strong>Learning Objective:</strong> Students explain the process of judicial review using Marbury v. Madison and describe why the power is significant for the balance of power among branches.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: infographic
-    **sim-id:** judicial-review-explainer<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Help students understand how judicial review works by tracing the path of a law from Congress through a constitutional challenge to a Supreme Court ruling, with a step-by-step interactive walkthrough using Marbury v. Madison as the anchor case.
-    
+    sim-id: judicial-review-explainer
+    Library: p5.js
+    Status: Built
+
+    Purpose: Help students understand how judicial review works by tracing
+    Marbury v. Madison (1803) step-by-step, then showing later cases where
+    the Supreme Court used judicial review to strike down or uphold laws.
+
     Bloom Level: Understand (L2)
     Bloom Verb: Explain
-    
-    Learning Objective: Students explain the process of judicial review using Marbury v. Madison and describe why the power is significant for the balance of power among branches.
-    
-    Canvas layout:
-    - Responsive width; height approximately 480px
-    - Vertical flow diagram with 6 steps from top to bottom, each as a clickable node
-    - Left side: the general process; right side: the Marbury v. Madison specific example at each step
-    
-    Step nodes:
-    1. Congress passes a law / President takes executive action
-    2. Someone claims the law violates the Constitution
-    3. Case works through federal court system (District → Circuit → Supreme Court)
-    4. Supreme Court decides to hear the case (certiorari)
-    5. Court rules: constitutional (law stands) OR unconstitutional (law struck down)
-    6. Ruling becomes precedent for future cases
-    
-    For Marbury v. Madison, the right side shows:
-    1. Judiciary Act of 1789 grants Supreme Court certain jurisdiction
-    2. Marbury argues the Act entitles him to his commission
-    3. Case goes directly to Supreme Court (original jurisdiction claimed)
-    4. Marshall's Court takes the case
-    5. Court rules: part of Judiciary Act is unconstitutional; Marbury loses on procedure; Court gains judicial review
-    6. Marbury v. Madison becomes foundational precedent cited in nearly every major constitutional case
-    
-    Interactivity:
-    - Clicking each step node shows the detail panel with: process explanation + Marbury-specific example
-    - "Animate" button runs through all 6 steps in sequence with explanations appearing automatically
-    - "Test your knowledge" mode hides the Marbury examples and asks students to fill them in from a word bank
-    
+
+    Learning Objective: Students explain the process of judicial review
+    using Marbury v. Madison and describe why the power is significant for
+    the balance of power among branches.
+
+    Mode 1 — Marbury Walkthrough (6 steps):
+    1. Adams' midnight appointments
+    2. Madison withholds Marbury's commission
+    3. Marbury sues under the Judiciary Act of 1789
+    4. Marshall's dilemma
+    5. Section 13 ruled unconstitutional
+    6. Judicial review becomes precedent
+
+    Mode 2 — Judicial Review Since 1803:
+    Brown v. Board (1954), Korematsu (1944), Roe v. Wade (1973),
+    Citizens United (2010), Obergefell (2015).
+
     Color scheme:
     - Step nodes: alternating indigo and gold
-    - Constitutional outcome path: green
-    - Unconstitutional outcome path: red
-    - Marbury panel: white background with dark text
-    
-    Responsive behavior: On narrow canvas, left and right columns stack; flow becomes single column.
-    
-    Implementation: p5.js
+    - Constitutional outcome: green; Unconstitutional: red
     -->
 </body>
 </html>

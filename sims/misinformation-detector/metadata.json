@@ -1,10 +1,14 @@
 {
   "title": "Misinformation Detection MicroSim — Lost Cause Claims",
   "description": "Students assess historical claims using a structured misinformation detection framework, identifying which claims are supported by primary source evidence and which are contradicted by it.",
-  "creator": "Dementia Education Project",
+  "creator": "U.S. History Intelligent Textbook Project",
   "date": "2026-05-10",
   "subject": [
-    "dementia"
+    "U.S. History",
+    "Reconstruction",
+    "Lost Cause Mythology",
+    "Misinformation Detection",
+    "Critical Thinking"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -14,7 +18,7 @@
   "library": "p5.js",
   "bloomLevel": "Evaluate (L5)",
   "bloomVerb": "Assess",
-  "completion_status": "scaffold",
+  "completion_status": "built",
   "chapter_number": 9,
   "chapter_title": "Reconstruction and Its Aftermath (1865–1877)",
   "chapter_dir": "09-reconstruction"
