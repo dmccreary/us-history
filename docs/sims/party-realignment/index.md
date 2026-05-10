@@ -1,16 +1,12 @@
 ---
 title: Political Party Realignment — New Deal Coalition to Reagan Coalition
 description: Students map the demographic and geographic components of the New Deal and Reagan coalitions, identify the key groups that switched parties, and analyze what drove the realignment.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Political Party Realignment — New Deal Coalition to Reagan Coalition
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students map the demographic and geographic components of the New Deal and Reaga
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="722"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

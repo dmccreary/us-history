@@ -22,9 +22,15 @@ let total = 0;
 let nextBtn, resetBtn;
 
 const verdictLabels = [
-  'Supported by evidence',
-  'Contradicted by evidence',
-  'Partially supported / context needed'
+  'Supported',
+  'Contradicted',
+  'Partially / Mixed'
+];
+
+const verdictSubLabels = [
+  'by primary evidence',
+  'by primary evidence',
+  'context needed'
 ];
 
 // 0 = Supported, 1 = Contradicted, 2 = Mixed
@@ -105,17 +111,20 @@ const stepLabels = [
 ];
 
 const stepHints = [
-  'Who made it, when, and what was their stake?',
-  'What do historians from primary sources say?',
-  'What do three independent evidence types show?',
-  'What specific primary source confirms or refutes it?'
+  'Who? When? Stake?',
+  'Historian view',
+  '3 evidence types',
+  'Primary source'
 ];
 
-function shuffle(arr) {
-  let a = [...arr.keys()];
+function shuffleIndices(n) {
+  let a = [];
+  for (let k = 0; k < n; k++) a.push(k);
   for (let i = a.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+    let tmp = a[i];
+    a[i] = a[j];
+    a[j] = tmp;
   }
   return a;
 }
@@ -130,7 +139,7 @@ function setup() {
   const canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.parent(document.querySelector('main'));
 
-  claimOrder = shuffle(claims);
+  claimOrder = shuffleIndices(claims.length);
   claimIdx = 0;
 
   nextBtn = createButton('Next Claim');
@@ -140,7 +149,7 @@ function setup() {
     if (!answered) return;
     claimIdx++;
     if (claimIdx >= claimOrder.length) {
-      claimOrder = shuffle(claims);
+      claimOrder = shuffleIndices(claims.length);
       claimIdx = 0;
     }
     activeStep = -1;
@@ -150,7 +159,7 @@ function setup() {
   });
 
   resetBtn.mousePressed(() => {
-    claimOrder = shuffle(claims);
+    claimOrder = shuffleIndices(claims.length);
     claimIdx = 0;
     activeStep = -1;
     stepsViewed = [false, false, false, false];
@@ -257,12 +266,12 @@ function draw() {
     fill(isActive ? 255 : 30);
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
-    textSize(min(13, stepBtnW * 0.10));
-    text(stepLabels[i], bx + stepBtnW / 2, btnRowY + 16);
+    textSize(13);
+    text(stepLabels[i], bx + stepBtnW / 2, btnRowY + 14);
     textStyle(NORMAL);
-    textSize(min(11, stepBtnW * 0.085));
-    fill(isActive ? 230 : 80);
-    text(stepHints[i], bx + stepBtnW / 2, btnRowY + stepBtnH - 14, stepBtnW - 10);
+    textSize(11);
+    fill(isActive ? 230 : 90);
+    text(stepHints[i], bx + stepBtnW / 2, btnRowY + stepBtnH - 12);
   }
 
   // Step reveal panel
@@ -337,20 +346,22 @@ function draw() {
     fill(255);
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
-    textSize(min(13, vBtnW * 0.09));
-    text(verdictLabels[i], bx + vBtnW / 2, vBtnY + vBtnH / 2, vBtnW - 10);
+    textSize(15);
+    text(verdictLabels[i], bx + vBtnW / 2, vBtnY + 14);
     textStyle(NORMAL);
+    textSize(11);
+    text(verdictSubLabels[i], bx + vBtnW / 2, vBtnY + vBtnH - 12);
 
     if (answered && isCorrect) {
       noStroke();
       fill(255);
       textSize(16);
-      text('✓', bx + vBtnW - 14, vBtnY + 12);
+      text('✓', bx + 14, vBtnY + 12);
     } else if (answered && isSel && !isCorrect) {
       noStroke();
       fill(255);
       textSize(16);
-      text('✗', bx + vBtnW - 14, vBtnY + 12);
+      text('✗', bx + 14, vBtnY + 12);
     }
   }
 

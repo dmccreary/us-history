@@ -3,126 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>New Deal Programs — What They Did and What Survived</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="new-deal-programs.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>New Deal Programs — What They Did and What Survived</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> new-deal-programs</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Understand (L2)</p>
-            <p><strong>Learning Objective:</strong> Students categorize New Deal programs by their purpose (relief, recovery, reform), identify the specific problem each addressed, and determine which programs still exist today.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: explorer
-    **sim-id:** new-deal-programs<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to explore the major New Deal programs, what problem each addressed, how it worked, and whether it survived to the present — building a comprehensive understanding of the New Deal's scope and lasting impact.
-    
+    sim-id: new-deal-programs
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to explore the major New Deal programs, what
+    problem each addressed, how it worked, and whether it survived to the
+    present — building a comprehensive understanding of the New Deal's
+    scope and lasting impact.
+
     Bloom Level: Understand (L2)
     Bloom Verb: Categorize
-    
-    Learning Objective: Students categorize New Deal programs by their purpose (relief, recovery, reform), identify the specific problem each addressed, and determine which programs still exist today.
-    
+
+    Learning Objective: Students categorize New Deal programs by their
+    purpose (relief, recovery, reform), identify the specific problem
+    each addressed, and determine which programs still exist today.
+
     Canvas layout:
-    - Responsive width; height approximately 480px
+    - Responsive width; height 700px (drawHeight 640 + controlHeight 60)
     - Three columns: Relief | Recovery | Reform (FDR's framework)
-    - Each program shown as a clickable card with its acronym (CCC, TVA, FDIC, SSA, etc.)
-    - Color-coded: green = still exists, amber = modified/successor exists, red = ended
-    
+    - Each program a clickable card with acronym, full name, year
+    - Border color = current status: green (active), amber (modified /
+      successor exists), red (ended)
+
     Programs by category:
-    Relief: CCC, FERA, CWA, WPA, PWA
+    Relief:   CCC, FERA, CWA, WPA, PWA
     Recovery: AAA, NRA (struck down), RFC, TVA
-    Reform: FDIC, Glass-Steagall, SEC, Wagner Act, Social Security Act
-    
+    Reform:   FDIC, Glass-Steagall, SEC, Wagner Act, Social Security Act
+
     Detail panel (on click):
-    - Full name and date
-    - Problem it addressed
-    - How it worked (2 sentences)
-    - Scale (how many people/dollars involved)
-    - Current status: exists/modified/ended and why
-    
-    Summary statistics at bottom: X of Y programs (or their successors) still exist today.
-    
+    - Full name and year
+    - Problem addressed
+    - How it worked
+    - Scale (people / dollars)
+    - Current status today
+
     Interactivity:
-    - Hover shows tooltip with program name and 1-sentence description
-    - Filter by "Still Active" or "Historical Only"
-    
-    Color scheme: Blue/green for relief; gold for recovery; teal for reform.
+    - Hover shows acronym + 1-line summary
+    - Filter by status: All / Active / Modified / Ended
+    - Click card for details, click again or Reset to close
+
+    Color scheme: blue (relief), gold (recovery), teal (reform);
+                  green/amber/red status borders.
     -->
 </body>
 </html>

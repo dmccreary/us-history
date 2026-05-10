@@ -420,51 +420,51 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The Battle of Gettysburg in July 1863, the bloodiest battle of the Civil War with over 50,000 casualties and a critical turning point of the conflict.
 
--   **[53 Gettysburg Address](53-gettysburg-address.md)**
+-   **[53 Gettysburg Address](53-gettysburg-address.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](53-gettysburg-address-thumb.png)](53-gettysburg-address.png)
 
     Abraham Lincoln delivering the Gettysburg Address on November 19, 1863, redefining the Civil War as a struggle for equality and national unity.
 
--   **[54 Emancipation Proclamation](54-emancipation-proclamation.md)**
+-   **[54 Emancipation Proclamation](54-emancipation-proclamation.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](54-emancipation-proclamation-thumb.png)](54-emancipation-proclamation.png)
 
     The Emancipation Proclamation, issued by President Lincoln on January 1, 1863, declaring enslaved people in Confederate states to be forever free.
 
--   **[55 Black Union Soldiers](55-black-union-soldiers.md)**
+-   **[55 Black Union Soldiers](55-black-union-soldiers.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](55-black-union-soldiers-thumb.png)](55-black-union-soldiers.png)
 
     African American soldiers of the United States Colored Troops, who served with distinction in the Civil War and fought for both Union and freedom.
 
--   **[56 Lincoln at Antietam](56-lincoln-antietam.md)**
+-   **[56 Lincoln at Antietam](56-lincoln-antietam.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](56-lincoln-antietam-thumb.png)](56-lincoln-antietam.png)
 
     President Lincoln meeting with General McClellan and officers at the Antietam battlefield in October 1862 following the war's bloodiest single day.
 
--   **[57 Lincoln Memorial](57-lincoln-memorial.md)**
+-   **[57 Lincoln Memorial](57-lincoln-memorial.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](57-lincoln-memorial-thumb.png)](57-lincoln-memorial.png)
 
     The Lincoln Memorial in Washington, D.C., the neoclassical monument completed in 1922 that has become a site of national reflection and protest.
 
--   **[58 Reconstruction Cartoon](58-reconstruction-cartoon.md)**
+-   **[58 Reconstruction Cartoon](58-reconstruction-cartoon.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](58-reconstruction-cartoon-thumb.png)](58-reconstruction-cartoon.png)
 
     A political cartoon depicting the contested politics of Reconstruction, the turbulent effort to rebuild the South and secure rights for freedpeople.
 

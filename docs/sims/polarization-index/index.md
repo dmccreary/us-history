@@ -1,16 +1,12 @@
 ---
 title: Political Polarization — A Historical and Contemporary Index
 description: Students interpret data on American political polarization over time, identify the periods of greatest change, and evaluate competing explanations for increasing polarization (geographic sorting, media fragmentation, partisan gerrymandering, ideological shift).
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Political Polarization — A Historical and Contemporary Index
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students interpret data on American political polarization over time, identify t
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="642"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
