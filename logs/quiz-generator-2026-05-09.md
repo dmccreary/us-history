@@ -2,7 +2,8 @@
 
 **Skill Version:** 0.4  
 **Date:** 2026-05-09  
-**Execution Mode:** Serial (1 agent)
+**Execution Mode:** Serial (1 agent)  
+**Model:** Claude Sonnet 4.6 (medium thinking effort)
 
 ## Timing
 
@@ -10,7 +11,7 @@
 |--------|-------|
 | Start Time | 2026-05-09 22:03:58 |
 | End Time | 2026-05-09 22:42:50 |
-| Elapsed Time | ~39 minutes |
+| Elapsed Time | 39 minutes 44 seconds |
 
 ## Token Usage
 
