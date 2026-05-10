@@ -1,16 +1,12 @@
 ---
 title: Depression Causes — Interacting Feedback Loops
 description: Students diagram the reinforcing feedback loops that amplified the 1929 crash into a decade-long depression, identifying which loops the New Deal attempted to break and how.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Depression Causes — Interacting Feedback Loops
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students diagram the reinforcing feedback loops that amplified the 1929 crash in
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="722"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

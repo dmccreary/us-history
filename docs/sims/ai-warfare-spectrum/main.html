@@ -3,127 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>AI in Warfare — From Semi-Autonomous to Fully Autonomous</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="ai-warfare-spectrum.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>AI in Warfare — From Semi-Autonomous to Fully Autonomous</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> ai-warfare-spectrum</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Evaluate (L5)</p>
-            <p><strong>Learning Objective:</strong> Students assess the ethical and strategic implications of different levels of weapons autonomy, identify the key decision points where human judgment matters, and evaluate the arguments for and against autonomous targeting authority.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: spectrum
-    **sim-id:** ai-warfare-spectrum<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to explore the spectrum of weapons autonomy from human-controlled to fully autonomous, examining what decision-making authority is retained by humans at each level and the ethical, legal, and strategic implications of increasing autonomy.
-    
-    Bloom Level: Evaluate (L5)
-    Bloom Verb: Assess
-    
-    Learning Objective: Students assess the ethical and strategic implications of different levels of weapons autonomy, identify the key decision points where human judgment matters, and evaluate the arguments for and against autonomous targeting authority.
-    
-    Canvas layout:
-    - Responsive width; height approximately 480px
-    - Horizontal spectrum from left (Human Control) to right (Full Autonomy)
-    - Six labeled positions along the spectrum, from Level 1 to Level 6
-    
-    Autonomy levels:
-    1. Human In the Loop: Human decides every targeting decision (traditional soldier/pilot)
-    2. Human On the Loop: System selects targets; human can override within a time window (Patriot missile defense)
-    3. Human Over the Loop: Human sets parameters; system operates autonomously within them (current FPV drone with limited AI)
-    4. Supervised Autonomy: Human can intervene; system operates autonomously unless overridden (emerging AI wingman drones)
-    5. Narrow Autonomy: System autonomously selects and engages specific target types (hypothetical: autonomous anti-drone system)
-    6. Full Autonomy: System selects and engages any target without human approval (hypothetical/banned by some proposals)
-    
-    For each level (click to open panel):
-    - Example weapons systems (current or proposed)
-    - What the human decides vs. what the AI decides
-    - Key ethical questions this level raises
-    - What international law says about this level
-    - Strategic advantage and disadvantage
-    
-    Interactivity:
-    - Slider to position a specific weapon system on the spectrum
-    - "Arguments for / against" toggle at each level
-    - "Legal status" overlay showing which international treaties apply
-    
-    Color scheme: Green (human control) → amber (mixed) → red (full autonomy).
-    -->
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 </body>
 </html>

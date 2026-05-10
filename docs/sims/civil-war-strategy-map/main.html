@@ -3,135 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Civil War Battles and Strategy Map</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="civil-war-strategy-map.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Civil War Battles and Strategy Map</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> civil-war-strategy-map</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students examine how geography shaped Civil War military strategy, explaining the Anaconda Plan's logic and the significance of at least two major battles.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: map
-    **sim-id:** civil-war-strategy-map<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
+    sim-id: civil-war-strategy-map
+    Library: p5.js
+    Status: Built
+
     Purpose: Allow students to explore the geographic logic of Civil War strategy, trace major campaigns and battles, and understand how geography shaped Union and Confederate military choices.
-    
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Examine
-    
+
     Learning Objective: Students examine how geography shaped Civil War military strategy, explaining the Anaconda Plan's logic and the significance of at least two major battles.
-    
+
     Canvas layout:
-    - Responsive width; height approximately 520px
-    - Simplified map of the eastern United States divided into Union (light blue) and Confederate (light red) regions at the war's start
-    - Union naval blockade shown as a dotted blue line along the Confederate coast
-    - Mississippi River control shown as a blue line
-    - Battle sites marked as clickable stars
-    
-    Key battles/locations to mark:
-    - Fort Sumter, SC (1861) — war begins
-    - Bull Run, VA (1861 and 1862) — Confederate victories
-    - Shiloh, TN (1862) — bloody Union victory in the West
-    - Antietam, MD (1862) — bloodiest single day; Lincoln uses to announce Emancipation Proclamation
-    - Vicksburg, MS (1863) — Union controls the Mississippi
-    - Gettysburg, PA (1863) — turning point in the East
-    - Atlanta, GA (1864) — Sherman's capture; opens March to the Sea
-    - Appomattox, VA (1865) — Lee surrenders
-    
-    Clicking a battle shows:
-    - Date and outcome
-    - Casualties (Union and Confederate)
-    - Strategic significance
-    - Connection to a key event (e.g., Antietam → Emancipation Proclamation timing)
-    
+    - Responsive width; height ~640px
+    - Stylized map of the eastern and southern United States
+    - Union (light blue), border (tan), Confederate (light red) shading
+    - Mississippi River, simplified Atlantic + Gulf coastlines
+    - Battle sites as 5-point stars (gold = Union win, red = Confederate win)
+
+    Key battles:
+    Fort Sumter (1861), First Bull Run (1861), Shiloh (1862), Second Bull Run (1862),
+    Antietam (1862), Chancellorsville (1863), Vicksburg (1863), Gettysburg (1863),
+    Atlanta (1864), Petersburg (1864-65), Appomattox (1865).
+
+    Click a battle: date, victor, casualties, strategic significance, connection to a key event.
+
     Strategy overlays (toggleable):
-    - Anaconda Plan (naval blockade + Mississippi control)
-    - Eastern Theater campaigns (arrows showing Lee's invasion attempts north)
-    - Western Theater campaigns (Grant's campaign to control the Mississippi)
-    - Sherman's March (1864 arrow through Georgia)
-    
-    Color scheme: Union blue / Confederate gray; battle stars colored by outcome (gold = Union win, red = Confederate win, white = draw).
-    
-    Responsive behavior: Map scales with canvas; clickable areas scale proportionally.
-    
-    Implementation: p5.js
+    - Anaconda Plan: dotted blockade line + inward arrows along the coast
+    - Mississippi campaign: blue arrows down the river
+    - Eastern Theater: Lee's invasions north
+    - Western Theater: Grant's southern push
+    - Sherman's March (1864): Atlanta to Savannah to Columbia
+
+    Year slider 1861-1865 progressively reveals battles.
     -->
 </body>
 </html>

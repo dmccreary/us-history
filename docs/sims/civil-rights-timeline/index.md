@@ -1,16 +1,12 @@
 ---
 title: Civil Rights Movement Timeline — Strategies and Legislative Outcomes
 description: Students trace the relationship between civil rights movement strategies (legal challenges, boycotts, sit-ins, direct action) and legislative outcomes, identifying which strategies proved most effective at each stage and why.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Civil Rights Movement Timeline — Strategies and Legislative Outcomes
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students trace the relationship between civil rights movement strategies (legal 
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="622"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

@@ -1,16 +1,12 @@
 ---
 title: Colonial Resistance Timeline (1763–1775)
 description: Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Colonial Resistance Timeline (1763–1775)
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students examine the escalating cycle of British action and colonial response an
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="602"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

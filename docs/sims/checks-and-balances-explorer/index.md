@@ -1,16 +1,12 @@
 ---
 title: Constitutional Structure — Checks and Balances Explorer
 description: Students explain how checks and balances distribute power among the three branches and give at least two examples of checks being exercised in American history.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Understand (L2)
 ---
 
 # Constitutional Structure — Checks and Balances Explorer
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students explain how checks and balances distribute power among the three branch
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="722" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

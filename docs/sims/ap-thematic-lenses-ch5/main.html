@@ -3,85 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>AP Thematic Lens — American Identity and Politics and Power</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="ap-thematic-lenses-ch5.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>AP Thematic Lens — American Identity and Politics and Power</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> ap-thematic-lenses-ch5</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Apply (L3)</p>
-            <p><strong>Learning Objective:</strong> Students classify events from the founding era under the appropriate AP thematic lens and explain why each event illustrates that theme.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
@@ -89,39 +19,39 @@
     Type: infographic
     **sim-id:** ap-thematic-lenses-ch5<br/>
     **Library:** p5.js<br/>
-    **Status:** Specified
-    
+    **Status:** Built
+
     Purpose: Introduce two AP U.S. History thematic lenses — American and National Identity, and Politics and Power — and allow students to connect events from this chapter to each lens through an interactive mapping exercise.
-    
+
     Bloom Level: Apply (L3)
     Bloom Verb: Classify
-    
+
     Learning Objective: Students classify events from the founding era under the appropriate AP thematic lens and explain why each event illustrates that theme.
-    
+
     Canvas layout:
-    - Responsive width; height approximately 480px
+    - Responsive width; height approximately 480px (built at 620 to fit two-column drop zones, feedback strip, and chip pool)
     - Two large columns: "American and National Identity" (left) and "Politics and Power" (right)
     - Each column has a brief definition at the top and an event-drop zone below
     - A pool of draggable event chips at the bottom: Washington's Farewell Address, Alien and Sedition Acts, Bill of Rights, Virginia and Kentucky Resolutions, Three-Fifths Compromise, Electoral College, First Amendment, National Bank Debate
-    
+
     Each event chip can be dragged into either (or both) columns. On release:
-    - If placed correctly (pre-defined correct answers allow for multiple valid placements): green confirmation with a 1-sentence explanation of why this event fits the theme
-    - If placed in a plausible but less obvious category: amber message explaining the connection
-    - "Show all connections" button reveals the full mapping with explanations
-    
+    - If placed correctly (primary lens): green border + 1-sentence explanation
+    - If placed in a plausible but less obvious category: amber border + explanation
+    - "Show all connections" button reveals the full primary-lens mapping with explanations
+
     Lens definitions shown at column tops:
     - American and National Identity: How Americans have defined national identity, debated who belongs, and constructed narratives about what America means
     - Politics and Power: How political institutions, parties, and actors have competed for power, shaped policy, and responded to crises
-    
+
     Color scheme:
     - American Identity column: gold/amber tones
     - Politics and Power column: indigo tones
     - Event chips: white cards with dark text
     - Correct placement: green border confirmation
     - Plausible alternative: amber border
-    
+
     Responsive behavior: Below 600px, columns stack; drag-and-drop still works.
-    
+
     Implementation: p5.js with drag-and-drop interaction
     -->
 </body>

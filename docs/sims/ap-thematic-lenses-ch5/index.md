@@ -1,16 +1,12 @@
 ---
 title: AP Thematic Lens — American Identity and Politics and Power
 description: Students classify events from the founding era under the appropriate AP thematic lens and explain why each event illustrates that theme.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Apply (L3)
 ---
 
 # AP Thematic Lens — American Identity and Politics and Power
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students classify events from the founding era under the appropriate AP thematic
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="622"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

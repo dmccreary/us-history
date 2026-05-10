@@ -3,121 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Arms Race Dynamics — The Security Dilemma Loop</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="arms-race-dynamics.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Arms Race Dynamics — The Security Dilemma Loop</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> arms-race-dynamics</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students model the security dilemma feedback loop that drives arms races, identify the reinforcing loops at work, and evaluate what conditions could break the loop (arms control agreements, mutual vulnerability, transparency).</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: causal-loop
-    **sim-id:** arms-race-dynamics<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
+    sim-id: arms-race-dynamics
+    Library: p5.js
+    Status: Built
+
     Purpose: Allow students to visualize the security dilemma feedback loop that drives arms races, and to trace how the U.S.-Soviet nuclear arms race exemplified this dynamic from 1945 to 1991.
-    
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Model
-    
+
     Learning Objective: Students model the security dilemma feedback loop that drives arms races, identify the reinforcing loops at work, and evaluate what conditions could break the loop (arms control agreements, mutual vulnerability, transparency).
-    
+
     Canvas layout:
-    - Responsive width; height approximately 480px
-    - Two-nation causal loop diagram (U.S. left, USSR right)
-    - Each nation node shows: current nuclear arsenal size (slider-adjustable)
-    - Arrows between nations: "Perceived Threat" (red, bidirectional), "Weapons Development" (gold, from each nation to its arsenal)
-    
+    - Responsive width; height approximately 620px
+    - Compact two-nation causal loop diagram (U.S. left, USSR right) showing the R1 reinforcing loop
+    - Time-series plot of US and Soviet arsenals 1945-1991
+    - "Perceived threat" arrows in red between nations
+
     Core loops:
-    - R1 (US-Soviet): US Arsenal ↑ → Soviet Perceived Threat ↑ → Soviet Arsenal ↑ → US Perceived Threat ↑ → US Arsenal ↑ (reinforcing)
-    - B1 (MAD): When both arsenals reach "destruction threshold," a "MAD" indicator appears — loop becomes self-limiting (neither side can use weapons)
-    - B2 (Arms Control): "Treaty" button introduces a balancing force — shows effect of SALT I (1972), SALT II (1979), START (1991)
-    
-    Historical mode:
-    - Slider from 1945 to 1991 shows actual warhead counts for each side
-    - Key events annotated: first Soviet test (1949), H-bomb (1952/53), Sputnik (1957), Cuban Missile Crisis (1962), SALT I (1972), Reagan buildup (1981–88), START (1991)
-    
+    - R1 (Security dilemma): US Arsenal up -> Soviet perceived threat up -> Soviet Arsenal up -> US perceived threat up -> US Arsenal up (reinforcing)
+    - B1 (MAD): When both arsenals exceed the destruction threshold, a MAD indicator appears
+    - B2 (Arms Control): "Sign Treaty" button injects a one-shot 25% cut to both arsenals
+
+    Modes:
+    - View: Simulated (run the model) or Historical (real warhead counts 1945-1991)
+    - Model: Security Dilemma (reinforcing loop) or Rational Actor (build only to MAD threshold)
+
     Interactivity:
-    - "What-if" sliders: adjust US arsenal by ±20% and see projected Soviet response
-    - Toggle between "Rational Actor" and "Security Dilemma" models
-    
-    Color scheme: Blue for U.S., red for USSR; gold for nuclear arsenals; green for arms control.
+    - Threat sensitivity slider (0-100%) controls security-dilemma gain
+    - Year slider (1945-1991) for historical mode scrubbing
+    - Run/Pause, Sign Treaty, Reset buttons
+
+    Color scheme: Blue for U.S., red for USSR; gold for MAD threshold band; green for arms control / treaty markers.
     -->
 </body>
 </html>

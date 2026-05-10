@@ -3,131 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Colonial Resistance Timeline (1763–1775)</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="colonial-resistance-timeline.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Colonial Resistance Timeline (1763–1775)</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> colonial-resistance-timeline</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: timeline
-    **sim-id:** colonial-resistance-timeline<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
+    sim-id: colonial-resistance-timeline
+    Library: p5.js
+    Status: Built
+
     Purpose: Allow students to trace the escalating cycle of British taxation and colonial resistance between 1763 and 1775, identifying the reinforcing feedback loops that drove both sides toward open conflict.
-    
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Examine
-    
+
     Learning Objective: Students examine the escalating cycle of British action and colonial response and identify how each British measure produced colonial resistance that intensified the next British measure.
-    
+
     Canvas layout:
-    - Responsive width; height approximately 480px
-    - Horizontal timeline with two tracks: top track = British actions (red/gold), bottom track = Colonial responses (blue)
-    - Each event is a clickable circle; connected events (action → response) are linked by curved arrows
-    
-    Events to include (paired action-response):
-    1. Proclamation of 1763 → Colonial land speculation in violation of the law
-    2. Stamp Act 1765 → Stamp Act Congress; Sons of Liberty formed; boycott
-    3. Townshend Acts 1767 → Non-importation agreements; spinning bees
-    4. British troops sent to Boston 1768 → Increased colonial anger
-    5. Boston Massacre 1770 → Revere engraving; radicalization
-    6. Tea Act 1773 → Boston Tea Party
-    7. Intolerable Acts 1774 → First Continental Congress; intercolonial unity
-    8. Lexington and Concord 1775 → Second Continental Congress; war begins
-    
-    Clicking any event shows a panel with:
-    - Event name and date
-    - Who initiated it (British or colonial)
-    - A 2-sentence description
-    - A "Systems thinking" note identifying whether this was a reinforcing or balancing loop moment
-    
-    Color scheme:
-    - British actions: gold (#f9a825) circles
-    - Colonial responses: indigo (#3949ab) circles
-    - Connecting arrows: gray with directional arrowheads
-    - Selected event: highlighted in bright white border
-    
-    Responsive behavior: Timeline scrolls horizontally on narrow canvases; all events remain clickable.
-    
-    Implementation: p5.js
+    - Responsive width; height approximately 600px
+    - Two horizontal tracks: top = British actions (gold), bottom = Colonial responses (indigo)
+    - Year axis 1763–1775 between the tracks
+    - Curved gray arrows link each British action to the colonial response it provoked
+
+    Events:
+    British: Proclamation of 1763, Sugar Act 1764, Stamp Act 1765, Quartering Act 1765,
+             Townshend Acts 1767, Troops to Boston 1768, Tea Act 1773, Intolerable Acts 1774
+    Colonial: Westward defiance 1763, Stamp Act Congress 1765, Sons of Liberty 1765,
+              Non-importation 1768, Boston Massacre 1770, Boston Tea Party 1773,
+              First Continental Congress 1774, Lexington & Concord 1775
+
+    Each event clickable for: name, date, side (British / Colonial), what happened,
+    rationale, immediate consequence, and a Systems-thinking note (reinforcing vs balancing).
+
+    Interactivity:
+    - "View" filter: All events / British actions only / Colonial responses only
+    - "Show action -> response arrows" checkbox toggles the cause-effect arrows
+    - Click event for detail panel; click again or Reset to close
+
+    Color scheme: gold (#f9a825) British, indigo (#3949ab) colonial, gray arrows.
     -->
 </body>
 </html>

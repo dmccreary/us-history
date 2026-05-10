@@ -1,16 +1,12 @@
 ---
 title: Civil War Battles and Strategy Map
 description: Students examine how geography shaped Civil War military strategy, explaining the Anaconda Plan's logic and the significance of at least two major battles.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Civil War Battles and Strategy Map
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students examine how geography shaped Civil War military strategy, explaining th
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="642"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

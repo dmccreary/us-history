@@ -1,0 +1,25 @@
+{
+  "title": "Causal Loop Diagram — Gilded Age Industrial Economy (vis-network)",
+  "description": "Students examine how interconnected causal relationships in a historical system produce reinforcing or balancing feedback loops, and can distinguish between the two loop types using evidence from the diagram. Built with vis-network for interactive drag-and-drop exploration.",
+  "creator": "U.S. History Intelligent Textbook",
+  "date": "2026-05-10",
+  "subject": [
+    "U.S. History",
+    "Gilded Age",
+    "Systems Thinking",
+    "Causal Loop Diagrams",
+    "Historical Methods"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "causal-loop-diagram-builder-vis",
+  "library": "vis-network",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Examine",
+  "completion_status": "built",
+  "chapter_number": 1,
+  "chapter_title": "Historical Methods and Analytical Frameworks",
+  "chapter_dir": "01-historical-methods"
+}

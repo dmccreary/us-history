@@ -37,6 +37,12 @@ Interactive Micro Simulations to help students explore and understand key events
 
     Students examine how interconnected causal relationships in a historical system produce reinforcing or balancing feedback loops, and distinguish between the two loop types using evidence from the diagram.
 
+-   **[Causal Loop Diagram — Gilded Age (vis-network)](./causal-loop-diagram-builder-vis/index.md)**
+
+    ![Causal Loop Diagram vis-network](./causal-loop-diagram-builder-vis/causal-loop-diagram-builder-vis.png)
+
+    Same 7-node / 3-loop Gilded Age diagram rebuilt with vis-network — drag nodes to rearrange, click for historical context, use Find Loops and Trace mode.
+
 -   **[Civil Rights Movement Timeline — Strategies and Legislative Outcomes](./civil-rights-timeline/index.md)**
 
     ![Civil Rights Timeline](./civil-rights-timeline/civil-rights-timeline.png)
