@@ -260,163 +260,163 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Portrait of Sacagawea, the Shoshone woman who served as guide, interpreter, and diplomatic asset for the Lewis and Clark Expedition.
 
--   **[33 Battle of New Orleans](33-battle-new-orleans.md)**
+-   **[33 Battle of New Orleans](33-battle-new-orleans.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](33-battle-new-orleans-thumb.png)](33-battle-new-orleans.png)
 
     The Battle of New Orleans in January 1815, Andrew Jackson's decisive victory and the final major battle of the War of 1812.
 
--   **[34 Monroe Doctrine](34-monroe-doctrine.md)**
+-   **[34 Monroe Doctrine](34-monroe-doctrine.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](34-monroe-doctrine-thumb.png)](34-monroe-doctrine.png)
 
     President James Monroe announcing the Monroe Doctrine in 1823, declaring the Western Hemisphere closed to further European colonization or interference.
 
--   **[35 Andrew Jackson Portrait](35-andrew-jackson-portrait.md)**
+-   **[35 Andrew Jackson Portrait](35-andrew-jackson-portrait.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](35-andrew-jackson-portrait-thumb.png)](35-andrew-jackson-portrait.png)
 
     Portrait of Andrew Jackson, the seventh President of the United States and controversial champion of "Jacksonian Democracy" and westward expansion.
 
--   **[36 Trail of Tears](36-trail-of-tears.md)**
+-   **[36 Trail of Tears](36-trail-of-tears.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](36-trail-of-tears-thumb.png)](36-trail-of-tears.png)
 
     The forced removal of the Cherokee and other Indigenous nations from their homelands in the 1830s along the deadly Trail of Tears.
 
--   **[37 Oregon Trail Map](37-oregon-trail-map.md)**
+-   **[37 Oregon Trail Map](37-oregon-trail-map.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](37-oregon-trail-map-thumb.png)](37-oregon-trail-map.png)
 
     A map of the Oregon Trail, the 2,000-mile emigrant route used by hundreds of thousands of settlers heading to the Pacific Northwest in the 1840s–1860s.
 
--   **[38 American Progress](38-american-progress.md)**
+-   **[38 American Progress](38-american-progress.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](38-american-progress-thumb.png)](38-american-progress.png)
 
     John Gast's allegorical painting "American Progress" (1872) depicting the concept of Manifest Destiny as a heavenly figure leading settlers westward.
 
--   **[39 The Alamo](39-the-alamo.md)**
+-   **[39 The Alamo](39-the-alamo.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](39-the-alamo-thumb.png)](39-the-alamo.png)
 
     The Battle of the Alamo in February–March 1836, where a small band of Texas defenders held out against a larger Mexican army for thirteen days.
 
--   **[40 Mexican-American War](40-mexican-american-war.md)**
+-   **[40 Mexican-American War](40-mexican-american-war.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](40-mexican-american-war-thumb.png)](40-mexican-american-war.png)
 
     The Mexican-American War (1846–1848), which resulted in the United States acquiring the vast Southwest and California from Mexico.
 
--   **[41 Frederick Douglass](41-frederick-douglass.md)**
+-   **[41 Frederick Douglass](41-frederick-douglass.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](41-frederick-douglass-thumb.png)](41-frederick-douglass.png)
 
     Portrait of Frederick Douglass, formerly enslaved abolitionist, orator, and author whose narrative became a landmark anti-slavery text.
 
--   **[42 Harriet Tubman](42-harriet-tubman.md)**
+-   **[42 Harriet Tubman](42-harriet-tubman.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](42-harriet-tubman-thumb.png)](42-harriet-tubman.png)
 
     Portrait of Harriet Tubman, abolitionist who escaped slavery and conducted approximately thirteen rescue missions on the Underground Railroad.
 
--   **[43 Underground Railroad](43-underground-railroad.md)**
+-   **[43 Underground Railroad](43-underground-railroad.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](43-underground-railroad-thumb.png)](43-underground-railroad.png)
 
     The Underground Railroad — the clandestine network of routes, safe houses, and conductors who helped enslaved people escape to freedom.
 
--   **[44 Seneca Falls Convention](44-seneca-falls.md)**
+-   **[44 Seneca Falls Convention](44-seneca-falls.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](44-seneca-falls-thumb.png)](44-seneca-falls.png)
 
     The Seneca Falls Convention of July 1848, the first women's rights convention in the United States, which produced the Declaration of Sentiments.
 
--   **[45 Sojourner Truth](45-sojourner-truth.md)**
+-   **[45 Sojourner Truth](45-sojourner-truth.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](45-sojourner-truth-thumb.png)](45-sojourner-truth.png)
 
     Portrait of Sojourner Truth, formerly enslaved abolitionist and women's rights activist famous for her 1851 "Ain't I a Woman?" speech.
 
--   **[46 Dred Scott](46-dred-scott.md)**
+-   **[46 Dred Scott](46-dred-scott.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](46-dred-scott-thumb.png)](46-dred-scott.png)
 
     Dred Scott, whose 1857 Supreme Court case ruled that African Americans were not citizens and intensified the national crisis over slavery.
 
--   **[47 Lincoln-Douglas Debates](47-lincoln-douglas-debate.md)**
+-   **[47 Lincoln-Douglas Debates](47-lincoln-douglas-debate.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](47-lincoln-douglas-debate-thumb.png)](47-lincoln-douglas-debate.png)
 
     The Lincoln-Douglas debates of 1858, seven pivotal public debates on slavery in the territories that brought Abraham Lincoln to national attention.
 
--   **[48 Lincoln Portrait](48-lincoln-portrait.md)**
+-   **[48 Lincoln Portrait](48-lincoln-portrait.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](48-lincoln-portrait-thumb.png)](48-lincoln-portrait.png)
 
     Portrait of Abraham Lincoln, the sixteenth President of the United States, who led the nation through the Civil War and issued the Emancipation Proclamation.
 
--   **[49 Seceding States Map](49-seceding-states-map.md)**
+-   **[49 Seceding States Map](49-seceding-states-map.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](49-seceding-states-map-thumb.png)](49-seceding-states-map.png)
 
     A map showing the eleven Southern states that seceded from the Union between 1860 and 1861 to form the Confederate States of America.
 
--   **[50 Fort Sumter](50-fort-sumter.md)**
+-   **[50 Fort Sumter](50-fort-sumter.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](50-fort-sumter-thumb.png)](50-fort-sumter.png)
 
     The Confederate bombardment of Fort Sumter in Charleston Harbor beginning April 12, 1861 — the first battle of the Civil War.
 
--   **[51 Civil War Camp](51-civil-war-camp.md)**
+-   **[51 Civil War Camp](51-civil-war-camp.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](51-civil-war-camp-thumb.png)](51-civil-war-camp.png)
 
     A Union Army encampment during the Civil War, depicting the daily life, hardships, and camaraderie of soldiers in the field.
 
--   **[52 Battle of Gettysburg](52-battle-gettysburg.md)**
+-   **[52 Battle of Gettysburg](52-battle-gettysburg.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](52-battle-gettysburg-thumb.png)](52-battle-gettysburg.png)
 
     The Battle of Gettysburg in July 1863, the bloodiest battle of the Civil War with over 50,000 casualties and a critical turning point of the conflict.
 
