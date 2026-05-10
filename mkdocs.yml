@@ -111,6 +111,8 @@ plugins:
       draggable: true
       auto_caption: false
       caption_position: bottom
+      skip_classes:
+        - mascot-admonition-img
 
 # Social media overrides so that a local image is used instead of the default Material one.
 hooks:

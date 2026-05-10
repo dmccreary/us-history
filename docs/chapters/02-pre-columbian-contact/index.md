@@ -55,6 +55,8 @@ Understanding this world matters for two reasons. First, it corrects a persisten
 
 ### Major Civilizations of the Americas
 
+![A map of major Indigenous nations and cultural regions across North America before European contact in 1492](../../img/chapter-images/01-indigenous-nations-map.png)
+
 Before examining contact and its consequences, three civilizations warrant close attention because of their scale, sophistication, and the role they played in early European colonization.
 
 The **Aztec Empire** (more precisely called the Mexica or Triple Alliance) dominated central Mexico from its capital at Tenochtitlan — a city built on an island in Lake Texcoco that, by 1500, had a population of roughly 200,000, larger than any city in Europe at the time. The Aztec state was built on tribute networks, agricultural engineering including chinampas (floating gardens), and a sophisticated calendar and writing system. It was also a militaristic empire that conducted large-scale warfare and ritual sacrifice, practices that created both resentment among subject peoples and shock among European observers.
@@ -64,6 +66,8 @@ The **Inca Empire** (Tawantinsuyu) stretched 2,500 miles along the western coast
 The **Mississippian Culture** flourished in the river valleys of what is now the central and southeastern United States from roughly 800 to 1600 CE. Mississippian peoples built large earthen mounds — some of which still stand — around which they organized complex chiefdoms. Cahokia, near present-day St. Louis, may have housed 20,000 people at its peak around 1100 CE, making it one of the largest pre-contact cities north of Mexico. Most Mississippian societies had declined before sustained European contact, possibly due to drought, internal conflict, or early epidemic disease.
 
 ### Indigenous North American Cultures
+
+![Ancestral Pueblo cliff dwellings at Mesa Verde, Colorado, built between 600 and 1300 CE](../../img/chapter-images/02-cliff-dwellings.png)
 
 North of the Rio Grande, **Indigenous North American cultures** were enormously diverse — from the agriculture-based Pueblo peoples of the Southwest to the salmon-fishing nations of the Pacific Northwest, from the nomadic Plains cultures to the densely settled eastern woodlands nations. No single description captures this range, and one of the most important habits of mind in this course is resisting the tendency to treat "Native Americans" as a single, undifferentiated group.
 
@@ -135,6 +139,8 @@ The term **European exploration motives** covers several interlocking pressures 
 
 ### Christopher Columbus and the Treaty of Tordesillas
 
+![Christopher Columbus and his crew landing on the island of Guanahani on October 12, 1492](../../img/chapter-images/03-columbus.png)
+
 **Christopher Columbus** was a Genoese navigator funded by the Spanish Crown who sailed west from the Canary Islands in 1492, believing he could reach Asia. He landed instead in the Caribbean — in what he called the "Indies" — and made four voyages, never accepting that he had reached continents unknown to Europeans.
 
 Columbus's voyages triggered an immediate geopolitical scramble. Spain and Portugal were both expanding rapidly, and conflict between them was likely. The **Treaty of Tordesillas** (1494) resolved this by drawing an imaginary line through the Atlantic: Spain would claim lands west of the line; Portugal would claim lands to the east. This is why Brazil, which lies east of the line, became Portuguese rather than Spanish, while most of the rest of the Americas fell under Spanish claim.
@@ -144,6 +150,8 @@ The treaty illustrates a key systems thinking principle: powerful actors can def
 ## Part 2: Spanish Conquest and Its Consequences
 
 ### Spanish Conquistadors
+
+![Hernán Cortés meeting Aztec Emperor Moctezuma II in Tenochtitlan, November 1519](../../img/chapter-images/05-cortes-montezuma.png)
 
 **Spanish conquistadors** — military adventurers funded by the Spanish Crown on contract — carried out the conquest of the major American empires in a remarkably short time. Hernán Cortés arrived in Mexico in 1519 with roughly 500 soldiers and, by 1521, had captured Tenochtitlan and shattered the Aztec Empire. Francisco Pizarro conquered the Inca Empire between 1532 and 1572 with an even smaller force.
 
@@ -161,6 +169,8 @@ None of these factors alone explains the conquests. All of them together, operat
     The Spanish conquests are a classic case of reinforcing feedback loops. Each conquest produced wealth (gold, silver, land), which funded more expeditions, which produced more conquests. Meanwhile, epidemic disease created a balancing dynamic — depopulation reduced the labor supply that made colonial wealth possible, which is one reason the Spanish eventually turned to African enslaved labor. Can you draw a rough causal loop diagram of this system?
 
 ### The Columbian Exchange
+
+![A map illustrating the bidirectional Columbian Exchange of plants, animals, and diseases between hemispheres after 1492](../../img/chapter-images/04-columbian-exchange-map.png)
 
 The **Columbian Exchange** refers to the transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres that began with Columbus's voyages and continued for centuries. It is one of the most consequential biological events in human history.
 
@@ -279,6 +289,8 @@ This difference in colonial strategy produced different kinds of relationships w
 ### English Exploration
 
 **English exploration** arrived comparatively late. England's first sustained attempt at American colonization, the Roanoke Colony (1585–1590), vanished without explanation — the "Lost Colony" remains one of American history's enduring mysteries. English ambitions crystallized around the Virginia Company, a joint-stock corporation that founded **Jamestown** in 1607.
+
+![Aerial reconstruction of the Jamestown fort circa 1607, England's first permanent settlement in North America](../../img/chapter-images/06-jamestown-settlement.png)
 
 **Jamestown Settlement** was the first permanent English settlement in North America, established on a swampy peninsula in the James River in what is now Virginia. Its early years were catastrophic. Most settlers were gentlemen or craftsmen who had no agricultural experience and arrived with no clear plan for feeding themselves. By the winter of 1609–1610, the "Starving Time" had killed roughly 80 percent of the settlers. The colony survived only because of supplies from the **Powhatan Confederacy**.
 

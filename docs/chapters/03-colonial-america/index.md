@@ -57,11 +57,19 @@ This chapter builds on concepts from:
 
 The thirteen British colonies that existed by the mid-18th century are often grouped by region, because region shaped economy, social structure, and ultimately political culture. These groupings are analytic tools — real people moved between regions, and each colony had internal diversity — but they capture genuine patterns.
 
+![A map of the thirteen British colonies established along North America's eastern seaboard between 1607 and 1733](../../img/chapter-images/10-thirteen-colonies-map.png)
+
 ### New England Colonies
+
+![The Mayflower ship carrying Separatist Pilgrims across the Atlantic to Plymouth, Massachusetts in 1620](../../img/chapter-images/07-mayflower-painting.png)
 
 The **New England Colonies** — Massachusetts, Connecticut, Rhode Island, and New Hampshire — were shaped above all by their founders' religious mission and by their environment. The rocky, thin-soiled terrain of New England did not support plantation agriculture. Colonists turned instead to family farming, fishing, shipbuilding, and commerce.
 
-The Puritan settlers who founded Massachusetts believed they were building a godly community — what their leader John Winthrop called "a city upon a hill" — that would serve as a model for reformed Christianity. This theological ambition shaped colonial institutions in distinctive ways. Towns were organized around the meetinghouse; governance was conducted through **town meetings**, direct assemblies of male church members that gave New England a tradition of participatory local government. Colonial education was also driven by religious need: the **Puritan Migration** of the 1630s brought a highly literate population, and **colonial education** in New England was among the most extensive in the Atlantic world. Harvard College was founded in 1636, primarily to train ministers.
+The Puritan settlers who founded Massachusetts believed they were building a godly community — what their leader John Winthrop called "a city upon a hill" — that would serve as a model for reformed Christianity. This theological ambition shaped colonial institutions in distinctive ways. Towns were organized around the meetinghouse; governance was conducted through **town meetings**, direct assemblies of male church members that gave New England a tradition of participatory local government.
+
+![The signing of the Mayflower Compact in 1620, one of the earliest acts of self-governance in colonial America](../../img/chapter-images/08-mayflower-compact.png)
+
+Colonial education was also driven by religious need: the **Puritan Migration** of the 1630s brought a highly literate population, and **colonial education** in New England was among the most extensive in the Atlantic world. Harvard College was founded in 1636, primarily to train ministers.
 
 The **Massachusetts Bay Colony**, chartered in 1629, became the dominant New England settlement. But its religious uniformity was contested from within. **Roger Williams** was a minister who argued that the colonial government had no authority over matters of conscience and that the colonists had no right to the land without purchasing it from Indigenous peoples. Banished from Massachusetts in 1636, he founded **Rhode Island** as a colony with genuine religious toleration — a radical experiment for the time.
 
@@ -145,7 +153,11 @@ The planters' response was to accelerate the shift to enslaved African labor. En
 
 The **Middle Passage** was the central horror of the Atlantic slave trade: the ocean crossing from West Africa to the Americas, during which enslaved people were packed into the holds of ships in conditions deliberately designed to maximize the number of bodies that could be transported. Mortality on Middle Passage voyages ranged from 10 to 20 percent under typical conditions, and higher during disease outbreaks. Historians estimate that roughly 12 million people were transported across the Atlantic in the slave trade; approximately 1.5 million died during the crossing.
 
+![The slave ship Brookes diagram showing the inhumane conditions enslaved Africans endured during the Middle Passage](../../img/chapter-images/11-slave-ship-brookes.png)
+
 The **Triangular Trade** describes the three-legged commercial circuit that connected Europe, West Africa, and the Americas. European manufactured goods went to West Africa, where they were exchanged for enslaved people. Enslaved people were transported to the Americas (the Middle Passage). American raw materials — sugar, tobacco, cotton, rice — were shipped back to Europe. The circuit enriched European merchants, American planters, and African elites who participated in the trade, while producing catastrophic suffering for the millions enslaved.
+
+![Portrait of Olaudah Equiano, a formerly enslaved African whose 1789 narrative became a landmark anti-slavery text](../../img/chapter-images/12-olaudah-equiano.png)
 
 !!! mascot-thinking "Causation and the shift to slavery"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Liberty thinking">
@@ -181,11 +193,17 @@ The existence of elected assemblies alongside royal governors created a structur
 
 As tensions with France and Indigenous nations mounted in the early 1750s, representatives from seven colonies met in Albany, New York, in 1754. Benjamin Franklin proposed the **Albany Plan of Union** — a plan to create a colonial council with the power to tax and raise armies for common defense. Every colonial legislature rejected it as giving up too much local power; Britain rejected it as giving the colonies too much autonomy.
 
-The Albany Plan failed, but it is historically significant as the first formal proposal for colonial unity. Franklin's "Join or Die" cartoon — a snake divided into sections labeled with colonial names — became the first great political cartoon in American history. The idea that the colonies might cooperate politically, once planted, would take root a generation later.
+The Albany Plan failed, but it is historically significant as the first formal proposal for colonial unity. Franklin's "Join or Die" cartoon — a snake divided into sections labeled with colonial names — became the first great political cartoon in American history.
+
+![Benjamin Franklin's 1754 "Join, or Die" political cartoon depicting a severed snake representing the disunited colonies](../../img/chapter-images/13-join-or-die-cartoon.png)
+
+The idea that the colonies might cooperate politically, once planted, would take root a generation later.
 
 ## Part 3: Religion and Culture in Colonial America
 
 ### Puritan Religious Life and Its Discontents
+
+![The 1621 harvest gathering at Plymouth Colony between Wampanoag people and Separatist colonists](../../img/chapter-images/09-first-thanksgiving.png)
 
 New England Puritanism was not simply a set of beliefs — it was a total social program. The **Massachusetts Bay Colony** operated on the assumption that civil and ecclesiastical authority reinforced each other: godly ministers advised godly magistrates; godly laws enforced godly behavior. Church membership was required for full political participation.
 

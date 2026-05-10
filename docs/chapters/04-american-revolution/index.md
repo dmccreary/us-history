@@ -85,6 +85,8 @@ Britain responded by sending soldiers to Boston to restore order. The presence o
 
 ### The Boston Massacre (1770)
 
+![The Boston Massacre of March 5, 1770, when British soldiers fired into a crowd of colonists, killing five people](../../img/chapter-images/14-boston-massacre.png)
+
 The **Boston Massacre** of March 5, 1770, was a street confrontation in which British soldiers, surrounded by an aggressive crowd throwing ice, rocks, and debris, fired into the crowd and killed five colonists. The event was immediately seized upon by colonial propagandists, most effectively Paul Revere, whose engraving depicted the British as cold-blooded murderers firing in formation at innocent citizens.
 
 The "massacre" framing requires careful historical thinking. Applying sourcing and corroboration to the event reveals a more complex picture: the soldiers were frightened, the crowd was violent, and the confrontation was in some sense provoked. John Adams — a Patriot and future president — defended the British soldiers in court and won acquittals for most of them, believing that the rule of law required even unpopular defendants to have legal counsel.
@@ -96,6 +98,8 @@ Yet the political effect of the Boston Massacre was real regardless of what actu
     Paul Revere's engraving of the Boston Massacre was one of the most politically powerful images of the revolutionary era — and one of the most historically misleading. Practice sourcing it: who created it, for what audience, and for what purpose? How does knowing the answers to those questions change how you read the image? This is exactly what lateral reading asks you to do.
 
 ### The Boston Tea Party (1773) and the Intolerable Acts
+
+![The Boston Tea Party, December 16, 1773, when Sons of Liberty dumped 342 chests of British tea into Boston Harbor](../../img/chapter-images/15-boston-tea-party.png)
 
 Parliament repealed most of the Townshend duties by 1770 but kept the tax on tea. In 1773, it passed the Tea Act, which gave the British East India Company a monopoly on tea sales to the colonies — actually making tea cheaper — but maintaining the principle of parliamentary taxation. The **Boston Tea Party** (December 1773), in which members of the Sons of Liberty dressed as Mohawks boarded East India Company ships and dumped 342 chests of tea into Boston Harbor, was a deliberate political act aimed at the principle, not the price.
 
