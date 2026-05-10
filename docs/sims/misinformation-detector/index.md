@@ -1,16 +1,12 @@
 ---
 title: Misinformation Detection MicroSim — Lost Cause Claims
 description: Students assess historical claims using a structured misinformation detection framework, identifying which claims are supported by primary source evidence and which are contradicted by it.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Evaluate (L5)
 ---
 
 # Misinformation Detection MicroSim — Lost Cause Claims
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students assess historical claims using a structured misinformation detection fr
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="622"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

@@ -1,16 +1,12 @@
 ---
 title: Gilded Age Inequality — Wealth Distribution Chart
 description: Students compare wealth distribution across historical periods and explain how extreme inequality in the Gilded Age contributed to the rise of labor and reform movements.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Gilded Age Inequality — Wealth Distribution Chart
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students compare wealth distribution across historical periods and explain how e
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="602"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

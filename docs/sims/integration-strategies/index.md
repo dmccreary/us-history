@@ -1,16 +1,12 @@
 ---
 title: Vertical vs. Horizontal Integration — Interactive Diagram
 description: Students explain the difference between vertical and horizontal integration and give a historical example of each strategy.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Understand (L2)
 ---
 
 # Vertical vs. Horizontal Integration — Interactive Diagram
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students explain the difference between vertical and horizontal integration and 
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="722"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
