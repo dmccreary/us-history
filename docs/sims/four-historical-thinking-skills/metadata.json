@@ -1,0 +1,21 @@
+{
+  "title": "Four Historical Thinking Skills Explorer",
+  "description": "Students can explain what each of the four historical thinking skills means and give an example of how each applies to a historical scenario.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "four-historical-thinking-skills",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Explain",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Historical Methods and Analytical Frameworks",
+  "chapter_dir": "01-historical-methods"
+}

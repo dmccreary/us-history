@@ -1,0 +1,21 @@
+{
+  "title": "Treaty of Versailles — Fourteen Points vs. Actual Outcome",
+  "description": "Students evaluate the extent to which the Treaty of Versailles fulfilled Wilson's Fourteen Points, and assess what the gap between promise and outcome reveals about the constraints on idealistic diplomacy.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "versailles-comparison",
+  "library": "p5.js",
+  "bloomLevel": "Evaluate (L5)",
+  "bloomVerb": "Compare",
+  "completion_status": "scaffold",
+  "chapter_number": 13,
+  "chapter_title": "U.S. Imperialism and World War I (1898–1920)",
+  "chapter_dir": "13-imperialism-world-war-i"
+}

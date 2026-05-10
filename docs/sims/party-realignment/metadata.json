@@ -1,0 +1,21 @@
+{
+  "title": "Political Party Realignment — New Deal Coalition to Reagan Coalition",
+  "description": "Students map the demographic and geographic components of the New Deal and Reagan coalitions, identify the key groups that switched parties, and analyze what drove the realignment.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "party-realignment",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Map",
+  "completion_status": "scaffold",
+  "chapter_number": 19,
+  "chapter_title": "From Reagan to 9/11 (1975–2001)",
+  "chapter_dir": "19-reagan-to-9-11"
+}

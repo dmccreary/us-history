@@ -1,0 +1,21 @@
+{
+  "title": "Constitutional Structure — Checks and Balances Explorer",
+  "description": "Students explain how checks and balances distribute power among the three branches and give at least two examples of checks being exercised in American history.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "checks-and-balances-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Explain",
+  "completion_status": "scaffold",
+  "chapter_number": 5,
+  "chapter_title": "Founding the Republic (1783–1800)",
+  "chapter_dir": "05-founding-the-republic"
+}

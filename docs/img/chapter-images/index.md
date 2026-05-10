@@ -116,147 +116,147 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The Boston Massacre of March 5, 1770, when British soldiers fired into a crowd of colonists, killing five people and inflaming colonial resistance.
 
--   **[15 Boston Tea Party](15-boston-tea-party.md)**
+-   **[15 Boston Tea Party](15-boston-tea-party.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](15-boston-tea-party-thumb.png)](15-boston-tea-party.png)
 
     The Boston Tea Party of December 16, 1773, when colonists dumped 342 chests of British tea into Boston Harbor to protest taxation without representation.
 
--   **[16 Liberty Bell](16-liberty-bell.md)**
+-   **[16 Liberty Bell](16-liberty-bell.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](16-liberty-bell-thumb.png)](16-liberty-bell.png)
 
     The Liberty Bell, the iconic symbol of American independence and freedom located in Philadelphia, Pennsylvania.
 
--   **[17 Patrick Henry Speech](17-patrick-henry-speech.md)**
+-   **[17 Patrick Henry Speech](17-patrick-henry-speech.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](17-patrick-henry-speech-thumb.png)](17-patrick-henry-speech.png)
 
     Patrick Henry delivering his famous "Give me liberty, or give me death!" speech to the Virginia Convention in March 1775.
 
--   **[18 Washington Crossing the Delaware](18-washington-crossing-delaware.md)**
+-   **[18 Washington Crossing the Delaware](18-washington-crossing-delaware.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](18-washington-crossing-delaware-thumb.png)](18-washington-crossing-delaware.png)
 
     George Washington's daring crossing of the Delaware River on the night of December 25–26, 1776, before the surprise attack at the Battle of Trenton.
 
--   **[19 Declaration of Independence](19-declaration-of-independence.md)**
+-   **[19 Declaration of Independence](19-declaration-of-independence.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](19-declaration-of-independence-thumb.png)](19-declaration-of-independence.png)
 
     The Declaration of Independence, adopted by the Continental Congress on July 4, 1776, asserting the colonies' separation from Britain.
 
--   **[20 Signing the Declaration](20-signing-declaration.md)**
+-   **[20 Signing the Declaration](20-signing-declaration.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](20-signing-declaration-thumb.png)](20-signing-declaration.png)
 
     Members of the Second Continental Congress signing the Declaration of Independence in Philadelphia's Independence Hall in 1776.
 
--   **[21 Valley Forge](21-valley-forge.md)**
+-   **[21 Valley Forge](21-valley-forge.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](21-valley-forge-thumb.png)](21-valley-forge.png)
 
     The Continental Army enduring the brutal winter encampment at Valley Forge, Pennsylvania, from December 1777 to June 1778.
 
--   **[22 Battle of Yorktown](22-battle-yorktown.md)**
+-   **[22 Battle of Yorktown](22-battle-yorktown.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](22-battle-yorktown-thumb.png)](22-battle-yorktown.png)
 
     The Siege of Yorktown in 1781, the decisive final campaign of the American Revolutionary War that secured independence.
 
--   **[23 Articles of Confederation](23-articles-of-confederation.md)**
+-   **[23 Articles of Confederation](23-articles-of-confederation.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](23-articles-of-confederation-thumb.png)](23-articles-of-confederation.png)
 
     The Articles of Confederation, America's first national constitution, which proved too weak and was replaced by the U.S. Constitution.
 
--   **[24 Constitutional Convention](24-constitutional-convention.md)**
+-   **[24 Constitutional Convention](24-constitutional-convention.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](24-constitutional-convention-thumb.png)](24-constitutional-convention.png)
 
     Delegates gathering at the Constitutional Convention in Philadelphia in 1787 to draft a new framework of government for the United States.
 
--   **[25 U.S. Constitution](25-us-constitution.md)**
+-   **[25 U.S. Constitution](25-us-constitution.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](25-us-constitution-thumb.png)](25-us-constitution.png)
 
     The United States Constitution, drafted in 1787 and ratified in 1788, establishing the enduring framework of American government.
 
--   **[26 James Madison Portrait](26-james-madison-portrait.md)**
+-   **[26 James Madison Portrait](26-james-madison-portrait.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](26-james-madison-portrait-thumb.png)](26-james-madison-portrait.png)
 
     Portrait of James Madison, the "Father of the Constitution" and fourth President of the United States.
 
--   **[27 Federalist Papers](27-federalist-papers.md)**
+-   **[27 Federalist Papers](27-federalist-papers.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](27-federalist-papers-thumb.png)](27-federalist-papers.png)
 
     The Federalist Papers, 85 essays by Hamilton, Madison, and Jay advocating ratification of the Constitution and explaining its principles.
 
--   **[28 Bill of Rights](28-bill-of-rights.md)**
+-   **[28 Bill of Rights](28-bill-of-rights.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](28-bill-of-rights-thumb.png)](28-bill-of-rights.png)
 
     The Bill of Rights — the first ten amendments to the Constitution, ratified in 1791 to protect individual liberties from federal overreach.
 
--   **[29 Washington Portrait](29-washington-portrait.md)**
+-   **[29 Washington Portrait](29-washington-portrait.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](29-washington-portrait-thumb.png)](29-washington-portrait.png)
 
     Portrait of George Washington, commander of the Continental Army, presiding officer of the Constitutional Convention, and first President of the United States.
 
--   **[30 Louisiana Purchase Map](30-louisiana-purchase-map.md)**
+-   **[30 Louisiana Purchase Map](30-louisiana-purchase-map.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](30-louisiana-purchase-map-thumb.png)](30-louisiana-purchase-map.png)
 
     A map showing the Louisiana Purchase of 1803, in which the United States acquired 828,000 square miles from France, doubling the nation's size.
 
--   **[31 Lewis and Clark Expedition](31-lewis-clark-expedition.md)**
+-   **[31 Lewis and Clark Expedition](31-lewis-clark-expedition.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](31-lewis-clark-expedition-thumb.png)](31-lewis-clark-expedition.png)
 
     The Lewis and Clark Expedition (1804–1806) exploring the western territories acquired through the Louisiana Purchase and reaching the Pacific Coast.
 
--   **[32 Sacagawea Portrait](32-sacagawea-portrait.md)**
+-   **[32 Sacagawea Portrait](32-sacagawea-portrait.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](32-sacagawea-portrait-thumb.png)](32-sacagawea-portrait.png)
 
     Portrait of Sacagawea, the Shoshone woman who served as guide, interpreter, and diplomatic asset for the Lewis and Clark Expedition.
 

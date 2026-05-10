@@ -1,0 +1,14 @@
+{
+  "sim_id": "four-historical-thinking-skills",
+  "diagram_name": "Four Historical Thinking Skills Explorer",
+  "chapter_number": 1,
+  "chapter_title": "Historical Methods and Analytical Frameworks",
+  "chapter_dir": "01-historical-methods",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Students can explain what each of the four historical thinking skills means and give an example of how each applies to a historical scenario.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: infographic\n**sim-id:** four-historical-thinking-skills<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the four historical thinking skills — Causation, Continuity and Change, Comparison, and Contextualization — through an interactive diagram that reinforces both their definitions and their relationships to each other.\n\nBloom Level: Understand (L2)\nBloom Verb: Explain\n\nLearning Objective: Students can explain what each of the four historical thinking skills means and give an example of how each applies to a historical scenario.\n\nLayout:\n- Canvas is fully responsive to container width; height approximately 500px\n- Four quadrants, each representing one skill, arranged in a 2×2 grid\n- A central circle labeled \"Historical Analysis\" connects all four quadrants with spoke lines\n\nQuadrant contents:\n1. Top-left — Causation: chain-link icon; key question \"Why did it happen?\"\n2. Top-right — Continuity and Change: overlapping arrows icon (one curved, one straight); key question \"What stayed the same? What shifted?\"\n3. Bottom-left — Comparison: Venn diagram icon (two overlapping circles); key question \"How are cases similar or different?\"\n4. Bottom-right — Contextualization: frame-around-scene icon; key question \"What was the broader setting?\"\n\nInteractivity:\n- Clicking any quadrant opens an infobox that overlays the right half of the canvas\n- Infobox contains: skill name (bold, large), one-sentence definition, and one concrete U.S. history example\n- Infobox has an ✕ close button in the top-right corner\n- Hovering a quadrant highlights its border in gold (#f9a825) to signal it is clickable\n\nColor scheme:\n- Canvas background: dark navy (#1a237e)\n- Quadrant borders: indigo (#3949ab)\n- Active/hovered quadrant: gold border highlight\n- Central circle: gold (#f9a825) with navy text\n- Infobox background: white with dark text\n\nResponsive behavior: On window resize, redraw all elements proportionally. Infobox width adjusts to ~45% of canvas width.\n\nImplementation: p5.js; no external libraries needed"
+}

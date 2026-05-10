@@ -1,0 +1,21 @@
+{
+  "title": "WWI Decision Tree — From Assassination to American Entry",
+  "description": "Students trace the causal chain from the assassination of Archduke Franz Ferdinand to U.S. declaration of war, identifying which steps were contingent (could have gone otherwise) and which were highly determined by prior commitments.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "wwi-decision-tree",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Trace",
+  "completion_status": "scaffold",
+  "chapter_number": 13,
+  "chapter_title": "U.S. Imperialism and World War I (1898–1920)",
+  "chapter_dir": "13-imperialism-world-war-i"
+}

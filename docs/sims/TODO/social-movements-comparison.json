@@ -1,0 +1,14 @@
+{
+  "sim_id": "social-movements-comparison",
+  "diagram_name": "Social Movements of the 1960s–70s — Strategies and Outcomes",
+  "chapter_number": 18,
+  "chapter_title": "Vietnam, Nixon, and Social Movements (1965–1975)",
+  "chapter_dir": "18-vietnam-nixon",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Students compare the strategies, constituencies, and outcomes of the major social movements of the 1965–1975 period, identifying similarities (nonviolent direct action, legal challenges, coalition-building) and differences (constituency, target, level of legislative success).",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: comparison\n**sim-id:** social-movements-comparison<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to compare the social movements of the late 1960s and early 1970s — Civil Rights, Anti-War, Second-Wave Feminism, AIM, and the Farmworkers Movement — across their constituencies, strategies, and legislative/cultural outcomes.\n\nBloom Level: Analyze (L4)\nBloom Verb: Compare\n\nLearning Objective: Students compare the strategies, constituencies, and outcomes of the major social movements of the 1965–1975 period, identifying similarities (nonviolent direct action, legal challenges, coalition-building) and differences (constituency, target, level of legislative success).\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Five movement cards in a row: Civil Rights, Anti-War, Feminism, AIM, Farmworkers\n- Each card shows: constituency, primary strategy, main legislative victories, cultural impact\n- Click to expand into full comparison matrix\n\nComparison dimensions:\n- Constituency (who was organizing)\n- Target of change (what they were fighting for)\n- Primary strategy (nonviolent direct action / legal / boycott / electoral)\n- Key organization(s)\n- Key leader(s)\n- Legislative victories achieved\n- Cultural impact\n- Limitations or setbacks\n\nInteractivity:\n- \"Strategy filter\" highlights all movements using a selected strategy\n- \"Outcome filter\" separates legislative victories from cultural impact\n- Side-by-side view: select any two movements for detailed comparison\n\nColor scheme: Each movement has a distinct color; strategy types color-coded in the comparison matrix."
+}

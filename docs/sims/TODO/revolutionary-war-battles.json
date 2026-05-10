@@ -1,0 +1,14 @@
+{
+  "sim_id": "revolutionary-war-battles",
+  "diagram_name": "Revolutionary War Battles Map",
+  "chapter_number": 4,
+  "chapter_title": "The American Revolution (1754–1783)",
+  "chapter_dir": "04-american-revolution",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Students explain the strategic significance of at least three major Revolutionary War battles and describe how geography influenced the war's outcome.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: map\n**sim-id:** revolutionary-war-battles<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the geographic distribution of major Revolutionary War battles, understand the strategic logic of each campaign, and identify how the war's geography shaped its outcome.\n\nBloom Level: Understand (L2)\nBloom Verb: Explain\n\nLearning Objective: Students explain the strategic significance of at least three major Revolutionary War battles and describe how geography influenced the war's outcome.\n\nCanvas layout:\n- Responsive width; height approximately 520px\n- Simplified map of the eastern seaboard from Maine to Georgia\n- Battle sites marked with clickable star icons\n- British-controlled territory shaded light red; American/contested territory light blue\n\nBattle sites to include (with years):\n- Bunker Hill, MA (1775) — British victory, high British casualties\n- Trenton, NJ (1776) — American surprise victory\n- Philadelphia, PA (1777) — British occupation\n- Saratoga, NY (1777) — American decisive victory; key to French alliance\n- Valley Forge, PA (1777–78) — Winter encampment (not a battle; marked differently)\n- Charleston, SC (1780) — British victory; beginning of Southern campaign\n- Cowpens, SC (1781) — American victory in the South\n- Yorktown, VA (1781) — Final British surrender\n\nClicking a battle site opens a panel showing:\n- Battle name, date, and outcome (American win / British win / Draw)\n- A 2-sentence strategic significance note\n- A \"Why it mattered\" line connecting to the war's overall arc\n\nVisual treatment:\n- American victory stars: blue/gold\n- British victory stars: red\n- Valley Forge: brown tent icon (not a battle)\n- Arrows showing the movement of British Southern campaign (1780–81)\n\nInteractivity:\n- Click site for detail panel\n- \"Show campaign\" toggle draws a strategic overview arrow for the Northern (1775–76) and Southern (1780–81) campaigns\n\nResponsive behavior: Map scales with canvas width; clickable areas scale proportionally.\n\nImplementation: p5.js; map as simplified polygon coastline"
+}

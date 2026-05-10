@@ -1,0 +1,14 @@
+{
+  "sim_id": "arms-race-dynamics",
+  "diagram_name": "Arms Race Dynamics — The Security Dilemma Loop",
+  "chapter_number": 16,
+  "chapter_title": "The Early Cold War (1945–1960)",
+  "chapter_dir": "16-early-cold-war",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Model",
+  "learning_objective": "Students model the security dilemma feedback loop that drives arms races, identify the reinforcing loops at work, and evaluate what conditions could break the loop (arms control agreements, mutual vulnerability, transparency).",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: causal-loop\n**sim-id:** arms-race-dynamics<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to visualize the security dilemma feedback loop that drives arms races, and to trace how the U.S.-Soviet nuclear arms race exemplified this dynamic from 1945 to 1991.\n\nBloom Level: Analyze (L4)\nBloom Verb: Model\n\nLearning Objective: Students model the security dilemma feedback loop that drives arms races, identify the reinforcing loops at work, and evaluate what conditions could break the loop (arms control agreements, mutual vulnerability, transparency).\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Two-nation causal loop diagram (U.S. left, USSR right)\n- Each nation node shows: current nuclear arsenal size (slider-adjustable)\n- Arrows between nations: \"Perceived Threat\" (red, bidirectional), \"Weapons Development\" (gold, from each nation to its arsenal)\n\nCore loops:\n- R1 (US-Soviet): US Arsenal ↑ → Soviet Perceived Threat ↑ → Soviet Arsenal ↑ → US Perceived Threat ↑ → US Arsenal ↑ (reinforcing)\n- B1 (MAD): When both arsenals reach \"destruction threshold,\" a \"MAD\" indicator appears — loop becomes self-limiting (neither side can use weapons)\n- B2 (Arms Control): \"Treaty\" button introduces a balancing force — shows effect of SALT I (1972), SALT II (1979), START (1991)\n\nHistorical mode:\n- Slider from 1945 to 1991 shows actual warhead counts for each side\n- Key events annotated: first Soviet test (1949), H-bomb (1952/53), Sputnik (1957), Cuban Missile Crisis (1962), SALT I (1972), Reagan buildup (1981–88), START (1991)\n\nInteractivity:\n- \"What-if\" sliders: adjust US arsenal by ±20% and see projected Soviet response\n- Toggle between \"Rational Actor\" and \"Security Dilemma\" models\n\nColor scheme: Blue for U.S., red for USSR; gold for nuclear arsenals; green for arms control."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Cognitive Bias Identifier",
+  "description": "Students identify confirmation bias, hindsight bias, the availability heuristic, in-group favoritism, and presentism in short historical scenario descriptions, and explain why the bias fits.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "cognitive-bias-identifier",
+  "library": "p5.js",
+  "bloomLevel": "Apply (L3)",
+  "bloomVerb": "Identify",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Historical Methods and Analytical Frameworks",
+  "chapter_dir": "01-historical-methods"
+}

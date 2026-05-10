@@ -109,10 +109,46 @@ nav:
 
   - MicroSims:
       - List of MicroSims: sims/index.md
+      - AI in Warfare: sims/ai-warfare-spectrum/index.md
+      - AP Thematic Lens: sims/ap-thematic-lenses-ch5/index.md
+      - Arms Race Dynamics: sims/arms-race-dynamics/index.md
+      - Causal Loop Diagram Builder: sims/causal-loop-diagram-builder/index.md
+      - Civil Rights Timeline: sims/civil-rights-timeline/index.md
+      - Civil War Strategy Map: sims/civil-war-strategy-map/index.md
+      - Cognitive Bias Identifier: sims/cognitive-bias-identifier/index.md
+      - Colonial Resistance Timeline: sims/colonial-resistance-timeline/index.md
+      - Colonial Society Structure: sims/colonial-society-structure/index.md
+      - Checks and Balances Explorer: sims/checks-and-balances-explorer/index.md
+      - Depression Feedback Loops: sims/depression-feedback-loops/index.md
+      - European Exploration Timeline: sims/european-exploration-timeline/index.md
+      - Four Historical Thinking Skills: sims/four-historical-thinking-skills/index.md
+      - Gilded Age Inequality: sims/gilded-age-inequality/index.md
+      - Integration Strategies: sims/integration-strategies/index.md
+      - Judicial Review Explainer: sims/judicial-review-explainer/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
+      - Misinformation Detector: sims/misinformation-detector/index.md
+      - New Deal Programs: sims/new-deal-programs/index.md
+      - Party Realignment: sims/party-realignment/index.md
+      - Polarization Index: sims/polarization-index/index.md
+      - Populist Platform Tracker: sims/populist-platform-tracker/index.md
+      - Pre-Columbian Americas Map: sims/pre-columbian-americas-map/index.md
+      - Primary Source Analyzer: sims/primary-source-analyzer/index.md
+      - Progressive Amendments Timeline: sims/progressive-amendments-timeline/index.md
+      - Reform Movement Network: sims/reform-movement-network/index.md
+      - Revolutionary War Battles: sims/revolutionary-war-battles/index.md
+      - Social Movements Comparison: sims/social-movements-comparison/index.md
+      - Tech Power Shifts: sims/tech-power-shifts/index.md
+      - The Columbian Exchange Web: sims/columbian-exchange-web/index.md
+      - Three Colonial Regions: sims/colonial-regions-comparison/index.md
+      - Transportation Revolution Map: sims/transportation-revolution-map/index.md
+      - Treaty of Versailles Comparison: sims/versailles-comparison/index.md
+      - WWI Decision Tree: sims/wwi-decision-tree/index.md
+      - WWII Timeline: sims/wwii-timeline/index.md
 
+## Supplementary Materials
   - Glossary: glossary.md
   - FAQ: faq.md
+  - List of Images: img/chapter-images/index.md
   - License: license.md
   - Contact: contact.md
 
@@ -185,11 +221,14 @@ extra_css:
   - css/extra.css
   - css/mascot.css
 
+## Only exclude files that start with digits in the chapter images folder, so that the index.md file is included.
 exclude_docs: |
+  img/mascot/*.md
   **/image-prompt*.md
-  **/image-prompts*.md
   **/cover-prompt.md
   **/TODO.md
+  prompts/*.md
+  img/chapter-images/[0-9]*.md
 
 watch:
   - docs

@@ -1,0 +1,14 @@
+{
+  "sim_id": "gilded-age-inequality",
+  "diagram_name": "Gilded Age Inequality — Wealth Distribution Chart",
+  "chapter_number": 10,
+  "chapter_title": "The Gilded Age: Industrialization and Labor (1865–1890)",
+  "chapter_dir": "10-gilded-age-industry",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Students compare wealth distribution across historical periods and explain how extreme inequality in the Gilded Age contributed to the rise of labor and reform movements.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: chart\n**sim-id:** gilded-age-inequality<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to visualize wealth distribution in the Gilded Age, compare it to other historical periods, and connect it to the social conflicts of the era.\n\nBloom Level: Analyze (L4)\nBloom Verb: Compare\n\nLearning Objective: Students compare wealth distribution across historical periods and explain how extreme inequality in the Gilded Age contributed to the rise of labor and reform movements.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Main chart area: bar chart showing percentage of national wealth held by top 1%, next 9%, and bottom 90%, across five time periods\n- Time periods: 1870, 1900, 1929 (peak inequality), 1970 (post-New Deal low), 2020 (current)\n- Each bar is divided into three segments with distinct colors\n\nData (approximate historical estimates):\n- 1870: Top 1% = 27%, Next 9% = 38%, Bottom 90% = 35%\n- 1900: Top 1% = 35%, Next 9% = 35%, Bottom 90% = 30%\n- 1929: Top 1% = 44%, Next 9% = 33%, Bottom 90% = 23%\n- 1970: Top 1% = 22%, Next 9% = 33%, Bottom 90% = 45%\n- 2020: Top 1% = 35%, Next 9% = 37%, Bottom 90% = 28%\n\nInteractivity:\n- Hovering any bar segment shows: exact percentage, year, which economic/political events coincided\n- Clicking a year opens a detail panel: key events (e.g., \"1900: Robber Baron era; Sherman Antitrust Act just passed; labor unions weak\"), income tax status, major policy context\n- A \"What happened between X and Y?\" button highlights the years and shows a 2-sentence explanation of what policy changes drove the shift (e.g., \"Between 1929 and 1970: New Deal labor laws, progressive income tax, GI Bill expanded the middle class\")\n\nColor scheme:\n- Top 1%: dark gold (#f9a825)\n- Next 9%: indigo (#3949ab)\n- Bottom 90%: teal (#00897b)\n- Hover highlight: brightened color with tooltip border\n\nResponsive behavior: Chart scales with canvas width; legend moves to bottom on narrow canvas.\n\nImplementation: p5.js; bar chart with hover-triggered tooltips"
+}

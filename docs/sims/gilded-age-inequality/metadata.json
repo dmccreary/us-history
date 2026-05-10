@@ -1,0 +1,21 @@
+{
+  "title": "Gilded Age Inequality — Wealth Distribution Chart",
+  "description": "Students compare wealth distribution across historical periods and explain how extreme inequality in the Gilded Age contributed to the rise of labor and reform movements.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "gilded-age-inequality",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Compare",
+  "completion_status": "scaffold",
+  "chapter_number": 10,
+  "chapter_title": "The Gilded Age: Industrialization and Labor (1865–1890)",
+  "chapter_dir": "10-gilded-age-industry"
+}

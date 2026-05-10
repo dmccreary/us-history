@@ -1,0 +1,21 @@
+{
+  "title": "Civil War Battles and Strategy Map",
+  "description": "Students examine how geography shaped Civil War military strategy, explaining the Anaconda Plan's logic and the significance of at least two major battles.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "civil-war-strategy-map",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Examine",
+  "completion_status": "scaffold",
+  "chapter_number": 8,
+  "chapter_title": "Sectionalism and the Civil War (1844–1865)",
+  "chapter_dir": "08-civil-war"
+}

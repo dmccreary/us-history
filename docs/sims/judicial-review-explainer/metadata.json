@@ -1,0 +1,21 @@
+{
+  "title": "Judicial Review — How It Works",
+  "description": "Students explain the process of judicial review using Marbury v. Madison and describe why the power is significant for the balance of power among branches.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "judicial-review-explainer",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Explain",
+  "completion_status": "scaffold",
+  "chapter_number": 6,
+  "chapter_title": "The Jeffersonian Era and Early Expansion (1800–1828)",
+  "chapter_dir": "06-jeffersonian-era"
+}

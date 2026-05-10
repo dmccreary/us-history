@@ -1,0 +1,14 @@
+{
+  "sim_id": "new-deal-programs",
+  "diagram_name": "New Deal Programs — What They Did and What Survived",
+  "chapter_number": 14,
+  "chapter_title": "The Roaring Twenties, Depression, and New Deal (1920–1941)",
+  "chapter_dir": "14-twenties-depression-new-deal",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Categorize",
+  "learning_objective": "Students categorize New Deal programs by their purpose (relief, recovery, reform), identify the specific problem each addressed, and determine which programs still exist today.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: explorer\n**sim-id:** new-deal-programs<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the major New Deal programs, what problem each addressed, how it worked, and whether it survived to the present — building a comprehensive understanding of the New Deal's scope and lasting impact.\n\nBloom Level: Understand (L2)\nBloom Verb: Categorize\n\nLearning Objective: Students categorize New Deal programs by their purpose (relief, recovery, reform), identify the specific problem each addressed, and determine which programs still exist today.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Three columns: Relief | Recovery | Reform (FDR's framework)\n- Each program shown as a clickable card with its acronym (CCC, TVA, FDIC, SSA, etc.)\n- Color-coded: green = still exists, amber = modified/successor exists, red = ended\n\nPrograms by category:\nRelief: CCC, FERA, CWA, WPA, PWA\nRecovery: AAA, NRA (struck down), RFC, TVA\nReform: FDIC, Glass-Steagall, SEC, Wagner Act, Social Security Act\n\nDetail panel (on click):\n- Full name and date\n- Problem it addressed\n- How it worked (2 sentences)\n- Scale (how many people/dollars involved)\n- Current status: exists/modified/ended and why\n\nSummary statistics at bottom: X of Y programs (or their successors) still exist today.\n\nInteractivity:\n- Hover shows tooltip with program name and 1-sentence description\n- Filter by \"Still Active\" or \"Historical Only\"\n\nColor scheme: Blue/green for relief; gold for recovery; teal for reform."
+}

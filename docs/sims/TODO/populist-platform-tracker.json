@@ -1,0 +1,14 @@
+{
+  "sim_id": "populist-platform-tracker",
+  "diagram_name": "Populist Policy Platform — Then and Now",
+  "chapter_number": 11,
+  "chapter_title": "Populism and the Closing of the Frontier (1880–1900)",
+  "chapter_dir": "11-populism-frontier",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Examine",
+  "learning_objective": "Students examine how political demands that seem radical in one era become mainstream in another, and identify the political conditions that enabled or blocked the adoption of Populist demands.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: infographic\n**sim-id:** populist-platform-tracker<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the 1892 People's Party platform demands and track which were eventually enacted into law, when, and under what political conditions — illustrating how \"radical\" reform ideas move from the margins to the mainstream.\n\nBloom Level: Analyze (L4)\nBloom Verb: Examine\n\nLearning Objective: Students examine how political demands that seem radical in one era become mainstream in another, and identify the political conditions that enabled or blocked the adoption of Populist demands.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Left column: eight Populist platform demands from the 1892 Omaha Platform, each as a clickable card\n- Right side: when a card is clicked, a detail panel shows: the specific demand, whether it was enacted, when, and under what president/law — or why it was not enacted\n\nPlatform demand cards:\n1. Government ownership of railroads → Partly enacted (ICC strengthened; railroads nationalized briefly in WWI) \n2. Graduated income tax → Enacted: 16th Amendment (1913)\n3. Direct election of senators → Enacted: 17th Amendment (1913)\n4. Secret ballot → Enacted: widely adopted by states 1890s–1910s\n5. Flexible currency (silver) → Modified: gold standard abandoned 1933; Federal Reserve (1913) added flexibility\n6. Subtreasury system for farm loans → Partly enacted: Farm Credit Act (1933), Agricultural Adjustment Act\n7. Eight-hour workday → Enacted: Fair Labor Standards Act (1938)\n8. Postal savings banks → Enacted: Postal Savings System (1910, abolished 1967)\n\nEach card shows a color-coded status badge: green = fully enacted, amber = partially enacted, red = not enacted.\n\nInteractivity:\n- Clicking a card shows the full detail panel with enactment year, the law/amendment name, and a 1-sentence note on why it took as long as it did\n- \"Timeline\" button shows a simplified timeline of when each demand was enacted relative to 1892\n- Filter buttons: \"Enacted,\" \"Partial,\" \"Not Enacted\"\n\nColor scheme: Green/amber/red status badges; gold card borders; white panels.\n\nResponsive behavior: Cards stack in 2 columns on narrow canvas.\n\nImplementation: p5.js"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Revolutionary War Battles Map",
+  "description": "Students explain the strategic significance of at least three major Revolutionary War battles and describe how geography influenced the war's outcome.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "revolutionary-war-battles",
+  "library": "p5.js",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Explain",
+  "completion_status": "scaffold",
+  "chapter_number": 4,
+  "chapter_title": "The American Revolution (1754–1783)",
+  "chapter_dir": "04-american-revolution"
+}

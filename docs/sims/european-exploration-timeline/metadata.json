@@ -1,0 +1,21 @@
+{
+  "title": "European Exploration Timeline",
+  "description": "Students recall the sequence of major European exploration events and the national powers behind them.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "european-exploration-timeline",
+  "library": "p5.js",
+  "bloomLevel": "Remember (L1)",
+  "bloomVerb": "Recall",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "Pre-Columbian Americas and European Contact",
+  "chapter_dir": "02-pre-columbian-contact"
+}

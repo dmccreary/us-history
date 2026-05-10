@@ -1,0 +1,14 @@
+{
+  "sim_id": "colonial-society-structure",
+  "diagram_name": "Colonial Society Structure MicroSim",
+  "chapter_number": 3,
+  "chapter_title": "Colonial America (1607–1754)",
+  "chapter_dir": "03-colonial-america",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Describe",
+  "learning_objective": "Students describe the social structure of colonial America and explain how it differed between the New England, Middle, and Southern colony regions.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: infographic\n**sim-id:** colonial-society-structure<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to explore the layered social hierarchy of colonial America — from the planter elite to enslaved workers — across the three regional contexts, with clickable layers that reveal the rights, constraints, and typical life experiences at each level.\n\nBloom Level: Understand (L2)\nBloom Verb: Describe\n\nLearning Objective: Students describe the social structure of colonial America and explain how it differed between the New England, Middle, and Southern colony regions.\n\nCanvas layout:\n- Responsive width; height approximately 500px\n- Three columns (one per region) each showing a vertical pyramid divided into 4–5 social layers\n- Region selector buttons at top allow switching between New England, Middle, and Southern views\n- Right panel (35%) updates when a social layer is clicked\n\nSocial layers (vary slightly by region):\n- Top: Planter/merchant elite\n- Upper-middle: Small landowners / skilled artisans / clergy\n- Lower-middle: Tenant farmers / free workers / indentured servants\n- Bottom: Enslaved Africans / bound laborers\n\nEach layer, when clicked, displays in the right panel:\n- Layer name\n- Approximate percentage of colonial population\n- Legal rights and constraints\n- Typical occupations\n- How this layer differed across the three regions\n\nInteractivity:\n- Clicking a pyramid layer fills the right panel with the layer's profile\n- Region toggle buttons (New England / Middle / Southern) redraw the pyramid proportions — the enslaved layer is much larger in the Southern pyramid\n- Hover tooltip shows layer name\n- A \"Key Events\" button at the bottom links selected layers to events in the chapter (e.g., clicking Enslaved layer suggests \"See: Middle Passage, Bacon's Rebellion\")\n\nColor scheme:\n- Pyramid layers: from gold (elite) at top to dark brown (enslaved) at bottom\n- Selected layer: highlighted with white border\n- Region buttons: color-coded by region (blue/green/amber as in previous sim)\n\nResponsive behavior: Below 600px, columns stack; only one region shown at a time.\n\nImplementation: p5.js"
+}

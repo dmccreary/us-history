@@ -1,0 +1,14 @@
+{
+  "sim_id": "party-realignment",
+  "diagram_name": "Political Party Realignment — New Deal Coalition to Reagan Coalition",
+  "chapter_number": 19,
+  "chapter_title": "From Reagan to 9/11 (1975–2001)",
+  "chapter_dir": "19-reagan-to-9-11",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Map",
+  "learning_objective": "Students map the demographic and geographic components of the New Deal and Reagan coalitions, identify the key groups that switched parties, and analyze what drove the realignment.",
+  "completion_status": "specified",
+  "extracted_date": "2026-05-10",
+  "specification": "Type: map-comparison\n**sim-id:** party-realignment<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Allow students to visualize the dramatic realignment of American political parties from the New Deal coalition (1932–1968) to the Reagan coalition (1980–present), understanding how demographic and geographic sorting has shaped contemporary polarization.\n\nBloom Level: Analyze (L4)\nBloom Verb: Map\n\nLearning Objective: Students map the demographic and geographic components of the New Deal and Reagan coalitions, identify the key groups that switched parties, and analyze what drove the realignment.\n\nCanvas layout:\n- Responsive width; height approximately 480px\n- Two side-by-side U.S. maps: \"New Deal Coalition (1936)\" and \"Reagan Coalition (1984)\"\n- States colored by dominant party; shade intensity = margin of victory\n- Clickable demographic groups: Southern whites, urban workers, evangelicals, college-educated whites, Black voters, etc.\n\nWhen a demographic group is clicked:\n- Highlighted on both maps showing where they lived\n- Panel shows: party affiliation 1936 vs. 1984, what drove the switch (key events: civil rights legislation, cultural change, economic issues)\n- Vote percentage data for each election\n\nHistorical mode:\n- Slider from 1932 to 2000 shows presidential election results\n- Key realignment elections highlighted: 1948 (Dixiecrats), 1964 (LBJ landslide, South begins moving), 1968 (Nixon southern strategy), 1980 (Reagan coalition complete)\n\nInteractivity:\n- \"Build a coalition\" mode: select demographic groups and see if you can assemble a winning electoral majority\n- \"Key issues\" overlay: shows which policy issues drove each group's party choice\n\nColor scheme: Traditional blue (Democrat) and red (Republican); intensity indicates margin."
+}

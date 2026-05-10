@@ -1,0 +1,21 @@
+{
+  "title": "Depression Causes — Interacting Feedback Loops",
+  "description": "Students diagram the reinforcing feedback loops that amplified the 1929 crash into a decade-long depression, identifying which loops the New Deal attempted to break and how.",
+  "creator": "Dementia Education Project",
+  "date": "2026-05-10",
+  "subject": [
+    "dementia"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "depression-feedback-loops",
+  "library": "p5.js",
+  "bloomLevel": "Analyze (L4)",
+  "bloomVerb": "Diagram",
+  "completion_status": "scaffold",
+  "chapter_number": 14,
+  "chapter_title": "The Roaring Twenties, Depression, and New Deal (1920–1941)",
+  "chapter_dir": "14-twenties-depression-new-deal"
+}
