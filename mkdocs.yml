@@ -59,19 +59,21 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
       - Mascot Style Guide: learning-graph/mascot-test.md
+      - FAQ Quality Report: learning-graph/faq-quality-report.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
 
+  - FAQ: faq.md
   - License: license.md
   - Contact: contact.md
 
 # Theme configuration
 theme:
   name: material
-  # logo: img/logo.png
-  # favicon: img/favicon.ico
+  logo: img/mascot/neutral.png
+  favicon: img/favicon.ico
   palette:
     primary: 'indigo'
     accent: 'orange'
