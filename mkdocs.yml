@@ -268,3 +268,9 @@ extra:
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: 'U.S. History'
   textbook_version: '0.1'
+
+
+# Google Analytics G-L88FXMZ02F
+  analytics:
+    provider: google
+    property: G-L88FXMZ02F
