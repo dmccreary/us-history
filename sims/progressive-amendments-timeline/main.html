@@ -3,49 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Four Progressive Era Amendments — Timeline and Context</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
-    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
-    <script src="progressive-amendments-timeline.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
 </head>
 <body>
-    <main></main>
-    <br/><a href=".">Back to Documentation</a>
+    <div id="container">
+        <h1>Four Progressive Era Amendments — Timeline and Context</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> progressive-amendments-timeline</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> Understand (L2)</p>
+            <p><strong>Learning Objective:</strong> Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.</p>
+        </div>
+    </div>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: timeline
-    sim-id: progressive-amendments-timeline
-    Library: p5.js
-    Status: Built
-
-    Purpose: Allow students to explore the four Progressive Era constitutional
-    amendments (16th–19th), the social movements that produced them, and the
-    political context in which each was ratified.
-
+    **sim-id:** progressive-amendments-timeline<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Purpose: Allow students to explore the four Progressive Era constitutional amendments (16th–19th), the social movements that produced them, and the political context in which each was ratified.
+    
     Bloom Level: Understand (L2)
     Bloom Verb: Explain
-
-    Learning Objective: Students explain the purpose of each Progressive Era
-    amendment and the social movement or political pressure that produced it.
-
+    
+    Learning Objective: Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.
+    
     Canvas layout:
-    - Responsive width; height 560px (drawHeight 500 + controlHeight 60)
-    - Horizontal timeline from 1900 to 1925
-    - Two tracks: Amendments (top), Social Movements & Political Events (bottom)
-    - Four amendment markers: 16th (1913), 17th (1913), 18th (1919), 19th (1920)
-    - WWI band (1917–1918) shaded in gray with hover note tying it to ratification
-
-    Each marker, when clicked, opens a detail panel with:
+    - Responsive width; height approximately 480px
+    - Horizontal timeline from 1890 to 1925
+    - Four clickable markers, one per amendment: 16th (1913), 17th (1913), 18th (1919), 19th (1920)
+    - Background shows key political events: McKinley assassination (1901), TR presidency, WWI shading (1917–1918)
+    
+    Each marker, when clicked, opens a detail panel:
     - Amendment number and ratification year
-    - What it changed
-    - The movement / pressure that drove it
-    - Historical context for the timing
-    - Key figures and "What happened next?"
-
-    Color scheme: gold = 16th, indigo = 17th, red = 18th, teal = 19th; gray for WWI.
+    - What it changed (one sentence)
+    - The movement that drove it (Populists, direct democracy reformers, temperance, women's suffrage)
+    - One historical context note explaining the timing
+    - A "What happened next?" line showing the amendment's legacy or unintended consequences
+    
+    Additional clickable elements:
+    - Hovering the WWI band shows: "Wartime nationalism accelerated both Prohibition (grain conservation) and women's suffrage (women's war contributions)"
+    - A "Populating over time" mode shows state ratification maps for the 18th and 19th amendments
+    
+    Color scheme: Each amendment has a distinct color (gold = 16th, indigo = 17th, red = 18th, teal = 19th); WWI period shaded in gray.
+    
+    Responsive behavior: Timeline scrolls horizontally on narrow canvas.
+    
+    Implementation: p5.js
     -->
 </body>
 </html>
