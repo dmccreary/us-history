@@ -219,3 +219,5 @@ The tools developed throughout this textbook — sourcing, lateral reading, syst
 !!! mascot-celebration "Chapter 20 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated the most recent chapter of American history — and in some ways the most challenging, because you're living through its continuation. The critical thinking tools you've built throughout this textbook are most essential here: the events are recent, the narratives are contested, and the facts are still being established. In the final chapter, we examine the Age of AI — perhaps the most consequential technological transformation since the Industrial Revolution — and ask what it means for American democracy, economy, and identity.
+
+[See Annotated References](./references.md)

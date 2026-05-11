@@ -240,3 +240,5 @@ Understanding Reconstruction requires holding all of these dimensions simultaneo
 !!! mascot-celebration "Chapter 9 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just worked through one of the most complex and consequential chapters in American history — and developed one of the most important skills in this course: detecting organized historical misinformation. The Lost Cause narrative you've analyzed here is a template for how misinformation campaigns work: they don't invent facts from nothing, they selectively present evidence, appeal to in-group loyalty, and construct alternative narratives that serve clear political purposes. Those techniques appear in every era — including ours. In Chapter 10, we turn to the Gilded Age: the industrial explosion that transformed America after Reconstruction's defeat.
+
+[See Annotated References](./references.md)

@@ -234,3 +234,5 @@ The **federalism vs. states' rights** debate that runs through this entire chapt
 !!! mascot-celebration "Chapter 6 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated nearly three decades of early republic history — from Jefferson's Louisiana Purchase to Jackson's Indian Removal — and seen how democratic ideals and brutal dispossession coexisted in the same political system. The constitutional questions you've encountered — judicial review, nullification, executive power — will echo through every chapter that follows. In Chapter 7, westward expansion accelerates and the reform movements that will challenge slavery begin to take shape.
+
+[See Annotated References](./references.md)

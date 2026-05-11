@@ -210,3 +210,5 @@ But the Progressive Era's reform impulse was selective. It addressed the abuses 
 !!! mascot-celebration "Chapter 12 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated an era of genuine reform — and its genuine limits. The Progressive Era reshaped American government, extended democratic rights to women, and established the conservation movement. It also demonstrated that reform movements can be selective, that muckraking journalism works best on visceral issues, and that the NAACP's patient legal strategy would have to wait another half-century for its greatest victories. In Chapter 13, America's Progressive energy collides with global war.
+
+[See Annotated References](./references.md)

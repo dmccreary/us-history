@@ -32,66 +32,87 @@ nav:
       - 1. Historical Methods:
           - Content: chapters/01-historical-methods/index.md
           - Quiz: chapters/01-historical-methods/quiz.md
+          - Annotated References: chapters/01-historical-methods/references.md
       - 2. Pre-Columbian Contact:
           - Content: chapters/02-pre-columbian-contact/index.md
           - Quiz: chapters/02-pre-columbian-contact/quiz.md
+          - Annotated References: chapters/02-pre-columbian-contact/references.md
       - 3. Colonial America:
           - Content: chapters/03-colonial-america/index.md
           - Quiz: chapters/03-colonial-america/quiz.md
+          - Annotated References: chapters/03-colonial-america/references.md
       - 4. American Revolution:
           - Content: chapters/04-american-revolution/index.md
           - Quiz: chapters/04-american-revolution/quiz.md
+          - Annotated References: chapters/04-american-revolution/references.md
       - 5. Founding the Republic:
           - Content: chapters/05-founding-the-republic/index.md
           - Quiz: chapters/05-founding-the-republic/quiz.md
+          - Annotated References: chapters/05-founding-the-republic/references.md
       - 6. Jeffersonian Era:
           - Content: chapters/06-jeffersonian-era/index.md
           - Quiz: chapters/06-jeffersonian-era/quiz.md
+          - Annotated References: chapters/06-jeffersonian-era/references.md
       - 7. Manifest Destiny:
           - Content: chapters/07-manifest-destiny-reform/index.md
           - Quiz: chapters/07-manifest-destiny-reform/quiz.md
+          - Annotated References: chapters/07-manifest-destiny-reform/references.md
       - 8. Civil War:
           - Content: chapters/08-civil-war/index.md
           - Quiz: chapters/08-civil-war/quiz.md
+          - Annotated References: chapters/08-civil-war/references.md
       - 9. Reconstruction:
           - Content: chapters/09-reconstruction/index.md
           - Quiz: chapters/09-reconstruction/quiz.md
+          - Annotated References: chapters/09-reconstruction/references.md
       - 10. Gilded Age:
           - Content: chapters/10-gilded-age-industry/index.md
           - Quiz: chapters/10-gilded-age-industry/quiz.md
+          - Annotated References: chapters/10-gilded-age-industry/references.md
       - 11. Populism:
           - Content: chapters/11-populism-frontier/index.md
           - Quiz: chapters/11-populism-frontier/quiz.md
+          - Annotated References: chapters/11-populism-frontier/references.md
       - 12. Progressive Era:
           - Content: chapters/12-progressive-era/index.md
           - Quiz: chapters/12-progressive-era/quiz.md
+          - Annotated References: chapters/12-progressive-era/references.md
       - 13. Imperialism and WWI:
           - Content: chapters/13-imperialism-world-war-i/index.md
           - Quiz: chapters/13-imperialism-world-war-i/quiz.md
+          - Annotated References: chapters/13-imperialism-world-war-i/references.md
       - 14. Twenties and Depression:
           - Content: chapters/14-twenties-depression-new-deal/index.md
           - Quiz: chapters/14-twenties-depression-new-deal/quiz.md
+          - Annotated References: chapters/14-twenties-depression-new-deal/references.md
       - 15. World War II:
           - Content: chapters/15-world-war-ii/index.md
           - Quiz: chapters/15-world-war-ii/quiz.md
+          - Annotated References: chapters/15-world-war-ii/references.md
       - 16. Early Cold War:
           - Content: chapters/16-early-cold-war/index.md
           - Quiz: chapters/16-early-cold-war/quiz.md
+          - Annotated References: chapters/16-early-cold-war/references.md
       - 17. Civil Rights:
           - Content: chapters/17-civil-rights-great-society/index.md
           - Quiz: chapters/17-civil-rights-great-society/quiz.md
+          - Annotated References: chapters/17-civil-rights-great-society/references.md
       - 18. Vietnam and Nixon:
           - Content: chapters/18-vietnam-nixon/index.md
           - Quiz: chapters/18-vietnam-nixon/quiz.md
+          - Annotated References: chapters/18-vietnam-nixon/references.md
       - 19. Reagan to 9/11:
           - Content: chapters/19-reagan-to-9-11/index.md
           - Quiz: chapters/19-reagan-to-9-11/quiz.md
+          - Annotated References: chapters/19-reagan-to-9-11/references.md
       - 20. Digital Age:
           - Content: chapters/20-contemporary-america/index.md
           - Quiz: chapters/20-contemporary-america/quiz.md
+          - Annotated References: chapters/20-contemporary-america/references.md
       - 21. Age of AI:
           - Content: chapters/21-age-of-ai/index.md
           - Quiz: chapters/21-age-of-ai/quiz.md
+          - Annotated References: chapters/21-age-of-ai/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md

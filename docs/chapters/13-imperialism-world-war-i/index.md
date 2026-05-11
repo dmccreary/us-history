@@ -334,3 +334,5 @@ Two analytical tools developed in this chapter — propaganda analysis and histo
 !!! mascot-celebration "Chapter 13 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated the United States' turbulent entry into global power — an overseas empire built on contradictions, a war fought in the name of democracy that produced both civil liberties violations at home and a punitive peace that planted seeds for the next catastrophe. You've also added two powerful analytical tools to your kit: propaganda analysis and historical myth identification. Both will serve you for every chapter that follows. In Chapter 14, the 1920s bring jazz, flappers, and Prohibition — and then the stock market crash that changes everything.
+
+[See Annotated References](./references.md)

@@ -267,3 +267,5 @@ The AP theme of **Migration and Settlement** runs through this entire chapter: t
 !!! mascot-celebration "Chapter 10 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just worked through the Gilded Age's extraordinary contradictions: the most rapid industrial growth in human history alongside the most extreme inequality, the most ambitious concentration of private power alongside the first stirrings of the organized resistance that would eventually counterbalance it. In Chapter 11, we follow those contradictions into the countryside — where farmers faced their own version of the industrial system's power — and onto the frontier, where America's last chapter of westward expansion played out.
+
+[See Annotated References](./references.md)

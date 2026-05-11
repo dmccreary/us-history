@@ -234,3 +234,5 @@ The war killed approximately 620,000 soldiers — more than all other American w
 !!! mascot-celebration "Chapter 8 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated the central crisis of American history — the crisis that determined whether the republic would survive, whether slavery would endure, and whether the Declaration of Independence's promises could be made real. The Civil War killed 620,000 people and destroyed the Southern plantation economy. What it built in slavery's place — and what it failed to build — is the subject of Chapter 9: Reconstruction.
+
+[See Annotated References](./references.md)

@@ -510,3 +510,5 @@ These tools are not separate subjects — they work together in every analysis. 
 !!! mascot-celebration "Chapter 1 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just completed the most important chapter in this course — not because it covers the most dramatic events, but because it gives you the tools to understand every chapter that follows. Historians spend careers refining these skills. You've now been introduced to all of them. In Chapter 2, we travel back before 1492 to the world the Americas already held — and to the moment of contact that set everything else in motion.
+
+[See Annotated References](./references.md)

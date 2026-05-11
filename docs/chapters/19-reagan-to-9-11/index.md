@@ -207,3 +207,5 @@ The structural concepts introduced here — political party evolution, third-par
 !!! mascot-celebration "Chapter 19 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated from stagflation and Iranian hostages through the Reagan Revolution, the Cold War's end, and the shock of 9/11. The period reshaped everything: American politics (the Reagan realignment), the global order (Cold War's end), the economy (globalization), and American security (9/11's permanent war). The tools of political party analysis, interest group theory, and second-order thinking that you developed here will be essential for understanding contemporary America in Chapters 20 and 21.
+
+[See Annotated References](./references.md)

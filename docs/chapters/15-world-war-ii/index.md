@@ -211,3 +211,5 @@ The postwar institutions — the United Nations, the Bretton Woods financial sys
 !!! mascot-celebration "Chapter 15 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated the most consequential six years in 20th-century history — from Blitzkrieg to the atomic age, from Rosie the Riveter to the internment camps, from the Holocaust to the United Nations. World War II is a story of genuine heroism, genuine atrocity, and genuinely difficult moral questions that don't resolve neatly. The skills you've built — sourcing, hindsight bias awareness, systems thinking, historical myth identification — all find application here. In Chapter 16, the world the war created becomes the stage for a new conflict between former allies.
+
+[See Annotated References](./references.md)

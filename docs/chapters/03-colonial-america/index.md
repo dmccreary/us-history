@@ -310,3 +310,5 @@ Colonial governance created habits of self-rule — through elected assemblies, 
 !!! mascot-celebration "Chapter 3 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated 150 years of colonial development across three distinct regional cultures. You've seen how labor systems, religious ideals, and governance structures interact — and how events like Bacon's Rebellion can reshape an entire society's direction. In Chapter 4, we follow these tensions to their breaking point: the American Revolution.
+
+[See Annotated References](./references.md)

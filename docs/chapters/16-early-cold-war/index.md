@@ -221,3 +221,5 @@ The arms race dynamics case study demonstrates a fundamental insight of systems 
 !!! mascot-celebration "Chapter 16 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated the Cold War's foundations — from the wartime alliance's collapse through containment, Korea, McCarthyism, and the arms race's chilling logic. The "America in the World" lens and arms race dynamics are tools you'll use in every subsequent chapter. In Chapter 17, the Cold War's contradictions come home: How can America claim to lead the "free world" while denying civil rights to millions of its own citizens? The answer to that question will shape the most consequential domestic political movement of the 20th century.
+
+[See Annotated References](./references.md)

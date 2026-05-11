@@ -266,3 +266,5 @@ The tension between expansion and reform, between Manifest Destiny and abolition
 !!! mascot-celebration "Chapter 7 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated one of the most morally complex decades in American history — an era when the country was simultaneously expanding its territory through conquest and confronting its deepest moral contradictions through reform. The abolitionist arguments of Garrison and Douglass, the women's rights demands of Seneca Falls, and the moral philosophy of Thoreau all created intellectual tools that Americans would reach for again and again in the crises ahead. In Chapter 8, those crises arrive.
+
+[See Annotated References](./references.md)

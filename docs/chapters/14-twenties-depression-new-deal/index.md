@@ -309,3 +309,5 @@ The chapter also demonstrates the persistence of nativism and xenophobia as resp
 !!! mascot-celebration "Chapter 14 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated two of the most consequential decades in American history — from the heights of consumer prosperity to the depths of the Depression and back toward recovery through the New Deal. The systems thinking tools you applied here (feedback loops, reinforcing dynamics, unintended consequences) will be essential in every chapter that follows. And the questions the New Deal raised — how much should government intervene in the economy? What do citizens owe each other in hard times? — remain live political questions today. In Chapter 15, the gathering storm breaks: World War II changes everything.
+
+[See Annotated References](./references.md)

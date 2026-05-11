@@ -295,3 +295,5 @@ The Revolution was won by a combination of factors: colonial military persistenc
 !!! mascot-celebration "Chapter 4 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just traced the twelve-year arc from postwar British taxation to American independence — one of the most consequential political transformations in modern history. You've seen how reinforcing feedback loops can drive a system toward crisis even when both parties prefer peace, and how a pamphlet and a declaration can carry ideas that outlast the people who wrote them. In Chapter 5, the hard work of building a republic begins.
+
+[See Annotated References](./references.md)

@@ -200,3 +200,5 @@ Those questions led to the Progressive Era, which is the subject of Chapter 12.
 !!! mascot-celebration "Chapter 11 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just completed a chapter about endings: the ending of the frontier, the ending of meaningful Indigenous sovereignty east of the Rockies, and the ending of Populism as an independent political force. But you've also seen how the ideas don't die with the movements — Populist demands became the Progressive Era's legislative agenda. In Chapter 12, that transformation takes center stage.
+
+[See Annotated References](./references.md)

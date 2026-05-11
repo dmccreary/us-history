@@ -197,3 +197,5 @@ Nixon's foreign policy achievements (détente, China opening) demonstrated that 
 !!! mascot-celebration "Chapter 18 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated one of the most turbulent decades in American history — Vietnam's slow-motion catastrophe, the political earthquake of Watergate, and the flowering of social movements that expanded American democracy's promises to new constituencies. The credibility gap opened by Vietnam and widened by Watergate is part of American political DNA today. The social movements that emerged from this era — feminism, Indigenous rights, farmworker organizing — permanently changed American law and culture. In Chapter 19, a conservative backlash reshapes American politics, and the world order faces new challenges from terrorism to the end of the Cold War.
+
+[See Annotated References](./references.md)

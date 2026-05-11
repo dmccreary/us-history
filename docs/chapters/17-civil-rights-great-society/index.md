@@ -218,3 +218,5 @@ The Great Society extended the social safety net, made higher education accessib
 !!! mascot-celebration "Chapter 17 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated one of the most consequential chapters in American history — a period that transformed the legal landscape, extended the social safety net, and permanently changed the demographic trajectory of the United States. The Civil Rights Movement is a case study in how sustained, strategic organizing can overcome entrenched systems — and a reminder that legal equality and full equality of opportunity are not the same thing. In Chapter 18, the Great Society's optimism collides with Vietnam, Nixon, and the social movements that will reshape American politics for generations.
+
+[See Annotated References](./references.md)

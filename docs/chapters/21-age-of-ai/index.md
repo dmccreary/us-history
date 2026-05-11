@@ -319,3 +319,5 @@ The question this textbook leaves you with is the question every generation of A
 !!! mascot-celebration "Chapter 21 Complete — and the textbook too!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've completed the final chapter — and with it, the full arc of American history from the first human migrations to the Americas through the age of artificial intelligence. The world you are entering is defined by technological change, geopolitical contest, democratic challenge, and unfinished struggles for equality and justice that stretch back to the founding. The tools you've built — critical thinking, systems thinking, sourcing, misinformation detection, historical comparison — are not tools for understanding the past only. They are tools for navigating the present and shaping the future. American history is not over. You are part of it. Use your tools wisely.
+
+[See Annotated References](./references.md)

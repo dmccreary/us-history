@@ -312,3 +312,5 @@ The AP thematic lenses introduced in this chapter — **American and National Id
 !!! mascot-celebration "Chapter 5 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just worked through one of the most intellectually dense chapters in American history — the architecture of American government itself. Separation of powers, checks and balances, federalism, the Bill of Rights, the Electoral College: these are not just historical facts but living structures that shape every political conflict in every chapter that follows. In Chapter 6, we follow Thomas Jefferson into the presidency and watch the constitutional debates from this chapter play out in practice.
+
+[See Annotated References](./references.md)
