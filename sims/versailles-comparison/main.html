@@ -3,123 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Treaty of Versailles — Fourteen Points vs. Actual Outcome</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="versailles-comparison.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Treaty of Versailles — Fourteen Points vs. Actual Outcome</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> versailles-comparison</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Evaluate (L5)</p>
-            <p><strong>Learning Objective:</strong> Students evaluate the extent to which the Treaty of Versailles fulfilled Wilson's Fourteen Points, and assess what the gap between promise and outcome reveals about the constraints on idealistic diplomacy.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
-    <!--
-    SPECIFICATION (from chapter index.md):
+<!--
+SPECIFICATION (from chapter index.md):
 
-    Type: comparison
-    **sim-id:** versailles-comparison<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to compare Wilson's Fourteen Points with the actual Treaty of Versailles provisions, identifying which points were honored, which were modified, and which were abandoned.
-    
-    Bloom Level: Evaluate (L5)
-    Bloom Verb: Compare
-    
-    Learning Objective: Students evaluate the extent to which the Treaty of Versailles fulfilled Wilson's Fourteen Points, and assess what the gap between promise and outcome reveals about the constraints on idealistic diplomacy.
-    
-    Canvas layout:
-    - Responsive width; height approximately 480px
-    - Two-column layout: "Fourteen Points" (left) and "Treaty of Versailles" (right)
-    - Each of the 14 points shown as a clickable card
-    - Color-coded outcome badge: green (honored), amber (modified), red (abandoned/reversed)
-    
-    Point outcomes:
-    1. Open covenants → Partially: League of Nations exists but compromised | amber
-    2. Freedom of seas → Abandoned: British naval supremacy maintained | red
-    3. Free trade → Largely abandoned: protective tariffs retained | red
-    4. Arms reduction → Partially: only Germany disarmed | amber
-    5–13. Self-determination → Mixed: some new nations created; colonial peoples ignored | amber
-    14. League of Nations → Created but US never joined | amber (ironic)
-    
-    War Guilt clause (not in 14 Points) → Added by France and Britain over Wilson's objection
-    
-    Interactivity:
-    - Clicking a point shows: original text, actual treaty provision, why it was compromised (which power objected and why), and a "historical verdict" on its long-term impact
-    - Summary bar at bottom shows: 0 fully honored, 8 partially honored, 6 abandoned
-    - "What if?" mode: slider allows exploring counterfactual "what if the US had joined the League?"
-    
-    Color scheme: Blue/green for Fourteen Points; gold/red for treaty provisions; amber for compromises.
-    -->
+Type: comparison
+sim-id: versailles-comparison
+Library: p5.js
+Status: Built
+
+Purpose: Allow students to compare Wilson's Fourteen Points with the actual
+Treaty of Versailles provisions, identifying which points were honored, which
+were modified, and which were abandoned.
+
+Bloom Level: Evaluate (L5)
+Bloom Verb: Compare
+
+Learning Objective: Students evaluate the extent to which the Treaty of
+Versailles fulfilled Wilson's Fourteen Points, and assess what the gap between
+promise and outcome reveals about the constraints on idealistic diplomacy.
+
+Canvas layout:
+- Responsive width; total height approximately 700px
+- Two-column scrollable list: Fourteen Points (left) and Treaty of Versailles
+  outcome (right); each row is clickable
+- Color-coded outcome badge: green (honored), amber (modified), red (abandoned)
+- Detail panel shows original text, treaty provision, why it was compromised,
+  and a historical verdict
+- Summary bar with counts: 2 honored / 9 partial / 3 abandoned (plus War Guilt)
+- "What if?" toggle reveals a counterfactual paragraph imagining U.S. League
+  membership
+-->
 </body>
 </html>

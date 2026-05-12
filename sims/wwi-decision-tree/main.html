@@ -3,125 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>WWI Decision Tree — From Assassination to American Entry</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="wwi-decision-tree.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>WWI Decision Tree — From Assassination to American Entry</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> wwi-decision-tree</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students trace the causal chain from the assassination of Archduke Franz Ferdinand to U.S. declaration of war, identifying which steps were contingent (could have gone otherwise) and which were highly determined by prior commitments.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: decision-tree
-    **sim-id:** wwi-decision-tree<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
+    sim-id: wwi-decision-tree
+    Library: p5.js
+    Status: Built
+
     Purpose: Allow students to trace the causal chain from the Sarajevo assassination (June 1914) through American entry (April 1917), clicking through each major decision point to understand why each step led to the next.
-    
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Trace
-    
+
     Learning Objective: Students trace the causal chain from the assassination of Archduke Franz Ferdinand to U.S. declaration of war, identifying which steps were contingent (could have gone otherwise) and which were highly determined by prior commitments.
-    
+
     Canvas layout:
-    - Responsive width; height approximately 480px
-    - Vertical timeline with branching decision nodes
+    - Responsive width; height approximately 800px to fit the full vertical chain
+    - Vertical decision tree with 10 nodes connected by arrows top-to-bottom
     - Each node shows: event, date, key decision-maker, and the choice made
-    - Color-coded by actor: Austria-Hungary (gold), Germany (gray), Russia (red), Britain (blue), France (teal), US (navy)
-    
+    - Color-coded by actor: Austria-Hungary (gold), Germany (gray), Russia (red), Britain (blue), Serbia (dark orange), US (navy)
+    - Contingent decisions (could have gone otherwise) get an amber highlight border
+    - Pre-determined decisions (e.g., Britain's treaty obligation to Belgium) get a darker border
+
     Nodes in sequence:
-    1. Sarajevo Assassination (June 28, 1914) → Austria issues ultimatum to Serbia
-    2. Serbia's partial acceptance → Austria declares war anyway (July 28)
-    3. Russia mobilizes → Germany declares war on Russia (Aug 1)
-    4. Germany declares war on France → invades Belgium (Aug 3–4)
-    5. Britain declares war on Germany (Aug 4) — treaty obligation to Belgium
-    6. US declares neutrality (Aug 4, 1914)
-    7. Lusitania sinking (May 1915) → Wilson protests; Germany promises Sussex Pledge
-    8. Germany resumes unrestricted submarine warfare (Feb 1, 1917)
-    9. Zimmermann Telegram revealed (March 1, 1917)
+    1. Sarajevo Assassination (June 28, 1914)
+    2. Austria issues ultimatum to Serbia (July 23, 1914)
+    3. Austria declares war on Serbia (July 28, 1914)
+    4. Russia mobilizes (July 30, 1914)
+    5. Germany declares war on Russia and invades Belgium (Aug 1–4, 1914)
+    6. Britain declares war on Germany (Aug 4, 1914)
+    7. US declares neutrality (Aug 4, 1914)
+    8. Lusitania sinking and Sussex Pledge (1915–1916)
+    9. Germany resumes unrestricted submarine warfare and Zimmermann Telegram (early 1917)
     10. US declares war on Germany (April 6, 1917)
-    
+
     Interactivity:
     - Clicking each node opens a detail panel: what happened, why, and what alternatives existed
-    - "Counterfactual" button on each node asks: "What if this had gone differently?" and shows a 1-sentence alternative history
-    - Zoom controls for the full timeline
-    
-    Color scheme: Actor colors above; contingent decisions highlighted in amber.
+    - "Counterfactual" button on each node shows a 1-sentence alternative history
+    - Reset button clears the selection
     -->
 </body>
 </html>

@@ -1,0 +1,119 @@
+{
+  "title": "Four Progressive Era Amendments",
+  "subtitle": "Constitutional change driven by Populist, Progressive, temperance, and suffrage movements (1890–1925)",
+  "events": [
+    {
+      "id": "amend-16",
+      "kind": "amendment",
+      "amendment_number": "16th",
+      "category": "Amendment 16 (Income Tax)",
+      "ratified": "1913-02-03",
+      "start_date": { "year": "1913", "month": "2", "day": "3" },
+      "end_date":   { "year": "1913", "month": "12", "day": "31" },
+      "text": {
+        "headline": "16th Amendment — Federal Income Tax (1913)",
+        "short":    "Authorized Congress to levy a federal income tax without apportionment among the states.",
+        "long":     "The 16th Amendment authorized Congress to tax incomes from whatever source derived, without apportioning the tax among the states by population. It overturned the 1895 Supreme Court decision Pollock v. Farmers' Loan & Trust Co., which had struck down an earlier federal income tax."
+      },
+      "movement": "Populist and Progressive demand for a graduated income tax (1892 Omaha Platform; William Jennings Bryan's Democratic wing).",
+      "context": "Federal revenue still depended on regressive tariffs and excises that fell hardest on farmers and workers. Progressives argued that the rising wealth of Gilded Age industrialists should bear a fair share of the federal burden.",
+      "next": "Initially only top earners paid (rates of 1–7%). World War I funding expanded the tax dramatically, and by the mid-20th century the income tax became the federal government's largest revenue source — enabling the New Deal and the modern administrative state."
+    },
+    {
+      "id": "amend-17",
+      "kind": "amendment",
+      "amendment_number": "17th",
+      "category": "Amendment 17 (Direct Senate Election)",
+      "ratified": "1913-04-08",
+      "start_date": { "year": "1913", "month": "4", "day": "8" },
+      "end_date":   { "year": "1913", "month": "12", "day": "31" },
+      "text": {
+        "headline": "17th Amendment — Direct Election of Senators (1913)",
+        "short":    "Required U.S. senators to be elected directly by voters rather than chosen by state legislatures.",
+        "long":     "The 17th Amendment replaced the original Article I provision under which state legislatures chose U.S. senators. It made senators directly accountable to the voters of each state."
+      },
+      "movement": "Direct-democracy reformers and the broader Progressive movement, building on Populist demands and reformer outrage over 'millionaire' Senate seats bought through state legislatures.",
+      "context": "By 1910 dozens of state legislatures had deadlocked over Senate elections, sometimes leaving seats empty for years. Muckraking journalists like David Graham Phillips ('The Treason of the Senate', 1906) exposed how trust money bought senators — fueling public demand for direct election.",
+      "next": "Combined with the initiative, referendum, recall, and direct primary, the 17th Amendment shifted American democracy decisively toward direct popular control of federal officeholders — and changed the character of the Senate from a body of state-government delegates to one of statewide campaign politicians."
+    },
+    {
+      "id": "amend-18",
+      "kind": "amendment",
+      "amendment_number": "18th",
+      "category": "Amendment 18 (Prohibition)",
+      "ratified": "1919-01-16",
+      "start_date": { "year": "1919", "month": "1", "day": "16" },
+      "end_date":   { "year": "1919", "month": "12", "day": "31" },
+      "text": {
+        "headline": "18th Amendment — Prohibition (1919)",
+        "short":    "Banned the manufacture, sale, and transportation of intoxicating liquors in the United States.",
+        "long":     "The 18th Amendment, enforced by the Volstead Act, made the United States 'dry' beginning in January 1920. It was the only constitutional amendment ever to restrict, rather than expand, individual rights."
+      },
+      "movement": "The temperance movement — led by the Woman's Christian Temperance Union (WCTU) and the Anti-Saloon League — built a decades-long coalition of evangelical Protestants, Progressive reformers, and rural drys.",
+      "context": "World War I tipped the balance: grain was needed for the war effort, many large breweries were German-owned (a political liability), and wartime sobriety campaigns framed alcohol as unpatriotic. Congress passed the amendment in December 1917; ratification took only thirteen months.",
+      "next": "Prohibition reduced drinking initially but fueled organized crime, bootlegging, and speakeasies. It was widely seen as a failed experiment and was repealed in 1933 by the 21st Amendment — the only amendment ever to repeal another."
+    },
+    {
+      "id": "amend-19",
+      "kind": "amendment",
+      "amendment_number": "19th",
+      "category": "Amendment 19 (Women's Suffrage)",
+      "ratified": "1920-08-18",
+      "start_date": { "year": "1920", "month": "8", "day": "18" },
+      "end_date":   { "year": "1920", "month": "12", "day": "31" },
+      "text": {
+        "headline": "19th Amendment — Women's Suffrage (1920)",
+        "short":    "Prohibited federal and state governments from denying the right to vote on the basis of sex.",
+        "long":     "The 19th Amendment extended voting rights to women nationwide. It was the culmination of a 72-year struggle that began at the 1848 Seneca Falls Convention."
+      },
+      "movement": "The women's suffrage movement, led by the National American Woman Suffrage Association (Carrie Chapman Catt) and the more militant National Woman's Party (Alice Paul).",
+      "context": "Women's wartime contributions in factories, farms, and Red Cross work made denying them the vote politically untenable. President Wilson — long a reluctant convert — endorsed the amendment in 1918 as a 'vital war measure', and Tennessee provided the decisive 36th ratification in August 1920.",
+      "next": "Women voted in the November 1920 election, but realignment was slow and many Black women in the South remained disenfranchised by Jim Crow laws until the Voting Rights Act of 1965. The amendment also energized continued struggles for the Equal Rights Amendment and broader gender equality."
+    },
+    {
+      "id": "ctx-mckinley",
+      "kind": "context",
+      "category": "Political Context",
+      "start_date": { "year": "1901", "month": "9", "day": "6" },
+      "end_date":   { "year": "1901", "month": "9", "day": "14" },
+      "text": {
+        "headline": "McKinley Assassination (Sept 1901)",
+        "short":    "Anarchist Leon Czolgosz shot President McKinley in Buffalo; Theodore Roosevelt became president.",
+        "long":     "President William McKinley was shot at the Pan-American Exposition on September 6, 1901, and died eight days later. His death elevated Vice President Theodore Roosevelt, just 42 years old, to the presidency and opened the door for a self-consciously Progressive program."
+      },
+      "movement": "—",
+      "context": "Conservative Republicans had placed Roosevelt on the 1900 ticket to neutralize him; the assassination instead handed him the White House.",
+      "next": "Roosevelt's trust-busting, conservation, and consumer-protection agenda set the tone for the Progressive Era."
+    },
+    {
+      "id": "ctx-tr",
+      "kind": "context",
+      "category": "Political Context",
+      "start_date": { "year": "1901", "month": "9", "day": "14" },
+      "end_date":   { "year": "1909", "month": "3", "day": "4" },
+      "text": {
+        "headline": "Theodore Roosevelt Presidency (1901–1909)",
+        "short":    "TR's 'Square Deal' legitimized federal regulation of business and gave Progressivism a national platform.",
+        "long":     "Roosevelt prosecuted trusts under the Sherman Act, brokered the 1902 coal strike, signed the Pure Food and Drug and Meat Inspection Acts (1906), and created millions of acres of national forests and parks. His Progressive presidency made federal reform respectable to a broad middle-class audience."
+      },
+      "movement": "—",
+      "context": "TR's example pulled both major parties toward Progressive ideas, paving the way for Taft's and then Wilson's reform agendas — including the four amendments.",
+      "next": "Roosevelt's 1912 Bull Moose run split the Republican vote, electing Wilson and clearing the path for the 16th and 17th Amendments in 1913."
+    },
+    {
+      "id": "ctx-wwi",
+      "kind": "background",
+      "category": "World War I",
+      "start_date": { "year": "1917", "month": "4", "day": "6" },
+      "end_date":   { "year": "1918", "month": "11", "day": "11" },
+      "text": {
+        "headline": "U.S. in World War I (1917–1918)",
+        "short":    "Wartime nationalism accelerated both Prohibition (grain conservation) and women's suffrage (women's war contributions).",
+        "long":     "American entry into World War I in April 1917 reshaped domestic politics. Grain rationing made banning alcohol seem patriotic; women's wartime labor in factories, farms, and the Red Cross made denying them the vote politically indefensible. Both the 18th and 19th Amendments were drafted, passed Congress, and ratified during or immediately after the war."
+      },
+      "movement": "—",
+      "context": "Wars often accelerate domestic reform that had stalled in peacetime — the Civil War produced the 13th–15th Amendments; WWI helped produce the 18th and 19th.",
+      "next": "Postwar disillusionment and the Red Scare of 1919–1920 also closed the Progressive Era and ushered in the conservative 1920s."
+    }
+  ]
+}

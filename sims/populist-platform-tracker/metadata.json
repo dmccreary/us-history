@@ -2,9 +2,9 @@
   "title": "Populist Policy Platform — Then and Now",
   "description": "Students examine how political demands that seem radical in one era become mainstream in another, and identify the political conditions that enabled or blocked the adoption of Populist demands.",
   "creator": "Dementia Education Project",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "subject": [
-    "dementia"
+    "U.S. History"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -14,7 +14,7 @@
   "library": "p5.js",
   "bloomLevel": "Analyze (L4)",
   "bloomVerb": "Examine",
-  "completion_status": "scaffold",
+  "completion_status": "built",
   "chapter_number": 11,
   "chapter_title": "Populism and the Closing of the Frontier (1880–1900)",
   "chapter_dir": "11-populism-frontier"

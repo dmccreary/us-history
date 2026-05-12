@@ -3,119 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>WWII Timeline — From Blitzkrieg to Surrender</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.css">
+    <script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
+<main>
+    <header>
         <h1>WWII Timeline — From Blitzkrieg to Surrender</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> wwii-timeline</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Understand (L2)</p>
-            <p><strong>Learning Objective:</strong> Students sequence key World War II events in both theaters, identify the major turning points in each, and connect home front developments (internment, Rosie the Riveter, war production) to the military timeline.</p>
-        </div>
+        <p>September 1939 – September 1945. European and Pacific theaters with home front developments. Click any event for details.</p>
+    </header>
+
+    <div class="controls" id="filter-controls">
+        <span class="group-label">Filter:</span>
+        <button class="filter-btn active" data-cat="all">All Events</button>
+        <button class="filter-btn" data-cat="european">European Theater</button>
+        <button class="filter-btn" data-cat="pacific">Pacific Theater</button>
+        <button class="filter-btn" data-cat="homefront">Home Front</button>
+        <button class="filter-btn" data-cat="turning">Turning Points</button>
+
+        <span class="group-label" style="margin-left:16px;">View:</span>
+        <button class="nav-btn" id="btn-pan-left" title="Pan left">&#9664;</button>
+        <button class="nav-btn" id="btn-pan-right" title="Pan right">&#9654;</button>
+        <button class="nav-btn" id="btn-zoom-in" title="Zoom in">+</button>
+        <button class="nav-btn" id="btn-zoom-out" title="Zoom out">&minus;</button>
+        <button class="nav-btn" id="btn-fit" title="Fit all">Fit All</button>
     </div>
 
-    <!--
-    SPECIFICATION (from chapter index.md):
+    <div id="instructions">
+        Tip: Click any event bar to read its detailed summary below. Drag the timeline to pan; use + / &minus; to zoom.
+    </div>
 
-    Type: timeline
-    **sim-id:** wwii-timeline<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to navigate the chronology of World War II, identifying key turning points in the European and Pacific theaters and connecting home front events to military developments.
-    
-    Bloom Level: Understand (L2)
-    Bloom Verb: Sequence
-    
-    Learning Objective: Students sequence key World War II events in both theaters, identify the major turning points in each, and connect home front developments (internment, Rosie the Riveter, war production) to the military timeline.
-    
-    Canvas layout:
-    - Responsive width; height approximately 480px
-    - Dual timeline: European Theater (top) and Pacific Theater (bottom)
-    - Home front events shown on a center band
-    - Color-coded: red = Axis advances, blue = Allied advances, gray = home front
-    - Time axis: September 1939 to September 1945
-    
-    Key events included:
-    European: Poland invasion (1939), Fall of France (1940), Blitz (1940–41), Barbarossa (1941), D-Day (1944), Battle of the Bulge (1944–45), Germany surrenders (May 1945)
-    Pacific: Pearl Harbor (Dec 1941), Midway (June 1942), Guadalcanal (1942–43), D-Day analogues (island-hopping: Saipan, Iwo Jima, Okinawa), Hiroshima/Nagasaki (Aug 1945), Japan surrenders (Sep 1945)
-    Home front: Executive Order 9066 (Feb 1942), War Production Board, "We Can Do It" poster (1943), War Refugee Board (Jan 1944)
-    
-    Interactivity:
-    - Click any event to open a detail panel: what happened, why it mattered, connection to other events
-    - "Turning points" filter highlights only the events that fundamentally changed the war's trajectory
-    - Hovering shows year and brief event description
-    
-    Color scheme: Red/gold for Axis; blue/teal for Allied; amber for home front.
-    -->
+    <div id="timeline"></div>
+
+    <div id="detail-panel" class="empty">
+        Click any event above to see what happened, why it mattered, and how it connects to other events in the war.
+    </div>
+</main>
+<script src="wwii-timeline.js"></script>
 </body>
 </html>

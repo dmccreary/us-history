@@ -3,135 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Revolutionary War Battles Map</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="revolutionary-war-battles.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Revolutionary War Battles Map</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> revolutionary-war-battles</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Understand (L2)</p>
-            <p><strong>Learning Objective:</strong> Students explain the strategic significance of at least three major Revolutionary War battles and describe how geography influenced the war's outcome.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: map
-    **sim-id:** revolutionary-war-battles<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to explore the geographic distribution of major Revolutionary War battles, understand the strategic logic of each campaign, and identify how the war's geography shaped its outcome.
-    
+    sim-id: revolutionary-war-battles
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to explore the geographic distribution of major
+    Revolutionary War battles, understand the strategic logic of each campaign,
+    and identify how the war's geography shaped its outcome.
+
     Bloom Level: Understand (L2)
     Bloom Verb: Explain
-    
-    Learning Objective: Students explain the strategic significance of at least three major Revolutionary War battles and describe how geography influenced the war's outcome.
-    
+
+    Learning Objective: Students explain the strategic significance of at least
+    three major Revolutionary War battles and describe how geography influenced
+    the war's outcome.
+
     Canvas layout:
-    - Responsive width; height approximately 520px
-    - Simplified map of the eastern seaboard from Maine to Georgia
-    - Battle sites marked with clickable star icons
-    - British-controlled territory shaded light red; American/contested territory light blue
-    
-    Battle sites to include (with years):
-    - Bunker Hill, MA (1775) — British victory, high British casualties
-    - Trenton, NJ (1776) — American surprise victory
-    - Philadelphia, PA (1777) — British occupation
-    - Saratoga, NY (1777) — American decisive victory; key to French alliance
-    - Valley Forge, PA (1777–78) — Winter encampment (not a battle; marked differently)
-    - Charleston, SC (1780) — British victory; beginning of Southern campaign
-    - Cowpens, SC (1781) — American victory in the South
-    - Yorktown, VA (1781) — Final British surrender
-    
-    Clicking a battle site opens a panel showing:
-    - Battle name, date, and outcome (American win / British win / Draw)
-    - A 2-sentence strategic significance note
-    - A "Why it mattered" line connecting to the war's overall arc
-    
-    Visual treatment:
-    - American victory stars: blue/gold
-    - British victory stars: red
-    - Valley Forge: brown tent icon (not a battle)
-    - Arrows showing the movement of British Southern campaign (1780–81)
-    
-    Interactivity:
-    - Click site for detail panel
-    - "Show campaign" toggle draws a strategic overview arrow for the Northern (1775–76) and Southern (1780–81) campaigns
-    
-    Responsive behavior: Map scales with canvas width; clickable areas scale proportionally.
-    
-    Implementation: p5.js; map as simplified polygon coastline
+    - Responsive width; height ~600px (drawHeight 540 + controlHeight 60)
+    - Simplified eastern seaboard map (Maine to Georgia)
+    - British-controlled coastal cities and contested interior shaded
+    - Battle sites as 5-point stars (gold = American win, red = British win)
+    - Valley Forge marked with a brown tent icon (winter encampment, not a battle)
+
+    Battles included:
+    Bunker Hill 1775, Trenton 1776, Brandywine/Philadelphia 1777,
+    Saratoga 1777, Valley Forge 1777-78, Charleston 1780,
+    Cowpens 1781, Yorktown 1781.
+
+    Click a battle: date, outcome, two-sentence strategic significance,
+    and a one-line "Why it mattered" connecting to the overall war arc.
+
+    Campaign overlay toggle draws:
+    - Northern campaign (1775-76): Boston > New York > Trenton/Princeton > Saratoga
+    - Southern campaign (1780-81): Charleston > inland > Cowpens > Yorktown
     -->
 </body>
 </html>
