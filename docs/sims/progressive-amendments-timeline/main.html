@@ -3,123 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Four Progressive Era Amendments — Timeline and Context</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.css">
+    <script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
+<main>
+    <header>
         <h1>Four Progressive Era Amendments — Timeline and Context</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> progressive-amendments-timeline</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Understand (L2)</p>
-            <p><strong>Learning Objective:</strong> Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.</p>
-        </div>
+        <p>The 16th, 17th, 18th, and 19th Amendments (1913–1920) and the political context that produced them. Click any item for details.</p>
+    </header>
+
+    <div class="controls" id="filter-controls">
+        <span class="group-label">Filter:</span>
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="Amendment 16 (Income Tax)">16th</button>
+        <button class="filter-btn" data-cat="Amendment 17 (Direct Senate Election)">17th</button>
+        <button class="filter-btn" data-cat="Amendment 18 (Prohibition)">18th</button>
+        <button class="filter-btn" data-cat="Amendment 19 (Women's Suffrage)">19th</button>
+        <button class="filter-btn" data-cat="Political Context">Political Context</button>
+        <button class="filter-btn" data-cat="World War I">WWI</button>
+
+        <span class="group-label" style="margin-left:16px;">View:</span>
+        <button class="nav-btn" id="btn-pan-left" title="Pan left">&#9664;</button>
+        <button class="nav-btn" id="btn-pan-right" title="Pan right">&#9654;</button>
+        <button class="nav-btn" id="btn-zoom-in" title="Zoom in">+</button>
+        <button class="nav-btn" id="btn-zoom-out" title="Zoom out">&minus;</button>
+        <button class="nav-btn" id="btn-fit" title="Fit all">Fit All</button>
     </div>
 
-    <!--
-    SPECIFICATION (from chapter index.md):
+    <div id="instructions">
+        Tip: Click any item on the timeline to read a detailed description below. Drag the timeline to pan; use + / &minus; to zoom.
+    </div>
 
-    Type: timeline
-    **sim-id:** progressive-amendments-timeline<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to explore the four Progressive Era constitutional amendments (16th–19th), the social movements that produced them, and the political context in which each was ratified.
-    
-    Bloom Level: Understand (L2)
-    Bloom Verb: Explain
-    
-    Learning Objective: Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.
-    
-    Canvas layout:
-    - Responsive width; height approximately 480px
-    - Horizontal timeline from 1890 to 1925
-    - Four clickable markers, one per amendment: 16th (1913), 17th (1913), 18th (1919), 19th (1920)
-    - Background shows key political events: McKinley assassination (1901), TR presidency, WWI shading (1917–1918)
-    
-    Each marker, when clicked, opens a detail panel:
-    - Amendment number and ratification year
-    - What it changed (one sentence)
-    - The movement that drove it (Populists, direct democracy reformers, temperance, women's suffrage)
-    - One historical context note explaining the timing
-    - A "What happened next?" line showing the amendment's legacy or unintended consequences
-    
-    Additional clickable elements:
-    - Hovering the WWI band shows: "Wartime nationalism accelerated both Prohibition (grain conservation) and women's suffrage (women's war contributions)"
-    - A "Populating over time" mode shows state ratification maps for the 18th and 19th amendments
-    
-    Color scheme: Each amendment has a distinct color (gold = 16th, indigo = 17th, red = 18th, teal = 19th); WWI period shaded in gray.
-    
-    Responsive behavior: Timeline scrolls horizontally on narrow canvas.
-    
-    Implementation: p5.js
-    -->
+    <div id="timeline"></div>
+
+    <div id="detail-panel" class="empty">
+        Click any amendment or event above to see what it changed, the movement that drove it, the historical context, and what happened next.
+    </div>
+</main>
+<script src="progressive-amendments-timeline.js"></script>
 </body>
 </html>

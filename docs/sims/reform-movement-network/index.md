@@ -1,16 +1,12 @@
 ---
 title: Reform Movement Network — 1830–1860
 description: Students differentiate the goals and methods of antebellum reform movements and identify at least three ways they were interconnected through shared participants, ideas, or organizational networks.
-status: scaffold
+status: built
 library: vis-network
 bloom_level: Analyze (L4)
 ---
 
 # Reform Movement Network — 1830–1860
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students differentiate the goals and methods of antebellum reform movements and 
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="760" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

@@ -2,9 +2,9 @@
   "title": "Social Movements of the 1960s–70s — Strategies and Outcomes",
   "description": "Students compare the strategies, constituencies, and outcomes of the major social movements of the 1965–1975 period, identifying similarities (nonviolent direct action, legal challenges, coalition-building) and differences (constituency, target, level of legislative success).",
   "creator": "Dementia Education Project",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "subject": [
-    "dementia"
+    "U.S. History"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -14,7 +14,7 @@
   "library": "p5.js",
   "bloomLevel": "Analyze (L4)",
   "bloomVerb": "Compare",
-  "completion_status": "scaffold",
+  "completion_status": "built",
   "chapter_number": 18,
   "chapter_title": "Vietnam, Nixon, and Social Movements (1965–1975)",
   "chapter_dir": "18-vietnam-nixon"

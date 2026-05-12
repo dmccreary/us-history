@@ -1,16 +1,12 @@
 ---
 title: WWI Decision Tree — From Assassination to American Entry
 description: Students trace the causal chain from the assassination of Archduke Franz Ferdinand to U.S. declaration of war, identifying which steps were contingent (could have gone otherwise) and which were highly determined by prior commitments.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # WWI Decision Tree — From Assassination to American Entry
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students trace the causal chain from the assassination of Archduke Franz Ferdina
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="800" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

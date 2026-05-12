@@ -1,16 +1,12 @@
 ---
 title: WWII Timeline — From Blitzkrieg to Surrender
 description: Students sequence key World War II events in both theaters, identify the major turning points in each, and connect home front developments (internment, Rosie the Riveter, war production) to the military timeline.
-status: scaffold
-library: p5.js
+status: built
+library: vis-timeline
 bloom_level: Understand (L2)
 ---
 
 # WWII Timeline — From Blitzkrieg to Surrender
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -18,11 +14,11 @@ Students sequence key World War II events in both theaters, identify the major t
 
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Sequence
-- **Library:** p5.js
+- **Library:** vis-timeline
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="720" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

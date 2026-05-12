@@ -3,129 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Transportation Revolution — Connections Map</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>The Transportation Revolution Connections Map</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="transportation-revolution-map.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>The Transportation Revolution — Connections Map</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> transportation-revolution-map</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students examine how transportation networks shaped economic geography, explaining how the Erie Canal and railroad expansion connected markets and accelerated the Market Revolution.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: map
-    **sim-id:** transportation-revolution-map<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to visualize how canals, roads, and early railroads progressively connected the American economy between 1800 and 1860, and understand how transportation infrastructure shaped economic growth and regional integration.
-    
+    sim-id: transportation-revolution-map
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to visualize how canals, roads, and early railroads
+    progressively connected the American economy between 1800 and 1860, and
+    understand how transportation infrastructure shaped economic growth and
+    regional integration.
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Examine
-    
-    Learning Objective: Students examine how transportation networks shaped economic geography, explaining how the Erie Canal and railroad expansion connected markets and accelerated the Market Revolution.
-    
+
+    Learning Objective: Students examine how transportation networks shaped
+    economic geography, explaining how the Erie Canal and railroad expansion
+    connected markets and accelerated the Market Revolution.
+
     Canvas layout:
-    - Responsive width; height approximately 500px
-    - Simplified map of the eastern United States and Midwest showing major waterways
-    - Time slider at the bottom: 1800 → 1820 → 1840 → 1860
-    - As the slider advances, new transport routes appear on the map in different colors
-    
+    - Responsive width; height approximately 700px
+    - Simplified map of the eastern US and Midwest showing major waterways
+    - Time slider at the bottom: 1800 -> 1820 -> 1840 -> 1860
+    - As the slider advances, new transport routes appear on the map
+
     Transport layers:
-    - 1800: Major navigable rivers only (blue lines) — Ohio, Mississippi, Hudson
-    - 1820: National Road (tan line) and early turnpikes
-    - 1825: Erie Canal added (distinct canal-blue dashed line) with tooltip showing cost/time reduction
-    - 1840: Early railroad lines in the Northeast (red lines)
-    - 1860: Full railroad network east of the Mississippi (extensive red network)
-    
-    Clickable elements:
-    - Each transport route, when clicked, shows: route name, completion date, what it connected, and estimated cost/time reduction for shipping goods
-    
-    Key annotation: Erie Canal connection from Buffalo to Albany to NYC — clicking it shows the cost calculation: shipping a ton of flour from Buffalo to NYC dropped from $100 (1817) to $10 (1830).
-    
+    - 1800 (always visible): Major navigable rivers (dark blue) - Mississippi,
+      Ohio, Hudson, Missouri. Cities as gold dots.
+    - 1820: National Road (tan) and early turnpikes (Lancaster Turnpike).
+    - 1825: Erie Canal (canal-blue dashed line, Buffalo -> Albany -> Hudson R.
+      -> NYC). Click shows the cost/time calculation.
+    - 1840: Early Northeast railroads (red) - Boston & Lowell, Camden & Amboy,
+      Baltimore & Ohio (Baltimore -> Cumberland), early PA / NY lines.
+    - 1860: Dense Northeast / Midwest rail network (more red lines): trunk
+      lines connecting Boston / NYC / Philadelphia / Chicago / Cincinnati /
+      St. Louis. Mentions New York Central and Pennsylvania Railroad
+      consolidations.
+
+    Clickable routes show a detail panel with: route name, completion date,
+    what it connected, and a one-sentence economic-impact note.
+
     Color scheme:
     - Rivers: dark blue
     - Canals: light blue dashed
-    - Roads/turnpikes: tan
+    - Roads / turnpikes: tan
     - Railroads: red
     - Major cities: gold dots
-    
-    Responsive behavior: Map scales with canvas; slider remains functional on touch screens.
-    
-    Implementation: p5.js; map as simplified polygon shapes; time-slider controls layer visibility.
     -->
 </body>
 </html>

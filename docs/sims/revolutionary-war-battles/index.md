@@ -1,16 +1,12 @@
 ---
 title: Revolutionary War Battles Map
 description: Students explain the strategic significance of at least three major Revolutionary War battles and describe how geography influenced the war's outcome.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Understand (L2)
 ---
 
 # Revolutionary War Battles Map
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students explain the strategic significance of at least three major Revolutionar
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="680" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

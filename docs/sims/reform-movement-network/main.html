@@ -4,129 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reform Movement Network — 1830–1860</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <h1>Reform Movement Network — 1830–1860</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
+    <div class="app">
+        <div class="toolbar">
+            <span class="toolbar-title">Antebellum Reform Network</span>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="abolitionism">Abolitionism only</button>
+            <button class="filter-btn" data-filter="womens-rights">Women's Rights only</button>
+            <button class="filter-btn" data-filter="people">People only</button>
+            <button class="filter-btn" data-filter="reset">Reset</button>
         </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> reform-movement-network</p>
-            <p><strong>Library:</strong> vis-network</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students differentiate the goals and methods of antebellum reform movements and identify at least three ways they were interconnected through shared participants, ideas, or organizational networks.</p>
+
+        <div class="work">
+            <div class="graph-area">
+                <div id="network"></div>
+
+                <div class="legend" aria-label="Legend">
+                    <div class="legend-row"><span class="legend-swatch movement"></span>Movement</div>
+                    <div class="legend-row"><span class="legend-swatch person"></span>Person</div>
+                    <div class="legend-row"><span class="legend-swatch organization"></span>Organization</div>
+                    <div class="legend-row"><span class="legend-swatch idea"></span>Idea</div>
+                </div>
+
+                <div id="zoom-hint">Scroll to zoom &nbsp;|&nbsp; drag to pan &nbsp;|&nbsp; click nodes &amp; edges</div>
+            </div>
+
+            <aside class="panel" id="panel">
+                <h2>Reform Movement Network</h2>
+                <p class="empty-hint">Click any node to see details.</p>
+            </aside>
         </div>
     </div>
 
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: graph-model
-    **sim-id:** reform-movement-network<br/>
-    **Library:** vis-network<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to explore the interconnections between antebellum reform movements and key individuals, seeing how shared actors, ideas, and organizational networks linked abolitionism, women's rights, temperance, and transcendentalism.
-    
-    Bloom Level: Analyze (L4)
-    Bloom Verb: Differentiate
-    
-    Learning Objective: Students differentiate the goals and methods of antebellum reform movements and identify at least three ways they were interconnected through shared participants, ideas, or organizational networks.
-    
-    Node types:
-    1. Movement nodes (large circles, gold): Abolitionism, Women's Rights, Temperance, Transcendentalism, Second Great Awakening
-    2. Person nodes (medium circles, indigo): Frederick Douglass, William Lloyd Garrison, Elizabeth Cady Stanton, Lucretia Mott, Harriet Tubman, William Lloyd Garrison, Henry David Thoreau, Sojourner Truth
-    3. Organization nodes (small squares, teal): American Anti-Slavery Society, Seneca Falls Convention, The Liberator (newspaper), American Temperance Society
-    4. Idea nodes (diamonds, amber): Individual Conscience, Natural Rights, Religious Revival
-    
-    Edges (with labels):
-    - Douglass → Abolitionism: "Leader and speaker"
-    - Douglass → Women's Rights: "Signed Declaration of Sentiments at Seneca Falls"
-    - Stanton → Women's Rights: "Primary organizer"
-    - Stanton → Abolitionism: "Organized through anti-slavery networks"
-    - Garrison → Abolitionism: "Founded The Liberator"
-    - Tubman → Underground Railroad: "Conductor"
-    - Second Great Awakening → Abolitionism, Temperance, Women's Rights: "Religious energy source"
-    - Individual Conscience → Transcendentalism: "Core principle"
-    - Individual Conscience → Civil Disobedience: "Enables"
-    
-    Interactivity:
-    - Clicking any node shows a detail panel: name, type, 2-sentence description, connections count
-    - Clicking an edge shows the relationship label and a 1-sentence historical explanation
-    - "Show paths" mode: clicking two nodes highlights all paths connecting them
-    - Nodes are draggable; graph is zoomable and pannable
-    - Filter buttons: show only one movement's network; show only person nodes
-    
-    Color scheme: as specified above. Edge thickness reflects strength of connection (strong = thick, indirect = thin dashed).
-    
-    Layout: Force-directed (vis-network default) with slight center attraction to keep graph compact.
-    
-    Implementation: vis-network JavaScript library
-    -->
+    <script src="reform-movement-network.js"></script>
 </body>
 </html>
