@@ -74,11 +74,15 @@ The **equal protection clause** has been the constitutional basis for nearly eve
 
 The **Fifteenth Amendment** prohibited denying the right to vote "on account of race, color, or previous condition of servitude." It gave Black men the right to vote. (Women — including Black women — would not gain the constitutional right to vote until the Nineteenth Amendment in 1920.)
 
+![A commemorative broadside celebrating the 13th, 14th, and 15th Amendments — the Reconstruction Amendments that abolished slavery, defined citizenship, and protected voting rights](../../img/chapter-images/60-reconstruction-amendments.png)
+
 Together, the Reconstruction amendments represented a second founding — a constitutional transformation designed to make the principles of the Declaration of Independence operational for Black Americans. The question Reconstruction had to answer was whether political and legal change could overcome the social, economic, and cultural structures of four centuries of slavery.
 
 ## Part 1: Reconstruction Politics (1865–1877)
 
 ### Reconstruction Plans and Radical Reconstruction
+
+![A Thomas Nast political cartoon from the Reconstruction era depicting the fierce conflict over competing visions of Reconstruction and Black civil rights](../../img/chapter-images/58-reconstruction-cartoon.png)
 
 **Reconstruction Plans** emerged from a conflict between Lincoln (who wanted lenient, quick restoration), the Radical Republicans in Congress (who wanted to ensure civil and political rights for freed people before restoring Southern states), and, after Lincoln's assassination, President Andrew Johnson (who proved even more lenient than Lincoln and actively hostile to Black political rights).
 
@@ -89,6 +93,8 @@ This brief period of multiracial democracy in the South is one of the most drama
 ### The Freedmen's Bureau
 
 The **Freedmen's Bureau** (Bureau of Refugees, Freedmen, and Abandoned Lands) was established in 1865 to assist formerly enslaved people in transitioning to freedom. It provided food, medical care, and legal assistance; helped establish schools (including many that eventually became historically Black colleges and universities); and attempted to negotiate fair labor contracts between freedpeople and their former enslavers.
+
+![A Freedmen's Bureau school in the post-Civil War South, where formerly enslaved African Americans of all ages learned to read and write for the first time](../../img/chapter-images/59-freedmens-bureau-school.png)
 
 The Bureau operated for seven years (1865–1872) under chronic underfunding, inadequate staffing, and determined resistance from Southern white opponents. It helped roughly four million freed people navigate the transition from slavery to freedom — but it was unable to deliver the land redistribution ("forty acres and a mule") that would have given freed people economic independence. Without land, freed Black southerners were economically dependent on the same planters who had enslaved them.
 

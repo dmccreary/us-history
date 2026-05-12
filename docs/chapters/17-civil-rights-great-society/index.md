@@ -97,7 +97,9 @@ The **Birmingham Campaign** (spring 1963) was the movement's most strategically 
 
 Connor did not disappoint: fire hoses and police dogs used against peaceful protesters, including children (the "Children's Crusade" involved thousands of students from grade school through high school), produced images that shocked the nation and the world. The spectacle of state violence against nonviolent citizens — broadcast on television to millions — broke the political logjam. President Kennedy, who had been cautious about the Civil Rights Movement, announced he would propose comprehensive civil rights legislation.
 
-The **March on Washington** (August 28, 1963) drew 250,000 people — the largest civil rights demonstration in American history to that point. King delivered the "I Have a Dream" speech, which articulated the movement's vision of racial equality in language drawn from the Declaration of Independence and the Black church tradition. The march demonstrated both the movement's organizational capacity and its mainstream appeal.
+The **March on Washington** (August 28, 1963) drew 250,000 people — the largest civil rights demonstration in American history to that point. King delivered the "I Have a Dream" speech, which articulated the movement's vision of racial equality in language drawn from the Declaration of Independence and the Black church tradition.
+
+![Martin Luther King Jr. delivering his "I Have a Dream" speech at the March on Washington on August 28, 1963, before 250,000 people](../../img/chapter-images/98-mlk-dream-speech.png) The march demonstrated both the movement's organizational capacity and its mainstream appeal.
 
 ### Civil Rights Act of 1964 and Voting Rights Act of 1965
 

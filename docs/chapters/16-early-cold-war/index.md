@@ -84,6 +84,8 @@ The Marshall Plan was one of the most successful foreign policy initiatives in A
 
 The **Berlin Blockade** (June 1948–May 1949) was the Cold War's first major crisis. Berlin, located 100 miles inside Soviet-occupied East Germany, was divided into Western (American, British, French) and Soviet zones. In June 1948, the Soviets blockaded all land routes to West Berlin — attempting to force the Western powers to either abandon the city or accept Soviet terms.
 
+![The Berlin Airlift of 1948-1949, when Western powers supplied the blockaded city of West Berlin by air for 324 days to resist Soviet pressure](../../img/chapter-images/94-berlin-airlift.png)
+
 The Western response — the Berlin Airlift — supplied the entire city (2.5 million people) by air for 324 days: 200,000 flights delivering 2.3 million tons of supplies, including coal for heating. The Soviets lifted the blockade in May 1949, having failed to force a Western retreat. The episode established two principles: the Western powers would not abandon West Berlin, and they would respond to Soviet pressure without direct military confrontation.
 
 **NATO Formation** (April 1949) was the institutional response to the Soviet threat. The North Atlantic Treaty committed the United States, Canada, and Western European nations to collective defense: "an armed attack against one... shall be considered an attack against them all." NATO represented the most significant peacetime military alliance in American history — a permanent departure from the "no entangling alliances" tradition that Washington had articulated in his Farewell Address.
@@ -99,6 +101,8 @@ The **Korean War** (1950–1953) went through several phases. American and South
 The Korean War's outcome — approximately where the pre-war boundary was — gave rise to the dismissive characterization "the Forgotten War." But the war's strategic significance was enormous: it demonstrated that the United States would use military force to resist Communist expansion; it militarized the Cold War (defense spending tripled); and MacArthur's insubordination (he publicly advocated expanding the war to China and was fired by Truman) established the principle of civilian control of the military.
 
 ### McCarthyism and HUAC
+
+![The Army-McCarthy hearings of 1954, where televised proceedings finally exposed Senator McCarthy's reckless methods to millions of Americans](../../img/chapter-images/95-mccarthy-hearings.png)
 
 **McCarthyism** — the practice of making sweeping, often unsubstantiated accusations of Communist infiltration — was named for Senator Joseph McCarthy of Wisconsin, who claimed in February 1950 to have a list of Communists working in the State Department. Over the next four years, McCarthy conducted a campaign of accusation that ended careers, destroyed reputations, and created a political climate in which association with anything labeled "Communist" was politically lethal.
 
@@ -142,9 +146,13 @@ Eisenhower's warning was about the structural relationship between defense contr
 
 ### Space Race
 
+![President Kennedy delivering his 1961 speech at Rice University challenging Americans to go to the moon before the end of the decade](../../img/chapter-images/96-jfk-moon-speech.png)
+
 The **Space Race** began in October 1957 when the Soviet Union launched Sputnik — the first artificial satellite to orbit Earth. Sputnik produced a national crisis in the United States: if the Soviets could put a satellite in orbit, they could put a nuclear warhead on an intercontinental ballistic missile. Congress responded with the National Defense Education Act (1958), funding math and science education, and NASA was created to coordinate space exploration.
 
 The United States' response to Sputnik illustrates how foreign policy competition shapes domestic policy. The interstate highway system (1956) was justified partly by military logistics; the education funding surge of the late 1950s was justified partly by Cold War competition. The Cold War shaped the domestic landscape in ways that outlasted the competition that produced them.
+
+![Apollo 11 astronauts on the moon's surface on July 20, 1969, fulfilling President Kennedy's challenge and marking the United States' triumph in the Space Race](../../img/chapter-images/97-apollo-11-moon-landing.png)
 
 #### Diagram: Arms Race Dynamics — The Security Dilemma Loop
 

@@ -171,17 +171,27 @@ At **Concord**, the British found that most weapons had been hidden, and on the 
 
 ### Common Sense and the Case for Independence
 
-For most of 1775, colonial leaders framed the conflict as a fight for their rights as British subjects, not as a bid for independence. Many colonists still hoped for reconciliation. **Common Sense**, a pamphlet written by the recent English immigrant Thomas Paine and published in January 1776, changed the terms of the debate.
+For most of 1775, colonial leaders framed the conflict as a fight for their rights as British subjects, not as a bid for independence. Many colonists still hoped for reconciliation.
+
+![Patrick Henry delivering his famous "Give me liberty, or give me death!" speech before the Virginia Convention in March 1775](../../img/chapter-images/17-patrick-henry-speech.png)
+
+**Common Sense**, a pamphlet written by the recent English immigrant Thomas Paine and published in January 1776, changed the terms of the debate.
 
 Paine argued in plain, forceful language that monarchy was an absurd and destructive form of government, that the British Crown had forfeited any claim to colonial loyalty, and that independence was not merely a right but a duty. *Common Sense* sold approximately 500,000 copies in a country of roughly 2.5 million — an extraordinary circulation for the time — and is credited with moving public opinion decisively toward independence.
 
 ### The Declaration of Independence
 
+![The Liberty Bell, symbol of American independence, cracked but enduring in Philadelphia, Pennsylvania](../../img/chapter-images/16-liberty-bell.png)
+
 The **Declaration of Independence**, adopted July 4, 1776, was primarily drafted by **Thomas Jefferson** with revisions by Benjamin Franklin, John Adams, and the Continental Congress as a whole. It served two purposes: as a statement of political philosophy justifying revolution, and as a diplomatic document addressed to potential European allies (particularly France) who needed a principled rationale to support the American cause.
+
+![The engrossed parchment of the Declaration of Independence, adopted by the Continental Congress on July 4, 1776](../../img/chapter-images/19-declaration-of-independence.png)
 
 Its most famous passage drew directly on Enlightenment philosophy — particularly John Locke's ideas about natural rights and the social contract:
 
 > "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+
+![The signing of the Declaration of Independence, August 2, 1776, as depicted in John Trumbull's iconic 1818 painting](../../img/chapter-images/20-signing-declaration.png)
 
 The Declaration was a radical document by the standards of its time. It provided a universal language of rights that could be — and was — turned against the slaveholders who wrote it. Within decades, abolitionists were quoting the Declaration's second sentence in arguments against slavery. In the 20th century, civil rights leaders would invoke it in arguments for racial equality. The gap between the Declaration's universal claims and the realities of American society at its founding created a tension that has run through American history ever since.
 
@@ -202,7 +212,11 @@ The Revolutionary War was fought over eight years (1775–1783) across the easte
 
 ### Valley Forge
 
+![Washington's dramatic Christmas night crossing of the Delaware River before the surprise attack on Hessian forces at Trenton in 1776](../../img/chapter-images/18-washington-crossing-delaware.png)
+
 **Valley Forge** (winter 1777–1778) was not a battle but a crisis of survival. Washington's Continental Army camped at Valley Forge, Pennsylvania, through a brutal winter with inadequate food, clothing, and shelter. Roughly 2,000 of 12,000 soldiers died of cold, disease, and starvation.
+
+![The Continental Army encampment at Valley Forge, Pennsylvania, during the brutal winter of 1777-1778](../../img/chapter-images/21-valley-forge.png)
 
 Valley Forge is remembered as a test of revolutionary resolve — and for good reason. The soldiers who survived emerged in spring 1778 better trained (thanks to the Prussian officer Baron von Steuben, who drilled them in European military discipline) and more tightly bonded. But Valley Forge also illustrates the dysfunction of the Continental Congress, which repeatedly failed to supply the army it had called into existence.
 
@@ -269,6 +283,8 @@ Implementation: p5.js; map as simplified polygon coastline
 </details>
 
 ### The Treaty of Paris (1783)
+
+![The siege of Yorktown, October 1781, where Cornwallis's British army surrendered to Washington and French forces, effectively ending the Revolutionary War](../../img/chapter-images/22-battle-yorktown.png)
 
 The **Treaty of Paris** (September 3, 1783) formally ended the Revolutionary War. Its terms were extraordinarily favorable to the United States: Britain recognized American independence, ceded all territory east of the Mississippi River (south of Canada, north of Florida), and granted Americans fishing rights in Canadian waters.
 

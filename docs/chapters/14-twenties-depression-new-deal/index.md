@@ -75,7 +75,9 @@ The 1920s marked the first modern **consumer culture** in American history — a
 
 ### The Harlem Renaissance
 
-While white America danced to jazz and drove its new Fords, Black Americans were creating one of the most extraordinary cultural movements in American history. The **Harlem Renaissance** (roughly 1919–1935) was an explosion of Black literary, visual, and musical creativity centered in Harlem, New York — itself the product of the Great Migration, the movement of hundreds of thousands of Black Americans from the Jim Crow South to Northern cities that accelerated during and after World War I.
+While white America danced to jazz and drove its new Fords, Black Americans were creating one of the most extraordinary cultural movements in American history. ![A jazz club during the Harlem Renaissance of the 1920s, capturing the vibrant African American cultural movement centered in Harlem, New York](../../img/chapter-images/81-harlem-renaissance-jazz.png)
+
+The **Harlem Renaissance** (roughly 1919–1935) was an explosion of Black literary, visual, and musical creativity centered in Harlem, New York — itself the product of the Great Migration, the movement of hundreds of thousands of Black Americans from the Jim Crow South to Northern cities that accelerated during and after World War I.
 
 The Harlem Renaissance's writers, poets, painters, and musicians created a new self-image for Black America — one that claimed artistic achievement, intellectual sophistication, and cultural pride in the face of persistent racism. **Langston Hughes** was its preeminent poet. His poetry drew on Black vernacular, jazz rhythms, and everyday life to create work that was simultaneously accessible and profound. "I, Too" (1926) — "I, too, am America" — is a declaration of belonging that insists on Black Americans' full citizenship in a country that denied it.
 
@@ -86,6 +88,8 @@ The **Jazz Age** takes its name from the music that crossed racial boundaries mo
     Apply sourcing to the Harlem Renaissance. When Langston Hughes wrote "I, Too, am America," who was his audience? What was he arguing against? The poem is in dialogue with Walt Whitman's "I Hear America Singing" (1860), which celebrated American workers — all white in Whitman's imagining. Hughes inserts a Black voice into that national song, claiming full Americanness. Understanding the Harlem Renaissance means understanding it not just as a cultural flowering but as a political argument — an assertion of full humanity and citizenship in the teeth of Jim Crow. When you read Harlem Renaissance texts, always ask: what is this work pushing against? What does it affirm?
 
 ### Prohibition and Its Consequences
+
+![A young woman representing the 1920s "flapper" culture of the Jazz Age, with its bobbed hair, short skirts, and defiance of Victorian social norms](../../img/chapter-images/82-1920s-flapper.png)
 
 The **Eighteenth Amendment** (ratified 1919) prohibited the manufacture, sale, and transportation of intoxicating liquors. The **Prohibition Era** (1920–1933) was one of the most dramatic examples in American history of a policy producing effects precisely opposite to its intentions — a textbook case of reinforcing feedback loops created by unintended consequences.
 
@@ -117,6 +121,8 @@ The **Ku Klux Klan's 1920s revival** was not the defeated remnant of Reconstruct
 ## Part 2: The Great Depression
 
 ### The 1929 Crash and Its Causes
+
+![The panic on the New York Stock Exchange during the 1929 Stock Market Crash, the triggering event that cascaded into the Great Depression](../../img/chapter-images/83-stock-market-crash-1929.png)
 
 The **1929 Stock Market Crash** began on "Black Thursday" (October 24) and accelerated through "Black Tuesday" (October 29), when the Dow Jones Industrial Average fell 13 percent in a single day. The market lost nearly 90 percent of its value from its 1929 peak to its 1932 trough.
 
@@ -157,6 +163,8 @@ The **Bonus Army** (summer 1932) demonstrated both the depth of the crisis and t
 
 **Franklin D. Roosevelt** (FDR) won the 1932 election in a landslide, carrying 42 of 48 states. He was a New York patrician who had been struck by polio in 1921 and had overcome the paralysis of his legs through years of physical therapy — an experience that shaped his resilience and, arguably, his empathy for suffering. His first inaugural address included the most famous line in American political history: "The only thing we have to fear is fear itself."
 
+![President Franklin D. Roosevelt delivering one of his fireside chats to the American people via radio, restoring public confidence during the Great Depression](../../img/chapter-images/85-fdr-fireside-chat.png)
+
 Roosevelt's political genius was less ideological than pragmatic. He had no systematic theory of what caused the Depression or what would end it; his approach was to try things, keep what worked, and discard what didn't. "Take a method and try it," he said. "If it fails, try another. But above all, try something." This pragmatism infuriated ideologues of both left and right — but it also made the New Deal politically durable.
 
 ### New Deal Programs
@@ -166,6 +174,8 @@ The **New Deal** unfolded in two phases. The "First Hundred Days" (1933) address
 Before the major programs, one key concept: the New Deal was based on **Keynesian economics** (named for British economist John Maynard Keynes), which held that during a recession governments should increase spending to stimulate demand — even if it meant running budget deficits. This was a direct challenge to the conventional wisdom that governments, like households, should balance their budgets during hard times.
 
 Key New Deal programs:
+
+![Works Progress Administration workers on a New Deal public works project, one of the programs that employed millions of Americans during the Great Depression](../../img/chapter-images/86-new-deal-wpa-workers.png)
 
 **Civilian Conservation Corps (CCC)**: Employed 3 million young men (1933–1942) in conservation work on public lands — planting trees, building trails, fighting erosion. It addressed unemployment while creating public goods. The CCC was racially segregated, as were most New Deal programs — a concession to Southern Democratic congressmen whose votes FDR needed.
 
@@ -237,6 +247,8 @@ The plan failed politically (even Democrats opposed it as an assault on judicial
 ### The Dust Bowl and Okies Migration
 
 The **Dust Bowl** (roughly 1930–1936) was an ecological catastrophe that combined with the Depression to produce one of the most severe human displacement events in American history. Decades of intensive farming on the Great Plains had stripped the native grasses that held the soil in place. When drought came in the early 1930s, the topsoil — with nothing to anchor it — blew away in massive dust storms ("black blizzards") that buried farms, killed livestock, and caused widespread respiratory disease.
+
+![Dorothea Lange's "Migrant Mother," a 1936 photograph capturing the desperation of the Great Depression's displaced farm workers in California](../../img/chapter-images/84-migrant-mother-lange.png)
 
 An estimated 3.5 million people left the Great Plains during the 1930s. Those from Oklahoma became known as **"Okies"** — a term that was initially derogatory. John Steinbeck's *The Grapes of Wrath* (1939) traced one Oklahoma family's migration to California, where they faced exploitation, hostility, and destitution rather than the promised land they had expected. The Dust Bowl's root cause was a market failure: individual farmers had no incentive to adopt soil-conservation practices because the costs (lower yields) were immediate and personal, while the benefits (preventing soil erosion) were shared and long-term. The New Deal's Soil Conservation Service attempted to address this through federal programs and incentives — an early example of using government policy to correct an environmental market failure.
 

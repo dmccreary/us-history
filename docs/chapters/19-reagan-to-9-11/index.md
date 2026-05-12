@@ -144,6 +144,8 @@ The lobbying industry creates a structural advantage for well-funded interests o
 
 ### 9/11 Attacks
 
+![Three firefighters raising the American flag at Ground Zero in the ruins of the World Trade Center on September 11, 2001, an iconic image of resilience after the terrorist attacks](../../img/chapter-images/100-ground-zero-flag.png)
+
 The **September 11, 2001 attacks** — coordinated hijackings of four commercial aircraft by 19 Al-Qaeda operatives, two of which struck the World Trade Center towers in New York, one the Pentagon, and one a field in Pennsylvania (after passengers attempted to overpower the hijackers) — killed 2,977 people and fundamentally altered American foreign policy, domestic security, and national identity.
 
 9/11 ended one era (the post-Cold War "unipolar moment" of American dominance without peer competitor or existential threat) and began another (permanent war on terrorism, with indefinite geographic scope and no clear end condition). The immediate response — the Authorization for Use of Military Force (AUMF, September 18, 2001, passed 98-0 in the Senate) — gave the president broad authority to use force against those responsible for 9/11 and those who harbored them. The AUMF has been used to justify military operations in dozens of countries across more than 20 years.

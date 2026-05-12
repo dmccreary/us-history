@@ -60,6 +60,8 @@ Lend-Lease was, as Churchill said, "the most unsordid act in the history of any 
 
 ### Attack on Pearl Harbor and U.S. Entry into WWII
 
+![The Japanese attack on Pearl Harbor, Hawaii, on December 7, 1941, which killed 2,403 Americans and brought the United States into World War II](../../img/chapter-images/87-pearl-harbor.png)
+
 The **attack on Pearl Harbor** (December 7, 1941) ended American neutrality in a morning. Japanese carrier-based aircraft launched a surprise attack on the U.S. Pacific Fleet at Pearl Harbor, Hawaii, killing 2,403 Americans, wounding 1,178, and sinking or damaging 19 ships including 8 battleships. Roosevelt's address to Congress the next day called it "a date which will live in infamy." Congress declared war on Japan the same day; Germany and Italy declared war on the United States four days later, resolving the European question as well.
 
 **U.S. entry into WWII** transformed the conflict's scale and probable outcome. American industrial capacity — already partially mobilized for Lend-Lease — could now be fully directed toward military production. The United States could draw on its entire population, its vast natural resources, and geographic security (no enemy could reach the continental United States in meaningful force) in ways that no other combatant could match.
@@ -75,6 +77,8 @@ The War Production Board allocated raw materials; the Office of Price Administra
 ### Women in the Workforce and Rosie the Riveter
 
 With millions of men in the military, women entered the industrial workforce on an unprecedented scale. **Women in the workforce (WWII)** saw the female labor force participation rate rise from 27 percent in 1940 to 37 percent in 1945 — 6 million women took jobs that had previously been closed to them, including welding, riveting, and heavy manufacturing.
+
+![The iconic "We Can Do It!" Rosie the Riveter poster, symbol of the millions of American women who entered the industrial workforce during World War II](../../img/chapter-images/88-rosie-the-riveter.png)
 
 **"Rosie the Riveter"** — depicted in Norman Rockwell's *Saturday Evening Post* cover and the iconic "We Can Do It!" poster — became the cultural symbol of women's wartime contribution. Rosie represented a genuine social shift: women demonstrating competence in industrial work that had been defined as male. When the war ended, most of these women were expected to return home, and many were forced out of their jobs as veterans returned. But the experience of wartime employment — and the demonstrated capacity for women to perform industrial work — permanently changed what women (and employers) believed was possible. It is one of the roots of the postwar women's movement.
 
@@ -98,6 +102,8 @@ Internees lost their homes, businesses, and property. They were confined in barr
 
 By 1944, the Allies had liberated North Africa (1943), invaded Sicily and the Italian mainland (1943–1944), and the Soviet Union had turned the tide on the Eastern Front. The question was when and where to open a second front in Western Europe. The answer was Operation Overlord.
 
+![Allied forces landing on the beaches of Normandy, France, on D-Day, June 6, 1944, the largest amphibious assault in history that opened the Western Front](../../img/chapter-images/89-d-day-landing.png)
+
 **D-Day** (June 6, 1944) was the largest amphibious assault in history. Allied forces — American, British, Canadian, and troops from occupied European nations — landed on five beaches in Normandy, France, under combined naval and air support. The scale was staggering: 156,000 troops crossed the English Channel in 5,000 ships, supported by 13,000 aircraft. American forces at Omaha Beach faced the heaviest German defenses and suffered approximately 2,000 casualties in a single morning.
 
 The Normandy campaign opened the Western Front that Germany had feared — forcing it to fight simultaneously in the East (against the Soviet Union), the South (Italy), and the West (France). Germany's military position was now hopeless, though German resistance continued for another eleven months.
@@ -106,13 +112,17 @@ The Normandy campaign opened the Western Front that Germany had feared — forci
 
 In the Pacific, the U.S. strategy was **island hopping** (also called "leapfrogging"): rather than attacking every Japanese-held island in sequence, American forces captured only those islands that provided airfields and naval bases for the next advance, bypassing and isolating heavily defended Japanese positions. This approach, developed by Admiral Chester Nimitz and General Douglas MacArthur, allowed the United States to advance toward Japan more quickly than a sequential island-by-island campaign would have permitted.
 
-The island battles — Guadalcanal (1942–1943), Tarawa (1943), Saipan (1944), Iwo Jima (1945), Okinawa (1945) — were among the most brutal of the war. Japanese military doctrine forbade surrender; American casualties at Okinawa (82 days of fighting, 12,000 Americans killed) convinced military planners that an invasion of the Japanese home islands would be catastrophically costly.
+The island battles — Guadalcanal (1942–1943), Tarawa (1943), Saipan (1944), Iwo Jima (1945), Okinawa (1945) — were among the most brutal of the war.
+
+![U.S. Marines raising the American flag on Mount Suribachi during the Battle of Iwo Jima on February 23, 1945, one of the most iconic photographs of World War II](../../img/chapter-images/90-iwo-jima-flag.png) Japanese military doctrine forbade surrender; American casualties at Okinawa (82 days of fighting, 12,000 Americans killed) convinced military planners that an invasion of the Japanese home islands would be catastrophically costly.
 
 ## Part 4: The Holocaust and the Atomic Bomb
 
 ### The Holocaust and U.S. Response
 
 The **Holocaust** was the systematic, state-sponsored murder of six million Jews and millions of others (Roma, disabled people, political opponents, LGBTQ+ people, Soviet POWs) by Nazi Germany and its collaborators. It was carried out with bureaucratic efficiency through ghettos, deportations, and death camps equipped with gas chambers designed for mass killing.
+
+![American soldiers liberating a Nazi concentration camp in 1945, revealing to the world the full horror of the Holocaust](../../img/chapter-images/91-holocaust-liberation.png)
 
 **The U.S. response** is deeply contested by historians and ethically troubled. The U.S. government knew about the systematic murder of Jews by 1942 — credible reports had reached the State Department, and *The New York Times* reported on them (though often on inside pages). The administration's response was largely to pursue the war's military objectives rather than to take specific action to rescue Jews or bomb the rail lines leading to Auschwitz.
 
@@ -123,6 +133,8 @@ In January 1944, under pressure from Treasury Secretary Henry Morgenthau Jr., Ro
 ### The Manhattan Project and Atomic Bombs
 
 The **Manhattan Project** was a secret research and development program (1942–1945) that produced the world's first nuclear weapons. Directed by General Leslie Groves and scientific director J. Robert Oppenheimer, it employed 130,000 people at dozens of sites across the United States, with the primary design and testing facility at Los Alamos, New Mexico. The first nuclear test — "Trinity" — occurred on July 16, 1945, in the New Mexico desert.
+
+![The atomic bomb mushroom cloud over Hiroshima, Japan, on August 6, 1945, following the detonation of "Little Boy," the first nuclear weapon used in warfare](../../img/chapter-images/92-hiroshima-mushroom-cloud.png)
 
 **Atomic bombs on Japan**: On August 6, 1945, the B-29 *Enola Gay* dropped a uranium bomb ("Little Boy") on Hiroshima, killing an estimated 70,000–80,000 people immediately; total deaths from radiation and injuries reached approximately 140,000 by the end of 1945. On August 9, a plutonium bomb ("Fat Man") was dropped on Nagasaki, killing approximately 40,000–80,000 people. Japan surrendered on August 15, 1945.
 
@@ -147,6 +159,8 @@ The **Yalta Conference** (February 1945) brought together Roosevelt, Churchill, 
 Yalta became deeply controversial as the Cold War developed. Critics accused Roosevelt of "selling out" Eastern Europe to Stalin — giving away countries that the Soviet Union then dominated for 45 years. Defenders argued that the Soviets already occupied Eastern Europe militarily and that Roosevelt negotiated the best deal achievable given that military reality. The debate about Yalta illustrates a recurring question in diplomacy: what is the difference between a realistic accommodation of power realities and a betrayal of principle?
 
 ### United Nations Formation
+
+![The founding conference of the United Nations in San Francisco, 1945, where 50 nations signed the UN Charter to establish a new international organization for peace](../../img/chapter-images/93-united-nations-founding.png)
 
 The **United Nations** was established by the UN Charter, signed June 26, 1945, by 50 nations. It was designed to address the failures that the League of Nations had demonstrated: the United States joined (solving the problem that had crippled the League); the great powers were given permanent Security Council seats with veto power (solving the problem of great-power non-cooperation, though creating a different problem — great-power obstruction); and mechanisms for peacekeeping, human rights monitoring, and international development were established.
 

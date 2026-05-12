@@ -97,6 +97,8 @@ The act destroyed the Whig Party, fatally split the Democrats, and directly prod
 
 ### The Dred Scott Decision (1857)
 
+![Dred Scott, the enslaved man whose 1857 Supreme Court case ruled that Black Americans had no citizenship rights and that Congress could not prohibit slavery in the territories](../../img/chapter-images/46-dred-scott.png)
+
 The **Dred Scott Decision** (Dred Scott v. Sandford, 1857) was the Supreme Court's attempt to resolve the slavery question definitively — and instead made conflict inevitable.
 
 Dred Scott was an enslaved man who had lived with his enslaver in free states and free territories and argued that his residence in free territory had made him free. Chief Justice Roger Taney's majority opinion went far beyond the specific question: it ruled that Black Americans — free or enslaved — were not citizens and had no right to sue in federal court; that Congress had no constitutional authority to ban slavery from the territories (thus invalidating the Missouri Compromise's 36°30' line); and that slaveholders' property rights in enslaved people were constitutionally protected wherever they went.
@@ -104,6 +106,8 @@ Dred Scott was an enslaved man who had lived with his enslaver in free states an
 The decision was a victory for Southern slaveholders and a catastrophe for the Republican Party, which had based its platform on limiting slavery to existing states. It also demonstrates what happens when an institution (the Supreme Court) attempts to resolve a political crisis that the political system has failed to solve — the institution's legitimacy is damaged alongside the unresolved crisis.
 
 ### Lincoln-Douglas Debates (1858) and John Brown's Raid (1859)
+
+![Abraham Lincoln and Stephen Douglas facing off in one of the seven Lincoln-Douglas debates during the 1858 Illinois Senate race](../../img/chapter-images/47-lincoln-douglas-debate.png)
 
 The **Lincoln-Douglas Debates** were seven debates during the Illinois Senate race of 1858 between Republican Abraham Lincoln and Democrat Stephen Douglas. Lincoln forced Douglas into the "Freeport Doctrine" — Douglas's admission that settlers could effectively exclude slavery by refusing to pass the local legislation needed to enforce it, regardless of what the Dred Scott decision said about Congress. This answer made Douglas acceptable to Northern Democrats but destroyed his support in the South, fracturing the Democratic Party.
 
@@ -117,19 +121,27 @@ The **Lincoln-Douglas Debates** were seven debates during the Illinois Senate ra
 
 The **Election of 1860** was fought by four candidates: Lincoln (Republican), Douglas (Northern Democrat), John Breckinridge (Southern Democrat), and John Bell (Constitutional Union). The Democratic Party had split along sectional lines; Lincoln won an electoral majority without appearing on the ballot in most Southern states, receiving essentially no Southern votes.
 
+![A map showing the eleven Southern states that seceded from the Union between December 1860 and June 1861 to form the Confederate States of America](../../img/chapter-images/49-seceding-states-map.png)
+
 **Southern secession** began before Lincoln took office. South Carolina seceded in December 1860; six more Deep South states followed by February 1861. The seceding states cited the election of a Republican president as proof that the South's political position within the Union was untenable. Together they formed the **Confederate States of America**, with Jefferson Davis as President.
 
 ## Part 2: The War (1861–1865)
 
 ### Fort Sumter and the War Begins
 
+![Fort Sumter in Charleston Harbor, South Carolina, where Confederate forces opened fire on April 12, 1861, beginning the Civil War](../../img/chapter-images/50-fort-sumter.png)
+
 **Fort Sumter** was a federal fort in Charleston Harbor, South Carolina — now Confederate territory. When Lincoln announced he was resupplying the fort, Confederate forces bombarded it on April 12, 1861. The fort's surrender was the first military action of the Civil War. Lincoln's call for 75,000 volunteers to suppress the rebellion drove four additional Upper South states (Virginia, North Carolina, Tennessee, Arkansas) to secede.
+
+![Portrait of Abraham Lincoln, the 16th President of the United States, who led the nation through the Civil War and issued the Emancipation Proclamation](../../img/chapter-images/48-lincoln-portrait.png)
 
 **Abraham Lincoln** was the Union's wartime leader. He had almost no military experience and faced an enormous military, political, and logistical challenge: fighting a war to restore the Union without alienating the border slave states (Missouri, Kentucky, Maryland, Delaware) that remained in the Union, building public support in the North for a long and costly conflict, and managing a coalition of political factions with very different ideas about war aims.
 
 Lincoln's greatness as a war leader lay in his political intelligence: his ability to hold competing factions together, adapt his policies as conditions changed, and communicate with the public in language of extraordinary clarity and moral force.
 
 ### Military Strategy: The Anaconda Plan and Total War
+
+![A Union Army encampment during the Civil War, showing the everyday life of soldiers during America's bloodiest conflict](../../img/chapter-images/51-civil-war-camp.png)
 
 The Union's initial strategy was the **Anaconda Plan**, proposed by General Winfield Scott: blockade the Confederate coastline, control the Mississippi River to divide the Confederacy, and gradually squeeze the South into submission like a snake suffocating its prey. The plan was mocked in the press as too slow — the prevailing view was that the war would be over in 90 days — but its strategic logic proved correct over four years.
 
@@ -195,17 +207,27 @@ Implementation: p5.js
 
 The **Battle of Antietam** (September 17, 1862) was the bloodiest single day in American military history: approximately 23,000 casualties in 12 hours. It was a tactical draw but a strategic Union victory — Lee's Army of Northern Virginia retreated south, ending the Confederate invasion of Maryland.
 
+![President Lincoln visiting General McClellan and the Army of the Potomac at Antietam, Maryland, in October 1862, following the bloodiest single day in American military history](../../img/chapter-images/56-lincoln-antietam.png)
+
 Lincoln had been waiting for a Union military success to announce a major policy change. Five days after Antietam, he issued the preliminary **Emancipation Proclamation**; the final version took effect January 1, 1863.
+
+![The Emancipation Proclamation document signed by President Lincoln on January 1, 1863, declaring enslaved people in Confederate states to be forever free](../../img/chapter-images/54-emancipation-proclamation.png)
 
 The **Emancipation Proclamation** declared that all enslaved people in Confederate states in rebellion were "forever free." It did not free enslaved people in the border states (where Lincoln needed their loyalty) or in Confederate areas already under Union control (a logical inconsistency that critics noted immediately). As a legal document, it freed no one on the day it was issued — Union forces had to advance for it to take effect.
 
 But as a political and moral act, it was transformative. It redefined the war's purpose: the Union was no longer fighting only to restore the old nation but to create a new one without slavery. It prevented Britain and France (both of which had abolished slavery decades earlier) from recognizing the Confederacy — no European government could now support the South without appearing to support slavery. And it authorized the enlistment of Black men in the Union Army; by the war's end, nearly 180,000 Black soldiers had served.
 
+![African American soldiers of the United States Colored Troops, who fought with distinction for the Union cause and their own freedom](../../img/chapter-images/55-black-union-soldiers.png)
+
 ### The Battle of Gettysburg (July 1–3, 1863)
+
+![The Battle of Gettysburg, July 1-3, 1863, the war's largest battle and pivotal turning point, including the devastating Pickett's Charge](../../img/chapter-images/52-battle-gettysburg.png)
 
 The **Battle of Gettysburg** was the war's largest battle and its most consequential turning point in the East. Confederate General Lee, seeking a decisive victory on Northern soil that might force a negotiated peace, invaded Pennsylvania with 75,000 troops. In three days of fighting around the small Pennsylvania town, Lee lost approximately one-third of his army — 28,000 casualties — including Pickett's Charge, a frontal assault on a fortified Union position that became the symbol of Confederate futility.
 
 Lee retreated south and never again mounted a major offensive into Union territory. Combined with Grant's capture of Vicksburg on July 4, 1863 — giving the Union control of the Mississippi River and splitting the Confederacy — Gettysburg marked the point after which Southern military victory became essentially impossible.
+
+![Abraham Lincoln delivering the Gettysburg Address on November 19, 1863, at the dedication of the Soldiers' National Cemetery](../../img/chapter-images/53-gettysburg-address.png)
 
 Lincoln's Gettysburg Address (November 1863), delivered at the battlefield's dedication as a military cemetery, reinterpreted the war's meaning in 272 words: the war was a test of whether democratic government could survive, and the Union dead had given their lives so that democratic government "shall not perish from the earth."
 
@@ -218,6 +240,8 @@ Lincoln's Gettysburg Address (November 1863), delivered at the battlefield's ded
 The Civil War was the product of irreconcilable conflict over slavery — not states' rights in the abstract but the specific right of slaveholders to hold human beings as property and to expand that system into new territories. The evidence for this is in the Confederate founding documents themselves; the "states' rights" framing is a postwar construction documented in Chapter 9.
 
 The war's military arc moved from Union disaster (Bull Run, 1861) to strategic initiative (Shiloh, Antietam, 1862) to turning point (Gettysburg, Vicksburg, 1863) to total war victory (Atlanta, Appomattox, 1864–1865). Lincoln's Emancipation Proclamation transformed the war's moral stakes and its international dimensions. The service of nearly 180,000 Black soldiers helped make Union victory possible.
+
+![Lincoln's funeral procession through Washington, D.C., as the nation mourned the loss of the president who had guided it through its greatest crisis](../../img/chapter-images/57-lincoln-memorial.png)
 
 The war killed approximately 620,000 soldiers — more than all other American wars combined through Vietnam — and destroyed the Southern plantation economy. What came next — Reconstruction — was the question of what the war's resolution would actually mean for the four million people freed from slavery.
 

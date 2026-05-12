@@ -62,6 +62,8 @@ Cuba provided the flashpoint. Since the 1880s, Cuba had been struggling against 
 
 ### The USS Maine Incident
 
+![The explosion and sinking of the USS Maine in Havana Harbor on February 15, 1898, the event that catalyzed American public opinion toward war with Spain](../../img/chapter-images/72-uss-maine-explosion.png)
+
 On February 15, 1898, the **USS Maine**, an American battleship sent to Havana Harbor ostensibly to protect American citizens and property, exploded and sank, killing 266 sailors. The cause was immediately contested. American newspapers, led by Hearst's *New York Journal*, blamed Spanish sabotage: "Remember the Maine! To hell with Spain!" became a national rallying cry.
 
 The **USS Maine incident** is a case study in how a single ambiguous event can be weaponized to build public support for war. Later investigations (including a 1974 Navy inquiry) suggested the explosion was most likely caused by a fire in the coal bunker that ignited the ship's forward magazine — an accident, not Spanish sabotage. But in 1898, the explosion became the emotional trigger that made the Spanish-American War politically possible.
@@ -72,7 +74,9 @@ Apply sourcing to the Maine coverage: Hearst's papers had a financial interest i
 
 The **Spanish-American War** (April–August 1898) lasted only 113 days and produced a decisive American victory. Secretary of State John Hay called it "a splendid little war" — a description that, as we will see, concealed uncomfortable questions.
 
-The war had two theaters. In Cuba, Theodore Roosevelt's "Rough Riders" (the 1st United States Volunteer Cavalry) charged up San Juan Hill — one of the most heavily mythologized moments in American military history. The actual assault involved thousands of soldiers, including the Buffalo Soldiers of the 9th and 10th Cavalry (Black regiments whose role was systematically downplayed in the popular narrative). In the Pacific, Commodore George Dewey destroyed the Spanish fleet in Manila Bay in a single morning, with the loss of one American sailor.
+The war had two theaters. ![Theodore Roosevelt and the Rough Riders at or near San Juan Hill during the Spanish-American War of 1898, the charge that made Roosevelt a national hero](../../img/chapter-images/73-roosevelt-rough-riders.png)
+
+In Cuba, Theodore Roosevelt's "Rough Riders" (the 1st United States Volunteer Cavalry) charged up San Juan Hill — one of the most heavily mythologized moments in American military history. The actual assault involved thousands of soldiers, including the Buffalo Soldiers of the 9th and 10th Cavalry (Black regiments whose role was systematically downplayed in the popular narrative). In the Pacific, Commodore George Dewey destroyed the Spanish fleet in Manila Bay in a single morning, with the loss of one American sailor.
 
 ### Treaty of Paris 1898 and Philippines Acquisition
 
@@ -94,6 +98,8 @@ The Anti-Imperialist League lost the political debate — the Philippines were r
 
 ### The Panama Canal
 
+![The construction of the Panama Canal, specifically the Culebra Cut through the Continental Divide, during the American phase of the project from 1904 to 1914](../../img/chapter-images/74-panama-canal-construction.png)
+
 The **Panama Canal** (completed 1914) was Theodore Roosevelt's most concrete achievement in foreign policy. A canal across the Central American isthmus had been a strategic dream since the 1840s — it would allow the U.S. Navy to move rapidly between Atlantic and Pacific without the long voyage around South America. The problem was that the isthmus ran through Colombia, which refused to grant the United States a canal zone on acceptable terms.
 
 Roosevelt's solution was to support a Panamanian independence movement (which the United States recognized within hours), send the U.S. Navy to prevent Colombia from suppressing the revolt, and negotiate a canal treaty with the new Panamanian government. Roosevelt later said, with characteristic candor: "I took the Canal Zone and let Congress debate." The canal, built at a cost of $375 million and the lives of an estimated 5,600 workers (mostly from the Caribbean), opened in 1914.
@@ -111,6 +117,8 @@ The Roosevelt Corollary established a pattern: U.S. intervention in Caribbean an
 ### Woodrow Wilson and the War He Didn't Want
 
 **Woodrow Wilson** won the presidency in 1912 and 1916. A former Princeton president and New Jersey governor, Wilson was the most intellectually sophisticated president of the Progressive Era — and the most moralistic. His foreign policy was driven by a conviction that American democratic principles were universally applicable and that the United States had a special mission to spread them.
+
+![Soldiers in the trenches of the Western Front during World War I, enduring the brutal conditions of trench warfare from 1914 to 1918](../../img/chapter-images/78-wwi-trenches.png)
 
 When World War I broke out in Europe in August 1914, Wilson declared American neutrality. His position was both principled (the United States had no treaty obligations) and politically necessary (the country had large German-American and Irish-American communities with no desire to fight alongside Britain). He won re-election in 1916 partly on the slogan "He kept us out of war."
 
@@ -188,6 +196,8 @@ Women entered the industrial workforce in large numbers, replacing men who had e
 
 ### Committee on Public Information and Propaganda
 
+![The iconic 1917 "I Want YOU for U.S. Army" Uncle Sam recruitment poster by James Montgomery Flagg, one of the most recognized images of American propaganda](../../img/chapter-images/79-uncle-sam-poster.png)
+
 The **Committee on Public Information** (CPI), headed by journalist George Creel, was established by Wilson to build public support for the war. It was the United States government's first systematic propaganda operation — and an extraordinarily effective one.
 
 The CPI deployed every available medium: posters, films, speakers (the "Four Minute Men" who delivered patriotic speeches at movie theaters), newspaper releases, and school curricula. Its message was simple and powerful: the war was a crusade for democracy against German militarism; Americans who questioned the war were either naive or disloyal.
@@ -232,6 +242,8 @@ The Fourteen Points included:
 Wilson arrived at the Paris Peace Conference as a genuine hero to the war-weary peoples of Europe, who believed he would impose a just and lasting peace. What followed was one of the more dramatic political disappointments in modern history.
 
 ### Treaty of Versailles
+
+![The signing of the Treaty of Versailles in the Hall of Mirrors at Versailles on June 28, 1919, ending World War I but planting seeds for future conflict](../../img/chapter-images/80-treaty-versailles.png)
 
 The **Treaty of Versailles** (1919) was the peace settlement with Germany — and it bore little resemblance to the Fourteen Points. Britain (Lloyd George) and France (Clemenceau) wanted to punish Germany for the war, extract reparations, and prevent German recovery. The treaty imposed the "war guilt clause" (Article 231), which held Germany solely responsible for the war; demanded reparations of 132 billion gold marks; stripped Germany of territory; and limited the German military.
 
