@@ -1,0 +1,266 @@
+{
+  "title": "U.S. History Course Timeline",
+  "subtitle": "Twenty Eras of American History from Pre-Columbian Contact to the Age of AI",
+  "events": [
+    {
+      "id": 2,
+      "chapter": 2,
+      "category": "Colonial Foundations",
+      "start_date": { "year": "1450", "month": "1", "day": "1" },
+      "end_date":   { "year": "1607", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Pre-Columbian Americas and European Contact (1450–1607)",
+        "short":    "Indigenous societies and the first European voyages reshape two hemispheres.",
+        "long":     "By 1450 the Americas were home to tens of millions of people living in complex societies — from the Mississippian mound-builders and Iroquoian confederacies to the Aztec and Inca empires. European voyages after 1492 set off the Columbian Exchange, a massive transfer of plants, animals, microbes, and people that devastated Indigenous populations through disease while enriching European economies. Spain, Portugal, France, and England competed for footholds in the Americas, planting colonies, missions, and trading posts. By 1607, when the English founded Jamestown, the encounter had already remade ecologies, economies, and cultures on a global scale."
+      },
+      "skills": "Critical thinking: examine demographic estimates and ask what evidence supports them. Detecting misinformation: compare myths of an 'empty continent' with archaeological data."
+    },
+    {
+      "id": 3,
+      "chapter": 3,
+      "category": "Colonial Foundations",
+      "start_date": { "year": "1607", "month": "1", "day": "1" },
+      "end_date":   { "year": "1754", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Colonial America (1607–1754)",
+        "short":    "Three colonial regions develop distinct economies and social orders.",
+        "long":     "From Jamestown's 1607 founding to the eve of the French and Indian War, thirteen British colonies grew into three distinct regions. The New England colonies built town-centered, Puritan communities oriented toward fishing, shipping, and small farms. The Middle Colonies became ethnically and religiously diverse breadbaskets. The Southern Colonies developed plantation economies powered by enslaved African labor. Triangular Atlantic trade, the Great Awakening, and Enlightenment ideas knit the colonies into a wider Atlantic world, while colonial assemblies developed habits of self-government that would later challenge British authority."
+      },
+      "skills": "Systems thinking: trace how the Atlantic trade triangle linked slavery, sugar, rum, and manufactured goods. Cognitive bias: notice how 'city on a hill' narratives still shape American self-image."
+    },
+    {
+      "id": 4,
+      "chapter": 4,
+      "category": "Revolutionary Era",
+      "start_date": { "year": "1754", "month": "1", "day": "1" },
+      "end_date":   { "year": "1783", "month": "1", "day": "1" },
+      "text": {
+        "headline": "The American Revolution (1754–1783)",
+        "short":    "Imperial conflict and Enlightenment ideas produce an independent United States.",
+        "long":     "Britain's victory in the French and Indian War (1754–1763) left it deeply in debt and prompted new taxes — the Stamp Act, Townshend duties, and Tea Act — that colonists resisted as 'taxation without representation.' Boycotts, pamphlets, and Committees of Correspondence built an inter-colonial protest movement. After Lexington and Concord (1775) and the Declaration of Independence (1776), the colonies fought an eight-year war with crucial French aid, winning independence at Yorktown (1781) and the Treaty of Paris (1783). The revolution unleashed debates about liberty, equality, and slavery that would shape the new nation."
+      },
+      "skills": "Critical thinking: separate Enlightenment ideals from the limits of who counted as 'all men.' Source triangulation: compare Loyalist, Patriot, and Indigenous accounts of the war."
+    },
+    {
+      "id": 5,
+      "chapter": 5,
+      "category": "Revolutionary Era",
+      "start_date": { "year": "1783", "month": "1", "day": "1" },
+      "end_date":   { "year": "1800", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Founding the Republic (1783–1800)",
+        "short":    "The Constitution, Bill of Rights, and first political parties take shape.",
+        "long":     "The Articles of Confederation proved too weak to govern a new nation, so delegates met in Philadelphia in 1787 to draft a stronger Constitution built on federalism, separation of powers, and checks and balances. Ratification debates between Federalists and Anti-Federalists led to the Bill of Rights in 1791. Under Presidents Washington and Adams, the country built a federal court system, a national bank, and a foreign policy of neutrality. Disagreements over Hamilton's economic program and the French Revolution gave rise to the first party system — Federalists versus Democratic-Republicans — and to the peaceful transfer of power in 1800."
+      },
+      "skills": "Systems thinking: map the Constitution's checks and balances as a feedback system. Critical thinking: weigh the trade-offs the Three-Fifths Compromise made between union and justice."
+    },
+    {
+      "id": 6,
+      "chapter": 6,
+      "category": "Antebellum America",
+      "start_date": { "year": "1800", "month": "1", "day": "1" },
+      "end_date":   { "year": "1828", "month": "1", "day": "1" },
+      "text": {
+        "headline": "The Jeffersonian Era and Early Expansion (1800–1828)",
+        "short":    "Louisiana Purchase, the War of 1812, and Marshall Court reshape the young nation.",
+        "long":     "Thomas Jefferson's 1800 election marked the first peaceful transfer of power between parties. The Louisiana Purchase (1803) doubled U.S. territory; the Lewis and Clark expedition mapped routes to the Pacific. The War of 1812 against Britain confirmed American independence and fueled a wave of nationalism. Chief Justice John Marshall's decisions in cases like Marbury v. Madison and McCulloch v. Maryland established judicial review and a broad reading of federal power. The Missouri Compromise (1820) temporarily settled disputes over slavery's expansion. By 1828, the 'Era of Good Feelings' was giving way to Jacksonian democracy."
+      },
+      "skills": "Critical thinking: evaluate Jefferson's strict-construction views against his expansive use of presidential power. Cognitive bias: notice how 'Era of Good Feelings' obscures real sectional and racial tensions."
+    },
+    {
+      "id": 7,
+      "chapter": 7,
+      "category": "Antebellum America",
+      "start_date": { "year": "1828", "month": "1", "day": "1" },
+      "end_date":   { "year": "1848", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Manifest Destiny and Antebellum Reform (1828–1848)",
+        "short":    "Jacksonian democracy, westward expansion, and a wave of reform movements.",
+        "long":     "Andrew Jackson's presidency expanded white male suffrage, dismantled the national bank, and forcibly removed Indigenous peoples along the Trail of Tears. The doctrine of Manifest Destiny justified annexation of Texas (1845) and war with Mexico (1846–48), bringing vast new territory under U.S. control. Simultaneously, reform movements multiplied: abolitionism, women's rights (Seneca Falls 1848), temperance, public schools, and prison reform. The Second Great Awakening fueled moral activism, while transcendentalists challenged American materialism. Yet expansion intensified the conflict over slavery that would soon tear the nation apart."
+      },
+      "skills": "Systems thinking: connect expansion, cotton, slavery, and global textile markets. Detecting misinformation: scrutinize the Manifest Destiny narrative as ideology rather than inevitability."
+    },
+    {
+      "id": 8,
+      "chapter": 8,
+      "category": "Civil War & Reconstruction",
+      "start_date": { "year": "1844", "month": "1", "day": "1" },
+      "end_date":   { "year": "1865", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Sectionalism and the Civil War (1844–1865)",
+        "short":    "Slavery's expansion fractures the Union and triggers the deadliest American war.",
+        "long":     "From the Mexican-American War onward, every new territory reopened the slavery question. The Compromise of 1850, Fugitive Slave Act, Kansas-Nebraska Act, and Dred Scott decision all failed to settle it. Lincoln's 1860 election triggered Southern secession and the formation of the Confederacy. The Civil War (1861–1865) killed roughly 750,000 Americans and ended slavery through the Emancipation Proclamation (1863) and the Thirteenth Amendment (1865). Industrial capacity, naval blockade, and Union victories at Gettysburg, Vicksburg, and Appomattox sealed the Confederacy's defeat. Lincoln's assassination opened a fraught path to Reconstruction."
+      },
+      "skills": "Critical thinking: distinguish causes (slavery, sectionalism) from triggers (Fort Sumter). Source evaluation: compare Northern, Southern, and enslaved peoples' wartime testimony."
+    },
+    {
+      "id": 9,
+      "chapter": 9,
+      "category": "Civil War & Reconstruction",
+      "start_date": { "year": "1865", "month": "1", "day": "1" },
+      "end_date":   { "year": "1877", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Reconstruction and Its Aftermath (1865–1877)",
+        "short":    "Three new amendments redefine citizenship — and white-supremacist backlash undoes much of it.",
+        "long":     "Reconstruction tried to rebuild the South and integrate four million freed people into citizenship. The Thirteenth, Fourteenth, and Fifteenth Amendments abolished slavery, guaranteed equal protection, and protected Black male suffrage. Black Americans served in Congress, founded schools, and reunited families. But Presidential Reconstruction, the Black Codes, the Ku Klux Klan, sharecropping, and waning Northern political will eroded these gains. The disputed 1876 election produced the Compromise of 1877, which ended federal Reconstruction and ushered in nearly a century of Jim Crow segregation across the South."
+      },
+      "skills": "Cognitive bias: confront 'Lost Cause' myths and ask how they distort the historical record. Detecting misinformation: compare Reconstruction-era newspapers, freedmen's testimony, and modern scholarship."
+    },
+    {
+      "id": 10,
+      "chapter": 10,
+      "category": "Industrial America",
+      "start_date": { "year": "1865", "month": "1", "day": "1" },
+      "end_date":   { "year": "1890", "month": "1", "day": "1" },
+      "text": {
+        "headline": "The Gilded Age: Industrialization and Labor (1865–1890)",
+        "short":    "Railroads, trusts, immigration, and labor strife transform America into an industrial giant.",
+        "long":     "Following the Civil War, the U.S. became the world's leading industrial economy. Transcontinental railroads, steel, oil, and electricity created enormous fortunes for figures like Carnegie, Rockefeller, and Vanderbilt — and miserable conditions for many workers. Millions of immigrants from Europe and Asia filled factories and tenements. Labor unions like the Knights of Labor and the AFL organized, with strikes at Haymarket (1886), Homestead (1892), and Pullman (1894) testing the balance of capital and labor. Mark Twain coined 'the Gilded Age' to describe glittering wealth atop deep social inequities."
+      },
+      "skills": "Systems thinking: trace how railroads, steel, finance, and immigration reinforced one another. Critical thinking: weigh narratives of innovation against costs in labor and Indigenous land."
+    },
+    {
+      "id": 11,
+      "chapter": 11,
+      "category": "Industrial America",
+      "start_date": { "year": "1880", "month": "1", "day": "1" },
+      "end_date":   { "year": "1900", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Populism and the Closing of the Frontier (1880–1900)",
+        "short":    "Farmers organize, the frontier 'closes,' and U.S. power begins to look outward.",
+        "long":     "Falling crop prices, railroad rates, and tight money squeezed farmers across the South and Plains, fueling the Grange, Farmers' Alliances, and finally the People's (Populist) Party. The 1896 election pitted William Jennings Bryan's free-silver populism against William McKinley's gold standard; McKinley's win signaled the triumph of industrial capitalism. The Dawes Act (1887) broke up tribal lands, and Wounded Knee (1890) marked the violent end of armed Indigenous resistance on the Plains. Frederick Jackson Turner declared the frontier 'closed' in 1893, and Americans increasingly looked overseas for markets and influence."
+      },
+      "skills": "Critical thinking: examine Populist demands for government action vs. laissez-faire orthodoxy. Detecting misinformation: question Turner's frontier thesis as both interpretation and ideology."
+    },
+    {
+      "id": 12,
+      "chapter": 12,
+      "category": "Industrial America",
+      "start_date": { "year": "1890", "month": "1", "day": "1" },
+      "end_date":   { "year": "1914", "month": "1", "day": "1" },
+      "text": {
+        "headline": "The Progressive Era (1890–1914)",
+        "short":    "Reformers tackle corruption, monopoly, public health, and women's suffrage.",
+        "long":     "Progressive reformers responded to industrial-age problems with new tools of regulation and democracy. Muckraking journalists like Ida Tarbell and Upton Sinclair exposed corporate and political abuses. Presidents Theodore Roosevelt and William Howard Taft trust-busted, regulated railroads, and protected public lands. Woodrow Wilson's New Freedom created the Federal Reserve and Federal Trade Commission. Cities adopted commission government and direct primaries. Constitutional amendments allowed federal income tax (16th), direct election of senators (17th), and eventually prohibition (18th) and women's suffrage (19th). But Progressivism often excluded Black Americans and embraced racial segregation."
+      },
+      "skills": "Cognitive bias: examine why most white Progressives ignored or endorsed Jim Crow. Systems thinking: see regulation as a feedback mechanism on corporate power."
+    },
+    {
+      "id": 13,
+      "chapter": 13,
+      "category": "Industrial America",
+      "start_date": { "year": "1898", "month": "1", "day": "1" },
+      "end_date":   { "year": "1920", "month": "1", "day": "1" },
+      "text": {
+        "headline": "U.S. Imperialism and World War I (1898–1920)",
+        "short":    "America becomes a global power through empire, war, and a contested peace.",
+        "long":     "The Spanish-American War (1898) gave the U.S. Puerto Rico, Guam, and the Philippines, sparking debates over empire and the brutal Philippine-American War. Roosevelt's 'big stick' diplomacy and the Panama Canal extended U.S. influence in Latin America. After staying neutral, the U.S. entered World War I in 1917; mobilization expanded federal power, restricted civil liberties (Espionage and Sedition Acts), and accelerated the Great Migration of Black Americans north. Wilson's Fourteen Points and the League of Nations failed in the Senate, leaving the U.S. economically dominant but politically wary of foreign entanglements."
+      },
+      "skills": "Critical thinking: weigh idealist rhetoric against imperial actions. Source triangulation: compare U.S., Filipino, and European accounts of 1898–1918."
+    },
+    {
+      "id": 14,
+      "chapter": 14,
+      "category": "Modern America",
+      "start_date": { "year": "1920", "month": "1", "day": "1" },
+      "end_date":   { "year": "1941", "month": "1", "day": "1" },
+      "text": {
+        "headline": "The Roaring Twenties, Depression, and New Deal (1920–1941)",
+        "short":    "Boom, bust, and a redefinition of the federal government's role.",
+        "long":     "The 1920s mixed cultural ferment — jazz, Harlem Renaissance, women's suffrage, mass consumption — with nativism, the revived Klan, and immigration restriction. The 1929 stock market crash triggered the Great Depression, with unemployment reaching 25%. Franklin Roosevelt's New Deal (1933 onward) created Social Security, the FDIC, the SEC, the TVA, and dozens of agencies that reshaped the federal government's role in the economy. The Dust Bowl, Hoovervilles, and labor militancy defined the decade. By 1941 the Depression had eased somewhat, but recovery would come only with World War II."
+      },
+      "skills": "Systems thinking: trace how a stock-market crash cascaded through banks, jobs, demand, and global trade. Critical thinking: weigh the New Deal as rescue, reform, or both."
+    },
+    {
+      "id": 15,
+      "chapter": 15,
+      "category": "Modern America",
+      "start_date": { "year": "1939", "month": "1", "day": "1" },
+      "end_date":   { "year": "1945", "month": "1", "day": "1" },
+      "text": {
+        "headline": "World War II and the Home Front (1939–1945)",
+        "short":    "Industrial mobilization, the Holocaust, and the dawn of the nuclear age.",
+        "long":     "After Pearl Harbor (December 1941), the U.S. mobilized 16 million service members and converted civilian industry to war production. Women entered factories in record numbers; Black Americans pressed for a 'Double V' victory over fascism abroad and racism at home; Japanese Americans were forcibly interned. The Allies defeated Nazi Germany in May 1945, and the U.S. dropped atomic bombs on Hiroshima and Nagasaki in August, ending the war in the Pacific. The war ended the Great Depression, made the U.S. the world's leading economic and military power, and confronted Americans with the Holocaust and the moral weight of nuclear weapons."
+      },
+      "skills": "Critical thinking: evaluate the moral and strategic arguments around the atomic bombings. Cognitive bias: examine how 'Good War' framings can obscure internment and racial violence."
+    },
+    {
+      "id": 16,
+      "chapter": 16,
+      "category": "Modern America",
+      "start_date": { "year": "1945", "month": "1", "day": "1" },
+      "end_date":   { "year": "1960", "month": "1", "day": "1" },
+      "text": {
+        "headline": "The Early Cold War (1945–1960)",
+        "short":    "Containment, prosperity, suburbanization, and McCarthyism shape a new American order.",
+        "long":     "Wartime alliance with the Soviet Union collapsed into Cold War rivalry. Containment doctrine produced the Truman Doctrine, Marshall Plan, NATO, and the Korean War. At home, the GI Bill, Federal Housing Administration loans, and Interstate Highway System fueled suburban growth — but largely for white Americans, as redlining and restrictive covenants excluded Black families. McCarthyism and the Red Scare targeted suspected Communists in government, Hollywood, and unions. Brown v. Board (1954) and the Montgomery Bus Boycott (1955–56) launched the modern civil rights movement, while Sputnik (1957) spurred a science-and-education arms race."
+      },
+      "skills": "Systems thinking: see containment, suburbanization, and consumer credit as interconnected systems. Detecting misinformation: examine how anti-communist fear was used to suppress legitimate dissent."
+    },
+    {
+      "id": 17,
+      "chapter": 17,
+      "category": "Late 20th Century",
+      "start_date": { "year": "1954", "month": "1", "day": "1" },
+      "end_date":   { "year": "1968", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Civil Rights and the Great Society (1954–1968)",
+        "short":    "Mass movements and federal action dismantle Jim Crow and expand the welfare state.",
+        "long":     "From Brown v. Board (1954) and the Montgomery Bus Boycott to Birmingham, the March on Washington, and Selma, civil-rights activists used nonviolent direct action, litigation, and political pressure to confront segregation. Congress passed the Civil Rights Act (1964), Voting Rights Act (1965), and Fair Housing Act (1968). Lyndon Johnson's Great Society launched Medicare, Medicaid, Head Start, federal aid to schools, and the War on Poverty. The era also saw Black Power, the Chicano movement, the American Indian Movement, and the assassinations of Malcolm X, Martin Luther King Jr., and Robert Kennedy."
+      },
+      "skills": "Critical thinking: distinguish legal change from lived change in segregated communities. Cognitive bias: examine how the 'I Have a Dream' framing has been used to flatten the movement's radical demands."
+    },
+    {
+      "id": 18,
+      "chapter": 18,
+      "category": "Late 20th Century",
+      "start_date": { "year": "1965", "month": "1", "day": "1" },
+      "end_date":   { "year": "1975", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Vietnam, Nixon, and Social Movements (1965–1975)",
+        "short":    "An unpopular war, Watergate, and feminist, environmental, and gay-rights movements transform America.",
+        "long":     "U.S. escalation in Vietnam after the Gulf of Tonkin Resolution (1964) eventually committed over 500,000 troops, divided the country, and ended in U.S. withdrawal in 1973 and Saigon's fall in 1975. Television brought the war into living rooms; the Tet Offensive (1968) shattered claims of imminent victory. Richard Nixon's détente with the USSR and opening to China reshaped foreign policy, but Watergate forced his 1974 resignation. The era also saw second-wave feminism, Title IX, the Stonewall uprising, Roe v. Wade, the first Earth Day, and the EPA — broadening the meaning of rights and citizenship."
+      },
+      "skills": "Critical thinking: weigh credibility gaps between official statements and battlefield reality. Source triangulation: compare GI testimony, Vietnamese accounts, and U.S. government documents."
+    },
+    {
+      "id": 19,
+      "chapter": 19,
+      "category": "Late 20th Century",
+      "start_date": { "year": "1975", "month": "1", "day": "1" },
+      "end_date":   { "year": "2001", "month": "1", "day": "1" },
+      "text": {
+        "headline": "From Reagan to 9/11 (1975–2001)",
+        "short":    "Conservative resurgence, the Cold War's end, globalization, and the digital economy.",
+        "long":     "Stagflation and Carter-era crises gave way to Ronald Reagan's tax cuts, deregulation, military buildup, and confrontational stance toward the USSR. The Soviet Union collapsed in 1991, ending the Cold War. The 1990s brought NAFTA, the World Trade Organization, the personal-computer and Internet revolutions, the Clinton-era boom, and welfare reform. New conflicts emerged in the Persian Gulf, the Balkans, and Somalia. The Oklahoma City bombing, Columbine, and the contested 2000 election foreshadowed deeper polarization. The era closed on September 11, 2001."
+      },
+      "skills": "Systems thinking: connect deregulation, globalization, inequality, and political realignment. Cognitive bias: examine 'end of history' optimism in light of what came next."
+    },
+    {
+      "id": 20,
+      "chapter": 20,
+      "category": "21st Century",
+      "start_date": { "year": "2001", "month": "1", "day": "1" },
+      "end_date":   { "year": "2010", "month": "1", "day": "1" },
+      "text": {
+        "headline": "Contemporary America and the Digital Age (2001–2010)",
+        "short":    "Terrorism, two long wars, financial crisis, and the rise of social media.",
+        "long":     "The September 11 attacks led to the Patriot Act, the Department of Homeland Security, and wars in Afghanistan (2001) and Iraq (2003). The 2008 financial crisis — rooted in subprime mortgages, derivatives, and deregulation — triggered the worst recession since the 1930s and unprecedented federal interventions (TARP, bailouts, the Recovery Act). Barack Obama's 2008 election was historic, and the Affordable Care Act (2010) reshaped health policy. Meanwhile, iPhones, YouTube, Facebook, and Twitter transformed how Americans communicate, shop, work, and form opinions — for better and worse."
+      },
+      "skills": "Critical thinking: distinguish causes, accelerants, and policy responses in the 2008 crisis. Detecting misinformation: analyze how viral content spreads faster than corrections."
+    },
+    {
+      "id": 21,
+      "chapter": 21,
+      "category": "21st Century",
+      "start_date": { "year": "2010", "month": "1", "day": "1" },
+      "end_date":   { "year": "2026", "month": "5", "day": "1" },
+      "text": {
+        "headline": "The Age of AI and Technology Power (2010–Present)",
+        "short":    "Smartphones, social platforms, pandemic, polarization, and the rise of AI.",
+        "long":     "The 2010s saw smartphones become ubiquitous, social media reshape politics (Arab Spring, Black Lives Matter, #MeToo, January 6), and a handful of tech companies amass wealth and power rivaling nations. The COVID-19 pandemic (2020–22) killed over a million Americans, accelerated remote work, and exposed deep public-health and racial inequities. Climate change moved from forecast to lived reality. From ChatGPT (2022) onward, generative AI began transforming work, education, and information itself — raising urgent questions about jobs, truth, bias, and democratic resilience that will shape the next chapter of American history."
+      },
+      "skills": "Critical thinking: evaluate AI outputs for accuracy and bias. Detecting misinformation: practice lateral reading, source triangulation, and humility in a synthetic-media world."
+    }
+  ]
+}

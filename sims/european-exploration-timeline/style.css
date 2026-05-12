@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background: aliceblue;
+    color: #1e293b;
+}
+
+.header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5986 100%);
+    padding: 16px 20px;
+    text-align: center;
+    border-bottom: 1px solid #1a3050;
+}
+
+.header h1 {
+    font-size: 22px;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.header p {
+    font-size: 13px;
+    color: #bfdbfe;
+}
+
+/* Nation filter buttons */
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background: #e0f2fe;
+    flex-wrap: wrap;
+}
+
+.controls label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    margin-right: 4px;
+}
+
+.filter-btn {
+    padding: 7px 14px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.filter-btn.active {
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.6), 0 0 0 5px currentColor;
+}
+
+.filter-btn.all       { background: #64748b; }
+.filter-btn.portugal  { background: #007832; }
+.filter-btn.spain     { background: #c81e1e; }
+.filter-btn.england   { background: #641414; }
+.filter-btn.france    { background: #1e50b4; }
+.filter-btn.netherlands { background: #e67800; }
+
+/* Navigation controls */
+.nav-controls {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    background: #e0f2fe;
+    border-bottom: 1px solid #bae6fd;
+}
+
+.nav-btn {
+    padding: 5px 12px;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    background: white;
+    color: #475569;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    background: #f1f5f9;
+    border-color: #3b82f6;
+    color: #1e40af;
+}
+
+/* Timeline container */
+#timeline {
+    padding: 10px 80px;
+    background: white;
+    min-height: 380px;
+    overflow: hidden;
+}
+
+/* vis-timeline overrides */
+.vis-timeline {
+    border: none !important;
+    overflow: visible !important;
+}
+
+.vis-panel.vis-center {
+    overflow: visible !important;
+}
+
+.vis-item .vis-item-overflow {
+    overflow: visible !important;
+}
+
+.vis-item {
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    padding: 3px 8px !important;
+}
+
+.vis-item .vis-item-content {
+    white-space: nowrap !important;
+    padding: 4px 8px !important;
+}
+
+.vis-item.vis-range {
+    min-width: fit-content !important;
+}
+
+.vis-item.vis-box {
+    min-width: fit-content !important;
+}
+
+.vis-item.vis-selected {
+    box-shadow: 0 0 0 3px #f59e0b !important;
+    z-index: 10 !important;
+}
+
+.vis-time-axis .vis-text {
+    color: #475569 !important;
+    font-size: 12px !important;
+}
+
+.vis-time-axis .vis-grid.vis-minor {
+    border-color: #e2e8f0 !important;
+}
+
+.vis-time-axis .vis-grid.vis-major {
+    border-color: #cbd5e1 !important;
+}
+
+/* Tooltip */
+.vis-tooltip {
+    background: #1e293b !important;
+    color: white !important;
+    padding: 10px 14px !important;
+    border-radius: 8px !important;
+    font-size: 13px !important;
+    max-width: 300px !important;
+    line-height: 1.5 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25) !important;
+}
+
+.vis-tooltip div {
+    max-width: 280px !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+/* Instructions */
+.instructions {
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    color: #64748b;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* Info panel: legend + details */
+.info-panel {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 16px;
+    padding: 16px;
+    background: #e0f2fe;
+    border-top: 1px solid #bae6fd;
+}
+
+.legend {
+    padding: 14px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.legend h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1e40af;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    color: #334155;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.legend-color.portugal    { background: #007832; }
+.legend-color.spain       { background: #c81e1e; }
+.legend-color.england     { background: #641414; }
+.legend-color.france      { background: #1e50b4; }
+.legend-color.netherlands { background: #e67800; }
+
+/* Event details panel */
+.details {
+    padding: 14px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.details h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1e40af;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#event-details {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #64748b;
+}
+
+#event-details .event-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+}
+
+#event-details .event-meta {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#event-details .event-year {
+    color: #2563eb;
+}
+
+#event-details .event-nation-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 11px;
+}
+
+#event-details .event-description {
+    margin-bottom: 10px;
+    color: #334155;
+    line-height: 1.65;
+}
+
+#event-details .event-context {
+    font-style: italic;
+    padding: 10px 12px;
+    background: #f8fafc;
+    border-radius: 6px;
+    border-left: 3px solid #3b82f6;
+    color: #64748b;
+    line-height: 1.55;
+}
+
+@media (max-width: 700px) {
+    .info-panel {
+        grid-template-columns: 1fr;
+    }
+
+    #timeline {
+        padding: 10px 16px;
+    }
+
+    .controls {
+        gap: 5px;
+    }
+
+    .filter-btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "U.S. History Course Timeline",
+  "description": "Interactive course-spanning timeline of twenty U.S. history eras (Chapters 2-21) with clickable date-range bars that reveal detailed era summaries and critical-thinking prompts.",
+  "creator": "U.S. History Intelligent Textbook",
+  "date": "2026-05-11",
+  "subject": [
+    "U.S. History",
+    "Historical Eras",
+    "Critical Thinking"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY 4.0",
+  "identifier": "us-history-timeline",
+  "library": "vis-timeline",
+  "bloomLevel": "Understand (L2)",
+  "bloomVerb": "Sequence, Summarize, Explain",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Course-Wide Timeline",
+  "chapter_dir": ""
+}
