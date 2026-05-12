@@ -6,18 +6,10 @@
 site_name: 'U.S. History'
 site_description: 'An interactive intelligent textbook on United States History for high school students — from colonial origins through the modern era, aligned to state standards and College Board frameworks.'
 site_author: 'Dan McCreary'
-site_url: 'https://dmccreary.github.io/us-history/'
-
-hooks:
-  - plugins/social_override.py
-
-# Repository
-repo_name: 'GitHub Repo'
 repo_url: 'https://github.com/dmccreary/us-history'
+site_url: 'https://dmccreary.github.io/us-history/'
+repo_name: 'GitHub Repo'
 edit_uri: 'blob/main/docs'
-
-# Copyright
-copyright: 'Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.'
 
 # Navigation
 # IMPORTANT: do NOT add `navigation.tabs` — these books use side navigation
@@ -124,7 +116,11 @@ nav:
       - Mascot Style Guide: learning-graph/mascot-test.md
       - FAQ Quality Report: learning-graph/faq-quality-report.md
       - Quiz Generation Report: learning-graph/quiz-generation-report.md
-
+      - learning-graph/book-metrics.md
+      - learning-graph/chapter-metrics.md
+      - learning-graph/diagram-details.md
+      - learning-graph/diagram-table.md
+  
   - Image Gallery:
       - Chapter Images: img/chapter-images/index.md
 
@@ -258,6 +254,10 @@ watch:
   - docs
   - mkdocs.yml
   - plugins
+
+
+# Copyright
+copyright: 'Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.'
 
 extra:
   generator: false

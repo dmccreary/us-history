@@ -18,7 +18,7 @@ Locate, sequence, and summarize the twenty major eras covered in this U.S. histo
 
 ## Interactive Sim
 
-<iframe src="main.html" width="100%" height="982" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="1050" scrolling="no"></iframe>
 
 [Run Fullscreen](main.html){ .md-button .md-button--primary }
 
