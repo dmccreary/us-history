@@ -190,7 +190,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     textStyle(isSel ? BOLD : NORMAL);
     textSize(min(13, (l.y2-l.y1)*0.35));
-    text(l.data.name + '\n(' + l.data.pct + ')', (l.x1+l.x2)/2, (l.y1+l.y2)/2, (l.x2-l.x1)*0.9, l.y2-l.y1-4);
+    let bw = (l.x2-l.x1)*0.9;
+    text(l.data.name + '\n(' + l.data.pct + ')', (l.x1+l.x2)/2 - bw/2, l.y1+2, bw, l.y2-l.y1-4);
     textStyle(NORMAL);
   }
 
@@ -252,7 +253,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(13);
     textStyle(ITALIC);
-    text('Click a pyramid layer to see the legal rights, occupations, and regional context for that social group.', px+pw/2, 44+ph/2, pw-20, 80);
+    text('Click a pyramid layer to see the legal rights, occupations, and regional context for that social group.', px+10, 44+ph/2-40, pw-20, 80);
     textStyle(NORMAL);
   }
 
