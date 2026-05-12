@@ -109,7 +109,7 @@ Modern advanced semiconductors (below 5 nanometers) are produced by exactly one 
 
 **NVIDIA** is the dominant supplier of the GPUs (graphics processing units) that AI training requires. Training large AI models requires thousands or tens of thousands of NVIDIA GPUs running for weeks or months. NVIDIA's A100 and H100 GPU chips are the primary bottleneck for AI development — controlling access to them is equivalent to controlling access to the industrial machinery of the AI era.
 
-**ASML**, a Dutch company, is the sole manufacturer of Extreme Ultraviolet (EUV) lithography machines — the equipment without which advanced chips cannot be manufactured. A single ASML EUV machine costs approximately $150 million and requires components from suppliers in 40 countries. ASML's monopoly on EUV lithography is the supply chain's deepest chokepoint.
+**ASML**, a Dutch company, is the sole manufacturer of Extreme Ultraviolet (EUV) lithography machines — the equipment without which advanced chips cannot be manufactured. A single ASML EUV machine costs approximately \$150 million and requires components from suppliers in 40 countries. ASML's monopoly on EUV lithography is the supply chain's deepest chokepoint.
 
 ### U.S.-China Chip Wars
 
@@ -155,7 +155,7 @@ These three operations illustrate the evolution of cyber warfare: from intellige
 
 The **Russia-Ukraine war** (2022–present) is the first major conflict in which AI-enabled technologies are being developed and deployed in real time — making it the most important military technology laboratory since the Gulf War demonstrated the potential of precision-guided munitions.
 
-**Drone warfare** has been transformed by the Ukraine conflict. Both sides have used drones extensively, but Ukraine has pioneered the use of commercial First-Person View (FPV) drones — inexpensive quadcopters adapted for military use, costing $500–$3,000, capable of carrying shaped charges and directed by operators using VR-style headsets. FPV drones have been used by both sides in thousands of daily missions, effectively replacing expensive artillery in many tactical roles.
+**Drone warfare** has been transformed by the Ukraine conflict. Both sides have used drones extensively, but Ukraine has pioneered the use of commercial First-Person View (FPV) drones — inexpensive quadcopters adapted for military use, costing \$500–\$3,000, capable of carrying shaped charges and directed by operators using VR-style headsets. FPV drones have been used by both sides in thousands of daily missions, effectively replacing expensive artillery in many tactical roles.
 
 **FPV drone swarms** represent the next evolution: AI guidance systems that allow drones to operate autonomously after launch, navigate toward targets without continuous operator control, and potentially coordinate with other drones. Ukraine and Russia are both developing these capabilities; their eventual deployment will test the boundary between semi-autonomous (human decides to launch, AI navigates) and fully autonomous (AI decides to target and attack) weapons.
 
