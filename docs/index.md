@@ -2,6 +2,8 @@
 title: 'U.S. History'
 description: 'An interactive intelligent textbook on United States History for high school students — from colonial origins through the modern era, aligned to state standards and College Board frameworks.'
 image: /img/cover.png
+hide:
+    toc
 ---
 ![](./img/cover.png)
 

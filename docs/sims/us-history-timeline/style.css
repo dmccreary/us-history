@@ -56,29 +56,39 @@ header p {
     font-size: 12px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background 0.15s, transform 0.05s;
+    transition: opacity 0.15s, box-shadow 0.15s, transform 0.05s;
 }
 
-.filter-btn:hover,
 .nav-btn:hover {
     background: #eef2f7;
 }
 
-.filter-btn.active {
+/* Filter buttons always show their category color */
+.filter-btn {
     color: white;
-    border-color: transparent;
     font-weight: 600;
+    border-color: transparent;
+    opacity: 0.6;
 }
 
-.filter-btn[data-cat="all"].active           { background: #444; }
-.filter-btn[data-cat="Colonial Foundations"].active     { background: #6b4423; }
-.filter-btn[data-cat="Revolutionary Era"].active         { background: #b22234; }
-.filter-btn[data-cat="Antebellum America"].active        { background: #d97706; }
-.filter-btn[data-cat="Civil War & Reconstruction"].active { background: #4a5d23; }
-.filter-btn[data-cat="Industrial America"].active        { background: #4b6584; }
-.filter-btn[data-cat="Modern America"].active            { background: #1d3557; }
-.filter-btn[data-cat="Late 20th Century"].active         { background: #6a4c93; }
-.filter-btn[data-cat="21st Century"].active              { background: #006d77; }
+.filter-btn:hover {
+    opacity: 0.9;
+}
+
+.filter-btn.active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px #222, 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.filter-btn[data-cat="all"]                        { background: #444; }
+.filter-btn[data-cat="Colonial Foundations"]       { background: #6b4423; }
+.filter-btn[data-cat="Revolutionary Era"]          { background: #b22234; }
+.filter-btn[data-cat="Antebellum America"]         { background: #d97706; }
+.filter-btn[data-cat="Civil War & Reconstruction"] { background: #4a5d23; }
+.filter-btn[data-cat="Industrial America"]         { background: #4b6584; }
+.filter-btn[data-cat="Modern America"]             { background: #1d3557; }
+.filter-btn[data-cat="Late 20th Century"]          { background: #6a4c93; }
+.filter-btn[data-cat="21st Century"]               { background: #006d77; }
 
 /* Timeline container */
 #timeline {

@@ -11,7 +11,7 @@
   "language": "en-US",
   "rights": "CC BY 4.0",
   "identifier": "european-exploration-timeline",
-  "library": "p5.js",
+  "library": "vis-timeline",
   "bloomLevel": "Remember (L1)",
   "bloomVerb": "Recall",
   "completion_status": "scaffold",
