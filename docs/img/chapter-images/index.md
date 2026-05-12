@@ -8,7 +8,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
 <div class="grid cards" markdown>
 
--   **[01 Indigenous Nations Map](01-indigenous-nations-map.png)**
+-   **[1 Indigenous Nations Map](01-indigenous-nations-map.png)**
 
     ---
 
@@ -16,7 +16,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     A detailed cartographic map of the major Indigenous nations and cultural regions across North America before European contact in 1492.
 
--   **[02 Cliff Dwellings](02-cliff-dwellings.png)**
+-   **[2 Cliff Dwellings](02-cliff-dwellings.png)**
 
     ---
 
@@ -24,7 +24,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Ancestral Pueblo cliff dwellings at Mesa Verde, Colorado, built between 600 and 1300 CE as sophisticated multi-story stone communities.
 
--   **[03 Columbus Landing](03-columbus.png)**
+-   **[3 Columbus Landing](03-columbus.png)**
 
     ---
 
@@ -32,7 +32,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Christopher Columbus and his crew landing on the island of Guanahani (San Salvador) on October 12, 1492, the moment of first contact between Europe and the Americas.
 
--   **[04 Columbian Exchange Map](04-columbian-exchange-map.png)**
+-   **[4 Columbian Exchange Map](04-columbian-exchange-map.png)**
 
     ---
 
@@ -40,7 +40,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     A map illustrating the Columbian Exchange — the transfer of plants, animals, diseases, and ideas between the Old and New Worlds after 1492.
 
--   **[05 Cortés Meets Moctezuma](05-cortes-montezuma.png)**
+-   **[5 Cortés Meets Moctezuma](05-cortes-montezuma.png)**
 
     ---
 
@@ -48,7 +48,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The historic meeting between Spanish conquistador Hernán Cortés and Aztec Emperor Moctezuma II in Tenochtitlan in November 1519.
 
--   **[06 Jamestown Settlement](06-jamestown-settlement.png)**
+-   **[6 Jamestown Settlement](06-jamestown-settlement.png)**
 
     ---
 
@@ -56,7 +56,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Aerial reconstruction of the Jamestown fort circa 1607–1610, England's first permanent European settlement in North America.
 
--   **[07 Mayflower Painting](07-mayflower-painting.png)**
+-   **[7 Mayflower Painting](07-mayflower-painting.png)**
 
     ---
 
@@ -64,7 +64,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The Mayflower ship carrying Separatist Pilgrims across the Atlantic Ocean to Plymouth, Massachusetts in 1620.
 
--   **[08 Mayflower Compact](08-mayflower-compact.png)**
+-   **[8 Mayflower Compact](08-mayflower-compact.png)**
 
     ---
 
@@ -72,7 +72,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The signing of the Mayflower Compact aboard ship in 1620, one of the earliest examples of self-governance in colonial America.
 
--   **[09 First Thanksgiving](09-first-thanksgiving.png)**
+-   **[9 First Thanksgiving](09-first-thanksgiving.png)**
 
     ---
 

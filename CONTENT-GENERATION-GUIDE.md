@@ -3,6 +3,11 @@
 Load this file whenever generating or editing chapter content.
 
 ---
+## Reading Level
+
+The audience for this book is high school students grades 9-12.
+The teacher's guide should be written for a college-graduate audience.
+
 
 ## Learning Mascot: Liberty the Bald Eagle
 
