@@ -1,16 +1,12 @@
 ---
 title: Populist Policy Platform — Then and Now
 description: Students examine how political demands that seem radical in one era become mainstream in another, and identify the political conditions that enabled or blocked the adoption of Populist demands.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Populist Policy Platform — Then and Now
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students examine how political demands that seem radical in one era become mains
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="702"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

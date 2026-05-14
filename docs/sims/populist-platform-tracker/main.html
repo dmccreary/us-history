@@ -3,128 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Populist Policy Platform — Then and Now</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
-        }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <script src="populist-platform-tracker.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Populist Policy Platform — Then and Now</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> populist-platform-tracker</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> Analyze (L4)</p>
-            <p><strong>Learning Objective:</strong> Students examine how political demands that seem radical in one era become mainstream in another, and identify the political conditions that enabled or blocked the adoption of Populist demands.</p>
-        </div>
-    </div>
+    <main></main>
+    <br/><a href=".">Back to Documentation</a>
 
     <!--
     SPECIFICATION (from chapter index.md):
 
     Type: infographic
-    **sim-id:** populist-platform-tracker<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Purpose: Allow students to explore the 1892 People's Party platform demands and track which were eventually enacted into law, when, and under what political conditions — illustrating how "radical" reform ideas move from the margins to the mainstream.
-    
+    sim-id: populist-platform-tracker
+    Library: p5.js
+    Status: Built
+
+    Purpose: Allow students to explore the 1892 People's Party platform
+    demands and track which were eventually enacted into law, when, and
+    under what political conditions — illustrating how "radical" reform
+    ideas move from the margins to the mainstream.
+
     Bloom Level: Analyze (L4)
     Bloom Verb: Examine
-    
-    Learning Objective: Students examine how political demands that seem radical in one era become mainstream in another, and identify the political conditions that enabled or blocked the adoption of Populist demands.
-    
+
+    Learning Objective: Students examine how political demands that seem
+    radical in one era become mainstream in another, and identify the
+    political conditions that enabled or blocked the adoption of Populist
+    demands.
+
     Canvas layout:
-    - Responsive width; height approximately 480px
-    - Left column: eight Populist platform demands from the 1892 Omaha Platform, each as a clickable card
-    - Right side: when a card is clicked, a detail panel shows: the specific demand, whether it was enacted, when, and under what president/law — or why it was not enacted
-    
-    Platform demand cards:
-    1. Government ownership of railroads → Partly enacted (ICC strengthened; railroads nationalized briefly in WWI) 
-    2. Graduated income tax → Enacted: 16th Amendment (1913)
-    3. Direct election of senators → Enacted: 17th Amendment (1913)
-    4. Secret ballot → Enacted: widely adopted by states 1890s–1910s
-    5. Flexible currency (silver) → Modified: gold standard abandoned 1933; Federal Reserve (1913) added flexibility
-    6. Subtreasury system for farm loans → Partly enacted: Farm Credit Act (1933), Agricultural Adjustment Act
-    7. Eight-hour workday → Enacted: Fair Labor Standards Act (1938)
-    8. Postal savings banks → Enacted: Postal Savings System (1910, abolished 1967)
-    
-    Each card shows a color-coded status badge: green = fully enacted, amber = partially enacted, red = not enacted.
-    
+    - Responsive width; height 700px (drawHeight 640 + controlHeight 60)
+    - Two-column grid of eight Populist demand cards
+    - Each card: number, title, mechanism, status pill (green/amber/red),
+      year. Gold border per spec.
+    - Click any card for full detail panel (problem, path, legacy,
+      enabling/blocking conditions).
+
+    Demands tracked (1892 Omaha Platform):
+      1. Graduated income tax — 16th Amendment (1913) — ENACTED
+      2. Direct election of senators — 17th Amendment (1913) — ENACTED
+      3. Secret ballot — state-by-state, 1888-1910s — ENACTED
+      4. Eight-hour workday — FLSA (1938) — ENACTED
+      5. Postal savings banks — Postal Savings System (1910-1967) — ENACTED
+      6. Government ownership of railroads — ICC + WWI brief — PARTIAL
+      7. Free silver — Gold standard abandoned 1933, fiat money — PARTIAL
+      8. Subtreasury system — Farm Credit Act 1933, AAA — PARTIAL
+
     Interactivity:
-    - Clicking a card shows the full detail panel with enactment year, the law/amendment name, and a 1-sentence note on why it took as long as it did
-    - "Timeline" button shows a simplified timeline of when each demand was enacted relative to 1892
-    - Filter buttons: "Enacted," "Partial," "Not Enacted"
-    
-    Color scheme: Green/amber/red status badges; gold card borders; white panels.
-    
-    Responsive behavior: Cards stack in 2 columns on narrow canvas.
-    
-    Implementation: p5.js
+    - Filter by status: All / Enacted / Partial / Rejected
+    - Click card for details, click again or Reset to close
+    - Hover shows 1-line summary in bottom panel
+
+    Color scheme: Green/amber/red status badges; gold card borders;
+                  white panels.
     -->
 </body>
 </html>

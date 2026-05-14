@@ -1,3 +1,7 @@
+---
+hide:
+    toc
+---
 # Chapter Images
 
 A gallery of all chapter images used throughout the U.S. History textbook, ordered by historical period.
