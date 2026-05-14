@@ -1,16 +1,12 @@
 ---
 title: Treaty of Versailles — Fourteen Points vs. Actual Outcome
 description: Students evaluate the extent to which the Treaty of Versailles fulfilled Wilson's Fourteen Points, and assess what the gap between promise and outcome reveals about the constraints on idealistic diplomacy.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Evaluate (L5)
 ---
 
 # Treaty of Versailles — Fourteen Points vs. Actual Outcome
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students evaluate the extent to which the Treaty of Versailles fulfilled Wilson'
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="720" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 
@@ -35,7 +31,7 @@ The full specification below is extracted from
 Type: comparison
 **sim-id:** versailles-comparison<br/>
 **Library:** p5.js<br/>
-**Status:** Specified
+**Status:** Built
 
 Purpose: Allow students to compare Wilson's Fourteen Points with the actual Treaty of Versailles provisions, identifying which points were honored, which were modified, and which were abandoned.
 

@@ -61,7 +61,11 @@ The **Progressive Era** (roughly 1890–1920) was driven by information: investi
 
 **Jacob Riis**, a Danish-American journalist and photographer, had documented tenement life in *How the Other Half Lives* (1890). His use of photographs made the reality of tenement poverty unavoidable for middle-class readers who had never entered one.
 
+![An editorial cartoon depicting the muckraking movement of the early 1900s, when investigative journalists exposed corporate corruption and unsafe conditions to reform-minded readers](../../img/chapter-images/75-muckraker-cartoon.png)
+
 **Upton Sinclair** wrote *The Jungle* (1906), a novel following a Lithuanian immigrant family working in the Chicago meatpacking industry. Sinclair intended it as an indictment of capitalism's exploitation of immigrant workers. Readers focused instead on his graphic descriptions of unsanitary meatpacking conditions — rat droppings, contaminated meat, occasional human body parts entering the meat supply. "I aimed at the public's heart," Sinclair wrote ruefully, "and by accident I hit it in the stomach."
+
+![The dangerous and unsanitary conditions inside a Chicago meatpacking plant as exposed by Upton Sinclair's 1906 novel "The Jungle"](../../img/chapter-images/76-the-jungle-illustration.png)
 
 The *Jungle*'s immediate impact was the Pure Food and Drug Act and the Meat Inspection Act (1906). This is a case study in how public outrage over a visceral issue (food safety) can produce policy change faster than any abstract argument about labor exploitation.
 
@@ -112,6 +116,8 @@ Prohibition's consequences will be examined in Chapter 14. For now, it is worth 
 The **Nineteenth Amendment** prohibited denying the right to vote on account of sex, granting women full voting rights nationwide. It was the culmination of more than 70 years of organizing, beginning with the 1848 Seneca Falls Declaration. The path from Seneca Falls to the 19th Amendment illustrates both the possibilities and the frustrations of democratic reform: seven decades, multiple generations of organizers, partial victories (Wyoming territory granted women's suffrage in 1869), setbacks, and eventual success.
 
 **Susan B. Anthony** was the dominant figure of women's suffrage for the second half of the 19th century. She was arrested for voting in the 1872 presidential election and used her trial to expose the absurdity of a democracy that denied the vote to half its citizens. She died in 1906, 14 years before the amendment's ratification.
+
+![Women's suffragists marching in a parade demanding the right to vote during the Progressive Era campaign for the Nineteenth Amendment](../../img/chapter-images/77-suffragists-marching.png)
 
 The **Women's Suffrage Movement** deployed multiple strategies over its history — moral suasion, legal challenges, electoral pressure, and, in the movement's final decade, mass marches, lobbying campaigns, and civil disobedience. Its success in 1920 was the product of strategic adaptation across seven decades.
 
@@ -210,3 +216,5 @@ But the Progressive Era's reform impulse was selective. It addressed the abuses 
 !!! mascot-celebration "Chapter 12 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated an era of genuine reform — and its genuine limits. The Progressive Era reshaped American government, extended democratic rights to women, and established the conservation movement. It also demonstrated that reform movements can be selective, that muckraking journalism works best on visceral issues, and that the NAACP's patient legal strategy would have to wait another half-century for its greatest victories. In Chapter 13, America's Progressive energy collides with global war.
+
+[See Annotated References](./references.md)

@@ -1,16 +1,12 @@
 ---
 title: Technology Power Shifts — Historical Comparison
 description: Students evaluate the historical pattern of technology-driven power shifts, identify the structural similarities between AI and previous technology transformations, and predict — based on historical evidence — what political and economic responses to AI are most likely to emerge.
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Evaluate (L5)
 ---
 
 # Technology Power Shifts — Historical Comparison
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students evaluate the historical pattern of technology-driven power shifts, iden
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="680" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

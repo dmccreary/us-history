@@ -58,6 +58,8 @@ No single technology did more to transform the United States in the Gilded Age t
 
 ### The Transcontinental Railroad (1869)
 
+![The completion of the First Transcontinental Railroad at Promontory Summit, Utah on May 10, 1869, where the Union Pacific and Central Pacific locomotives met](../../img/chapter-images/61-promontory-point-railroad.png)
+
 The **Transcontinental Railroad** was completed on May 10, 1869, when the Union Pacific (building west from Omaha) and the Central Pacific (building east from Sacramento) met at Promontory Summit, Utah. The driving of the "golden spike" was celebrated as the fulfillment of national destiny — the physical binding of the continent.
 
 The railroad's construction required approximately 20,000 workers, the majority of them Chinese immigrants on the Central Pacific side and Irish immigrants and Civil War veterans on the Union Pacific side. These workers built the most technically demanding railroad in the world — blasting through the Sierra Nevada with primitive explosives, surviving brutal winters, working for wages that would be worth roughly $25–$30 per day in today's terms — and were systematically excluded from the celebratory mythology of the project's completion.
@@ -82,7 +84,11 @@ Two business strategies drove industrial consolidation.
 
 The term **Robber Barons** — applied to industrial titans like Carnegie, Rockefeller, and J.P. Morgan — captures the dual nature of their historical legacy: they built enormous wealth through practices that were often exploitative, legally questionable, and achieved at great cost to workers and competitors; and they also built the industrial infrastructure of the modern American economy.
 
+![Portrait of Andrew Carnegie, Scottish immigrant turned steel magnate and philanthropist, the wealthiest man in the world at the turn of the 20th century](../../img/chapter-images/62-andrew-carnegie.png)
+
 **Andrew Carnegie** built Carnegie Steel into the world's largest steel company through relentless cost-cutting (including violent suppression of labor organizing), technological innovation, and vertical integration. He sold the company to J.P. Morgan in 1901 for $480 million (roughly $17 billion today) and spent his remaining decades giving most of his fortune away — funding 2,500 public libraries, Carnegie Hall, and the Carnegie Endowment for International Peace.
+
+![Portrait of John D. Rockefeller, founder of Standard Oil and the wealthiest individual in American history, whose monopoly transformed the oil industry](../../img/chapter-images/63-rockefeller-portrait.png)
 
 **John D. Rockefeller** built Standard Oil through a combination of genuine operational efficiency and ruthless anti-competitive practices — secret railroad rebates, industrial espionage, predatory pricing to drive competitors out of business. His personal philanthropy eventually rivaled Carnegie's, including the founding of the University of Chicago and Rockefeller University.
 
@@ -163,11 +169,15 @@ The **labor movement origins** of the Gilded Age grew directly from the conditio
 
 The **Knights of Labor** (founded 1869, peak membership 700,000 in 1886) was the first major national labor organization, remarkable for its inclusivity: it organized across racial, ethnic, and gender lines, including Black workers and women in an era when most labor organizations excluded them. It pursued both workplace organizing and political reform — an eight-hour workday, abolition of child labor, cooperatives as an alternative to wage labor. The Knights' decline after the Haymarket Affair (1886, when a bomb thrown at a Chicago labor rally killed police officers and was blamed on anarchists) demonstrated the vulnerability of labor organizations to association with radicalism.
 
+![The Haymarket Affair of May 4, 1886, when a bomb exploded during a workers' rally in Chicago, killing police and setting off a wave of anti-labor repression](../../img/chapter-images/68-haymarket-affair.png)
+
 The **American Federation of Labor** (AFL), founded in 1886 under **Samuel Gompers**, took a more pragmatic approach: organizing only skilled workers into craft unions, pursuing specific material gains (higher wages, shorter hours, safer conditions) through collective bargaining, and avoiding broader political radicalism. The AFL's narrower scope made it more organizationally stable — it survived where the Knights collapsed — but also made it structurally exclusive, largely limiting membership to white male skilled workers.
 
 ### Homestead and Pullman: Turning Points in Labor History
 
 The **Homestead Strike** (1892) and the **Pullman Strike** (1894) were the two most significant labor conflicts of the Gilded Age, and both ended in defeats that set back the labor movement for a generation.
+
+![The Homestead Strike of 1892, the violent confrontation between steelworkers and Pinkerton detectives at Carnegie Steel's Homestead plant in Pennsylvania](../../img/chapter-images/69-homestead-strike.png)
 
 At the **Homestead Strike**, Carnegie Steel workers at Homestead, Pennsylvania, struck when management cut wages and refused to recognize the union contract. Carnegie's deputy Henry Clay Frick locked out the workers and hired 300 Pinkerton agents (private security) to escort strikebreakers. Armed conflict between strikers and Pinkertons on the Monongahela River killed ten people. Pennsylvania's governor sent 8,500 National Guard troops, breaking the strike. The steel union was destroyed; it did not recover until the 1930s.
 
@@ -179,9 +189,13 @@ Both strikes demonstrated a structural weakness of the American labor movement: 
 
 **New immigration wave** describes the shift in immigration patterns that began in the 1880s. Earlier waves had come primarily from northern and western Europe — England, Germany, Scandinavia, Ireland. The "new immigration" brought millions from southern and eastern Europe — Italy, Poland, Russia, Hungary, Greece, and the Austro-Hungarian Empire — as well as significant numbers from China and Japan (before the Chinese Exclusion Act of 1882 and the Gentleman's Agreement of 1907 severely restricted Asian immigration).
 
+![Immigrants arriving at Ellis Island, New York Harbor, during the peak years of mass immigration between 1892 and 1924](../../img/chapter-images/64-ellis-island-immigrants.png)
+
 **Ellis Island** (opened 1892) processed 12 million immigrants between 1892 and 1954, becoming the iconic gateway to America. Immigrants were medically examined, questioned, and registered — a process that took hours for most but resulted in deportation for roughly 2 percent deemed medically or otherwise unfit.
 
 The new immigrants brought different languages, different religions (Catholicism, Judaism, Eastern Orthodoxy rather than Protestantism), and different cultural practices that triggered nativist reactions. They also built the labor force that staffed the steel mills, mines, garment factories, and meatpacking plants of industrial America — often doing the most dangerous and lowest-paid work.
+
+![The Statue of Liberty in New York Harbor as seen by arriving immigrants in the late 19th and early 20th centuries, symbolizing hope and the promise of America](../../img/chapter-images/66-statue-of-liberty.png)
 
 The **Migration and Settlement** AP theme asks how migration patterns have continuously reshaped American society. The Gilded Age immigration wave reshaped the ethnic and religious composition of American cities, created political organizations (ethnic political machines), and produced cultural fusions (in food, music, language, religion) that define American society today.
 
@@ -195,7 +209,11 @@ The **Migration and Settlement** AP theme asks how migration patterns have conti
 
 Rapid urbanization without adequate planning produced **tenement housing** — overcrowded, poorly ventilated, poorly lit multi-family buildings that housed the urban poor in conditions that shocked reformers. Jacob Riis's documentary photography and muckraking journalism (*How the Other Half Lives*, 1890) brought the reality of tenement conditions to a middle-class readership that had no direct experience of them.
 
-**Political machines** were the organizational response to the needs of urban immigrant communities. Machines like Tammany Hall in New York provided immigrants with jobs, legal assistance, housing help, and social services in exchange for votes. Critics (typically middle-class reformers) condemned machines as corrupt — they were — but machines also served genuine social functions in cities without welfare states, and their "corruption" often involved providing services that the government otherwise refused to deliver.
+![A photograph in the style of Jacob Riis depicting the overcrowded tenement conditions of New York City's Lower East Side in the 1880s-1900s](../../img/chapter-images/65-tenement-housing-riis.png)
+
+**Political machines** were the organizational response to the needs of urban immigrant communities. Machines like Tammany Hall in New York provided immigrants with jobs, legal assistance, housing help, and social services in exchange for votes.
+
+![A Thomas Nast political cartoon depicting Boss Tweed and the corruption of Tammany Hall, New York City's Democratic Party machine in the 1860s-1870s](../../img/chapter-images/67-boss-tweed-cartoon.png) Critics (typically middle-class reformers) condemned machines as corrupt — they were — but machines also served genuine social functions in cities without welfare states, and their "corruption" often involved providing services that the government otherwise refused to deliver.
 
 The relationship between political machines, immigrants, and urban communities is a case study in the systems thinking concept of unintended consequences: the failure of formal government to serve immigrant communities produced political machines as a workaround, which then produced corruption that reformers targeted, which led to Progressive Era municipal reform — covered in Chapter 12.
 
@@ -267,3 +285,5 @@ The AP theme of **Migration and Settlement** runs through this entire chapter: t
 !!! mascot-celebration "Chapter 10 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just worked through the Gilded Age's extraordinary contradictions: the most rapid industrial growth in human history alongside the most extreme inequality, the most ambitious concentration of private power alongside the first stirrings of the organized resistance that would eventually counterbalance it. In Chapter 11, we follow those contradictions into the countryside — where farmers faced their own version of the industrial system's power — and onto the frontier, where America's last chapter of westward expansion played out.
+
+[See Annotated References](./references.md)

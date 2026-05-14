@@ -2,7 +2,7 @@
 title: Four Progressive Era Amendments — Timeline and Context
 description: Students explain the purpose of each Progressive Era amendment and the social movement or political pressure that produced it.
 status: built
-library: p5.js
+library: vis-timeline
 bloom_level: Understand (L2)
 ---
 
@@ -14,11 +14,11 @@ Students explain the purpose of each Progressive Era amendment and the social mo
 
 - **Bloom Level:** Understand (L2)
 - **Bloom Verb:** Explain
-- **Library:** p5.js
+- **Library:** vis-timeline
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="562px" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="720" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

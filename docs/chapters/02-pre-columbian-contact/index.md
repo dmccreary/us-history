@@ -388,3 +388,5 @@ France, England, and the Netherlands entered the Americas later and with differe
 !!! mascot-celebration "Chapter 2 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just surveyed a world of stunning complexity — hundreds of distinct cultures, two hemispheres colliding, and consequences that are still unfolding. The patterns you've seen here — reinforcing feedback loops driving conquest, unintended consequences reshaping entire continents, in-group favoritism shaping whose story gets told — will appear again and again in the chapters ahead. In Chapter 3, we turn to the British colonies that will become the foundation of the United States.
+
+[See Annotated References](./references.md)

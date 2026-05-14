@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "id": "abolitionism",
+      "label": "Abolitionism",
+      "type": "movement",
+      "description": "A reform movement (1830s–1860s) seeking the immediate end of slavery in the United States. It united black and white activists, religious revivalists, and women's rights advocates across the antebellum North."
+    },
+    {
+      "id": "womens-rights",
+      "label": "Women's Rights",
+      "type": "movement",
+      "description": "An organized push for legal, political, and social equality for women that crystallized at the 1848 Seneca Falls Convention. It grew directly out of women's leadership in anti-slavery and temperance work."
+    },
+    {
+      "id": "temperance",
+      "label": "Temperance",
+      "type": "movement",
+      "description": "A campaign to reduce or prohibit the consumption of alcohol on moral and social grounds. It drew on evangelical revivalism and provided women a public platform for civic reform."
+    },
+    {
+      "id": "transcendentalism",
+      "label": "Transcendentalism",
+      "type": "movement",
+      "description": "A New England philosophical and literary movement emphasizing individual conscience, intuition, and the moral authority of the self over institutions. Its leading voices included Emerson and Thoreau."
+    },
+    {
+      "id": "second-great-awakening",
+      "label": "Second Great Awakening",
+      "type": "movement",
+      "description": "A wave of Protestant religious revivals (c. 1790–1840) that stressed personal salvation and the moral duty to perfect society. It supplied the spiritual energy and organizational templates for nearly every antebellum reform."
+    },
+
+    {
+      "id": "douglass",
+      "label": "Frederick Douglass",
+      "type": "person",
+      "description": "An escaped slave who became the era's most prominent African American abolitionist, orator, and newspaper editor. He spoke at the 1848 Seneca Falls Convention in support of women's suffrage."
+    },
+    {
+      "id": "garrison",
+      "label": "William Lloyd Garrison",
+      "type": "person",
+      "description": "A radical white abolitionist who founded The Liberator newspaper in 1831 and co-founded the American Anti-Slavery Society in 1833. He demanded immediate, uncompensated emancipation."
+    },
+    {
+      "id": "stanton",
+      "label": "Elizabeth Cady Stanton",
+      "type": "person",
+      "description": "A women's rights leader who drafted the Declaration of Sentiments adopted at Seneca Falls in 1848. She was radicalized by exclusion from an anti-slavery convention in London."
+    },
+    {
+      "id": "mott",
+      "label": "Lucretia Mott",
+      "type": "person",
+      "description": "A Quaker minister, abolitionist, and women's rights organizer who co-led the Seneca Falls Convention with Stanton. She had helped found the Philadelphia Female Anti-Slavery Society in 1833."
+    },
+    {
+      "id": "tubman",
+      "label": "Harriet Tubman",
+      "type": "person",
+      "description": "An escaped slave who returned south roughly thirteen times to guide others to freedom on the Underground Railroad. She also worked with abolitionist networks and later supported women's suffrage."
+    },
+    {
+      "id": "thoreau",
+      "label": "Henry David Thoreau",
+      "type": "person",
+      "description": "A Transcendentalist writer whose 1849 essay 'Civil Disobedience' argued individuals must refuse cooperation with unjust laws. He opposed slavery and the Mexican-American War."
+    },
+    {
+      "id": "truth",
+      "label": "Sojourner Truth",
+      "type": "person",
+      "description": "A formerly enslaved itinerant preacher who became a powerful voice for abolition and women's rights. Her 1851 'Ain't I a Woman?' speech connected racial and gender injustice."
+    },
+
+    {
+      "id": "aas",
+      "label": "American Anti-Slavery Society",
+      "type": "organization",
+      "description": "A national abolitionist society founded in 1833 by Garrison, Tappan, and others to demand immediate emancipation. It served as the institutional hub for radical anti-slavery organizing."
+    },
+    {
+      "id": "seneca-falls",
+      "label": "Seneca Falls Convention",
+      "type": "organization",
+      "description": "The first women's rights convention in the United States, held in Seneca Falls, New York in July 1848. It produced the Declaration of Sentiments calling for women's equality and suffrage."
+    },
+    {
+      "id": "liberator",
+      "label": "The Liberator",
+      "type": "organization",
+      "description": "Garrison's weekly abolitionist newspaper, published in Boston from 1831 until slavery's abolition in 1865. It set the rhetorical tone of radical immediatist abolition."
+    },
+    {
+      "id": "ats",
+      "label": "American Temperance Society",
+      "type": "organization",
+      "description": "Founded in Boston in 1826, this was the first national temperance organization. Within a decade it claimed over a million members and thousands of local chapters."
+    },
+
+    {
+      "id": "individual-conscience",
+      "label": "Individual Conscience",
+      "type": "idea",
+      "description": "The belief that personal moral judgment outranks unjust laws or social custom. Central to Transcendentalism and to the moral logic of abolition and civil disobedience."
+    },
+    {
+      "id": "natural-rights",
+      "label": "Natural Rights",
+      "type": "idea",
+      "description": "The Enlightenment claim that all people possess inherent rights to liberty and equality. Reformers used this language to attack both slavery and the legal subordination of women."
+    },
+    {
+      "id": "religious-revival",
+      "label": "Religious Revival",
+      "type": "idea",
+      "description": "The conviction that society could be perfected through personal conversion and collective moral effort. This idea, energized by the Second Great Awakening, fueled the era's reform organizations."
+    }
+  ],
+  "edges": [
+    { "from": "douglass", "to": "abolitionism", "label": "Leader and speaker", "strength": "strong", "explanation": "Douglass was the most widely heard African American abolitionist of the 1840s and 1850s, lecturing nationally and editing his own anti-slavery paper." },
+    { "from": "douglass", "to": "womens-rights", "label": "Signed Declaration of Sentiments", "strength": "strong", "explanation": "At Seneca Falls in 1848, Douglass publicly supported the suffrage resolution when many delegates hesitated to endorse it." },
+    { "from": "douglass", "to": "aas", "label": "Featured lecturer", "strength": "strong", "explanation": "Douglass began his speaking career on the American Anti-Slavery Society's lecture circuit in 1841." },
+    { "from": "douglass", "to": "natural-rights", "label": "Invoked in speeches", "strength": "indirect", "explanation": "Douglass repeatedly grounded his case against slavery in the natural rights language of the Declaration of Independence." },
+
+    { "from": "garrison", "to": "abolitionism", "label": "Radical leader", "strength": "strong", "explanation": "Garrison defined the immediatist wing of abolition, rejecting gradual emancipation and political compromise." },
+    { "from": "garrison", "to": "liberator", "label": "Founded 1831", "strength": "strong", "explanation": "Garrison launched The Liberator in Boston in January 1831 with a vow to be 'heard' on slavery." },
+    { "from": "garrison", "to": "aas", "label": "Co-founded 1833", "strength": "strong", "explanation": "Garrison helped organize the American Anti-Slavery Society in Philadelphia in December 1833." },
+    { "from": "liberator", "to": "abolitionism", "label": "Mouthpiece", "strength": "strong", "explanation": "For 35 years The Liberator served as the public voice of radical immediatist abolitionism." },
+    { "from": "aas", "to": "abolitionism", "label": "Institutional hub", "strength": "strong", "explanation": "The American Anti-Slavery Society coordinated lecturers, petitions, and publications across the northern states." },
+
+    { "from": "stanton", "to": "womens-rights", "label": "Primary organizer", "strength": "strong", "explanation": "Stanton drafted the Declaration of Sentiments and led the convention that launched the movement." },
+    { "from": "stanton", "to": "seneca-falls", "label": "Drafted Declaration", "strength": "strong", "explanation": "Stanton modeled the 1848 Declaration of Sentiments on the Declaration of Independence." },
+    { "from": "stanton", "to": "abolitionism", "label": "Anti-slavery network", "strength": "indirect", "explanation": "Stanton came to women's rights through her husband's abolitionist circles and her exclusion from the 1840 London anti-slavery convention." },
+
+    { "from": "mott", "to": "seneca-falls", "label": "Co-organizer", "strength": "strong", "explanation": "Mott co-convened the Seneca Falls Convention with Stanton and chaired several of its sessions." },
+    { "from": "mott", "to": "womens-rights", "label": "Founding leader", "strength": "strong", "explanation": "Mott had advocated for women's equal public role for over a decade before Seneca Falls." },
+    { "from": "mott", "to": "abolitionism", "label": "Quaker abolitionist", "strength": "strong", "explanation": "Mott co-founded the Philadelphia Female Anti-Slavery Society in 1833 and lectured widely against slavery." },
+    { "from": "seneca-falls", "to": "womens-rights", "label": "Founding event", "strength": "strong", "explanation": "The 1848 convention is conventionally treated as the birth of the organized women's rights movement in the United States." },
+
+    { "from": "tubman", "to": "abolitionism", "label": "Underground Railroad", "strength": "strong", "explanation": "Tubman guided roughly seventy enslaved people to freedom and became an icon of active resistance to slavery." },
+    { "from": "tubman", "to": "womens-rights", "label": "Later suffragist", "strength": "indirect", "explanation": "After the Civil War, Tubman worked alongside Stanton and Anthony in the women's suffrage movement." },
+
+    { "from": "thoreau", "to": "transcendentalism", "label": "Leading writer", "strength": "strong", "explanation": "Thoreau was, with Emerson, the most influential literary voice of Transcendentalism." },
+    { "from": "thoreau", "to": "individual-conscience", "label": "Civil Disobedience", "strength": "strong", "explanation": "Thoreau's 1849 essay argued individuals must refuse cooperation with unjust government, grounding politics in personal conscience." },
+    { "from": "thoreau", "to": "abolitionism", "label": "Anti-slavery essays", "strength": "indirect", "explanation": "Thoreau defended John Brown and refused taxes that supported a slaveholding government." },
+
+    { "from": "truth", "to": "abolitionism", "label": "Itinerant speaker", "strength": "strong", "explanation": "Truth traveled the North denouncing slavery and was a featured speaker at anti-slavery gatherings." },
+    { "from": "truth", "to": "womens-rights", "label": "Ain't I a Woman?", "strength": "strong", "explanation": "Truth's 1851 Akron speech insisted that black women belonged in the demand for equal rights." },
+    { "from": "truth", "to": "religious-revival", "label": "Revivalist preacher", "strength": "indirect", "explanation": "Truth's career as a reformer began as an itinerant Methodist preacher shaped by revival camp meetings." },
+
+    { "from": "second-great-awakening", "to": "abolitionism", "label": "Religious energy", "strength": "strong", "explanation": "Revival preaching that slavery was sin pushed many evangelicals into the abolitionist ranks." },
+    { "from": "second-great-awakening", "to": "temperance", "label": "Religious energy", "strength": "strong", "explanation": "Temperance organizing borrowed revival techniques and recruited heavily from evangelical congregations." },
+    { "from": "second-great-awakening", "to": "womens-rights", "label": "Religious energy", "strength": "indirect", "explanation": "Revivals gave women a public moral voice that they carried into rights organizing." },
+    { "from": "second-great-awakening", "to": "religious-revival", "label": "Embodies", "strength": "strong", "explanation": "The Second Great Awakening is the historical expression of the broader idea of religious revivalism." },
+    { "from": "religious-revival", "to": "temperance", "label": "Moral fuel", "strength": "strong", "explanation": "Temperance framed drunkenness as personal sin curable by conversion, mirroring revival logic." },
+
+    { "from": "ats", "to": "temperance", "label": "First national society", "strength": "strong", "explanation": "The American Temperance Society organized the movement into a coordinated national campaign after 1826." },
+
+    { "from": "individual-conscience", "to": "transcendentalism", "label": "Core principle", "strength": "strong", "explanation": "Transcendentalists made the authority of the individual moral self the foundation of their philosophy." },
+    { "from": "individual-conscience", "to": "abolitionism", "label": "Moral basis", "strength": "indirect", "explanation": "Immediatist abolitionists argued that slavery was a sin no Christian could tolerate in good conscience." },
+
+    { "from": "natural-rights", "to": "abolitionism", "label": "Justification", "strength": "strong", "explanation": "Abolitionists argued that enslavement violated the inalienable rights asserted in the Declaration of Independence." },
+    { "from": "natural-rights", "to": "womens-rights", "label": "Justification", "strength": "strong", "explanation": "The Declaration of Sentiments rewrote 'all men are created equal' as 'all men and women are created equal.'" }
+  ]
+}

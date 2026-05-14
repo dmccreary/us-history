@@ -4,7 +4,7 @@ description: Clickable timeline of 13 major European exploration events from 145
 image: /sims/european-exploration-timeline/european-exploration-timeline.png
 og:image: /sims/european-exploration-timeline/european-exploration-timeline.png
 status: built
-library: p5.js
+library: vis-timeline
 bloom_level: Remember (L1) — Recall
 quality_score: 68
 ---
@@ -15,11 +15,11 @@ quality_score: 68
 Clickable timeline of 13 major European exploration events from 1450 to 1620, color-coded by nation (Portugal, Spain, England, France, Netherlands). Filter by nation and click events for 2-sentence significance notes.
 
 - **Bloom Level:** Remember (L1) — Recall
-- **Library:** p5.js | **Chapter:** 2 — Pre-Columbian Americas and European Contact
+- **Library:** vis-timeline | **Chapter:** 2 — Pre-Columbian Americas and European Contact
 
 ## Interactive Sim
 
-<iframe src="main.html" width="100%" height="502px" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="760px" scrolling="no"></iframe>
 
 [Run Fullscreen](main.html){ .md-button .md-button--primary }
 
@@ -30,7 +30,7 @@ This horizontal timeline spans 1450–1620, presenting 13 landmark exploration e
 ## Embed This MicroSim
 
 ```html
-<iframe src="https://dmccreary.github.io/us-history/sims/european-exploration-timeline/main.html" height="502px" width="100%" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/us-history/sims/european-exploration-timeline/main.html" height="760px" width="100%" scrolling="no"></iframe>
 ```
 
 ## Lesson Plan

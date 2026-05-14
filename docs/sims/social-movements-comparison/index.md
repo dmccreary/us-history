@@ -1,16 +1,12 @@
 ---
 title: Social Movements of the 1960s–70s — Strategies and Outcomes
 description: Students compare the strategies, constituencies, and outcomes of the major social movements of the 1965–1975 period, identifying similarities (nonviolent direct action, legal challenges, coalition-building) and differences (constituency, target, level of legislative success).
-status: scaffold
+status: built
 library: p5.js
 bloom_level: Analyze (L4)
 ---
 
 # Social Movements of the 1960s–70s — Strategies and Outcomes
-
-!!! warning "Scaffold"
-    This MicroSim has been scaffolded from its specification. The interactive
-    implementation has not been built yet.
 
 ## Learning Objective
 
@@ -22,7 +18,7 @@ Students compare the strategies, constituencies, and outcomes of the major socia
 
 ## Preview
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="680" scrolling="no"></iframe>
 
 [Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
 

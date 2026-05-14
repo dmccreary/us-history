@@ -5,47 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Four Progressive Era Amendments — Timeline and Context</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
-    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
-    <script src="progressive-amendments-timeline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.css">
+    <script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main></main>
-    <br/><a href=".">Back to Documentation</a>
+<main>
+    <header>
+        <h1>Four Progressive Era Amendments — Timeline and Context</h1>
+        <p>The 16th, 17th, 18th, and 19th Amendments (1913–1920) and the political context that produced them. Click any item for details.</p>
+    </header>
 
-    <!--
-    SPECIFICATION (from chapter index.md):
+    <div class="controls" id="filter-controls">
+        <span class="group-label">Filter:</span>
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="Amendment 16 (Income Tax)">16th</button>
+        <button class="filter-btn" data-cat="Amendment 17 (Direct Senate Election)">17th</button>
+        <button class="filter-btn" data-cat="Amendment 18 (Prohibition)">18th</button>
+        <button class="filter-btn" data-cat="Amendment 19 (Women's Suffrage)">19th</button>
+        <button class="filter-btn" data-cat="Political Context">Political Context</button>
+        <button class="filter-btn" data-cat="World War I">WWI</button>
 
-    Type: timeline
-    sim-id: progressive-amendments-timeline
-    Library: p5.js
-    Status: Built
+        <span class="group-label" style="margin-left:16px;">View:</span>
+        <button class="nav-btn" id="btn-pan-left" title="Pan left">&#9664;</button>
+        <button class="nav-btn" id="btn-pan-right" title="Pan right">&#9654;</button>
+        <button class="nav-btn" id="btn-zoom-in" title="Zoom in">+</button>
+        <button class="nav-btn" id="btn-zoom-out" title="Zoom out">&minus;</button>
+        <button class="nav-btn" id="btn-fit" title="Fit all">Fit All</button>
+    </div>
 
-    Purpose: Allow students to explore the four Progressive Era constitutional
-    amendments (16th–19th), the social movements that produced them, and the
-    political context in which each was ratified.
+    <div id="instructions">
+        Tip: Click any item on the timeline to read a detailed description below. Drag the timeline to pan; use + / &minus; to zoom.
+    </div>
 
-    Bloom Level: Understand (L2)
-    Bloom Verb: Explain
+    <div id="timeline"></div>
 
-    Learning Objective: Students explain the purpose of each Progressive Era
-    amendment and the social movement or political pressure that produced it.
-
-    Canvas layout:
-    - Responsive width; height 560px (drawHeight 500 + controlHeight 60)
-    - Horizontal timeline from 1900 to 1925
-    - Two tracks: Amendments (top), Social Movements & Political Events (bottom)
-    - Four amendment markers: 16th (1913), 17th (1913), 18th (1919), 19th (1920)
-    - WWI band (1917–1918) shaded in gray with hover note tying it to ratification
-
-    Each marker, when clicked, opens a detail panel with:
-    - Amendment number and ratification year
-    - What it changed
-    - The movement / pressure that drove it
-    - Historical context for the timing
-    - Key figures and "What happened next?"
-
-    Color scheme: gold = 16th, indigo = 17th, red = 18th, teal = 19th; gray for WWI.
-    -->
+    <div id="detail-panel" class="empty">
+        Click any amendment or event above to see what it changed, the movement that drove it, the historical context, and what happened next.
+    </div>
+</main>
+<script src="progressive-amendments-timeline.js"></script>
 </body>
 </html>

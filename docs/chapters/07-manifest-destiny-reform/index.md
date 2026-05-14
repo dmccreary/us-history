@@ -114,23 +114,31 @@ Implementation: p5.js; map as simplified polygon shapes; time-slider controls la
 
 ### Manifest Destiny
 
+![John Gast's 1872 allegorical painting "American Progress," depicting the spirit of Manifest Destiny guiding settlers westward across the continent](../../img/chapter-images/38-american-progress.png)
+
 **Manifest Destiny** was the widely held belief in antebellum America that the United States was divinely ordained to expand across the North American continent — that American expansion was not merely desirable but inevitable, part of God's plan. The phrase was coined by journalist John O'Sullivan in 1845, but the idea had been implicit in American expansionism since Jefferson.
 
 Manifest Destiny was not a neutral geographic description — it was an ideological justification for dispossession. Framing expansion as destiny or divine will obscured the choices involved, the violence required, and the costs paid by Indigenous peoples, Mexicans, and others in the path of expansion. It is a classic example of confirmation bias operating at a national scale: Americans who wanted western land found in Manifest Destiny a belief system that confirmed their desires while suppressing inconvenient moral questions.
 
 The **Geography and the Environment** lens helps analyze Manifest Destiny concretely: what specific geographic features attracted American settlers, why routes like the Oregon Trail developed where they did, and how environmental factors (climate, soil, water) shaped where American settlement succeeded and where it struggled.
 
+![A map of the Oregon Trail, the 2,000-mile overland route that thousands of American settlers traveled westward to Oregon, California, and Utah from 1836 to 1869](../../img/chapter-images/37-oregon-trail-map.png)
+
 ### The Texas Revolution (1835–1836)
 
 The **Texas Revolution** grew from a collision between American settlers and the Mexican government. Mexico had encouraged American settlement of its sparsely populated Texas territory in the 1820s, but the American settlers (including many slaveholders) quickly outnumbered the Mexican population and began chafing under Mexican law — which, importantly, had abolished slavery in 1829.
 
-After the Mexican government moved to restrict further American immigration and enforce its laws, American settlers revolted. The Texas Revolution's most famous episode was the Battle of the Alamo (1836), where approximately 180 Texas defenders (including Davy Crockett and Jim Bowie) were killed by a Mexican army under General Santa Anna. The phrase "Remember the Alamo!" became the rallying cry for Sam Houston's force that subsequently defeated Santa Anna at the Battle of San Jacinto.
+After the Mexican government moved to restrict further American immigration and enforce its laws, American settlers revolted. The Texas Revolution's most famous episode was the Battle of the Alamo (1836), where approximately 180 Texas defenders (including Davy Crockett and Jim Bowie) were killed by a Mexican army under General Santa Anna.
+
+![The Alamo mission in San Antonio, Texas, site of the 1836 battle where approximately 180 defenders were killed by Mexican forces under Santa Anna](../../img/chapter-images/39-the-alamo.png) The phrase "Remember the Alamo!" became the rallying cry for Sam Houston's force that subsequently defeated Santa Anna at the Battle of San Jacinto.
 
 The Republic of Texas declared independence but the United States declined immediate annexation (partly to avoid war with Mexico, partly because adding another slave state was politically explosive). Texas remained an independent republic until 1845.
 
 ### The Mexican-American War (1846–1848)
 
 The **Mexican-American War** began after the United States annexed Texas and disputed the Texas-Mexico border. President James K. Polk, a strong advocate of Manifest Destiny, sent troops to the disputed border region. When Mexican forces attacked an American patrol, Polk told Congress that "American blood has been shed on American soil" — a claim that Abraham Lincoln (then a freshman congressman) challenged as false, demanding to know the exact "spot" where the blood was shed.
+
+![American forces during the Mexican-American War of 1846-1848, which resulted in the U.S. acquiring over 525,000 square miles of territory from Mexico](../../img/chapter-images/40-mexican-american-war.png)
 
 The war was a military success and a moral controversy. The U.S. won decisively, occupying Mexico City in 1847. The Treaty of Guadalupe Hidalgo (1848) transferred approximately 525,000 square miles — what is now California, Nevada, Utah, Arizona, New Mexico, and parts of Colorado and Wyoming — to the United States in exchange for $15 million and the assumption of claims American citizens held against Mexico.
 
@@ -150,6 +158,8 @@ The same decades that produced Manifest Destiny also produced the most sustained
 
 **William Lloyd Garrison** was the most prominent white abolitionist. His newspaper *The Liberator*, begun in 1831, called slavery a sin and slaveholders criminals. He burned copies of the Constitution at public meetings, calling it a "covenant with death and an agreement with hell" for its protection of slavery.
 
+![Portrait of Frederick Douglass, escaped slave, abolitionist, orator, and the most important Black writer and activist of the 19th century](../../img/chapter-images/41-frederick-douglass.png)
+
 **Frederick Douglass** was the most important Black abolitionist — and arguably the most important American writer and orator of the 19th century. Born enslaved in Maryland, Douglass escaped to freedom in 1838 and became a powerful anti-slavery speaker, drawing on his own experience to make the abstract horror of slavery concrete and immediate. His autobiography *Narrative of the Life of Frederick Douglass* (1845) was one of the most widely read books of the era.
 
 Douglass and Garrison eventually split over strategy and constitutional interpretation. Garrison believed the Constitution was irredeemably pro-slavery; Douglass came to believe it could be interpreted as an anti-slavery document if the principles of the Declaration of Independence were taken seriously. This debate — whether to work within the existing system or declare it irredeemably corrupted — recurs in American reform movements throughout the 19th and 20th centuries.
@@ -157,6 +167,10 @@ Douglass and Garrison eventually split over strategy and constitutional interpre
 ### The Underground Railroad
 
 The **Underground Railroad** was not a literal railroad but a network of safe houses, guides, and supporters that helped enslaved people escape from the South to the North and into Canada. It operated from roughly the 1780s through the Civil War. Its most famous conductor was Harriet Tubman, who made thirteen missions into the South after her own escape and freed approximately 70 enslaved people.
+
+![Portrait of Harriet Tubman, conductor of the Underground Railroad who made thirteen missions into the South to free approximately 70 enslaved people](../../img/chapter-images/42-harriet-tubman.png)
+
+![A map of the Underground Railroad routes through which enslaved people escaped from the South to freedom in the North and Canada](../../img/chapter-images/43-underground-railroad.png)
 
 The Underground Railroad is sometimes mythologized into a more organized and extensive system than the historical evidence supports. It was real — thousands of enslaved people did escape along its routes — but most escapes were individual acts of extraordinary courage rather than organized operations. The Railroad's historical significance is partly in what it actually did, and partly in the political effect it had: the Fugitive Slave Act of 1850, which required northern citizens to assist in capturing escaped enslaved people, forced many northern whites who had tried to ignore slavery to take a direct role in its enforcement.
 
@@ -172,11 +186,15 @@ Transcendentalism contributed to the reform culture of antebellum America by pro
 
 The women's rights movement grew directly from women's participation in abolitionism. Women who worked for anti-slavery organizations discovered that they were expected to defer to men in mixed-gender settings and were denied speaking roles at international abolition conferences. The contradiction between fighting for others' freedom while lacking their own mobilized a generation of women reformers.
 
+![The Seneca Falls Convention of 1848, the first women's rights convention in American history, where the Declaration of Sentiments was adopted](../../img/chapter-images/44-seneca-falls.png)
+
 The **Seneca Falls Convention** (July 1848) was the first women's rights convention in American history, organized by Elizabeth Cady Stanton and Lucretia Mott in Seneca Falls, New York. Approximately 300 people attended, including Frederick Douglass. The convention produced the **Declaration of Sentiments**, deliberately modeled on the Declaration of Independence, which declared that "all men and women are created equal" and demanded equal rights in education, employment, property ownership, and most controversially, the vote.
 
 The **Women's Rights Movement** of this period is significant not only for its immediate demands (most of which were not achieved for decades) but for the organizing strategies and intellectual frameworks it developed. Stanton and Susan B. Anthony's National Woman Suffrage Association (founded 1869) would continue the struggle for women's suffrage until the 19th Amendment was ratified in 1920 — 72 years after Seneca Falls.
 
 ### The Temperance Movement
+
+![Portrait of Sojourner Truth, formerly enslaved abolitionist and women's rights activist, famous for her 1851 "Ain't I a Woman?" speech](../../img/chapter-images/45-sojourner-truth.png)
 
 The **Temperance Movement** sought to reduce or eliminate alcohol consumption, which it linked to poverty, domestic violence, and moral degradation. It drew its energy from evangelical Protestantism and was disproportionately organized by women — who bore the heaviest consequences of male alcohol abuse in a society that gave them few legal protections.
 
@@ -266,3 +284,5 @@ The tension between expansion and reform, between Manifest Destiny and abolition
 !!! mascot-celebration "Chapter 7 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated one of the most morally complex decades in American history — an era when the country was simultaneously expanding its territory through conquest and confronting its deepest moral contradictions through reform. The abolitionist arguments of Garrison and Douglass, the women's rights demands of Seneca Falls, and the moral philosophy of Thoreau all created intellectual tools that Americans would reach for again and again in the crises ahead. In Chapter 8, those crises arrive.
+
+[See Annotated References](./references.md)

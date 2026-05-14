@@ -1,3 +1,7 @@
+---
+hide:
+    toc
+---
 # Chapters
 
 This textbook is organized into **21 chapters** covering **450 concepts** across the full sweep of United States history — from pre-Columbian civilizations through the Age of Artificial Intelligence.
@@ -25,6 +29,10 @@ This textbook is organized into **21 chapters** covering **450 concepts** across
 19. [From Reagan to 9/11 (1975–2001)](19-reagan-to-9-11/index.md) — Examines the Reagan Revolution, the Cold War's end, globalization, and the September 11 attacks.
 20. [Contemporary America and the Digital Age (2001–Present)](20-contemporary-america/index.md) — Covers the War on Terror, the 2008 financial crisis, the rise of social media, and contemporary political polarization.
 21. [The Age of AI and Technology Power (2010–Present)](21-age-of-ai/index.md) — Examines artificial intelligence, semiconductor geopolitics, cyber warfare, drone warfare, and the implications of autonomous systems for national security and democracy.
+
+## Course Timeline
+
+<iframe src="../sims/us-history-timeline/main.html" height="1050px" scrolling="no"></iframe>
 
 ## How to Use This Textbook
 

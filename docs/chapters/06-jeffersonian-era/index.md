@@ -70,11 +70,17 @@ The **Louisiana Purchase** was Jefferson's most consequential act as President �
 
 Jefferson agonized over whether the President had constitutional authority to purchase foreign territory — the Constitution says nothing about such a power. He briefly considered seeking a constitutional amendment but ultimately decided to act first and rationalize later, using Hamilton's implied powers doctrine he had previously opposed. The Senate approved the treaty 26–6.
 
+![A map depicting the Louisiana Purchase of 1803, which doubled the size of the United States by acquiring 828,000 square miles from France](../../img/chapter-images/30-louisiana-purchase-map.png)
+
 The Louisiana Purchase doubled the size of the United States, removed French power from North America, and opened the continent to westward expansion. Its **second-order effects** included intensifying conflicts with Indigenous nations across the interior and, eventually, the territorial questions about slavery that would drive the country toward Civil War.
 
 ### The Lewis and Clark Expedition (1804–1806)
 
-The **Lewis and Clark Expedition** was Jefferson's initiative to survey and map the Louisiana Territory and find a route to the Pacific Ocean. Meriwether Lewis and William Clark led a Corps of Discovery of approximately 30 people (including Sacagawea, a Shoshone woman who proved invaluable as interpreter and guide) from St. Louis to the Pacific Coast and back.
+The **Lewis and Clark Expedition** was Jefferson's initiative to survey and map the Louisiana Territory and find a route to the Pacific Ocean. Meriwether Lewis and William Clark led a Corps of Discovery of approximately 30 people (including Sacagawea, a Shoshone woman who proved invaluable as interpreter and guide)
+
+![Portrait of Sacagawea, the Shoshone woman who served as interpreter and guide for the Lewis and Clark Expedition from 1804 to 1806](../../img/chapter-images/32-sacagawea-portrait.png) from St. Louis to the Pacific Coast and back.
+
+![The Lewis and Clark Expedition pausing at an overlook above the Missouri River, with Sacagawea guiding the Corps of Discovery westward](../../img/chapter-images/31-lewis-clark-expedition.png)
 
 The expedition was simultaneously a scientific survey, a diplomatic mission to Indigenous nations, and a reconnaissance for future American settlement. It returned with maps, scientific specimens, and detailed accounts of the peoples and environments of the American interior — and with clear evidence that the continent was far larger and more inhabited than most Americans had imagined.
 
@@ -153,13 +159,17 @@ Implementation: p5.js
 
 The **War of 1812** grew from long-simmering tensions with Britain: impressment of American sailors into the Royal Navy, British support for Indigenous resistance to American expansion, and a faction of "War Hawks" in Congress (including Henry Clay and John C. Calhoun) who saw war as an opportunity to conquer Canada and expand American territory.
 
-The war's conduct was disastrous. The United States repeatedly failed to invade Canada; the British burned Washington, D.C. (including the White House); and American forces only occasionally distinguished themselves militarily. Andrew Jackson's victory at the Battle of New Orleans (January 1815) — fought two weeks after the war-ending Treaty of Ghent had already been signed in Europe — became the war's defining American moment simply because it was a decisive American win.
+The war's conduct was disastrous. The United States repeatedly failed to invade Canada; the British burned Washington, D.C. (including the White House); and American forces only occasionally distinguished themselves militarily. ![Andrew Jackson's decisive American victory at the Battle of New Orleans on January 8, 1815, fought after the war-ending peace treaty had already been signed](../../img/chapter-images/33-battle-new-orleans.png)
+
+Andrew Jackson's victory at the Battle of New Orleans (January 1815) — fought two weeks after the war-ending Treaty of Ghent had already been signed in Europe — became the war's defining American moment simply because it was a decisive American win.
 
 The war's outcome was essentially a draw: the Treaty of Ghent restored prewar boundaries and resolved nothing explicitly. Yet the war had important consequences: British support for Indigenous resistance in the Northwest Territory effectively ended, opening the region to American settlement; the war produced a surge of American nationalism; and Andrew Jackson became a national hero.
 
 ### The Era of Good Feelings and the Monroe Doctrine
 
 The years following the War of 1812 are sometimes called the **Era of Good Feelings** — a period under President James Monroe (1817–1825) when the Federalist Party had collapsed and Democratic-Republicans dominated politics without effective opposition. The name is somewhat misleading: beneath the surface unity, sectional tensions over slavery were building that would rupture the apparent consensus within a decade.
+
+![President James Monroe's 1823 doctrine asserting that the Western Hemisphere was closed to further European colonization or interference](../../img/chapter-images/34-monroe-doctrine.png)
 
 The **Monroe Doctrine** (1823) was a foreign policy statement asserting that the Western Hemisphere was closed to further European colonization and that any European attempt to extend its political system into the Americas would be considered a threat to U.S. security. It was directed primarily at Spain's attempts to reconquer its former Latin American colonies, which had recently won independence.
 
@@ -174,6 +184,8 @@ Thomas Jefferson, then 77 years old, wrote that the Missouri Compromise "like a 
 ## Part 3: Jacksonian Democracy and Its Shadow
 
 ### Andrew Jackson and the "Common Man"
+
+![Portrait of Andrew Jackson, the seventh President of the United States and champion of Jacksonian democracy](../../img/chapter-images/35-andrew-jackson-portrait.png)
 
 **Andrew Jackson's** election in 1828 represented a genuine democratizing shift. The expansion of voting rights to virtually all white men (property requirements had been gradually eliminated) brought millions of new voters into the electorate — voters who identified with Jackson as one of their own: a self-made frontiersman from Tennessee who had beaten the British at New Orleans and embodied the values of the American West over the established East.
 
@@ -196,6 +208,8 @@ The Nullification Crisis established two important precedents: that unilateral s
 ### The Indian Removal Act and the Trail of Tears
 
 The most lasting and devastating policy of the Jackson era was the forced displacement of Indigenous nations from the eastern United States. The **Indian Removal Act** (1830) authorized the President to negotiate treaties exchanging Indigenous lands east of the Mississippi for lands to the west. "Negotiation" was a euphemism: removal was carried out by force, fraud, and the threat of starvation.
+
+![The Trail of Tears, the forced march of approximately 15,000 Cherokee people from their southeastern homelands to Indian Territory in 1838-1839](../../img/chapter-images/36-trail-of-tears.png)
 
 The **Trail of Tears** (1838–1839) was the forced march of approximately 15,000 Cherokee people from their homelands in Georgia, Tennessee, Alabama, and North Carolina to Indian Territory (present-day Oklahoma). The Cherokee had pursued every legal avenue available to them: they had adopted a written constitution, established schools, and won a Supreme Court ruling (Worcester v. Georgia, 1832) in which Chief Justice Marshall declared that Georgia's seizure of Cherokee lands violated federal treaties. Jackson effectively ignored the ruling. Approximately 4,000 Cherokee died on the forced march — of cold, disease, and starvation.
 
@@ -234,3 +248,5 @@ The **federalism vs. states' rights** debate that runs through this entire chapt
 !!! mascot-celebration "Chapter 6 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just navigated nearly three decades of early republic history — from Jefferson's Louisiana Purchase to Jackson's Indian Removal — and seen how democratic ideals and brutal dispossession coexisted in the same political system. The constitutional questions you've encountered — judicial review, nullification, executive power — will echo through every chapter that follows. In Chapter 7, westward expansion accelerates and the reform movements that will challenge slavery begin to take shape.
+
+[See Annotated References](./references.md)

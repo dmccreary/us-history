@@ -60,6 +60,8 @@ The Gulf of Tonkin Resolution illustrates a pattern worth noting: in the immedia
 
 ### Vietnam War Escalation
 
+![Nick Ut's 1972 photograph "Napalm Girl," depicting children fleeing a napalm attack in Vietnam, an iconic image that shifted American public opinion against the war](../../img/chapter-images/99-vietnam-napalm-girl.png)
+
 **Vietnam War escalation** proceeded rapidly after the Gulf of Tonkin Resolution. Johnson sent the first combat troops (Marines) in March 1965; by 1968, 543,000 American troops were in Vietnam. The strategic theory was "graduated pressure" — increasing military force would convince North Vietnam and the Viet Cong that continued resistance was too costly. The theory proved wrong.
 
 Vietnam was a profoundly mismatched war. The United States had overwhelming conventional military superiority — air power, artillery, mobility. The North Vietnamese and Viet Cong were fighting a protracted insurgency, using terrain, civilian population networks, and patience as their advantages. The U.S. military metric of "body count" (measuring success by enemy casualties) incentivized inflating numbers and discouraged the population-security approach that counterinsurgency doctrine recommended. The My Lai Massacre (March 1968, revealed publicly 1969) — in which U.S. soldiers killed between 347 and 504 unarmed South Vietnamese civilians — was the most publicized result of a strategy that depended on killing enemy combatants in an environment where distinguishing combatants from civilians was nearly impossible.
@@ -197,3 +199,5 @@ Nixon's foreign policy achievements (détente, China opening) demonstrated that 
 !!! mascot-celebration "Chapter 18 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've navigated one of the most turbulent decades in American history — Vietnam's slow-motion catastrophe, the political earthquake of Watergate, and the flowering of social movements that expanded American democracy's promises to new constituencies. The credibility gap opened by Vietnam and widened by Watergate is part of American political DNA today. The social movements that emerged from this era — feminism, Indigenous rights, farmworker organizing — permanently changed American law and culture. In Chapter 19, a conservative backlash reshapes American politics, and the world order faces new challenges from terrorism to the end of the Cold War.
+
+[See Annotated References](./references.md)

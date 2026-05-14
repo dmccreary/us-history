@@ -86,6 +86,8 @@ In 1892, the People's Party received over a million popular votes and 22 elector
 
 The **Gold Standard Debate** was the central economic policy conflict of the 1890s. The gold standard — backing currency only with gold reserves — kept the money supply tight and stable but also kept it insufficient for a growing economy. Advocates of "free silver" (minting silver at a ratio of 16:1 to gold) argued that expanding the money supply would raise crop prices, reduce debt burdens, and stimulate economic growth.
 
+![William Jennings Bryan delivering his electrifying "Cross of Gold" speech at the 1896 Democratic National Convention in Chicago](../../img/chapter-images/71-william-jennings-bryan.png)
+
 **William Jennings Bryan** was a Democratic congressman from Nebraska who electrified the 1896 Democratic National Convention with his "Cross of Gold" speech, denouncing the gold standard in language that framed the debate as a moral and class conflict:
 
 > "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold."
@@ -171,6 +173,8 @@ The **Ghost Dance Movement** was a spiritual revival that swept through Native c
 
 U.S. Army officials, alarmed by the movement's spread, moved to arrest Sitting Bull (who was killed in the process) and surrounded a band of Lakota at Wounded Knee Creek. On December 29, 1890, soldiers opened fire — in disputed circumstances — killing approximately 250–300 Lakota men, women, and children. The Wounded Knee Massacre is considered the final episode of the Indian Wars.
 
+![The aftermath of the Wounded Knee Massacre of December 29, 1890, where U.S. Army soldiers killed approximately 250-300 Lakota Sioux men, women, and children](../../img/chapter-images/70-wounded-knee.png)
+
 In 1890, the U.S. Census Bureau officially declared that the **closing of the frontier** had occurred — the contiguous line of settlement had finally connected, leaving no large unsettled area. The historian Frederick Jackson Turner, in his 1893 "Frontier Thesis," argued that the frontier had been the defining feature of American character — a safety valve for social tension and a crucible of democratic individualism. With the frontier closed, Turner wondered, what would sustain American democracy?
 
 Turner's thesis has been extensively critiqued by later historians for romanticizing conquest and ignoring the violence done to Indigenous peoples. But it remains important as a historical document: it captures how many Americans of 1893 thought about the frontier, which helps explain why the closing of the frontier felt like a crisis requiring new outlets — and helps explain the imperial ambitions that drove the Spanish-American War in 1898.
@@ -200,3 +204,5 @@ Those questions led to the Progressive Era, which is the subject of Chapter 12.
 !!! mascot-celebration "Chapter 11 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just completed a chapter about endings: the ending of the frontier, the ending of meaningful Indigenous sovereignty east of the Rockies, and the ending of Populism as an independent political force. But you've also seen how the ideas don't die with the movements — Populist demands became the Progressive Era's legislative agenda. In Chapter 12, that transformation takes center stage.
+
+[See Annotated References](./references.md)

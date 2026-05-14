@@ -8,7 +8,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
 <div class="grid cards" markdown>
 
--   **[01 Indigenous Nations Map](01-indigenous-nations-map.png)**
+-   **[1 Indigenous Nations Map](01-indigenous-nations-map.png)**
 
     ---
 
@@ -16,7 +16,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     A detailed cartographic map of the major Indigenous nations and cultural regions across North America before European contact in 1492.
 
--   **[02 Cliff Dwellings](02-cliff-dwellings.png)**
+-   **[2 Cliff Dwellings](02-cliff-dwellings.png)**
 
     ---
 
@@ -24,7 +24,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Ancestral Pueblo cliff dwellings at Mesa Verde, Colorado, built between 600 and 1300 CE as sophisticated multi-story stone communities.
 
--   **[03 Columbus Landing](03-columbus.png)**
+-   **[3 Columbus Landing](03-columbus.png)**
 
     ---
 
@@ -32,7 +32,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Christopher Columbus and his crew landing on the island of Guanahani (San Salvador) on October 12, 1492, the moment of first contact between Europe and the Americas.
 
--   **[04 Columbian Exchange Map](04-columbian-exchange-map.png)**
+-   **[4 Columbian Exchange Map](04-columbian-exchange-map.png)**
 
     ---
 
@@ -40,7 +40,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     A map illustrating the Columbian Exchange — the transfer of plants, animals, diseases, and ideas between the Old and New Worlds after 1492.
 
--   **[05 Cortés Meets Moctezuma](05-cortes-montezuma.png)**
+-   **[5 Cortés Meets Moctezuma](05-cortes-montezuma.png)**
 
     ---
 
@@ -48,7 +48,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The historic meeting between Spanish conquistador Hernán Cortés and Aztec Emperor Moctezuma II in Tenochtitlan in November 1519.
 
--   **[06 Jamestown Settlement](06-jamestown-settlement.png)**
+-   **[6 Jamestown Settlement](06-jamestown-settlement.png)**
 
     ---
 
@@ -56,7 +56,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     Aerial reconstruction of the Jamestown fort circa 1607–1610, England's first permanent European settlement in North America.
 
--   **[07 Mayflower Painting](07-mayflower-painting.png)**
+-   **[7 Mayflower Painting](07-mayflower-painting.png)**
 
     ---
 
@@ -64,7 +64,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The Mayflower ship carrying Separatist Pilgrims across the Atlantic Ocean to Plymouth, Massachusetts in 1620.
 
--   **[08 Mayflower Compact](08-mayflower-compact.png)**
+-   **[8 Mayflower Compact](08-mayflower-compact.png)**
 
     ---
 
@@ -72,7 +72,7 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     The signing of the Mayflower Compact aboard ship in 1620, one of the earliest examples of self-governance in colonial America.
 
--   **[09 First Thanksgiving](09-first-thanksgiving.png)**
+-   **[9 First Thanksgiving](09-first-thanksgiving.png)**
 
     ---
 
@@ -472,339 +472,339 @@ A gallery of all chapter images used throughout the U.S. History textbook, order
 
     A political cartoon depicting the contested politics of Reconstruction, the turbulent effort to rebuild the South and secure rights for freedpeople.
 
--   **[59 Freedmen's Bureau School](59-freedmens-bureau-school.md)**
+-   **[59 Freedmen's Bureau School](59-freedmens-bureau-school.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](59-freedmens-bureau-school-thumb.png)](59-freedmens-bureau-school.png)
 
     A Freedmen's Bureau school during Reconstruction, where formerly enslaved people — of all ages — pursued education denied them under slavery.
 
--   **[60 Reconstruction Amendments](60-reconstruction-amendments.md)**
+-   **[60 Reconstruction Amendments](60-reconstruction-amendments.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](60-reconstruction-amendments-thumb.png)](60-reconstruction-amendments.png)
 
     The Reconstruction Amendments — the 13th, 14th, and 15th Amendments — which abolished slavery, established citizenship, and guaranteed voting rights.
 
--   **[61 Transcontinental Railroad](61-promontory-point-railroad.md)**
+-   **[61 Transcontinental Railroad](61-promontory-point-railroad.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](61-promontory-point-railroad-thumb.png)](61-promontory-point-railroad.png)
 
     The driving of the golden spike at Promontory Summit, Utah, on May 10, 1869, completing the First Transcontinental Railroad.
 
--   **[62 Andrew Carnegie](62-andrew-carnegie.md)**
+-   **[62 Andrew Carnegie](62-andrew-carnegie.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](62-andrew-carnegie-thumb.png)](62-andrew-carnegie.png)
 
     Portrait of Andrew Carnegie, Scottish-American industrialist who built a steel empire and became a symbol of both Gilded Age wealth and philanthropy.
 
--   **[63 Rockefeller Portrait](63-rockefeller-portrait.md)**
+-   **[63 Rockefeller Portrait](63-rockefeller-portrait.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](63-rockefeller-portrait-thumb.png)](63-rockefeller-portrait.png)
 
     Portrait of John D. Rockefeller, founder of Standard Oil and America's first billionaire, whose monopoly exemplified Gilded Age capitalism.
 
--   **[64 Ellis Island Immigrants](64-ellis-island-immigrants.md)**
+-   **[64 Ellis Island Immigrants](64-ellis-island-immigrants.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](64-ellis-island-immigrants-thumb.png)](64-ellis-island-immigrants.png)
 
     Immigrants arriving at Ellis Island in New York Harbor, the main gateway through which over 12 million people entered the United States between 1892 and 1954.
 
--   **[65 Tenement Housing (Riis)](65-tenement-housing-riis.md)**
+-   **[65 Tenement Housing (Riis)](65-tenement-housing-riis.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](65-tenement-housing-riis-thumb.png)](65-tenement-housing-riis.png)
 
     Tenement housing conditions in New York City's Lower East Side, as documented by reformer Jacob Riis in "How the Other Half Lives" (1890).
 
--   **[66 Statue of Liberty](66-statue-of-liberty.md)**
+-   **[66 Statue of Liberty](66-statue-of-liberty.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](66-statue-of-liberty-thumb.png)](66-statue-of-liberty.png)
 
     The Statue of Liberty in New York Harbor, a gift from France unveiled in 1886 as an enduring symbol of freedom and welcome to immigrants.
 
--   **[67 Boss Tweed Cartoon](67-boss-tweed-cartoon.md)**
+-   **[67 Boss Tweed Cartoon](67-boss-tweed-cartoon.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](67-boss-tweed-cartoon-thumb.png)](67-boss-tweed-cartoon.png)
 
     Thomas Nast's biting political cartoons exposing the corruption of Boss Tweed and Tammany Hall's stranglehold on New York City politics.
 
--   **[68 Haymarket Affair](68-haymarket-affair.md)**
+-   **[68 Haymarket Affair](68-haymarket-affair.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](68-haymarket-affair-thumb.png)](68-haymarket-affair.png)
 
     The Haymarket Affair of May 4, 1886, when a bomb exploded at a Chicago labor rally, killing police officers and setting back the labor movement.
 
--   **[69 Homestead Strike](69-homestead-strike.md)**
+-   **[69 Homestead Strike](69-homestead-strike.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](69-homestead-strike-thumb.png)](69-homestead-strike.png)
 
     The Homestead Strike of 1892, a violent clash between Carnegie Steel and steelworkers at Homestead, Pennsylvania that crushed union organizing.
 
--   **[70 Wounded Knee](70-wounded-knee.md)**
+-   **[70 Wounded Knee](70-wounded-knee.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](70-wounded-knee-thumb.png)](70-wounded-knee.png)
 
     The Wounded Knee Massacre of December 29, 1890, in which U.S. Army troops killed approximately 250 Lakota men, women, and children in South Dakota.
 
--   **[71 William Jennings Bryan](71-william-jennings-bryan.md)**
+-   **[71 William Jennings Bryan](71-william-jennings-bryan.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](71-william-jennings-bryan-thumb.png)](71-william-jennings-bryan.png)
 
     Portrait of William Jennings Bryan, the Populist Democratic orator famous for his 1896 "Cross of Gold" speech demanding relief for indebted farmers.
 
--   **[72 USS Maine Explosion](72-uss-maine-explosion.md)**
+-   **[72 USS Maine Explosion](72-uss-maine-explosion.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](72-uss-maine-explosion-thumb.png)](72-uss-maine-explosion.png)
 
     The mysterious explosion of the USS Maine in Havana Harbor on February 15, 1898, which became the rallying cry for the Spanish-American War.
 
--   **[73 Roosevelt's Rough Riders](73-roosevelt-rough-riders.md)**
+-   **[73 Roosevelt's Rough Riders](73-roosevelt-rough-riders.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](73-roosevelt-rough-riders-thumb.png)](73-roosevelt-rough-riders.png)
 
     Theodore Roosevelt and his Rough Riders at the Battle of San Juan Hill during the Spanish-American War in Cuba, 1898.
 
--   **[74 Panama Canal Construction](74-panama-canal-construction.md)**
+-   **[74 Panama Canal Construction](74-panama-canal-construction.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](74-panama-canal-construction-thumb.png)](74-panama-canal-construction.png)
 
     Construction of the Panama Canal, the massive engineering project completed in 1914 that connected the Atlantic and Pacific Oceans.
 
--   **[75 Muckraker Cartoon](75-muckraker-cartoon.md)**
+-   **[75 Muckraker Cartoon](75-muckraker-cartoon.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](75-muckraker-cartoon-thumb.png)](75-muckraker-cartoon.png)
 
     A political cartoon celebrating the Progressive Era muckraker journalists who exposed corruption, dangerous industries, and social inequality.
 
--   **[76 The Jungle Illustration](76-the-jungle-illustration.md)**
+-   **[76 The Jungle Illustration](76-the-jungle-illustration.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](76-the-jungle-illustration-thumb.png)](76-the-jungle-illustration.png)
 
     An illustration of conditions in Chicago's meatpacking industry as exposed by Upton Sinclair's shocking novel "The Jungle" (1906).
 
--   **[77 Suffragists Marching](77-suffragists-marching.md)**
+-   **[77 Suffragists Marching](77-suffragists-marching.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](77-suffragists-marching-thumb.png)](77-suffragists-marching.png)
 
     Women's suffrage marchers demanding the right to vote, a decades-long campaign that culminated in the 19th Amendment's ratification in 1920.
 
--   **[78 WWI Trenches](78-wwi-trenches.md)**
+-   **[78 WWI Trenches](78-wwi-trenches.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](78-wwi-trenches-thumb.png)](78-wwi-trenches.png)
 
     Soldiers in the trenches of World War I, depicting the brutal stalemate and horrific conditions of trench warfare on the Western Front.
 
--   **[79 Uncle Sam Poster](79-uncle-sam-poster.md)**
+-   **[79 Uncle Sam Poster](79-uncle-sam-poster.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](79-uncle-sam-poster-thumb.png)](79-uncle-sam-poster.png)
 
     The iconic "I Want YOU for U.S. Army" recruiting poster featuring Uncle Sam, painted by James Montgomery Flagg and first used in 1917.
 
--   **[80 Treaty of Versailles](80-treaty-versailles.md)**
+-   **[80 Treaty of Versailles](80-treaty-versailles.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](80-treaty-versailles-thumb.png)](80-treaty-versailles.png)
 
     The signing of the Treaty of Versailles on June 28, 1919, formally ending World War I and imposing punishing reparations on Germany.
 
--   **[81 Harlem Renaissance Jazz](81-harlem-renaissance-jazz.md)**
+-   **[81 Harlem Renaissance Jazz](81-harlem-renaissance-jazz.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](81-harlem-renaissance-jazz-thumb.png)](81-harlem-renaissance-jazz.png)
 
     Jazz musicians and artists of the Harlem Renaissance, the vibrant African American cultural movement that transformed American music and arts in the 1920s.
 
--   **[82 1920s Flapper](82-1920s-flapper.md)**
+-   **[82 1920s Flapper](82-1920s-flapper.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](82-1920s-flapper-thumb.png)](82-1920s-flapper.png)
 
     A "flapper" of the 1920s Jazz Age, representing the dramatic shift in women's fashion, independence, and social norms after World War I.
 
--   **[83 Stock Market Crash 1929](83-stock-market-crash-1929.md)**
+-   **[83 Stock Market Crash 1929](83-stock-market-crash-1929.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](83-stock-market-crash-1929-thumb.png)](83-stock-market-crash-1929.png)
 
     The stock market crash of October 1929, which wiped out fortunes overnight and triggered the Great Depression, the worst economic crisis in U.S. history.
 
--   **[84 Migrant Mother (Lange)](84-migrant-mother-lange.md)**
+-   **[84 Migrant Mother (Lange)](84-migrant-mother-lange.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](84-migrant-mother-lange-thumb.png)](84-migrant-mother-lange.png)
 
     Dorothea Lange's iconic "Migrant Mother" photograph (1936), capturing the desperation of a pea-picker and her children during the Great Depression.
 
--   **[85 FDR Fireside Chat](85-fdr-fireside-chat.md)**
+-   **[85 FDR Fireside Chat](85-fdr-fireside-chat.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](85-fdr-fireside-chat-thumb.png)](85-fdr-fireside-chat.png)
 
     President Franklin D. Roosevelt delivering one of his "fireside chat" radio broadcasts, using the new medium to reassure Americans during the Depression.
 
--   **[86 New Deal WPA Workers](86-new-deal-wpa-workers.md)**
+-   **[86 New Deal WPA Workers](86-new-deal-wpa-workers.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](86-new-deal-wpa-workers-thumb.png)](86-new-deal-wpa-workers.png)
 
     Works Progress Administration (WPA) workers building public infrastructure, one of FDR's New Deal programs that put millions of unemployed Americans to work.
 
--   **[87 Pearl Harbor](87-pearl-harbor.md)**
+-   **[87 Pearl Harbor](87-pearl-harbor.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](87-pearl-harbor-thumb.png)](87-pearl-harbor.png)
 
     The Japanese surprise attack on the U.S. naval base at Pearl Harbor, Hawaii, on December 7, 1941 — "a date which will live in infamy."
 
--   **[88 Rosie the Riveter](88-rosie-the-riveter.md)**
+-   **[88 Rosie the Riveter](88-rosie-the-riveter.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](88-rosie-the-riveter-thumb.png)](88-rosie-the-riveter.png)
 
     "Rosie the Riveter," the iconic wartime symbol of the millions of American women who entered the industrial workforce while men served overseas.
 
--   **[89 D-Day Landing](89-d-day-landing.md)**
+-   **[89 D-Day Landing](89-d-day-landing.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](89-d-day-landing-thumb.png)](89-d-day-landing.png)
 
     Allied troops landing on the beaches of Normandy, France, on June 6, 1944 — the largest seaborne invasion in history and a turning point in World War II.
 
--   **[90 Iwo Jima Flag Raising](90-iwo-jima-flag.md)**
+-   **[90 Iwo Jima Flag Raising](90-iwo-jima-flag.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](90-iwo-jima-flag-thumb.png)](90-iwo-jima-flag.png)
 
     Joe Rosenthal's photograph of Marines raising the American flag on Mount Suribachi at Iwo Jima, February 23, 1945 — one of the war's defining images.
 
--   **[91 Holocaust Liberation](91-holocaust-liberation.md)**
+-   **[91 Holocaust Liberation](91-holocaust-liberation.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](91-holocaust-liberation-thumb.png)](91-holocaust-liberation.png)
 
     American soldiers liberating survivors from Nazi concentration camps in spring 1945, confronting the full horror of the Holocaust.
 
--   **[92 Hiroshima Mushroom Cloud](92-hiroshima-mushroom-cloud.md)**
+-   **[92 Hiroshima Mushroom Cloud](92-hiroshima-mushroom-cloud.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](92-hiroshima-mushroom-cloud-thumb.png)](92-hiroshima-mushroom-cloud.png)
 
     The mushroom cloud over Hiroshima, Japan, following the dropping of the first atomic bomb on August 6, 1945, ushering in the nuclear age.
 
--   **[93 United Nations Founding](93-united-nations-founding.md)**
+-   **[93 United Nations Founding](93-united-nations-founding.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](93-united-nations-founding-thumb.png)](93-united-nations-founding.png)
 
     Delegates at the 1945 San Francisco conference that established the United Nations, the international organization created to prevent future world wars.
 
--   **[94 Berlin Airlift](94-berlin-airlift.md)**
+-   **[94 Berlin Airlift](94-berlin-airlift.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](94-berlin-airlift-thumb.png)](94-berlin-airlift.png)
 
     The Berlin Airlift (1948–1949), in which Western Allied aircraft supplied West Berlin around the clock during the Soviet Union's ground blockade.
 
--   **[95 McCarthy Hearings](95-mccarthy-hearings.md)**
+-   **[95 McCarthy Hearings](95-mccarthy-hearings.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](95-mccarthy-hearings-thumb.png)](95-mccarthy-hearings.png)
 
     Senator Joseph McCarthy's anti-Communist hearings in the early 1950s, whose reckless accusations gave rise to the term "McCarthyism."
 
--   **[96 JFK Moon Speech](96-jfk-moon-speech.md)**
+-   **[96 JFK Moon Speech](96-jfk-moon-speech.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](96-jfk-moon-speech-thumb.png)](96-jfk-moon-speech.png)
 
     President John F. Kennedy delivering his "We choose to go to the Moon" speech at Rice University in 1962, launching America's space race ambitions.
 
--   **[97 Apollo 11 Moon Landing](97-apollo-11-moon-landing.md)**
+-   **[97 Apollo 11 Moon Landing](97-apollo-11-moon-landing.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](97-apollo-11-moon-landing-thumb.png)](97-apollo-11-moon-landing.png)
 
     The Apollo 11 Moon landing on July 20, 1969, fulfilling Kennedy's challenge as Neil Armstrong became the first human to walk on the lunar surface.
 
--   **[98 MLK "I Have a Dream" Speech](98-mlk-dream-speech.md)**
+-   **[98 MLK "I Have a Dream" Speech](98-mlk-dream-speech.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](98-mlk-dream-speech-thumb.png)](98-mlk-dream-speech.png)
 
     Dr. Martin Luther King Jr. delivering his "I Have a Dream" speech before 250,000 people at the March on Washington on August 28, 1963.
 
--   **[99 Vietnam Napalm Girl](99-vietnam-napalm-girl.md)**
+-   **[99 Vietnam Napalm Girl](99-vietnam-napalm-girl.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](99-vietnam-napalm-girl-thumb.png)](99-vietnam-napalm-girl.png)
 
     Nick Ut's Pulitzer Prize-winning photograph of children fleeing a napalm attack in Vietnam (June 8, 1972), an image that galvanized anti-war sentiment.
 
--   **[100 Ground Zero Flag](100-ground-zero-flag.md)**
+-   **[100 Ground Zero Flag](100-ground-zero-flag.png)**
 
     ---
 
-    *Image coming soon.*
+    [![thumb](100-ground-zero-flag-thumb.png)](100-ground-zero-flag.png)
 
     Firefighters raising the American flag amid the rubble of Ground Zero following the September 11, 2001 terrorist attacks on the World Trade Center.
 

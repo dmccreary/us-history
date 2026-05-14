@@ -5,12 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>European Exploration Timeline</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
-    <style>body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }</style>
-    <script src="european-exploration-timeline.js"></script>
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main></main>
-    <br/><a href=".">Back to Documentation</a>
+    <header class="header">
+        <h1>European Exploration Timeline</h1>
+        <p>1450 – 1620 &nbsp;|&nbsp; Portugal &bull; Spain &bull; England &bull; France &bull; Netherlands</p>
+    </header>
+
+    <div class="controls">
+        <label>Filter by Nation:</label>
+        <button class="filter-btn all active"         onclick="filterCategory('all')">All Nations</button>
+        <button class="filter-btn portugal"           onclick="filterCategory('Portugal')">Portugal</button>
+        <button class="filter-btn spain"              onclick="filterCategory('Spain')">Spain</button>
+        <button class="filter-btn england"            onclick="filterCategory('England')">England</button>
+        <button class="filter-btn france"             onclick="filterCategory('France')">France</button>
+        <button class="filter-btn netherlands"        onclick="filterCategory('Netherlands')">Netherlands</button>
+    </div>
+
+    <div class="nav-controls">
+        <button class="nav-btn" onclick="panLeft()">&#9664; Earlier</button>
+        <button class="nav-btn" onclick="zoomIn()">+ Zoom In</button>
+        <button class="nav-btn" onclick="zoomOut()">&#8722; Zoom Out</button>
+        <button class="nav-btn" onclick="fitAll()">Fit All</button>
+        <button class="nav-btn" onclick="panRight()">Later &#9654;</button>
+    </div>
+
+    <div id="timeline"></div>
+
+    <p class="instructions">Click an event to see details below &nbsp;&bull;&nbsp; Drag to pan &nbsp;&bull;&nbsp; Hover for context notes</p>
+
+    <div class="info-panel">
+        <div class="legend">
+            <h3>Nations</h3>
+            <div class="legend-item">
+                <div class="legend-color portugal"></div>
+                <span>Portugal</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color spain"></div>
+                <span>Spain</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color england"></div>
+                <span>England</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color france"></div>
+                <span>France</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color netherlands"></div>
+                <span>Netherlands</span>
+            </div>
+        </div>
+
+        <div class="details">
+            <h3>Event Details</h3>
+            <div id="event-details">Click an event on the timeline to see details here.</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,214 @@
+/* Reform Movement Network MicroSim styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background-color: #f5f5f5;
+    color: #212529;
+    overflow: hidden;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Top filter bar */
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: #1a3a6c;
+    color: #ffffff;
+    border-bottom: 1px solid #0d2347;
+    flex-shrink: 0;
+}
+
+.toolbar-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 12px;
+    white-space: nowrap;
+}
+
+.filter-btn {
+    background: #ffffff;
+    color: #1a3a6c;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.filter-btn:hover {
+    background: #ffd54a;
+    color: #1a3a6c;
+}
+
+.filter-btn.active {
+    background: #ffc107;
+    color: #1a3a6c;
+    border-color: #ffc107;
+    font-weight: 600;
+}
+
+/* Main work area: graph + side panel */
+.work {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+}
+
+.graph-area {
+    flex: 1;
+    position: relative;
+    background-color: #fafbff;
+    min-width: 0;
+}
+
+#network {
+    width: 100%;
+    height: 100%;
+}
+
+#zoom-hint {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75rem;
+    color: #666;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 3px 10px;
+    border-radius: 10px;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.legend {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 8px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    font-size: 11px;
+    color: #333;
+    z-index: 10;
+    line-height: 1.6;
+}
+
+.legend-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-swatch {
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+}
+
+.legend-swatch.movement   { background: #f0b400; border-radius: 50%; }
+.legend-swatch.person     { background: #5b4ea3; border-radius: 50%; }
+.legend-swatch.organization { background: #1f9c8a; border-radius: 2px; }
+.legend-swatch.idea       { background: #f59e0b; transform: rotate(45deg); }
+
+/* Side detail panel */
+.panel {
+    width: 300px;
+    min-width: 300px;
+    background: #ffffff;
+    border-left: 1px solid #ddd;
+    padding: 16px;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.panel h2 {
+    font-size: 16px;
+    color: #1a3a6c;
+    margin-bottom: 4px;
+}
+
+.panel .type-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.type-tag.movement     { background: #c79100; }
+.type-tag.person       { background: #5b4ea3; }
+.type-tag.organization { background: #1f9c8a; }
+.type-tag.idea         { background: #b8730a; }
+.type-tag.edge         { background: #555555; }
+
+.panel .desc {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.panel .meta-row {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.panel .meta-row strong {
+    color: #222;
+}
+
+.panel .empty-hint {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.5;
+}
+
+.panel ul {
+    margin: 6px 0 0 18px;
+    font-size: 12px;
+    color: #444;
+}
+
+.panel ul li {
+    margin-bottom: 3px;
+}
+
+@media (max-width: 720px) {
+    .panel {
+        width: 240px;
+        min-width: 240px;
+        padding: 12px;
+    }
+
+    .legend {
+        font-size: 10px;
+        padding: 6px 8px;
+    }
+}

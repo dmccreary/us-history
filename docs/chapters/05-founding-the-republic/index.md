@@ -61,6 +61,8 @@ This chapter builds on concepts from:
 
 Before the Constitution, there was the **Articles of Confederation** — the United States' first national government, ratified in 1781. The Articles created a loose alliance of sovereign states. Congress could declare war, make treaties, and manage western land, but it had no power to tax, no power to regulate commerce between states, and no executive or judicial branch. Any change to the Articles required unanimous consent of all thirteen states.
 
+![A reproduction of the Articles of Confederation, America's first constitution, ratified in 1781 and replaced by the U.S. Constitution in 1789](../../img/chapter-images/23-articles-of-confederation.png)
+
 The Articles reflected the Founders' deepest fear: a powerful central government that could oppress citizens as the British Crown had. But they created a government too weak to function. Congress could not pay the national debt from the Revolutionary War. It could not stop states from imposing tariffs on each other. It could not negotiate credibly with foreign powers. And it could not respond to internal crises.
 
 ### Shays' Rebellion (1786–1787)
@@ -74,6 +76,8 @@ The rebellion was suppressed by a private militia funded by Massachusetts mercha
 ## Part 1: The Constitutional Convention
 
 ### The Convention and Its Great Compromises
+
+![The Constitutional Convention of 1787 in Philadelphia, where delegates drafted the U.S. Constitution over a sweltering summer](../../img/chapter-images/24-constitutional-convention.png)
 
 The **Constitutional Convention** met in Philadelphia in the summer of 1787, ostensibly to revise the Articles of Confederation. Instead, delegates quickly decided to write an entirely new document. Fifty-five delegates attended; they included some of the most accomplished political thinkers in the Atlantic world, including James Madison (the primary architect of the Constitution), George Washington (elected presiding officer), Benjamin Franklin, Alexander Hamilton, and Gouverneur Morris.
 
@@ -156,11 +160,19 @@ The Constitution had to be ratified by nine of thirteen states before it could t
 
 **Anti-Federalism** was the position of those who opposed ratification. Anti-Federalists — including Patrick Henry, George Mason, and "Brutus" (Robert Yates) — argued that the Constitution gave the federal government dangerous power over the states, that a republic could not function over a large territory, and critically, that the Constitution lacked a Bill of Rights protecting individual liberties.
 
+![Portrait of James Madison, the "Father of the Constitution" and primary architect of the Bill of Rights](../../img/chapter-images/26-james-madison-portrait.png)
+
 **The Federalist Papers** were a series of 85 essays published in New York newspapers under the pseudonym "Publius" by Alexander Hamilton, James Madison, and John Jay, arguing for ratification. The Federalist Papers are the most important American contribution to political philosophy and remain widely cited by judges and scholars interpreting the Constitution. Federalist No. 10 (Madison) argued that a large republic would be *more* stable than a small one because the multiplicity of factions would prevent any single faction from dominating. Federalist No. 51 explained the logic of checks and balances.
+
+![The United States Constitution, drafted in 1787 and ratified in 1788, establishing the supreme law of the land](../../img/chapter-images/25-us-constitution.png)
 
 The key Anti-Federalist demand — a Bill of Rights — was eventually met. James Madison drafted the first ten amendments to the Constitution, ratified in 1791 as the **Bill of Rights**. The Bill of Rights protects specific individual freedoms against federal government action:
 
+![A page from the Federalist Papers, the 85 essays written by Hamilton, Madison, and Jay to argue for ratification of the Constitution](../../img/chapter-images/27-federalist-papers.png)
+
 The **First Amendment** protects freedom of religion, speech, press, peaceful assembly, and petition of the government. These five freedoms are often grouped together because they all protect the ability of citizens to form and express beliefs without government interference — the foundation of political liberty.
+
+![A reproduction of the Bill of Rights, the first ten amendments to the U.S. Constitution, ratified in 1791](../../img/chapter-images/28-bill-of-rights.png)
 
 The **Fourth Amendment** protects against unreasonable searches and seizures, requiring warrants based on probable cause. It is the constitutional basis for modern privacy law, criminal procedure, and much of the ongoing legal debate about surveillance and digital privacy.
 
@@ -175,6 +187,8 @@ The Electoral College was a compromise among several competing concerns: the Fou
 ## Part 3: The Washington and Hamilton Era
 
 ### George Washington as President
+
+![Gilbert Stuart's iconic portrait of George Washington, the first President of the United States, circa 1796](../../img/chapter-images/29-washington-portrait.png)
 
 **George Washington** served as the first President (1789–1797) and established precedents that have shaped the office ever since. He chose a four-person cabinet (Jefferson at State, Hamilton at Treasury, Knox at War, Randolph as Attorney General); he declined a third term, establishing the two-term tradition that lasted until FDR; and he navigated the country through its first international crises with a policy of neutrality.
 
@@ -312,3 +326,5 @@ The AP thematic lenses introduced in this chapter — **American and National Id
 !!! mascot-celebration "Chapter 5 Complete!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Liberty celebrating">
     You've just worked through one of the most intellectually dense chapters in American history — the architecture of American government itself. Separation of powers, checks and balances, federalism, the Bill of Rights, the Electoral College: these are not just historical facts but living structures that shape every political conflict in every chapter that follows. In Chapter 6, we follow Thomas Jefferson into the presidency and watch the constitutional debates from this chapter play out in practice.
+
+[See Annotated References](./references.md)

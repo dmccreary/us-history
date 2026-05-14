@@ -1,0 +1,241 @@
+/* Four Progressive Era Amendments Timeline - styles */
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: aliceblue;
+    color: #222;
+    line-height: 1.4;
+}
+
+header {
+    padding: 14px 20px 8px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #d0d7de;
+}
+
+header h1 {
+    margin: 0 0 4px 0;
+    font-size: 20px;
+    color: #0b2545;
+}
+
+header p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Filter controls */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 20px;
+    background: #f6f8fa;
+    border-bottom: 1px solid #d0d7de;
+    align-items: center;
+}
+
+.controls .group-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    margin-right: 4px;
+}
+
+.filter-btn,
+.nav-btn {
+    padding: 5px 10px;
+    border: 1px solid #b0b8c1;
+    background: white;
+    color: #222;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s, box-shadow 0.15s, transform 0.05s;
+}
+
+.nav-btn:hover {
+    background: #eef2f7;
+}
+
+/* Filter buttons always show their category color */
+.filter-btn {
+    color: white;
+    font-weight: 600;
+    border-color: transparent;
+    opacity: 0.6;
+}
+
+.filter-btn:hover {
+    opacity: 0.9;
+}
+
+.filter-btn.active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px #222, 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.filter-btn[data-cat="all"]                                  { background: #444; }
+.filter-btn[data-cat="Amendment 16 (Income Tax)"]            { background: #d4a017; }
+.filter-btn[data-cat="Amendment 17 (Direct Senate Election)"]{ background: #4b0082; }
+.filter-btn[data-cat="Amendment 18 (Prohibition)"]           { background: #b22234; }
+.filter-btn[data-cat="Amendment 19 (Women's Suffrage)"]      { background: #008080; }
+.filter-btn[data-cat="Political Context"]                    { background: #4b6584; }
+.filter-btn[data-cat="World War I"]                          { background: #6c757d; }
+
+/* Timeline container */
+#timeline {
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+    background: white;
+}
+
+.vis-timeline { overflow: visible !important; border: none !important; }
+.vis-panel.vis-center { overflow: visible !important; }
+.vis-item .vis-item-overflow { overflow: visible !important; }
+
+/* Range and box items - fit text */
+.vis-item .vis-item-content {
+    white-space: nowrap !important;
+    padding: 4px 8px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+.vis-item.vis-range { min-width: fit-content !important; cursor: pointer; }
+.vis-item.vis-box   { min-width: fit-content !important; cursor: pointer; }
+.vis-item.vis-point { cursor: pointer; }
+
+.vis-item.vis-selected {
+    border-color: #000 !important;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.3);
+}
+
+/* Amendment color classes */
+.vis-item.cat-amend-16 { background-color: #d4a017; border-color: #8a6a0e; }
+.vis-item.cat-amend-17 { background-color: #4b0082; border-color: #2d004d; }
+.vis-item.cat-amend-18 { background-color: #b22234; border-color: #7a1722; }
+.vis-item.cat-amend-19 { background-color: #008080; border-color: #004d4d; }
+
+/* Context classes */
+.vis-item.cat-political-context { background-color: #4b6584; border-color: #2d3e57; }
+.vis-item.cat-wwi               { background-color: #6c757d; border-color: #495057; opacity: 0.85; }
+
+/* Background-style for WWI band (vis-timeline 'background' type) */
+.vis-item.vis-background.cat-wwi-bg {
+    background-color: rgba(108, 117, 125, 0.18);
+    border: none;
+}
+
+/* Tooltip */
+.vis-tooltip {
+    background: #2c3e50 !important;
+    color: white !important;
+    padding: 10px 14px !important;
+    border-radius: 8px !important;
+    font-size: 13px !important;
+    max-width: 320px !important;
+    line-height: 1.4 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    box-sizing: border-box !important;
+    border: none !important;
+}
+
+.vis-tooltip div {
+    max-width: 300px !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+/* Detail panel */
+#detail-panel {
+    padding: 14px 20px 18px 20px;
+    background: white;
+    border-top: 1px solid #d0d7de;
+    min-height: 180px;
+}
+
+#detail-panel.empty {
+    color: #777;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#detail-panel .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#detail-panel h2 {
+    margin: 6px 0 6px 0;
+    font-size: 17px;
+    color: #0b2545;
+}
+
+#detail-panel .dates {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+#detail-panel .short {
+    font-weight: 600;
+    margin: 6px 0 8px 0;
+    color: #333;
+    font-size: 13.5px;
+}
+
+#detail-panel .long {
+    margin: 0 0 10px 0;
+    font-size: 13.5px;
+    color: #222;
+}
+
+#detail-panel .field {
+    margin: 6px 0;
+    font-size: 13px;
+    color: #222;
+}
+
+#detail-panel .field .label {
+    font-weight: 700;
+    color: #0b2545;
+    margin-right: 6px;
+}
+
+#detail-panel .next {
+    background: #fff8e1;
+    border-left: 3px solid #d97706;
+    padding: 8px 12px;
+    font-size: 12.5px;
+    color: #444;
+    border-radius: 0 4px 4px 0;
+    margin-top: 8px;
+}
+
+#detail-panel .next strong {
+    color: #92400e;
+}
+
+#instructions {
+    padding: 6px 20px;
+    font-size: 12px;
+    color: #666;
+    background: #f6f8fa;
+    border-bottom: 1px solid #d0d7de;
+}

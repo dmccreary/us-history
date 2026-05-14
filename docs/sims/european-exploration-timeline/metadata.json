@@ -4,14 +4,14 @@
   "creator": "Dementia Education Project",
   "date": "2026-05-10",
   "subject": [
-    "dementia"
+    "U.S. History"
   ],
   "type": "Interactive Simulation",
   "format": "text/html",
   "language": "en-US",
   "rights": "CC BY 4.0",
   "identifier": "european-exploration-timeline",
-  "library": "p5.js",
+  "library": "vis-timeline",
   "bloomLevel": "Remember (L1)",
   "bloomVerb": "Recall",
   "completion_status": "scaffold",

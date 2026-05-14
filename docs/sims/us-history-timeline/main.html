@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>U.S. History Course Timeline</title>
+    <link rel="stylesheet" href="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.css">
+    <script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>U.S. History Course Timeline</h1>
+        <p>Twenty eras spanning 1450 to today, one for each chapter (2–21). Click any era for a detailed summary.</p>
+    </header>
+
+    <div class="controls" id="filter-controls">
+        <span class="group-label">Filter:</span>
+        <button class="filter-btn active" data-cat="all">All Eras</button>
+        <button class="filter-btn" data-cat="Colonial Foundations">Colonial</button>
+        <button class="filter-btn" data-cat="Revolutionary Era">Revolutionary</button>
+        <button class="filter-btn" data-cat="Antebellum America">Antebellum</button>
+        <button class="filter-btn" data-cat="Civil War &amp; Reconstruction">Civil War &amp; Reconstruction</button>
+        <button class="filter-btn" data-cat="Industrial America">Industrial</button>
+        <button class="filter-btn" data-cat="Modern America">Modern</button>
+        <button class="filter-btn" data-cat="Late 20th Century">Late 20th C.</button>
+        <button class="filter-btn" data-cat="21st Century">21st C.</button>
+
+        <span class="group-label" style="margin-left:16px;">View:</span>
+        <button class="nav-btn" id="btn-pan-left" title="Pan left">◀</button>
+        <button class="nav-btn" id="btn-pan-right" title="Pan right">▶</button>
+        <button class="nav-btn" id="btn-zoom-in" title="Zoom in">+</button>
+        <button class="nav-btn" id="btn-zoom-out" title="Zoom out">−</button>
+        <button class="nav-btn" id="btn-fit" title="Fit all">Fit All</button>
+    </div>
+
+    <div id="instructions">
+        Tip: Click any era bar to read its detailed summary below. Drag the timeline to pan; use + / − to zoom.
+    </div>
+
+    <div id="timeline"></div>
+
+    <div id="detail-panel" class="empty">
+        Click any era above to see a detailed description of that period in U.S. history.
+    </div>
+</main>
+<script src="us-history-timeline.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "title": "European Exploration Timeline (1450–1620)",
+  "events": [
+    {
+      "start_date": { "year": "1488", "display_date": "1488" },
+      "text": {
+        "headline": "Dias rounds Cape of Good Hope",
+        "text": "Bartolomeu Dias became the first European to sail around the southern tip of Africa, proving a sea route to Asia was possible and opening the Age of Exploration."
+      },
+      "group": "Portugal",
+      "notes": "This achievement encouraged Portugal to continue eastward exploration toward Asia, inspiring da Gama's later voyage to India."
+    },
+    {
+      "start_date": { "year": "1492", "display_date": "1492" },
+      "text": {
+        "headline": "Columbus reaches the Caribbean",
+        "text": "Christopher Columbus, funded by Spain, landed in the Bahamas — believing he had reached Asia. This contact began sustained European colonization of the Americas."
+      },
+      "group": "Spain",
+      "notes": "Columbus made four voyages to the Americas. His arrival initiated the Columbian Exchange — the transfer of plants, animals, and diseases between hemispheres."
+    },
+    {
+      "start_date": { "year": "1494", "display_date": "1494" },
+      "text": {
+        "headline": "Treaty of Tordesillas",
+        "text": "Spain and Portugal divided the non-European world along a meridian, giving Portugal Africa/Asia and Spain the Americas (except Brazil). Other European powers ignored this treaty."
+      },
+      "group": "Spain",
+      "notes": "Brokered by Pope Alexander VI, the treaty shaped colonial boundaries for decades — though France, England, and the Netherlands never recognized its authority."
+    },
+    {
+      "start_date": { "year": "1497", "display_date": "1497" },
+      "text": {
+        "headline": "Cabot explores North America",
+        "text": "John Cabot, sponsored by England, reached Newfoundland, establishing England's claim to North America — a foundation for later English colonization."
+      },
+      "group": "England",
+      "notes": "Cabot's voyage gave England its primary legal claim to North America, later cited when establishing Jamestown and other colonies."
+    },
+    {
+      "start_date": { "year": "1498", "display_date": "1498" },
+      "text": {
+        "headline": "Da Gama reaches India",
+        "text": "Vasco da Gama completed the sea route to India, establishing direct Portuguese trade with Asia and breaking the Venetian/Ottoman monopoly on Eastern trade goods."
+      },
+      "group": "Portugal",
+      "notes": "Portuguese spice trade profits funded further exploration and made Lisbon one of Europe's wealthiest cities during the early 1500s."
+    },
+    {
+      "start_date": { "year": "1513", "display_date": "1513" },
+      "text": {
+        "headline": "Balboa sees the Pacific",
+        "text": "Vasco Núñez de Balboa crossed Panama and became the first European to see the Pacific Ocean from the Americas, dramatically expanding European understanding of world geography."
+      },
+      "group": "Spain",
+      "notes": "Balboa's sighting confirmed that a vast ocean separated the Americas from Asia — a discovery that motivated Magellan's circumnavigation attempt six years later."
+    },
+    {
+      "start_date": { "year": "1519", "display_date": "1519" },
+      "text": {
+        "headline": "Cortés invades the Aztec Empire",
+        "text": "Hernán Cortés landed in Mexico. By 1521, with the help of thousands of Indigenous allies opposed to Aztec rule, he conquered Tenochtitlán, ending the Aztec Empire."
+      },
+      "group": "Spain",
+      "notes": "Disease, especially smallpox, killed millions of Indigenous people before and during the conquest. The fall of the Aztec Empire opened central Mexico to Spanish settlement."
+    },
+    {
+      "start_date": { "year": "1524", "display_date": "1524" },
+      "text": {
+        "headline": "Verrazano explores North America",
+        "text": "Giovanni da Verrazano, sailing for France, explored the eastern coast of North America from the Carolinas to Canada, establishing French claims to the continent."
+      },
+      "group": "France",
+      "notes": "Verrazano sailed into what is now New York Harbor and Narragansett Bay. His voyage laid the groundwork for France's future settlements in Canada."
+    },
+    {
+      "start_date": { "year": "1532", "display_date": "1532" },
+      "text": {
+        "headline": "Pizarro conquers the Inca Empire",
+        "text": "Francisco Pizarro captured Inca Emperor Atahualpa and, despite a ransom of gold and silver, executed him. The Inca Empire collapsed, giving Spain access to vast silver mines."
+      },
+      "group": "Spain",
+      "notes": "Inca silver, mined at Potosí (present-day Bolivia), flooded European markets and funded Spanish power for a century — but also triggered inflation across Europe."
+    },
+    {
+      "start_date": { "year": "1534", "display_date": "1534" },
+      "text": {
+        "headline": "Cartier explores the St. Lawrence",
+        "text": "Jacques Cartier sailed into the St. Lawrence River, claiming what became New France (Canada) for the French Crown and making contact with Iroquois and Huron nations."
+      },
+      "group": "France",
+      "notes": "Cartier's voyages established France's claim to the interior of North America, eventually leading to Quebec City (1608) and a vast fur-trade empire."
+    },
+    {
+      "start_date": { "year": "1585", "display_date": "1585" },
+      "text": {
+        "headline": "First Roanoke Colony",
+        "text": "England's first attempt to plant a permanent colony in North America, on Roanoke Island (present-day North Carolina). The colony failed — the 'Lost Colony' mystery remains."
+      },
+      "group": "England",
+      "notes": "When a supply ship returned in 1590, all 115 colonists had vanished. The word 'CROATOAN' carved on a post remains the only clue to their fate."
+    },
+    {
+      "start_date": { "year": "1607", "display_date": "1607" },
+      "text": {
+        "headline": "Jamestown founded",
+        "text": "The first permanent English settlement in North America. Nearly half the settlers died the first winter; tobacco cultivation eventually made it profitable and established plantation agriculture."
+      },
+      "group": "England",
+      "notes": "Jamestown's survival depended on Powhatan Confederacy trade. By the 1620s, tobacco profits drove demand for enslaved labor — foreshadowing the plantation economy."
+    },
+    {
+      "start_date": { "year": "1609", "display_date": "1609" },
+      "text": {
+        "headline": "Hudson explores New Netherland",
+        "text": "Henry Hudson, sailing for the Dutch East India Company, explored the Hudson River, establishing Dutch claims to what became New Amsterdam (present-day New York City)."
+      },
+      "group": "Netherlands",
+      "notes": "The Dutch founded New Amsterdam in 1626. England seized it in 1664 and renamed it New York — but Dutch cultural influence (Brooklyn, Harlem, Wall Street) endures."
+    }
+  ]
+}
