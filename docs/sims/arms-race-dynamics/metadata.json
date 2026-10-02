@@ -17,5 +17,8 @@
   "completion_status": "built",
   "chapter_number": 16,
   "chapter_title": "The Early Cold War (1945–1960)",
-  "chapter_dir": "16-early-cold-war"
+  "chapter_dir": "16-early-cold-war",
+  "search": {
+    "showcase": true
+  }
 }
